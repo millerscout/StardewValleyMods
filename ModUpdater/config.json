@@ -1,1 +1,10 @@
-{"AutoRestart":false,"ExecutionArgs":"","LastUpdateCheck":"2020-09-09T09:31:33.8472236-03:00","Interval":60,"LoadPrereleases":false,"GitHubUser":"","GitHubPassword":"","Exclude":[]}
+{
+  "AutoRestart": false,
+  "ExecutionArgs": "",
+  "LastUpdateCheck": "2020-09-09T09:31:33.8472236-03:00",
+  "Interval": 60,
+  "LoadPrereleases": false,
+  "GitHubUser": "",
+  "GitHubPassword": "",
+  "Exclude": []
+}

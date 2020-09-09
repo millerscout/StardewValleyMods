@@ -1,0 +1,22 @@
+﻿{
+	"Name": "Void Eel",
+	"Description": "???",
+	"Category": "Fish",
+	"Edibility": -200,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 1250,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		/*gift tastes go here*/
+	},
+	"NameLocalization":
+	{
+		"pt": "Enguia-Sombria.",
+	},
+	"DescriptionLocalization":
+	{
+		"pt": "???.",
+	},
+}

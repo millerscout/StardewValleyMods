@@ -1,0 +1,22 @@
+﻿{
+	"Name": "Puppyfish",
+	"Description": "This fish wants nothing but pets and snacks.",
+	"Category": "Fish",
+	"Edibility": -100,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 450,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		"Love": ["Willy"]
+	},
+	"NameLocalization":
+	{
+		"pt": "Peixe-Doggo.",
+	},
+	"DescriptionLocalization":
+	{
+		"pt": "Este peixe não quer nada além de carinho e biscoitos.",
+	},
+}

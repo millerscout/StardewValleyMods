@@ -1,0 +1,23 @@
+﻿{
+	"Name": "Starfish",
+	"Description": "Referred to as sea stars because of their star-shaped appearance.",
+	"Category": "Fish",
+	"Edibility": -20,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 210,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		/*gift tastes go here*/
+	},
+	"NameLocalization":
+	{
+		"pt": "Peixe-Estrela.",
+	},
+	"DescriptionLocalization":
+	{
+		"pt": "Chamadas de Estrelas-Do-Mar graças ao seu formato.",
+	},
+	"DisableWithMod": "MoreFish"
+}

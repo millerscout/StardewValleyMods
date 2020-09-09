@@ -1,0 +1,22 @@
+﻿
+{
+ "Mon.001": "%Olivia está lavando a louça.",
+ "Mon.002": "%Olivia está lendo mensagens.",
+ "Mon.003": "%Olivia está ocupada.",
+ "Tue.001": "%Olivia está concentrada em sua yoga.",
+ "Tue.002": "Ufa! Hoje eu trabalhei bastante.$3",
+ "Thu.001": "%Olivia está lavando louças caras.",
+ "Fri.001": "Oie! Estou provando esse vinho antes de ir ao salão.$4#$b#Você também irá?$3",
+ "Sat.001": "%Olivia está pintando um pinheiro, parece lindo!",
+
+ "winter_17.001": "%Olivia está ocupada conversando com Caroline.",
+ "10.001": "Oie, como vai?$3",
+ "22.001": "Sophia faz o melhor vinho desse vale! Eu sempre estou visitando ela para comprar mais.$1",
+ 
+ "marriage.001": "Oie, amor! Pensei em comprar mantimentos durante minhas tarefas hoje.$3",
+ "marriage.002": "Caroline e Jodi estão ótimas, conversei bastante com elas hoje.$3#$b#Te vejo em casa, lindo!$1",
+ "marriage.003": "Estou feliz que você veio, amor!$3#$b#Você gostaria de segurar minha mão?$4",
+ "marriage.004": "*sigh* Victor precisa limpar melhor esses pratos enquanto eu estiver fora...$2",
+ "marriage.005": "Olá, amor! Estarei pedindo uma bebida cara hoje no salão.$4#$b#Quer uma taça?$3",
+ "marriage.006": "É maravilhoso podermos nos divertir em uma noite como esta.$4",
+}

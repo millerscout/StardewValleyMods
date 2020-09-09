@@ -1,0 +1,33 @@
+﻿{
+  "13.000": "%Victor está observando o mar, ele parece pensativo.",
+  "Tue.000": "%Victor está encarando o túmulo, ele parece triste.",
+  "Tue.001": "%Victor está jogando.",
+  "Fri.000": "%Victor está jogando.",
+ 
+  "spring_21_2.003": "%Victor está observando o vale.",
+  "summmer_21.003": "%Victor está observando o vale.",
+  "fall_21.003": "%Victor está observando o vale.",
+  "winter_21.003": "%Victor está observando o vale.",
+  
+  "7.000": "%Victor está jogando Persona 5.",
+  "Mon.000": "%Victor está jogando Zelda Ocarina of Time.",
+  "Wed.000": "%Victor está jogando Chrono Trigger.",
+  "winter_Thu.000": "%Victor está jogando Super Smash Sisters.",
+  "spring_4.000": "%Victor está jogando Personable 5.",
+  "spring_21.000": "%Victor está jogando A Lenda de Zelda.",
+  "summer_9.0100": "%Victor está jogando Blue Alive Redemption 2.",
+  "summer_21.000": "%Victor está jogando Super Smash Sisters.",
+  "fall_Thu.000": "%Victor está jogando A Lenda de Zelda.",
+  "winter_9.000": "%Victor está jogando A Lenda de Zelda.",
+  
+  "rain8.001": "%Victor está jogando.",
+  
+  "marriage.000": "Ah, oi, amor! Estou fazendo compras no momento!$1",
+  "marriage.001": "E ai, querida. Passando aqui pra pegar alguns livros novos.$1",
+  "marriage.002": "Estarei levando um pouco de vinho para casa, amor.$3#$b#Nos vemos mais tarde.$1",
+  "marriage.003": "Estou feliz que estamos vivendo aqui, assim posso visitar minha mãe sempre que quiser.$1",
+  "marriage.004": "Olá, veio me visitar enquanto visito minha mãe?!$4#$b#Vamos passar no salão depois!$1",
+  "marriage.005": "Oi, amor! Eu ajudei a Robin a consertar essa ponte recentemente.$3#$e#Linda!$4",
+  "marriage.006": "Vou dar uma passada no salão hoje, nos vemos lá!$1",
+  "marriage.007": "Sexta é o melhor dia da semana, onde podemos beber à vontade e ficar atoa.$1"
+}
