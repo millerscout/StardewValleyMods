@@ -1,0 +1,23 @@
+{
+  "SprintingEnabled": true,
+  "SprintingSpeed": 3,
+  "SprintingConsumesStamina": true,
+  "StaminaConsumedWhenSprintingPerSecond": 0.5,
+  "StaminaRegenerationEnabled": true,
+  "HealthRegenerationEnabled": true,
+  "SecondsToRegainStaminaAfterUsingIt": 5,
+  "SecondsToRegainHealthAfterGettingHit": 5,
+  "HoursRegeneratingHealthAfterEating": 1,
+  "StaminaRegenerationPerSecond": 10.0,
+  "FoodNeededToRegenStamina": true,
+  "RegenPercentajeOfFood": true,
+  "PercentageOfFoodStatsRegenerated": 5.0,
+  "RemoveHealthRegenerationAfterGettingHit": false,
+  "FoodNeededToRegenHealth": true,
+  "HoursRegeneratingStaminaAfterEating": 1,
+  "HealthRegenerationPerSecond": 10,
+  "StaminaDrainingDecreasesWithPhysicalSkillLevels": true,
+  "StaminaRegenerationIncreasesWithPhysicalSkillLevels": true,
+  "SprintKey": "LeftShift",
+  "SprintButton": "LeftStick"
+}

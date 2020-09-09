@@ -1,0 +1,36 @@
+[
+  {
+    "FarmhandName": "Tusca",
+    "TimeConnected": "2020-09-08T20:32:10.3228897-03:00",
+    "FarmhandID": -2947679541695024204,
+    "SmapiGameGameVersions": {
+      "FarmhandHasSmapi": true,
+      "HostSmapiVersion": "3.7.2",
+      "FarmhandSmapiVersion": "3.7.2"
+    },
+    "MissingOnHost": [],
+    "MissingOnFarmhand": [
+      "DailyFarmPhoto (Seawolf.DailyFarmPhoto)",
+      "Farm Type Manager (Esca.FarmTypeManager)",
+      "[PFM] Better Quarry Redux (Strobe.BetterQuarryRedux)"
+    ],
+    "VersionMismatch": []
+  },
+  {
+    "FarmhandName": "Tusca",
+    "TimeConnected": "2020-09-08T20:39:31.1148348-03:00",
+    "FarmhandID": -2947679541695024204,
+    "SmapiGameGameVersions": {
+      "FarmhandHasSmapi": true,
+      "HostSmapiVersion": "3.7.2",
+      "FarmhandSmapiVersion": "3.7.2"
+    },
+    "MissingOnHost": [],
+    "MissingOnFarmhand": [
+      "DailyFarmPhoto (Seawolf.DailyFarmPhoto)",
+      "Farm Type Manager (Esca.FarmTypeManager)",
+      "[PFM] Better Quarry Redux (Strobe.BetterQuarryRedux)"
+    ],
+    "VersionMismatch": []
+  }
+]

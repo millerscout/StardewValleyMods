@@ -1,0 +1,15 @@
+{
+  // edit- hud labels
+  "hud.foundFishingSpot": "Encontrado um lugar pra pesca!",
+  "hud.noFishingSpot": "sem lugar de pesca encontrado!",
+  "hud.north": "Pra cima",
+  "hud.northwest": "Pra cima + Esquerda",
+  "hud.northeast": "Pra cima + Direita",
+  "hud.south": "Baixo",
+  "hud.southwest": "Baixo + Esquerda",
+  "hud.southeast": "Baixo + Direita",
+  "hud.west": "Esquerda",
+  "hud.east": "Direita",
+  "hud.direction": "{{direction}}.",
+  "hud.distance": "Mais ou menos  {{distance}} quadrados de distância."
+}

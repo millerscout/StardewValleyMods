@@ -1,0 +1,11 @@
+{
+  "NeverExpires": false,
+  "DaysToExpiration": 10,
+  "UsesQuestCategoryExpiration": true,
+  "CategoryExpiration": {
+    "ItemDelivery": 10,
+    "Gathering": 10,
+    "Fishing": 10,
+    "SlayMonsters": 20
+  }
+}
