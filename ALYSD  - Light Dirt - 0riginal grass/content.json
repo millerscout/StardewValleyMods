@@ -1,0 +1,173 @@
+{
+  "Format": "1.6",
+  "Changes": [
+       // LooseSprites Edits
+       {
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors, LooseSprites/Cursors.es-ES, LooseSprites/Cursors.fr-FR, LooseSprites/Cursors.hu-HU, LooseSprites/Cursors.it-IT, LooseSprites/Cursors.ja-JP, LooseSprites/Cursors.ko-KR, LooseSprites/Cursors.pt-BR, LooseSprites/Cursors.tr-TR, LooseSprites/Cursors.zh-CH",
+         "FromFile": "assets/LooseSprites/HatShop.png",
+		 "FromArea": { "X": 0, "Y": 99, "Width": 64, "Height": 32 },
+         "ToArea": { "X": 600, "Y": 1957, "Width": 64, "Height": 32 }
+       },
+		// EDIT THE ABOVE FOR HAT SHOP ASAP /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+       {
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors, LooseSprites/Cursors.es-ES, LooseSprites/Cursors.fr-FR, LooseSprites/Cursors.hu-HU, LooseSprites/Cursors.it-IT, LooseSprites/Cursors.ja-JP, LooseSprites/Cursors.ko-KR, LooseSprites/Cursors.pt-BR, LooseSprites/Cursors.tr-TR, LooseSprites/Cursors.zh-CH",
+         "FromFile": "assets/LooseSprites/MineRocks.png",
+		 "FromArea": { "X": 0, "Y": 0, "Width": 49, "Height": 80 },
+         "ToArea": { "X": 646, "Y": 1218, "Width": 49, "Height": 80 }
+       },
+
+       {
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors, LooseSprites/Cursors.es-ES, LooseSprites/Cursors.fr-FR, LooseSprites/Cursors.hu-HU, LooseSprites/Cursors.it-IT, LooseSprites/Cursors.ja-JP, LooseSprites/Cursors.ko-KR, LooseSprites/Cursors.pt-BR, LooseSprites/Cursors.tr-TR, LooseSprites/Cursors.zh-CH",
+         "FromFile": "assets/LooseSprites/WaterRock.png",
+		 "FromArea": { "X": 0, "Y": 0, "Width": 78, "Height": 48 },
+         "ToArea": { "X": 439, "Y": 1385, "Width": 78, "Height": 48 }
+       },
+
+       {
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors, LooseSprites/Cursors.es-ES, LooseSprites/Cursors.fr-FR, LooseSprites/Cursors.hu-HU, LooseSprites/Cursors.it-IT, LooseSprites/Cursors.ja-JP, LooseSprites/Cursors.ko-KR, LooseSprites/Cursors.pt-BR, LooseSprites/Cursors.tr-TR, LooseSprites/Cursors.zh-CH",
+         "FromFile": "assets/LooseSprites/RailBlockSpring.png",
+		 "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 80 },
+         "ToArea": { "X": 640, "Y": 1453, "Width": 64, "Height": 80 }
+       },
+
+       {
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors, LooseSprites/Cursors.es-ES, LooseSprites/Cursors.fr-FR, LooseSprites/Cursors.hu-HU, LooseSprites/Cursors.it-IT, LooseSprites/Cursors.ja-JP, LooseSprites/Cursors.ko-KR, LooseSprites/Cursors.pt-BR, LooseSprites/Cursors.tr-TR, LooseSprites/Cursors.zh-CH",
+         "FromFile": "assets/LooseSprites/RailBlockSummer.png",
+		 "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 80 },
+         "ToArea": { "X": 640, "Y": 2176, "Width": 64, "Height": 80 }
+       },
+	   //Town file Fixes with Festival grass fix
+       // Fall Town
+       {
+          "Action": "EditImage",
+          "Target": "Maps/fall_town, Maps/fall_town.es-ES, Maps/fall_town.fr-FR, Maps/fall_town.hu-HU, Maps/fall_town.it-IT, Maps/fall_town.ja-JP, Maps/fall_town.ko-KR, Maps/fall_town.pt-BR, Maps/fall_town.tr-TR, Maps/fall_town.zh-CH",
+          "FromFile": "assets/Maps/fall_town.png",
+		  "PatchMode": "Overlay"
+       },
+
+       {
+          "Action": "EditImage",
+          "Target": "fall_town, fall_town.es-ES, fall_town.fr-FR, fall_town.hu-HU, fall_town.it-IT, fall_town.ja-JP, fall_town.ko-KR, fall_town.pt-BR, fall_town.tr-TR, fall_town.zh-CH",
+          "FromFile": "assets/Maps/fall_town.png",
+		  "PatchMode": "Overlay"
+       },
+       // Spring town
+       {
+          "Action": "EditImage",
+          "Target": "Maps/spring_town, Maps/spring_town.es-ES, Maps/spring_town.fr-FR, Maps/spring_town.hu-HU, Maps/spring_town.it-IT, Maps/spring_town.ja-JP, Maps/spring_town.ko-KR, Maps/spring_town.pt-BR, Maps/spring_town.tr-TR, Maps/spring_town.zh-CH",
+          "FromFile": "assets/Maps/spring_town.png",
+		  "PatchMode": "Overlay"
+       },
+
+       {
+          "Action": "EditImage",
+          "Target": "spring_town, spring_town.es-ES, spring_town.fr-FR, spring_town.hu-HU, spring_town.it-IT, spring_town.ja-JP, spring_town.ko-KR, spring_town.pt-BR, spring_town.tr-TR, spring_town.zh-CH",
+          "FromFile": "assets/Maps/spring_town.png",
+		  "PatchMode": "Overlay"
+       },
+       // Summer town
+       {
+          "Action": "EditImage",
+          "Target": "Maps/summer_town, Maps/summer_town.es-ES, Maps/summer_town.fr-FR, Maps/summer_town.hu-HU, Maps/summer_town.it-IT, Maps/summer_town.ja-JP, Maps/summer_town.ko-KR, Maps/summer_town.pt-BR, Maps/summer_town.tr-TR, Maps/summer_town.zh-CH",
+          "FromFile": "assets/Maps/summer_town.png",
+		  "PatchMode": "Overlay"
+       },
+
+       {
+          "Action": "EditImage",
+          "Target": "summer_town, summer_town.es-ES, summer_town.fr-FR, summer_town.hu-HU, summer_town.it-IT, summer_town.ja-JP, summer_town.ko-KR, summer_town.pt-BR, summer_town.tr-TR, summer_town.zh-CH",
+          "FromFile": "assets/Maps/summer_town.png",
+		  "PatchMode": "Overlay"
+       },
+	   // Tilesheets Main grass on map + Festival fix
+       // Fall Tilesheet
+       {
+          "Action": "Load",
+          "Target": "Maps/fall_outdoorsTileSheet, Maps/fall_outdoorsTileSheet.es-ES, Maps/fall_outdoorsTileSheet.fr-FR, Maps/fall_outdoorsTileSheet.hu-HU, Maps/fall_outdoorsTileSheet.it-IT, Maps/fall_outdoorsTileSheet.ja-JP, Maps/fall_outdoorsTileSheet.ko-KR, Maps/fall_outdoorsTileSheet.pt-BR, Maps/fall_outdoorsTileSheet.tr-TR, Maps/fall_outdoorsTileSheet.zh-CH",
+          "FromFile": "assets/Maps/fall_outdoorsTileSheet.png"
+       },
+
+       {
+          "Action": "Load",
+          "Target": "fall_outdoorsTileSheet, fall_outdoorsTileSheet.es-ES, fall_outdoorsTileSheet.fr-FR, fall_outdoorsTileSheet.hu-HU, fall_outdoorsTileSheet.it-IT, fall_outdoorsTileSheet.ja-JP, fall_outdoorsTileSheet.ko-KR, fall_outdoorsTileSheet.pt-BR, fall_outdoorsTileSheet.tr-TR, fall_outdoorsTileSheet.zh-CH",
+          "FromFile": "assets/Maps/fall_outdoorsTileSheet.png"
+       },
+
+       {
+          "Action": "Load",
+          "Target": "Maps/fall_outdoorsTileSheet2, fall_outdoorsTileSheet2",
+          "FromFile": "assets/Maps/fall_outdoorsTileSheet2.png"
+       },
+       // Spring tilesheet
+       {
+          "Action": "Load",
+          "Target": "Maps/spring_outdoorsTileSheet, Maps/spring_outdoorsTileSheet.es-ES, Maps/spring_outdoorsTileSheet.fr-FR, Maps/spring_outdoorsTileSheet.hu-HU, Maps/spring_outdoorsTileSheet.it-IT, Maps/spring_outdoorsTileSheet.ja-JP, Maps/spring_outdoorsTileSheet.ko-KR, Maps/spring_outdoorsTileSheet.pt-BR, Maps/spring_outdoorsTileSheet.tr-TR, Maps/spring_outdoorsTileSheet.zh-CH",
+          "FromFile": "assets/Maps/spring_outdoorsTileSheet.png"
+       },
+
+       {
+          "Action": "Load",
+          "Target": "spring_outdoorsTileSheet, spring_outdoorsTileSheet.es-ES, spring_outdoorsTileSheet.fr-FR, spring_outdoorsTileSheet.hu-HU, spring_outdoorsTileSheet.it-IT, spring_outdoorsTileSheet.ja-JP, spring_outdoorsTileSheet.ko-KR, spring_outdoorsTileSheet.pt-BR, spring_outdoorsTileSheet.tr-TR, spring_outdoorsTileSheet.zh-CH",
+          "FromFile": "assets/Maps/spring_outdoorsTileSheet.png"
+       },
+
+       {
+          "Action": "Load",
+          "Target": "Maps/spring_outdoorsTileSheet2, spring_outdoorsTileSheet2",
+          "FromFile": "assets/Maps/spring_outdoorsTileSheet2.png"
+       },
+       // Summer tilesheet
+       {
+          "Action": "Load",
+          "Target": "Maps/summer_outdoorsTileSheet, Maps/summer_outdoorsTileSheet.es-ES, Maps/summer_outdoorsTileSheet.fr-FR, Maps/summer_outdoorsTileSheet.hu-HU, Maps/summer_outdoorsTileSheet.it-IT, Maps/summer_outdoorsTileSheet.ja-JP, Maps/summer_outdoorsTileSheet.ko-KR, Maps/summer_outdoorsTileSheet.pt-BR, Maps/summer_outdoorsTileSheet.tr-TR, Maps/summer_outdoorsTileSheet.zh-CH",
+          "FromFile": "assets/Maps/summer_outdoorsTileSheet.png"
+       },
+
+       {
+          "Action": "Load",
+          "Target": "summer_outdoorsTileSheet, summer_outdoorsTileSheet.es-ES, summer_outdoorsTileSheet.fr-FR, summer_outdoorsTileSheet.hu-HU, summer_outdoorsTileSheet.it-IT, summer_outdoorsTileSheet.ja-JP, summer_outdoorsTileSheet.ko-KR, summer_outdoorsTileSheet.pt-BR, summer_outdoorsTileSheet.tr-TR, summer_outdoorsTileSheet.zh-CH",
+          "FromFile": "assets/Maps/summer_outdoorsTileSheet.png"
+       },
+
+       {
+          "Action": "Load",
+          "Target": "Maps/summer_outdoorsTileSheet2, summer_outdoorsTileSheet2",
+          "FromFile": "assets/Maps/summer_outdoorsTileSheet2.png"
+       },
+       // Winter tilesheet
+       {
+          "Action": "Load",
+          "Target": "Maps/winter_outdoorsTileSheet, Maps/winter_outdoorsTileSheet.es-ES, Maps/winter_outdoorsTileSheet.fr-FR, Maps/winter_outdoorsTileSheet.hu-HU, Maps/winter_outdoorsTileSheet.it-IT, Maps/winter_outdoorsTileSheet.ja-JP, Maps/winter_outdoorsTileSheet.ko-KR, Maps/winter_outdoorsTileSheet.pt-BR, Maps/winter_outdoorsTileSheet.tr-TR, Maps/winter_outdoorsTileSheet.zh-CH",
+          "FromFile": "assets/Maps/winter_outdoorsTileSheet.png"
+       },
+
+       {
+          "Action": "Load",
+          "Target": "winter_outdoorsTileSheet, winter_outdoorsTileSheet.es-ES, winter_outdoorsTileSheet.fr-FR, winter_outdoorsTileSheet.hu-HU, winter_outdoorsTileSheet.it-IT, winter_outdoorsTileSheet.ja-JP, winter_outdoorsTileSheet.ko-KR, winter_outdoorsTileSheet.pt-BR, winter_outdoorsTileSheet.tr-TR, winter_outdoorsTileSheet.zh-CH",
+          "FromFile": "assets/Maps/winter_outdoorsTileSheet.png"
+       },
+
+       {
+          "Action": "Load",
+          "Target": "Maps/winter_outdoorsTileSheet2, winter_outdoorsTileSheet2",
+          "FromFile": "assets/Maps/winter_outdoorsTileSheet2.png"
+       },
+       // TerrainFeatures
+       {
+          "Action": "Load",
+          "Target": "TerrainFeatures/hoeDirtDark",
+          "FromFile": "assets/TerrainFeatures/hoeDirtDark.png"
+       },
+
+       {
+          "Action": "Load",
+          "Target": "TerrainFeatures/hoeDirt",
+          "FromFile": "assets/TerrainFeatures/hoeDirt.png"
+       }
+    ]
+}

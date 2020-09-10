@@ -1,0 +1,8 @@
+{
+  "replace void": "true",
+  "replace blue": "true",
+  "replace brown": "true",
+  "replace white": "true",
+  "replace objects": "true",
+  "variant": "nowattle"
+}

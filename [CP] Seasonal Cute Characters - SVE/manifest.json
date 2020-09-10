@@ -1,0 +1,25 @@
+{
+   "Name": "Seasonal Outfits - Slightly Cuter Aesthetic for SVE",
+   "Author": "Poltergeister",
+   "Version": "1.1.1",
+   "Description": "Makes the characters of Stardew Valley Expanded slightly cuter and gives them seasonal outfits.",
+   "UniqueID": "Poltergeister.SeasonalCuteSpritesSVE",
+   "UpdateKeys": [ "Nexus:5969" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+   "Dependencies": [
+   {
+	  "UniqueID": "FlashShifter.StardewValleyExpandedALL",
+	  "IsRequired": true
+   },
+   {
+	  "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+	  "IsRequired": true
+   },
+   {
+	  "UniqueID": "Hesper.RusticCountrysideTownInterior",
+	  "IsRequired": false
+   },
+]
+}

@@ -1,0 +1,13 @@
+{
+   "Name": "ALYSD-Light Dirt-0riginal grass",
+   "Author": "19062scott",
+   "Version": "1.4.1",
+   "Description": "Changes yellow Dirt to a Light Brown Keeps Original Grass.",
+   "UniqueID": "19062scott.ALYSD-Light0",
+   "MinimumApiVersion": "2.0",
+   "UpdateKeys": ["Nexus:2415"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher", // the ID of required mod
+      "MinimumVersion": "1.1" // optional
+   }
+}

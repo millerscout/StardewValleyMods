@@ -1,0 +1,919 @@
+{
+	"Format": "1.15.0",
+    "DynamicTokens": [
+
+        // Standard Dynamic Tokens
+
+        {
+            "Name": "IndoorVariant", // Indoors
+            "Value": "_Indoor",
+            "When":
+            {
+                "IsOutdoors": "false"
+            }
+        },
+        {
+            "Name": "IndoorVariant", // Outdoors
+            "Value": "_Outdoor",
+            "When":
+            {
+                "IsOutdoors": "true"
+            }
+        },
+
+		{
+            "Name": "Festival",
+            "Value": "FlowerDance",
+            "When":
+            {
+                "DayEvent": "flower dance",
+                "LocationName": "Forest, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "SpiritsEve",
+            "When":
+            {
+                "DayEvent": "spirit's eve",
+                "LocationName": "town, temp"
+            }
+        },
+
+		{
+			"Name": "SophiaMakeup",
+			"Value": "_Makeup",
+			"When": { "DayOfWeek": "Friday, Saturday, Sunday" }
+		},		
+	],
+
+
+	"ConfigSchema": {
+		"NoNose": {
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		
+		"FestivalOutfits": {
+			"AllowValues": "true, false",
+			"Default": "true"
+		},		
+
+		"ExtraOutfits": {
+			"AllowValues": "true, false",
+			"Default": "true"
+		},		
+				
+		"OlderSophia": {
+			"AllowValues": "true, false",
+			"Default": "false"
+		},		
+						
+	},
+	"Changes": [
+
+//Characters 
+
+        {
+            "LogName": "regular characters season and indoor",
+            "Action": "EditImage",
+            "Target": "Characters/Alesia, Characters/Andy, Characters/Camilla, Characters/Claire, Characters/FemaleFarmer, Characters/Isaac, Characters/Magnus, Characters/MaleFarmer, Characters/MarlonFay, Characters/MorrisTod, Characters/Olivia, Characters/Scarlett, Characters/Sophia, Characters/SophiaJPKsprite, Characters/Susan, Characters/Victor",
+            "FromFile": "{{Target}}/{{TargetWithoutPath}}_{{Season}}{{IndoorVariant}}.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }
+        },
+
+        {
+            "LogName": "regular characters season",
+            "Action": "EditImage",
+            "Target": "Characters/Alesia, Characters/Andy, Characters/Camilla, Characters/Claire, Characters/FemaleFarmer, Characters/Isaac, Characters/Magnus, Characters/MaleFarmer, Characters/MarlonFay, Characters/MorrisTod, Characters/Olivia, Characters/Scarlett, Characters/Sophia, Characters/SophiaJPKsprite, Characters/Susan, Characters/Victor",
+            "FromFile": "{{Target}}/{{TargetWithoutPath}}_{{Season}}.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }
+        },
+
+        {
+            "LogName": "regular character",
+            "Action": "EditImage",
+            "Target": "Characters/Alesia, Characters/Andy, Characters/Camilla, Characters/Claire, Characters/FemaleFarmer, Characters/Isaac, Characters/Magnus, Characters/MaleFarmer, Characters/MarlonFay, Characters/MorrisTod, Characters/Olivia, Characters/Scarlett, Characters/Sophia, Characters/SophiaJPKsprite, Characters/Susan, Characters/Victor",
+            "FromFile": "{{Target}}/{{TargetWithoutPath}}.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }
+        },
+
+        {
+            "LogName": "adventurers",
+            "Action": "EditImage",
+            "Target": "Characters/Adventurers/Aaron, Characters/Adventurers/Brianna, Characters/Adventurers/Brock, Characters/Adventurers/Cassandra, Characters/Adventurers/Cordelia, Characters/Adventurers/Drake, Characters/Adventurers/Edmund, Characters/Adventurers/Ekon, Characters/Adventurers/Emin, Characters/Adventurers/Freya, Characters/Adventurers/Gertrude, Characters/Adventurers/Ricken, Characters/Adventurers/Sawyer, Characters/Adventurers/Vance",
+            "FromFile": "{{NoNose}}/{{Target}}.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }           
+        },	
+
+
+// Monsters
+
+        {
+		    "LogName": "FemaleAdventurer",
+			"Action": "EditImage",
+			"Target": "Characters/Monsters/FallenAdventurerFemale",
+			"FromFile": "{{NoNose}}/Characters/Monsters/FallenAdventurerFemale.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }  
+		},			
+
+        {
+		    "LogName": "MaleAdventurer",
+			"Action": "EditImage",
+			"Target": "Characters/Monsters/FallenAdventurerMale",
+			"FromFile": "{{NoNose}}/Characters/Monsters/FallenAdventurerMale.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }  
+		},						
+
+
+// Portraits
+
+        {
+            "LogName": "Portraits regular outdoor and season",
+            "Action": "EditImage",
+            "Target": "Portraits/Alesia, Portraits/Andy, Portraits/Camilla, Portraits/Claire, Portraits/Isaac, Portraits/Magnus, Portraits/MarlonFay, Portraits/MorrisTod, Portraits/Olivia, Portraits/Scarlett, Portraits/Sophia, Portraits/Susan, Portraits/Victor",
+            "FromFile": "{{Target}}/{{TargetWithoutPath}}_{{Season}}{{IndoorVariant}}.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }
+        },
+
+        {
+            "LogName": " Portraits regular season",
+            "Action": "EditImage",
+            "Target": "Portraits/Alesia, Portraits/Andy, Portraits/Camilla, Portraits/Claire, Portraits/Isaac, Portraits/Magnus, Portraits/MarlonFay, Portraits/MorrisTod, Portraits/Olivia, Portraits/Scarlett, Portraits/Sophia, Portraits/Susan, Portraits/Victor",
+            "FromFile": "{{Target}}/{{TargetWithoutPath}}_{{Season}}.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }
+        },
+
+
+//Sophia's Makeup Portraits
+
+
+	
+	{
+      "LogName": "Portrait Sophia Makeup Season Indoor",		
+      "Action": "EditImage",
+      "Target": "Portraits/Sophia",
+      "FromFile": "{{Target}}/{{TargetWithoutPath}}_{{Season}}{{IndoorVariant}}{{SophiaMakeup}}.png",
+	  "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }    
+	
+	},
+
+	
+	{
+      "LogName": "Portrait Sophia Makeup Season",	
+      "Action": "EditImage",
+      "Target": "Portraits/Sophia",
+      "FromFile": "{{Target}}/{{TargetWithoutPath}}_{{Season}}{{SophiaMakeup}}.png",
+	  "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }    
+	
+	},
+
+// Sophia Older Variant
+
+
+        {
+            "LogName": "Sophia Older Overlay",
+            "Action": "EditImage",
+            "Target": "Portraits/Sophia",
+            "FromFile": "Portraits/Sophia/Sophia_Older_Overlay.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+				"DayOfWeek": "Monday, Tuesday, Wednesday, Thursday",
+				"OlderSophia": "true",
+            },
+            "PatchMode": "Overlay"
+        },
+
+
+        {
+            "LogName": "Sophia Older Overlay Makeup",
+            "Action": "EditImage",
+            "Target": "Portraits/Sophia",
+            "FromFile": "Portraits/Sophia/Sophia_Older_MU_Overlay.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "DayOfWeek": "Friday, Saturday, Sunday",
+				"OlderSophia": "true",
+            },
+            "PatchMode": "Overlay"
+        },
+
+
+// Claire Clothing Sprites
+// Claire normal clothing Sprites Overwrite
+
+        {
+            "LogName": "regular character",
+            "Action": "EditImage",
+            "Target": "Characters/Claire",
+            "FromFile": "{{Target}}/{{TargetWithoutPath}}.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            },
+        },
+
+		{
+		  "LogName": "Claire clothing overwrite",		
+		  "Action": "EditImage",
+		  "Target": "Characters/Claire_Joja",
+		  "FromFile": "Characters/Claire/Claire.png",
+          "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            },		
+		},	
+
+        {
+            "LogName": " Claire Nose Variant",
+            "Action": "EditImage",
+            "Target": "Characters/Claire_Joja,",
+            "FromFile": "Characters/Claire/Claire_nose.png",
+            "When":
+            {
+				"NoNose": "false",
+                "HasFile:{{FromFile}}": true,				
+            },
+            "PatchMode": "Overlay"
+        },
+//Claire's Joja sprites	
+
+		{
+		  "LogName": "Claire Joja outfit",		
+		  "Action": "EditImage",
+		  "Target": "Characters/Claire_Joja",
+          "FromFile": "Characters/Claire/Claire_Joja.png",
+		  "When": 
+		  { 
+          "HasSeenEvent: currentPlayer |contains=191393": false,
+		  "LocationName": "JojaMart", 
+          "HasFile:{{FromFile}}": true,		  
+		  },
+
+		},	
+        {
+            "LogName": " Claire Nose Variant Joja",
+            "Action": "EditImage",
+            "Target": "Characters/Claire_Joja,",
+            "FromFile": "Characters/Claire/Claire_Joja_nose.png",
+            "When":
+            {
+            "HasSeenEvent: currentPlayer |contains=191393": false,
+			"LocationName": "JojaMart",
+			"NoNose": "false",
+            "HasFile:{{FromFile}}": true,			
+            },
+            "PatchMode": "Overlay"
+        },
+		
+//Claire's Theater sprites	
+		{
+		  "LogName": "Claire Theater outfit",
+		  "Action": "EditImage",
+		  "Target": "Characters/Claire_Joja",
+		  "FromFile": "Characters/Claire/Claire_Theater.png",		  
+		  "When": 
+		  { 
+          "HasSeenEvent: currentPlayer |contains=191393": true,
+		  "LocationName": "MovieTheater",
+          "HasFile:{{FromFile}}": true,	
+		  },
+
+		},			
+        {
+            "LogName": " Claire Movie Nose Variant",
+            "Action": "EditImage",
+            "Target": "Characters/Claire_Joja,",
+            "FromFile": "Characters/Claire/Claire_Joja_nose.png",
+            "When":
+            {
+            "HasFile:{{FromFile}}": true,				
+            "HasSeenEvent: currentPlayer |contains=191393": true,
+			"LocationName": "MovieTheater",
+			"NoNose": "false",
+            },
+            "PatchMode": "Overlay"
+        },
+// Claire Clothing Portraits
+// Claire normal clothing portraits Overwrite
+
+		{
+		  "LogName": "Claire clothing overwrite Portrait",		
+		  "Action": "EditImage",
+		  "Target": "Portraits/Claire_Joja",
+		  "FromFile": "Portraits/Claire/Claire.png",
+          "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            },				  
+		},	
+
+//Claire's Joja sprites	
+		{
+		  "LogName": "Claire Joja outfit Portrait",		
+		  "Action": "EditImage",
+		  "Target": "Portraits/Claire_Joja",
+		  "FromFile": "Portraits/Claire/Claire_Joja.png",		  
+		  "When": 
+            {
+              "HasSeenEvent: currentPlayer |contains=191393": false,
+			  "LocationName": "JojaMart",
+			  "HasFile:{{FromFile}}": true,
+            },				  
+		},
+		
+//Claire's Theater sprites	
+		{
+		  "LogName": "Claire Theater outfit Portrait",
+		  "Action": "EditImage",
+		  "Target": "Portraits/Claire_Joja",
+		  "FromFile": "Portraits/Claire/Claire_Theater.png",				  
+		  "When": 
+		  { 
+              "HasSeenEvent: currentPlayer |contains=191393": true,
+			  "LocationName": "MovieTheater",
+              "HasFile:{{FromFile}}": true,
+            },				  
+		},		
+		
+// Aerobics Portraits Olivia
+
+       {
+            "LogName": "Aerobics",
+            "Action": "EditImage",
+            "Target": "Portraits/Olivia",
+            "FromFile": "{{Target}}/{{TargetWithoutPath}}_Aerobics.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "DayOfWeek": "Tuesday",
+                "LocationName": "SeedShop",
+				"ExtraOutfits": "True",	
+                "Weather": "sun, wind, snow",
+            }
+        },
+
+// Aerobics Sprites Olivia
+
+       {
+            "LogName": "Aerobics",
+            "Action": "EditImage",
+            "Target": "Characters/Olivia",
+            "FromFile": "{{Target}}/{{TargetWithoutPath}}_Aerobics.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "DayOfWeek": "Tuesday",
+                "LocationName": "SeedShop",
+				"ExtraOutfits": "True",	
+                "Weather": "sun, wind, snow",
+            }
+        },
+
+// Festivals
+        {
+            "LogName": "Festival Character Sprites",
+            "Action": "EditImage",
+            "Target": "Characters/Alesia, Characters/Andy, Characters/Camilla, Characters/Claire, Characters/FemaleFarmer, Characters/Isaac, Characters/Magnus, Characters/MaleFarmer, Characters/MarlonFay, Characters/MorrisTod, Characters/Olivia, Characters/Scarlett, Characters/Sophia, Characters/SophiaJPKsprite, Characters/Susan, Characters/Victor",
+            "FromFile": "Characters/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+				"FestivalOutfits": "True",			
+			},
+        },
+
+        {
+            "LogName": "Festival Character Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Alesia, Portraits/Andy, Portraits/Camilla, Portraits/Claire, Portraits/Isaac, Portraits/Magnus, Portraits/MarlonFay, Portraits/MorrisTod, Portraits/Olivia, Portraits/Scarlett, Portraits/Sophia, Portraits/Susan, Portraits/Victor",
+            "FromFile": "Portraits/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,  
+				"FestivalOutfits": "True",			
+			},
+        },
+
+// Vanilla Character Changes
+
+	{
+      "LogName": "Marlon Vanilla Portrait",	
+      "Action": "EditImage",
+      "Target": "Portraits/Marlon,",
+      "FromFile": "{{TargetWithoutPath}}_{{Season}}.png",
+	  "When":
+            {
+                "HasFile:{{FromFile}}": true,  			
+                "HasMod |contains=Poltergeister.SeasonalCuteCharacters": false,					
+            },    
+	
+	},
+
+
+	{
+      "LogName": "Marlon Vanilla Sprite",	
+      "Action": "EditImage",
+      "Target": "Characters/Marlon",
+      "FromFile": "{{Target}}/{{TargetWithoutPath}}_{{Season}}.png",
+	  "When":
+            {
+                "HasFile:{{FromFile}}": true,  			
+                "HasMod |contains=Poltergeister.SeasonalCuteCharacters": false,		
+            },    
+	
+	},
+	
+	{
+      "LogName": "Morris Vanilla Sprite",	
+      "Action": "EditImage",
+      "Target": "Characters/Morris",
+      "FromFile": "Characters/MorrisTod/MorrisTod_{{Season}}.png", 
+      "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            },
+	},
+
+	{
+      "LogName": "Morris Vanilla Portait",	
+      "Action": "EditImage",
+      "Target": "Portraits/Morris",
+      "FromFile": "Portraits/MorrisTod/MorrisTod_{{Season}}.png", 
+      "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            },
+	},
+
+        {
+            "LogName": " Morris Nose Variant",
+            "Action": "EditImage",
+            "Target": "Characters/Morris,",
+            "FromFile": "Characters/MorrisTod/MorrisTod_Nose.png",
+            "When":
+            {
+			"HasFile:{{FromFile}}": true,
+			"NoNose": "false",
+            },
+            "PatchMode": "Overlay"
+        },
+
+// All Encompassing Nose Overlays
+
+        {
+            "LogName": "Nose Variants all",
+            "Action": "EditImage",
+            "Target": "Characters/Alesia, Characters/Andy, Characters/Camilla, Characters/Claire, Characters/FemaleFarmer, Characters/Isaac, Characters/Magnus, Characters/MaleFarmer, Characters/MarlonFay, Characters/MorrisTod, Characters/Olivia, Characters/Scarlett, Characters/Sophia, Characters/SophiaJPKsprite, Characters/Susan, Characters/Victor",
+            "FromFile": "{{Target}}/{{TargetWithoutPath}}_nose.png",
+            "When":
+            {
+				"HasFile:{{FromFile}}": true,
+				"NoNose": "false",
+            },
+            "PatchMode": "Overlay"
+        },
+
+// Movie Theater Vanilla edits Marlon
+        {
+            "LogName": "Marlon Movie",
+            "Action": "EditImage",
+            "Target": "Maps/MovieTheater_TileSheet",
+            "FromFile": "{{NoNose}}/Maps/MovieTheater_{{Season}}.png",
+            "FromArea":
+            {
+                "X": 0,
+                "Y": 192,
+                "Width": 16,
+                "Height": 32
+            },
+            "ToArea":
+            {
+                "X": 0,
+                "Y": 192,
+                "Width": 16,
+                "Height": 32
+            },
+			"When":
+            {
+                "HasMod |contains=Poltergeister.SeasonalCuteCharacters": false,	
+            },			
+        },
+// Movie Theater Vanilla edits Morris		
+        {
+            "LogName": "Morris Movie Theater Joja",
+            "Action": "EditImage",
+            "Target": "Maps/MovieTheaterJoja_TileSheet",
+            "FromFile": "{{NoNose}}/Maps/MovieTheaterJoja_{{Season}}.png",
+            "FromArea":
+            {
+                "X": 16,
+                "Y": 224,
+                "Width": 16,
+                "Height": 32
+            },
+            "ToArea":
+            {
+                "X": 16,
+                "Y": 224,
+                "Width": 16,
+                "Height": 32
+            },
+			"When":
+            {
+                "HasMod |contains=Poltergeister.SeasonalCuteCharacters": false,	
+            },			
+        },			
+
+		
+// Joja Movie Theater Vanilla edits Marlon
+
+        {
+            "LogName": "Marlon Movie Theater",
+            "Action": "EditImage",
+            "Target": "Maps/MovieTheater_TileSheet",
+            "FromFile": "{{NoNose}}/Maps/MovieTheater_{{Season}}.png",
+            "FromArea":
+            {
+                "X": 0,
+                "Y": 192,
+                "Width": 16,
+                "Height": 32
+            },
+            "ToArea":
+            {
+                "X": 0,
+                "Y": 192,
+                "Width": 16,
+                "Height": 32
+            },
+			"When":
+            {
+                "HasMod |contains=Poltergeister.SeasonalCuteCharacters": false,	
+            },	
+        },
+		
+	
+// Festivals Map
+
+      {  "Action": "EditImage",
+         "Target": "Maps/Festivals",
+         "FromFile": "{{NoNose}}/Maps/Festivals.png",
+         "FromArea": { "X": 336, "Y": 208, "Width": 96, "Height": 47 },
+         "ToArea": { "X": 336, "Y": 208, "Width": 96, "Height": 47 },
+		 "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+    	},
+
+      {  "Action": "EditImage",
+         "Target": "Maps/Festivals",
+         "FromFile": "{{NoNose}}/Maps/Festivals.png",
+         "FromArea": { "X": 480, "Y": 208, "Width": 32, "Height": 35 },
+         "ToArea": { "X": 480, "Y": 208, "Width": 32, "Height": 35 },		 
+		 "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+    	},
+      
+      {  "Action": "EditImage",
+         "Target": "Maps/Festivals",
+         "FromFile": "{{NoNose}}/Maps/Festivals.png",
+         "FromArea": { "X": 448, "Y": 117, "Width": 16, "Height": 59 },
+         "ToArea": { "X": 448, "Y": 117, "Width": 16, "Height": 59 },		 
+		 "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+    	},
+
+      {  "Action": "EditImage",
+         "Target": "Maps/Festivals",
+         "FromFile": "{{NoNose}}/Maps/Festivals.png",
+         "FromArea": { "X": 289, "Y": 129, "Width": 79, "Height": 31 },
+         "ToArea": { "X": 289, "Y": 129, "Width": 79, "Height": 31 },
+		 "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+    	},
+					
+      {  "Action": "EditImage",
+         "Target": "Maps/Festivals",
+         "FromFile": "{{NoNose}}/Maps/Festivals.png",
+         "FromArea": { "X": 289, "Y": 129, "Width": 79, "Height": 31 },
+         "ToArea": { "X": 289, "Y": 129, "Width": 79, "Height": 31 },
+		 "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+    	},
+					
+      {  "Action": "EditImage",
+         "Target": "Maps/Festivals",
+         "FromFile": "{{NoNose}}/Maps/Festivals.png",
+         "FromArea": { "X": 289, "Y": 129, "Width": 79, "Height": 31 },
+         "ToArea": { "X": 289, "Y": 129, "Width": 79, "Height": 31 },
+		 "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+    	},
+					
+
+      {  "Action": "EditImage",
+         "Target": "Maps/Festivals",
+         "FromFile": "{{NoNose}}/Maps/Festivals.png",
+         "FromArea": { "X": 274, "Y": 129, "Width": 13, "Height": 15 },
+         "ToArea": { "X": 274, "Y": 129, "Width": 13, "Height": 15  },
+		 "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+    	},
+					
+      {  "Action": "EditImage",
+         "Target": "Maps/Festivals",
+         "FromFile": "{{NoNose}}/Maps/Festivals.png",
+         "FromArea": { "X": 496, "Y": 0, "Width": 16, "Height": 50 },
+         "ToArea": { "X": 496, "Y": 0, "Width": 16, "Height": 50 },
+		 "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+    	},
+					
+					//ZuzuCity
+
+		{  "Action": "EditImage",
+		   "Target": "Maps/ZuzuCity",
+		   "FromFile": "{{NoNose}}/Maps/ZuzuCity.png",
+		   "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+						
+						//Stadium
+						
+		{  "Action": "EditImage",
+		   "Target": "Maps/Stadium",
+		   "FromFile": "{{NoNose}}/Maps/Stadium.png",
+		   "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+
+					//Season Extras Spring
+										
+	    {
+          "Action": "EditImage",
+          "Target": "Maps/Spring_z_extras",
+          "FromFile": "{{NoNose}}/Maps/Seasonal_a.png",
+          "ToArea": { "X": 128, "Y": 608, "Width": 64, "Height": 256 },
+		  "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+
+	    {
+          "Action": "EditImage",
+          "Target": "Maps/Spring_z_extras",
+          "FromFile": "{{NoNose}}/Maps/Seasonal_b.png",
+          "ToArea": { "X": 0, "Y": 832, "Width": 128, "Height": 128 },
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+		
+	    {
+          "Action": "EditImage",
+          "Target": "Maps/Spring_z_extras",
+          "FromFile": "{{NoNose}}/Maps/Seasonal_c_spring.png",
+          "ToArea": { "X": 96, "Y": 736, "Width": 16, "Height": 32 },
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+		
+	    {
+          "Action": "EditImage",
+          "Target": "Maps/Spring_z_extras",
+          "FromFile": "{{NoNose}}/Maps/Seasonal_d.png",
+          "ToArea": { "X": 105, "Y": 804, "Width": 13, "Height": 26 },
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+
+	    {
+          "Action": "EditImage",
+          "Target": "Maps/Spring_z_extras",
+          "FromFile": "{{NoNose}}/Maps/Seasonal_e.png",
+          "ToArea": { "X": 112, "Y": 706, "Width": 16, "Height": 94 },
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+
+					//Season Extras Summer
+										
+	    {
+          "Action": "EditImage",
+          "Target": "Maps/Summer_z_extras",
+          "FromFile": "{{NoNose}}/Maps/Seasonal_a.png",
+          "ToArea": { "X": 128, "Y": 608, "Width": 64, "Height": 256 },
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+
+	    {
+          "Action": "EditImage",
+          "Target": "Maps/Summer_z_extras",
+          "FromFile": "{{NoNose}}/Maps/Seasonal_b.png",
+          "ToArea": { "X": 0, "Y": 832, "Width": 128, "Height": 128 },
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+		
+	    {
+          "Action": "EditImage",
+          "Target": "Maps/Summer_z_extras",
+          "FromFile": "{{NoNose}}/Maps/Seasonal_c_summer.png",
+          "ToArea": { "X": 96, "Y": 736, "Width": 16, "Height": 32 },
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+		
+	    {
+          "Action": "EditImage",
+          "Target": "Maps/Summer_z_extras",
+          "FromFile": "{{NoNose}}/Maps/Seasonal_d.png",
+          "ToArea": { "X": 105, "Y": 804, "Width": 13, "Height": 26 },
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+
+	    {
+          "Action": "EditImage",
+          "Target": "Maps/Summer_z_extras",
+          "FromFile": "{{NoNose}}/Maps/Seasonal_e.png",
+          "ToArea": { "X": 112, "Y": 706, "Width": 16, "Height": 94 },
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+
+					//Season Extras Fall
+										
+	    {
+          "Action": "EditImage",
+          "Target": "Maps/Fall_z_extras",
+          "FromFile": "{{NoNose}}/Maps/Seasonal_a.png",
+          "ToArea": { "X": 128, "Y": 608, "Width": 64, "Height": 256 },
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+
+	    {
+          "Action": "EditImage",
+          "Target": "Maps/Fall_z_extras",
+          "FromFile": "{{NoNose}}/Maps/Seasonal_b.png",
+          "ToArea": { "X": 0, "Y": 832, "Width": 128, "Height": 128 },
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+		
+	    {
+          "Action": "EditImage",
+          "Target": "Maps/Fall_z_extras",
+          "FromFile": "{{NoNose}}/Maps/Seasonal_c_fall.png",
+          "ToArea": { "X": 96, "Y": 736, "Width": 16, "Height": 32 },
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+		
+	    {
+          "Action": "EditImage",
+          "Target": "Maps/Fall_z_extras",
+          "FromFile": "{{NoNose}}/Maps/Seasonal_d.png",
+          "ToArea": { "X": 105, "Y": 804, "Width": 13, "Height": 26 },
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+
+	    {
+          "Action": "EditImage",
+          "Target": "Maps/Fall_z_extras",
+          "FromFile": "{{NoNose}}/Maps/Seasonal_e.png",
+          "ToArea": { "X": 112, "Y": 706, "Width": 16, "Height": 94 },
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+
+					//Season Extras Winter
+										
+	    {
+          "Action": "EditImage",
+          "Target": "Maps/Winter_z_extras",
+          "FromFile": "{{NoNose}}/Maps/Seasonal_a.png",
+          "ToArea": { "X": 128, "Y": 608, "Width": 64, "Height": 256 },
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+
+	    {
+          "Action": "EditImage",
+          "Target": "Maps/Winter_z_extras",
+          "FromFile": "{{NoNose}}/Maps/Seasonal_b.png",
+          "ToArea": { "X": 0, "Y": 832, "Width": 128, "Height": 128 },
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+		
+	    {
+          "Action": "EditImage",
+          "Target": "Maps/Winter_z_extras",
+          "FromFile": "{{NoNose}}/Maps/Seasonal_c_winter.png",
+          "ToArea": { "X": 96, "Y": 736, "Width": 16, "Height": 32 },
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+		
+	    {
+          "Action": "EditImage",
+          "Target": "Maps/Winter_z_extras",
+          "FromFile": "{{NoNose}}/Maps/Seasonal_d.png",
+          "ToArea": { "X": 105, "Y": 804, "Width": 13, "Height": 26 },
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+
+	    {
+          "Action": "EditImage",
+          "Target": "Maps/Winter_z_extras",
+          "FromFile": "{{NoNose}}/Maps/Seasonal_e.png",
+          "ToArea": { "X": 112, "Y": 706, "Width": 16, "Height": 94 },
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+					//Cursors
+
+      {  "Action": "EditImage",
+         "Target": "Maps/VanillaCursors",
+         "FromFile": "{{NoNose}}/Maps/Cursors_{{season}}.png",
+         "FromArea": { "X": 0, "Y": 1387, "Width": 114, "Height": 34 },
+         "ToArea": { "X": 0, "Y": 1387, "Width": 114, "Height": 34 },
+         "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+
+      {  "Action": "EditImage",
+         "Target": "Maps/VanillaCursors",
+         "FromFile": "{{NoNose}}/Maps/Cursors_{{season}}.png",
+         "FromArea": { "X": 105, "Y": 1318, "Width": 13, "Height": 31 },
+         "ToArea": { "X": 105, "Y": 1318, "Width": 13, "Height": 31 },
+         "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+			
+      {  "Action": "EditImage",
+         "Target": "Maps/VanillaCursors",
+         "FromFile": "{{NoNose}}/Maps/Cursors_{{season}}.png",
+         "FromArea": { "X": 390, "Y": 1405, "Width": 36, "Height": 32 },
+         "ToArea": { "X": 390, "Y": 1405, "Width": 36, "Height": 32 },
+         "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+
+      {  "Action": "EditImage",
+         "Target": "Maps/VanillaCursors",
+         "FromFile": "{{NoNose}}/Maps/Cursors_{{season}}.png",
+         "FromArea": { "X": 558, "Y": 1425, "Width": 60, "Height": 26 },
+         "ToArea": { "X": 558, "Y": 1425, "Width": 60, "Height": 26 },
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+
+      {  "Action": "EditImage",
+         "Target": "Maps/VanillaCursors",
+         "FromFile": "{{NoNose}}/Maps/Cursors_{{season}}.png",
+         "FromArea": { "X": 533, "Y": 1864, "Width": 19, "Height": 27 },
+         "ToArea": { "X": 533, "Y": 1864, "Width": 19, "Height": 27  },
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+
+      {  "Action": "EditImage",
+         "Target": "Maps/VanillaCursors",
+         "FromFile": "{{NoNose}}/Maps/Cursors_{{season}}.png",
+         "FromArea": { "X": 405, "Y": 1854, "Width": 47, "Height": 33 },
+         "ToArea": { "X": 405, "Y": 1854, "Width": 47, "Height": 33 },
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+
+      {  "Action": "EditImage",
+         "Target": "Maps/VanillaCursors",
+         "FromFile": "{{NoNose}}/Maps/Cursors_{{season}}.png",
+         "FromArea": { "X": 413, "Y": 305, "Width": 253, "Height": 28 },
+         "ToArea": { "X": 413, "Y": 305, "Width": 253, "Height": 28 },
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+			
+      {  "Action": "EditImage",
+         "Target": "Maps/VanillaCursors",
+         "FromFile": "{{NoNose}}/Maps/Cursors_{{season}}.png",
+         "FromArea": { "X": 387, "Y": 1311, "Width": 11, "Height": 15 },
+         "ToArea": { "X": 387, "Y": 1311, "Width": 11, "Height": 15 },
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+			// Vineyards
+
+      {  "Action": "EditImage",
+         "Target": "maps/AuroraVineyardPicture",
+         "FromFile": "{{NoNose}}/Maps/AuroraVineyardPicture.png",
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+		
+      {  "Action": "EditImage",
+         "Target": "maps/StardustFarmPicture",
+         "FromFile": "{{NoNose}}/Maps/StardustFarmPicture.png",
+          "When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true }
+		}	
+		
+	]
+}

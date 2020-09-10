@@ -1,0 +1,11 @@
+{
+	"Name": "Cuter Futan Bears",
+	"Author": "Rubecula",
+	"Version": "1.1.0",
+	"Description": "Make futan bears look more teddy bear-like.",
+	"UniqueID": "Rubecula.CuterFutanBears",
+	"UpdateKeys": [ "Nexus:2780" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	}
+}
