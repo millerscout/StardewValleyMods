@@ -1,0 +1,71 @@
+{
+    // accessible
+    "accessible.name": "Проходимость клеток на карте",
+    "accessible.clear": "Однозначно проходимое место",
+    "accessible.occupied": "Проходимость недоступна: присутствует преграда",
+    "accessible.impassable": "Невозможно пройти здесь",
+    "accessible.warp": "Место перехода на другую локацию",
+
+    // buildable
+    "buildable.name": "Строительство",
+    "buildable.buildable": "Строительство здесь возможно",
+    "buildable.occupied": "Строительство недоступно: присутствует преграда",
+    "buildable.not-buildable": "Невозможно построить здесь",
+
+    // coverage: bee houses
+    "bee-houses.name": "Состояние и зона действия ульев",
+    "bee-houses.range": "Радиус для расположения цветка",
+
+    // coverage: Junimo huts
+    "junimo-huts.name": "Состояние и зона действия Джунимо",
+    "junimo-huts.can-harvest": "Могут собирать урожай",
+    "junimo-huts.cannot-harvest": "Не могут собирать урожай",
+
+    // coverage: scarecrows
+    "scarecrows.name": "Состояние и зона действия пугал",
+    "scarecrows.protected": "Защищено от вредителей",
+    "scarecrows.exposed": "Уязвимо для вредителей",
+
+    // coverage: sprinklers
+    "sprinklers.name": "Состояние и зона действия спринклеров",
+    "sprinklers.covered": "Поливается с помощью спринклера",
+    "sprinklers.dry-crops": "Спринклер не достаёт до необходимой зоны",
+
+    // crops: harvest
+    "crop-harvest.name": "Состояние готовности урожая к сбору",
+    "crop-harvest.ready": "Культура готова к сбору урожая",
+    "crop-harvest.not-ready": "Культура ещё не готова к сбору урожая",
+    "crop-harvest.not-enough-time": "Вы не успели собрать урожай",
+
+    // crops: watered
+    "crop-water.name": "Состояние влажности почвы для культур",
+    "crop-water.watered": "Культуры успешно политы водой",
+    "crop-water.dry": "К сожалению, культуры не политы водой",
+
+    // crops: water for paddy crops
+    "crop-paddy-water.name": "Система орошения для культур",
+    "crop-paddy-water.in-range": "Орошение в действии: почва насыщена водой",
+    "crop-paddy-water.not-in-range": "Орошение недоступно: почва сухая",
+
+    // crops: fertilized
+    "crop-fertilizer.name": "Система удобрений для культур",
+    "crop-fertilizer.fertilizer": "Здесь применено удобрение ",
+    "crop-fertilizer.retaining-soil": "Здесь влагосохраняющая почва",
+    "crop-fertilizer.speed-gro": "Здесь применён \"СкороРост\"",
+
+    // machine processing
+    "machines.name": "Статус механической обработки",
+    "machines.empty": "Пусто",
+    "machines.processing": "В процессе",
+    "machines.finished": "Готово",
+
+    // tile grid
+    "grid.name": "Показывать сетку для клеток карты",
+
+    // tillable
+    "tillable.name": "Процесс вспашки почвы",
+    "tillable.tillable": "Почва доступна для обработки",
+    "tillable.tilled": "Почва уже обработана",
+    "tillable.occupied": "Обработка недоступна: присутствует преграда",
+    "tillable.not-tillable": "Невозможно обработать почву"
+}

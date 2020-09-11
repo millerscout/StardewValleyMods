@@ -6,7 +6,7 @@
         "LocationType": "Normal",
         "LocationName": "Farm",
         "BuildingName": "",
-        "Tile": "66, 18"
+        "Tile": "72, 16"
       },
       "AcceptedItems": {}
     },
@@ -15,52 +15,7 @@
         "LocationType": "Normal",
         "LocationName": "Farm",
         "BuildingName": "",
-        "Tile": "75, 14"
-      },
-      "AcceptedItems": {}
-    },
-    {
-      "Address": {
-        "LocationType": "Normal",
-        "LocationName": "Farm",
-        "BuildingName": "",
-        "Tile": "59, 10"
-      },
-      "AcceptedItems": {}
-    },
-    {
-      "Address": {
-        "LocationType": "Normal",
-        "LocationName": "Farm",
-        "BuildingName": "",
-        "Tile": "62, 18"
-      },
-      "AcceptedItems": {}
-    },
-    {
-      "Address": {
-        "LocationType": "Normal",
-        "LocationName": "Farm",
-        "BuildingName": "",
-        "Tile": "69, 18"
-      },
-      "AcceptedItems": {}
-    },
-    {
-      "Address": {
-        "LocationType": "Normal",
-        "LocationName": "Farm",
-        "BuildingName": "",
-        "Tile": "67, 18"
-      },
-      "AcceptedItems": {}
-    },
-    {
-      "Address": {
-        "LocationType": "Normal",
-        "LocationName": "Farm",
-        "BuildingName": "",
-        "Tile": "60, 18"
+        "Tile": "69, 16"
       },
       "AcceptedItems": {}
     },
@@ -78,7 +33,106 @@
         "LocationType": "Normal",
         "LocationName": "Farm",
         "BuildingName": "",
-        "Tile": "69, 16"
+        "Tile": "60, 18"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "Farm",
+        "BuildingName": "",
+        "Tile": "67, 18"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "Farm",
+        "BuildingName": "",
+        "Tile": "70, 16"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "Farm",
+        "BuildingName": "",
+        "Tile": "69, 18"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "Farm",
+        "BuildingName": "",
+        "Tile": "62, 18"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "Farm",
+        "BuildingName": "",
+        "Tile": "59, 10"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "Farm",
+        "BuildingName": "",
+        "Tile": "72, 20"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "Farm",
+        "BuildingName": "",
+        "Tile": "71, 20"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "Farm",
+        "BuildingName": "",
+        "Tile": "70, 20"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "Farm",
+        "BuildingName": "",
+        "Tile": "69, 20"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "Farm",
+        "BuildingName": "",
+        "Tile": "75, 14"
+      },
+      "AcceptedItems": {}
+    },
+    {
+      "Address": {
+        "LocationType": "Normal",
+        "LocationName": "Farm",
+        "BuildingName": "",
+        "Tile": "66, 18"
       },
       "AcceptedItems": {}
     },
@@ -94,18 +148,18 @@
     {
       "Address": {
         "LocationType": "Normal",
-        "LocationName": "Town",
+        "LocationName": "FarmCave",
         "BuildingName": "",
-        "Tile": "69, 52"
+        "Tile": "8, 6"
       },
       "AcceptedItems": {}
     },
     {
       "Address": {
         "LocationType": "Normal",
-        "LocationName": "Town",
+        "LocationName": "FarmCave",
         "BuildingName": "",
-        "Tile": "32, 101"
+        "Tile": "4, 6"
       },
       "AcceptedItems": {}
     },
