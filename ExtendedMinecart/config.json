@@ -1,5 +1,5 @@
 {
-  "RefuelingEnabled": true,
+  "RefuelingEnabled": false,
   "RefuelRequiredChance": 0.05,
   "AlternateDesertMinecart": false,
   "AlternateFarmMinecart": false,
