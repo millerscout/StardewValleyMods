@@ -1,7 +1,4 @@
 {
-  "MachinePriority": {
-    "ShippingBinMachine": -1
-  },
   "AutomateShippingBin": true,
   "PullGemstonesFromJunimoHuts": false,
   "AutomationInterval": 60,
@@ -9,6 +6,8 @@
     "ToggleOverlay": "U"
   },
   "ConnectorNames": [
+    "Crystal Path",
+    "Wood Path",
     "Workbench"
   ],
   "ModCompatibility": {
