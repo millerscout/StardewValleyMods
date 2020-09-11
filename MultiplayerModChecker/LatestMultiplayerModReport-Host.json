@@ -1,7 +1,50 @@
 [
   {
     "FarmhandName": "Tusca",
-    "TimeConnected": "2020-09-09T21:22:31.9782638-03:00",
+    "TimeConnected": "2020-09-10T23:06:00.494705-03:00",
+    "FarmhandID": -2947679541695024204,
+    "SmapiGameGameVersions": {
+      "FarmhandHasSmapi": true,
+      "HostSmapiVersion": "3.7.2",
+      "FarmhandSmapiVersion": "3.7.2"
+    },
+    "MissingOnHost": [],
+    "MissingOnFarmhand": [],
+    "VersionMismatch": []
+  },
+  {
+    "FarmhandName": "Tusca",
+    "TimeConnected": "2020-09-10T23:09:08.9615394-03:00",
+    "FarmhandID": -2947679541695024204,
+    "SmapiGameGameVersions": {
+      "FarmhandHasSmapi": true,
+      "HostSmapiVersion": "3.7.2",
+      "FarmhandSmapiVersion": "3.7.2"
+    },
+    "MissingOnHost": [],
+    "MissingOnFarmhand": [
+      "ModUpdater (Platonymous.ModUpdater)"
+    ],
+    "VersionMismatch": []
+  },
+  {
+    "FarmhandName": "Tusca",
+    "TimeConnected": "2020-09-10T23:36:03.0342243-03:00",
+    "FarmhandID": -2947679541695024204,
+    "SmapiGameGameVersions": {
+      "FarmhandHasSmapi": true,
+      "HostSmapiVersion": "3.7.2",
+      "FarmhandSmapiVersion": "3.7.2"
+    },
+    "MissingOnHost": [],
+    "MissingOnFarmhand": [
+      "ModUpdater (Platonymous.ModUpdater)"
+    ],
+    "VersionMismatch": []
+  },
+  {
+    "FarmhandName": "Tusca",
+    "TimeConnected": "2020-09-10T23:39:12.6475465-03:00",
     "FarmhandID": -2947679541695024204,
     "SmapiGameGameVersions": {
       "FarmhandHasSmapi": true,
