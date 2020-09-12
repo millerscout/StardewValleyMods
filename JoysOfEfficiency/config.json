@@ -14,7 +14,7 @@
   "AutoAnimalDoor": true,
   "AutoFishing": false,
   "CpuThresholdFishing": 0.2,
-  "AutoReelRod": false,
+  "AutoReelRod": true,
   "ThrowPower": 1.0,
   "ThresholdStaminaPercentage": 20,
   "ToggleAfkFishing": "End",

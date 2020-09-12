@@ -10,5 +10,5 @@
   "StashAnywhereToFridge": true,
   "StashAnywhereKey": "Q",
   "CraftFromChests": true,
-  "CraftRadius": 10
+  "CraftRadius": 30
 }

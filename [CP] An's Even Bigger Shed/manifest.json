@@ -1,0 +1,12 @@
+{
+   "Name": "An's Even Bigger Shed",
+   "Author": "An",
+   "Version": "1.1",
+   "Description": "Even bigger shed",
+   "UniqueID": "An.Shed",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:6302" ],
+   "ContentPackFor": {
+     "UniqueID": "Pathoschild.ContentPatcher",
+  }
+}

@@ -1,0 +1,91 @@
+{
+	"Format": "1.3",
+
+	"ConfigSchema": {
+
+		"Style": {
+			"AllowValues": "Standard, Riverland, Forest, Hilltop, Wilderness, Fourcorners, Pink, Purple",
+			"Default": "purple"
+			}
+		},
+
+	"Changes": [
+	
+	//Standard
+	
+	{
+		"Action": "Load",
+		"Target": "Maps/Shed2",
+		"FromFile": "assets/shed_standard.tbin",
+		"When": { "style": "standard" }
+	},
+	
+
+	//Riverland
+	
+	{
+		"Action": "Load",
+		"Target": "Maps/Shed2",
+		"FromFile": "assets/shed_riverland.tbin",
+		"When": { "style": "riverland" }
+	},
+
+	//Forest
+	
+	{
+		"Action": "Load",
+		"Target": "Maps/Shed2",
+		"FromFile": "assets/shed_forest.tbin",
+		"When": { "style": "forest" }
+	},
+	
+	//Hilltop
+	
+	{
+		"Action": "Load",
+		"Target": "Maps/Shed2",
+		"FromFile": "assets/shed_hilltop.tbin",
+		"When": { "style": "hilltop" }
+	},	
+	
+	//Wilderness
+	
+	{
+		"Action": "Load",
+		"Target": "Maps/Shed2",
+		"FromFile": "assets/shed_wilderness.tbin",
+		"When": { "style": "wilderness" }
+	},	
+	
+	
+	//Fourcorners
+	
+	{
+		"Action": "Load",
+		"Target": "Maps/Shed2",
+		"FromFile": "assets/shed_fourcorners.tbin",
+		"When": { "style": "fourcorners" }
+	},	
+	
+	
+	//Pink
+	
+	{
+		"Action": "Load",
+		"Target": "Maps/Shed2",
+		"FromFile": "assets/shed_pink.tbin",
+		"When": { "style": "pink" }
+	},	
+	
+	
+	//Purple
+	
+	{
+		"Action": "Load",
+		"Target": "Maps/Shed2",
+		"FromFile": "assets/shed_purple.tbin",
+		"When": { "style": "purple" }
+	},	
+	
+	]
+}
