@@ -11,6 +11,7 @@
   "ConnectorNames": [
     "Crystal Path",
     "Wood Path",
+    "Wood Floor",
     "Workbench"
   ],
   "ModCompatibility": {
