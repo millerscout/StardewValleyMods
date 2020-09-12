@@ -5,7 +5,7 @@
   "StashRadius": 5,
   "StashKey": "Z",
   "StashButton": "RightStick",
-  "StashAnywhere": false,
+  "StashAnywhere": true,
   "StashAnywhereToExistingStacks": true,
   "StashAnywhereToFridge": true,
   "StashAnywhereKey": "Q",

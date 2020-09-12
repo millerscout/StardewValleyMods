@@ -1,0 +1,28 @@
+[
+  {
+    "FarmhandName": "Tusca",
+    "TimeConnected": "2020-09-11T23:08:56.2081166-03:00",
+    "FarmhandID": -2947679541695024204,
+    "SmapiGameGameVersions": {
+      "FarmhandHasSmapi": true,
+      "HostSmapiVersion": "3.7.2",
+      "FarmhandSmapiVersion": "3.7.2"
+    },
+    "MissingOnHost": [],
+    "MissingOnFarmhand": [],
+    "VersionMismatch": []
+  },
+  {
+    "FarmhandName": "Tusca",
+    "TimeConnected": "2020-09-11T23:13:52.0727211-03:00",
+    "FarmhandID": -2947679541695024204,
+    "SmapiGameGameVersions": {
+      "FarmhandHasSmapi": true,
+      "HostSmapiVersion": "3.7.2",
+      "FarmhandSmapiVersion": "3.7.2"
+    },
+    "MissingOnHost": [],
+    "MissingOnFarmhand": [],
+    "VersionMismatch": []
+  }
+]
