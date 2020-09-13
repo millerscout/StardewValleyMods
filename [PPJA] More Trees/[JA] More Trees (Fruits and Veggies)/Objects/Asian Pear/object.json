@@ -1,0 +1,47 @@
+{
+    "Name": "Asian Pear",
+    "Description": "Not to be confused with the normal pear.",
+    "Category": "Fruit",
+    "Edibility": 15,
+    "Price": 125,
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+    },
+    "NameLocalization":
+    {
+        "es": "Pera asiática",
+        "ko": "배",
+        "de": "Asiatische Birne",
+        "fr": "Poire Asiatique",
+         // "hu": "",
+         // "it": "",
+        "ja": "和ナシ",
+        "pt": "Pêra asiática",
+        "ru": "Восточная груша",
+         // "tr": "",
+        "zh": "亚洲梨",
+    },
+    "DescriptionLocalization":
+    {
+        "es": "No debe confundirse con la pera normal.",
+        "ko": "매우 달고 과즙이 풍부한 과일. 서양배와 다릅니다.",
+        "de": "Nicht mit der normalen Birne zu verwechseln.",
+        "fr": "À ne pas confondre avec une poire normale.",
+         // "hu": "",
+         // "it": "",
+        "ja": "洋ナシとは混同しないように。",
+        "pt": "Não confunda com a pera normal.",
+        "ru": "Не путать с обычной грушей.",
+         // "tr": "",
+        "zh": "不要跟普通的梨混淆。其实就是沙梨，外表呈褐色。",
+    },
+    "ContextTags": [
+        "season_fall",
+        "color_gold",
+        "fruit_tree_item",
+        "fruit_item",
+        "dye_medium"
+    ]
+}

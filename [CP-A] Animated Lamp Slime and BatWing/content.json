@@ -1,0 +1,92 @@
+{
+	"Format": "1.9",
+	
+			"ConfigSchema": 
+		{
+			"Slime":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+                                                                "AllowMultiple": "false"
+				},
+                                                 "BatWing":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+                                                                "AllowMultiple": "false"
+				},
+                                                 "WoodLamp":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+                                                                "AllowMultiple": "false"
+				},
+                                                 "IronLamp":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+                                                                "AllowMultiple": "false"
+				},
+		},
+
+	
+	
+	"Changes": [
+		{
+			"LogName": "Animated Slime",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Slime.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 352, "Y": 496, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 8,
+			"AnimationFrameCount": 75,
+			"When":
+				{
+				"Slime": "true"
+				},
+                                },
+                                {
+			"LogName": "Animated Bat Wing",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "BatWing.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 368, "Y": 496, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 8,
+			"AnimationFrameCount": 18,
+			"When":
+				{
+				"BatWing": "true"
+				},
+		},
+                                {
+			"LogName": "Animated WoodLamp",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "WoodLamp.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+			"ToArea": { "X": 0, "Y": 608, "Width": 16, "Height": 32 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 8,
+			"When":
+				{
+				"WoodLamp": "true"
+				},
+		},
+                                {
+			"LogName": "Animated IronLamp",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "IronLamp.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+			"ToArea": { "X": 16, "Y": 608, "Width": 16, "Height": 32 },
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 12,
+			"When":
+				{
+				"IronLamp": "true"
+				},
+		} 
+	]
+}

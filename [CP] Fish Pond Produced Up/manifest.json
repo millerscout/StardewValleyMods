@@ -1,0 +1,18 @@
+{
+  "Name": "Fish Pond Produced Up",
+  "Author": "ICBM4431",
+  "Version": "1.0",
+  "Description": "Fish Pond Produced Up",
+  "UniqueID": "Fish_Pond_Produced_Up",
+  "MinimumApiVersion": "3.0",
+  "UpdateKeys": [ "Nexus:???" ],
+  "ContentPackFor": {
+  "UniqueID": "Pathoschild.ContentPatcher",
+   },
+  "Dependencies": [
+   {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "IsRequired": true,
+   },
+    ]
+}

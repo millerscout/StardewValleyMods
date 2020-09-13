@@ -1,0 +1,15 @@
+{
+  "Name": "[PFM] Indoor Apiary",
+  "Author": "FallUpFallInFallOut",
+  "Version": "1.0",
+  "Description": "Raise bees and produce honey indoors!",
+  "UniqueID": "FuFiFo.Apiary",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": [ "Nexus:6008" ],
+  "Dependencies": [
+	  { "UniqueID": "Digus.ProducerFrameworkMod", "MinimumVersion": "1.4.0" }
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Digus.ProducerFrameworkMod"
+  }
+}
