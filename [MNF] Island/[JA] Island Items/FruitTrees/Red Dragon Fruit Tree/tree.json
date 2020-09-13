@@ -7,8 +7,8 @@
   "SaplingPurchasePrice": 5250,
   "SaplingPurchaseFrom": "Hisame_Icon",
 	// Translations
-  "SaplingNameLocalization": { "es": "Brote de pitaya"},
-  "SaplingDescriptionLocalization": { "es": "Toma 28 días para producir una pitaya madura. Listo para cosechar en otoño. Solo crece si las 8 casillas que las rodean están vacías."},
+  "SaplingNameLocalization": { "pt": "Broto de Pitaia"},
+  "SaplingDescriptionLocalization": { "pt": "Leva 28 dias para começar a produzir Pitaia a partir do outono. Só crescerá caso os 8 espaços em volta estiverem vazios."},
 
 }
 

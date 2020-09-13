@@ -13,6 +13,6 @@
   },
   "Recipe": null,
   // Spanish translation
-  "NameLocalization": { "es": "Coco Verde" },
-  "DescriptionLocalization": { "es": "Rico en agua de coco." }, 
+  "NameLocalization": { "pt": "Coco Verde" },
+  "DescriptionLocalization": { "pt": "Rico em água de coco." }, 
 }

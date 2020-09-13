@@ -12,6 +12,6 @@
   "Like": ["Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Willy", "Wizard","Lewis","Abigail", "Haley", "Jas", "Sam", "Sebastian", "Vincent","Madam"],
   },
     // Spanish translation
-  "NameLocalization": { "es": "Mandarina" },
-  "DescriptionLocalization": { "es": "Una jugosa fruta cítrica, más dulce que las naranjas." }, 
+  "NameLocalization": { "pt": "Tangerina" },
+  "DescriptionLocalization": { "pt": "Uma fruta muito suculenta, mais doce que as laranjas." }, 
 }

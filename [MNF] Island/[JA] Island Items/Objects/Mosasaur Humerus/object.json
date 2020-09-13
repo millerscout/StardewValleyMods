@@ -2,5 +2,7 @@
   "Name": "Mosasaur Humerus",
   "Description": "An forearm bone?",
   "Price": 750,
+"NameLocalization": { "pt": "Úmero de Mossasauro" },
+"DescriptionLocalization": { "pt": "Um osso do antebraço." },
   "IsColored": false,
 }

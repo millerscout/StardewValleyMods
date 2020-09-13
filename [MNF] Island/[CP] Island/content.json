@@ -71,18 +71,18 @@
       "Action": "EditData",
       "Target": "Strings/StringsFromMaps",
       "Entries": {
-			"IslandBaitShop.1": "It's a very beautiful goldfish.",
-			"IslandBaitShop.2": "It's spotless.",
-			"IslandBaitShop.3": "Her kois seem very happy and healthy.",
-			"IslandBaitShop.4": "It has Slime in it.",
-			"IslandBaitShop.5": "There is a lot of fish.",
-			"IslandBaitShop.6": "How to play the flute.",
-			"Island.1": "Summer Market - every summer on 15th and 16th!",//Need Translation
-			"IslandSummerMarket.1": "Summer Market - From 6 AM to 7 PM, come check our goods from Ghibli Town!",//Need Translation
-			"Island.2": "The trees in this area are under Ferngill Environment Agency protection, no chopping is allowed.",
-			"Island.3": "It's locked.",//need translation
-			"summermarket": "Help yourself with our delicious salads!.",//need translation
-			"SMClosed": "Come Back Tomorrow before 10PM.",//need translation
+			"IslandBaitShop.1": "É um Dourado muito bonito!",
+			"IslandBaitShop.2": "Está impecável!",
+			"IslandBaitShop.3": "Os Kois dela parecem felizes e saudáveis.",
+			"IslandBaitShop.4": "Há um slime dentro.",
+			"IslandBaitShop.5": "Quantos peixes!",
+			"IslandBaitShop.6": "Como tocar flauta.",
+			"Island.1": "Mercado de Verão - todo verão, nos dias 15 e 16!",
+			"IslandSummerMarket.1": "Mercado de Verão - Das 6 às 19, venha conferir nossos produtos da cidade de Ghibli!",
+			"Island.2": "As árvores desta área estão sob proteção da Agência Ambiental Ferngill, é proibido cortá-las.",
+			"Island.3": "Está tracado.",
+			"summermarket": "Se ajude provando nossas saladas!",
+			"SMClosed": "Venha amanhã antes das 22!",
 		},
 	},
 	{    
@@ -326,13 +326,13 @@
        "Action": "EditData",
       "Target": "Characters/Dialogue/Madam",
       "When": {"HasSeenEvent":"700967"},
-	  "Entries": { "Thu10": "I like diving in the ocean.$h# Maybe when you have some free time you can dive with me.$1#$b#Don't worry, we won't be diving too deep!$1",},
+	  "Entries": { "Thu10": "Eu amo mergulhar no oceâno.$h#Talvez você possa me acompanhar quando tiver livre.$1#$b#Não se preocupe, nós não vamos muito fundo!$1",},
     },
 	  {
       "Action": "EditData",
       "Target": "Characters/Dialogue/Madam",
       "When": {"HasSeenEvent":"9850002"},
-	  "Entries": { "Fri6": "Hi sweetie! I am so fond of Linus.$1#$b#He visited me the other day.$1#$e#He made some very delicious Sashimi. I had no idea he was such a good cook!",},
+	  "Entries": { "Fri6": "Oie, você conhece o Linus? Eu adoro conversar com ele.$1#$b#Ele veio me ver esses dias.$1#$e#Ele faz alguns Sashimis deliciosos, eu nem sabia que ele podia cozinhar!",},
     },
 	{
       "LogName": "Schedule",
@@ -354,8 +354,8 @@
       "Action": "EditData",
       "Target": "Strings/StringsFromMaps",
       "Entries": {
-	  "BaitShop.1": "Music bookcase read only: ^Iron Mermaiden, ^Lada del Rain, ^Yonaka, ^Emma Shapplin, ^Florence + The Recycling Machine, ^Hooverphonic, ^Claire Merguire, ^Within Temptation, ^FleetSea Mac.",
-	  "BaitShop.2": "Song book  - by Shireen Baratheon ^It's always summer, under the sea ^I know, I know, oh, oh, oh ^The birds have scales, and the fish take wing ^I know, I know, oh, oh, oh ^The rain is dry, and the snow falls up ^I know, I know, oh, oh, oh ^The stones crack open, the water burns ^The shadows come to dance, my love ^The shadows come to play ^The shadows come to dance, my love ^The shadows come to stay",
+	  "BaitShop.1": "Estante de música, somente leitura: ^Iron Mermaiden, ^Lada del Rain, ^Yonaka, ^Emma Shapplin, ^Florence + The Recycling Machine, ^Hooverphonic, ^Claire Merguire, ^Within Temptation, ^FleetSea Mac.",
+	  "BaitShop.2": "Livro de Músicas  - por Shireen Baratheon ^É sempre verão... embaixo das ááááguas ^Eu sei... Eu sei! oh, oh, ooooh ^Os pássaros ganham escamas, e os peixes asas ^Eu sei! Eu sei! oh, oh, oooh ^A CHUUVA É MOLHADAA, e a neve cai... cai cai ^Eu sei, eu sei... oooh, oh, oh ^AS PEDRAS SE QUEBRAM, A ÁGUA FERVE! ^As sombras dançam... oh meu amor ^As sombras dançam, e agora brincam ^As sombras vieram dançar, meu amor ^As sombras... elas vieram para ficar... AU!",
 	  },
 	  },
 	{
@@ -363,7 +363,7 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-        "Madam": "Sweetie, Thank you so much!/1121 1122 1123 1077 1078 1079 1080 1081 110 119 123 103 459 681 421 768 463 464/Thank you, that's very nice!/684 766 -12 690 376/Thanks?/308 203/Oh sweetie... Don't worry, I will throw this away for you./797 688 689/Thanks!/153 152 157 -4 771 685 686 687 691 692 693 694 695 774/",
+        "Madam": "Nossa! Muito obrigada!/1121 1122 1123 1077 1078 1079 1080 1081 110 119 123 103 459 681 421 768 463 464/Obrigada, é muito gentil de sua parte!/684 766 -12 690 376/Obrigada?/308 203/Ah amor... s-sim, eu jogarei fora pra você./797 688 689/Obrigada!/153 152 157 -4 771 685 686 687 691 692 693 694 695 774/",
 	  	},
 		},
 {	
@@ -391,7 +391,7 @@
   	 "Target": "Characters/Dialogue/Willy",
 	 "When": {"HasSeenEvent":"700966"},
 	 "Entries": {
-	 "Sat8": "#$c .05#I miss the Madam, but I can't go there as often because of the store.#$e#Sometimes I wonder if I should leave everything behind and go live with her on the island."
+	 "Sat8": "#$c .05#Eu sinto falta da Madam, mas eu não posso ir lá para vê-la por conta da loja.#$e#Às vezes eu me pergunto se vale a pena largar tudo e ir viver com ela em uma ilha abandonada."
 	 },
         },
 	 {       
@@ -399,7 +399,7 @@
   	 "Target": "Characters/Dialogue/Linus",
 	 "When": {"HasSeenEvent":"9850002"},
 	 "Entries": {
-	 "Sun8": "#$c .2#Hey @, have you been visiting the Madam?#$e#Send my regards to her."
+	 "Sun8": "#$c .2#Ei @, você esteve visitando a Madam?#$e#Mande um abraço para ela."
 	 },
 	 },
 		// Spanis translation
@@ -513,10 +513,10 @@
 			"Action": "EditData",
 			"Target": "Data/mail",
 			"Entries": {
-					"madam1":"Hi sweetie!^^Hope everything is going well on the farm. Have you ever tried a tangerine before? Its sweet, citrusy taste is unforgettable! I grow them in my garden. Hisame was kind enough to give me a few saplings when she visited me during the Summer Market. They’re one of my favorites. Here's one for you to try. Enjoy!^^    -Madam %item object {{spacechase0.JsonAssets/ObjectId:Tangerine}} 1 %%",
-					"madam2": "Hello sweetie!^^  I was in my garden earlier and thought of you, so I decided to send you a gift! It’s a green coconut! This is no ordinary coconut, mind you. This type of coconut is just like the ones I had back home, in the bay of Sh’eenaz! The green coconut is much better than the ones from the desert. I hope you’ll enjoy it!^^    -Madam %item object {{spacechase0.JsonAssets/ObjectId:Green Coconut}} 1 %%",
-					"madam3": "Dear @,^^  How are you? I hope you’re doing well. I wanted to ask if you’ve ever tried a red dragon fruit! They have such an exotic flavor. I grow them in my garden, that I share with the snow fox. I have enclosed one for you to try. Hope you like it!^^   -Madam %item object {{spacechase0.JsonAssets/ObjectId:Red Dragon Fruit}} 1 %%",
-					"madam4": "Hello @!^^  Hope you are doing well, I've sent you a little gift. I wish you a lovely day and look forward to seeing you again.^^  -Madam %item object 209 1 202 1 %%",
+					"madam1":"Oie!^^Espero que tudo esteja indo bem na fazenda. Você já experimentou Tangerina antes? Seu sabor doce e cítrico é inesquecível! Eu sempre as planto no meu jardim. Hisame teve a gentileza de me dar algumas mudinhas quando ela me visitou durante o verão. Eu decidi enviar algumas para você, espero que goste!^^    -Madam %item object {{spacechase0.JsonAssets/ObjectId:Tangerine}} 1 %%",
+					"madam2": "Oiee!^^  Eu estava pensando em você enquanto estava andando pelo jardim, então decidi enviar um presentinho! É um Coco Verde! Essee não é um coco comum, veja bem. Esse tipo de coco é igual ao que eu tinha em casa, na baía de Sh'eenaz! O Coco Verde é muito melhor que o do deserto. Espero que goste!^^    -Madam %item object {{spacechase0.JsonAssets/ObjectId:Green Coconut}} 1 %%",
+					"madam3": "Oie @,^^  Como vai? Espero que bem... Eu queria perguntar se você já experimentou uma Fruta Vermelha do Dragão. Elas têm um sabor tão exótico! Eu cultivo elas no meu jardim, que compartilho com a Raposa da Neve. Eu te mandei uma para que você experimente, aproveite!^^   -Madam %item object {{spacechase0.JsonAssets/ObjectId:Red Dragon Fruit}} 1 %%",
+					"madam4": "Oie @!^^  Espero que você esteja bem, eu te enviei um presentinho. Te desejo um bom dia e estamos todos ansiosos para te ver novamente.^^  -Madam %item object 209 1 202 1 %%",
 					},
 		},
   ],

@@ -3,5 +3,8 @@
     "Description": "Clown's baggy pants!",
     "HasFemaleVariant": true,
     "Price": 1,
+"NameLocalization": { "pt": "Calças de Palhaço" },
+"DescriptionLocalization": { "pt": "Calças de Palhaço!" },
+
     "Dyeable": false
 }

@@ -2,6 +2,8 @@
   "Name": "Mosasaur Skeleton L",
   "Description": "The head of a pre-historic creature that lived in the sea.",
   "ProvidesLight": false,
+"NameLocalization": { "pt": "Esqueleto de Mossauro L" },
+  "DescriptionLocalization": { "pt": "A cabeça de uma ser pré-histórico que costumava viver no mar." },
   "Recipe": {
     "ResultCount": 1,
     "Ingredients": [

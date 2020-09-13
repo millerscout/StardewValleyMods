@@ -12,6 +12,6 @@
 	"Dislike": ["Abigail", "Haley", "Jas", "Vincent"],
   },
     // Spanish translation
-  "NameLocalization": { "es": "Pitaya" },
-  "DescriptionLocalization": { "es": "Una variante roja de la fruta del dragón común." }, 
+  "NameLocalization": { "pt": "Pitaia" },
+  "DescriptionLocalization": { "pt": "Uma variante da Pitaia comúm." }, 
 }

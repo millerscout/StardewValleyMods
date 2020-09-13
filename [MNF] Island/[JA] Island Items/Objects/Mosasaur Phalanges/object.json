@@ -2,5 +2,7 @@
   "Name": "Mosasaur Phalanges",
   "Description": "Small little bones that looks like stones.",
   "Price": 750,
+"NameLocalization": { "pt": "Falânge de Mossasauro" },
+"DescriptionLocalization": { "pt": "Esses ossinhos se parecem com pedras." },
   "IsColored": false,
 }

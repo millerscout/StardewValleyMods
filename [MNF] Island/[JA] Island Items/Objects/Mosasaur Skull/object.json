@@ -2,5 +2,7 @@
   "Name": "Mosasaur Skull",
   "Description": "It looks like a weird alligator skull huge teeth.",
   "Price": 750,
+"NameLocalization": { "pt": "Crânio de Mossasauro" },
+"DescriptionLocalization": { "pt": "Parece um crânio estranho de jacaré." },
   "IsColored": false,
 }

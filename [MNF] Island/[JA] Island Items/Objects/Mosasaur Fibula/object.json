@@ -2,5 +2,7 @@
   "Name": "Mosasaur Fibula",
   "Description": "Resembles a leg bone, but the size indicates the owner didn't use to walk easily.",
   "Price": 750,
+"NameLocalization": { "pt": "Fíbula Mosassauro" },
+"DescriptionLocalization": { "pt": "Parece um osso de perna, mas o tamanho indica que o dono não costumava andar com muita facilidade." },
   "IsColored": false,
 }

@@ -7,6 +7,6 @@
   "SaplingPurchasePrice": 5000,
   "SaplingPurchaseFrom": "Hisame_Icon",
 	// Translations
-  "SaplingNameLocalization": { "es": "Brote de mandarino"},
-  "SaplingDescriptionLocalization": { "es": "Toma 28 días para producir una mandarina madura. Listo para cosechar en primavera. Solo crece si las 8 casillas que las rodean están vacías."},
+  "SaplingNameLocalization": { "pt": "Broto de Tangerina"},
+  "SaplingDescriptionLocalization": { "pt": "Leva 28 dias para começar a produzir Tangerina a partir da primavera. Só crescerá caso os 8 espaços em volta estiverem vazios."},
 }

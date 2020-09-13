@@ -1,0 +1,26 @@
+{
+    "Name": "Arroz",
+    "Product": "Arroz não polido",
+    "SeedName": "Sementes de arroz",
+    "SeedDescription": "Plante-as na primavera, verão ou outono. Demora 5 dias para amadurecer e continua produzindo após a primeira colheita. Colhe com a foice.",
+    "Type": "Vegetable",
+
+    "Seasons": ["spring", "summer", "fall"],
+    "Phases": [ 1, 1, 1, 1, 1, ],
+    "RegrowthPhase": 2,
+    "HarvestWithScythe": true,
+    "TrellisCrop": true,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 3,
+        "MaximumPerHarvest": 5,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.2,
+    },
+
+    "SeedPurchasePrice": 50,
+    "SeedPurchaseRequirements": [
+    "z fall, z winter",
+],
+   
+}

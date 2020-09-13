@@ -2,6 +2,8 @@
   "Name": "Mosasaur Vertebra",
   "Description": "A vertebra of an aquatic reptile from pre-historic era.",
   "Price": 750,
+"NameLocalization": { "pt": "Vértebra de Mossasauro" },
+"DescriptionLocalization": { "pt": "Uma vértebra de um réptil aquático que viveu na era pré-histórica." },
   "IsColored": false,
 
 }

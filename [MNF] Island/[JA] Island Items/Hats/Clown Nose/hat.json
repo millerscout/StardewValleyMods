@@ -3,5 +3,7 @@
 	"Description": "A clown nose, to match your clown costume!",
 	"PurchasePrice": 1000,
 	"ShowHair": true,
+"NameLocalization": { "pt": "Nariz de Palhaço" },
+"DescriptionLocalization": { "pt": "Um nariz de palhaço, para combinar com a roupa de palhaço." },
 	"IgnoreHairstyleOffset": false
 }

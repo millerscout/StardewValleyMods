@@ -2,6 +2,8 @@
   "Name": "Mosasaur Skeleton M",
   "Description": "The body of a pre-historic creature that lived in the sea.",
   "ProvidesLight": false,
+"NameLocalization": { "pt": "Esqueleto de Mosassauro M" },
+  "DescriptionLocalization": { "pt": "O corpo de uma criatura pré-histórica que costumava viver no mar." },
   "Recipe": {
     "ResultCount": 1,
     "Ingredients": [
