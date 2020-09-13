@@ -1,0 +1,14 @@
+{
+  "BiteFaster": false,
+  "HitAutomatically": false,
+  "SkipMinigame": false,
+  "FishEasyCaught": false,
+  "TreasureAlwaysBeFound": false,
+  "TreasureEasyCaught": true,
+  "AlwaysCaughtDoubleFish": true,
+  "CaughtDoubleFishOnAnyBait": false,
+  "AlwaysMaxCastPower": false,
+  "Controls": {
+    "ReloadConfig": "F5"
+  }
+}
