@@ -1,7 +1,7 @@
 {
   "Taxes": true,
   "Price_Balance": true,
-  "Stamina_Balance": true,
+  "Stamina_Balance": false,
   "NPCClothing": true,
   "NPCDialogue": true,
   "MenuHotkey": "Tab",
