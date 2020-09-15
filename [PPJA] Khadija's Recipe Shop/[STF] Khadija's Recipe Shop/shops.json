@@ -43,7 +43,7 @@
         -14,
       ],
       "PortraitPath": "assets/WeekdayIcon.png",
-      "Quote": "Bem-vindo! Khadija está feliz em ver você também!", 
+      "Quote": "Welcome! Khadija's happy to see you too!", 
       "MaxNumItemsSoldInStore": 25,
       "ItemStocks": [
           {
@@ -177,7 +177,7 @@
         "When": [ //only open the store from 9AM to 6PM
           "t 900 1800",
         ],
-        "ClosedMessage": "Zamir: Desculpe, estamos fechados agora."
+        "ClosedMessage": "Zamir: Sorry, we're closed right now."
       },
     {
       "ShopName": "RecipeShopSat",
@@ -193,7 +193,7 @@
         -9
       ],
       "PortraitPath": "assets/WeekendIcon.png",
-      "Quote": "Trago algumas coisas diferentes para vender aos sábados.", 
+      "Quote": "I bring a few different things to sell on Saturdays.", 
       "MaxNumItemsSoldInStore": 25, 
       "ItemStocks": [
         {
@@ -293,7 +293,7 @@
       "When": [ //only open the store from 9AM to 6PM
           "t 900 1800",
         ],
-      "ClosedMessage": "Nasira: Estamos fechados. Volte mais tarde."
+      "ClosedMessage": "Nasira: We're closed. Come back later."
       
       },
 	]

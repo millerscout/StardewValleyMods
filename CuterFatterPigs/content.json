@@ -1,0 +1,25 @@
+{
+	"Format": "1.0",
+	"Changes": [
+		{
+		"Action": "Load",
+		"Target": "Animals/BabyPig",
+		"FromFile": "assets/BabyPig.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "Animals/Pig",
+		"FromFile": "assets/Pig.png",
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage",
+		"Target": "LooseSprites/Cursors",
+		"FromFile": "assets/Cursors.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 49, "Height": 14 },
+		"ToArea": { "X": 8, "Y": 482, "Width": 49, "Height": 14 },
+		"Enabled": true
+		},
+	]
+}

@@ -1,0 +1,36 @@
+{
+    "Format": "1.10",
+    "Changes": [
+       
+
+        {
+        "Action": "EditImage",
+        "PatchMode": "Replace",
+        "Target": "Maps/farmhouse_tiles",
+        "FromFile": "assets/farmhouse_bathroom_tiles.png",
+        "FromArea": {"X": 0, "Y": 320, "Width": 192, "Height": 80},
+        "ToArea": {"X": 0, "Y": 320, "Width": 192, "Height": 80}
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Maps/FarmHouse2",
+            "FromFile": "assets/FarmHouse2.tbin",
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Cabin2",
+            "FromFile": "assets/Cabin2.tbin",
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Cabin2_marriage",
+            "FromFile": "assets/Cabin2_marriage.tbin",
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/FarmHouse2_marriage",
+            "FromFile": "assets/FarmHouse2_marriage.tbin",
+        }
+    ]
+}

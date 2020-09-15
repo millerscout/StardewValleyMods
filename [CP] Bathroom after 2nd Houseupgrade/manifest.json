@@ -1,0 +1,12 @@
+{
+   "Name": "Bathroom after 2nd Houseupgrade",
+   "Author": "DevilBro",
+   "Version": "4.0.1-unofficial.3-minervamaga",
+   "Description": "Adds useable bathroom that works",
+   "UniqueID": "DevilBro.BathroomAfter2ndHouseupgrade",
+   "MinimumApiVersion": "3.0",
+   "UpdateKeys": [ "Nexus:299" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}
