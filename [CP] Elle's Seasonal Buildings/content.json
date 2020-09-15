@@ -1,0 +1,755 @@
+{
+  "Format": "1.8",
+  
+  "ConfigSchema": {
+    "Color Palette": {"AllowValues": "Elle, Vanilla, Starblue, Eemie",
+	"Default": "Elle"},
+	
+	"Building Theme": {"AllowValues": "Color, White, Brick",
+	"Default": "Color"},
+	
+	"Farmhouse Holiday": {"AllowValues": "False, True",
+	"Default": "False"},
+	
+	"Farmhouse Style": {"AllowValues": "Rustic, Vanilla, Greenhouse, StainedGlass, Cabin, Manor, False",
+	"Default": "Rustic"},
+	
+	"Farmhouse Material": {"AllowValues": "Wood, Stone",
+	"Default": "Wood"},
+	
+	"Farmhouse Color": {"AllowValues": "Red, Pink, Purple, Blue, Teal, Green, Yellow, White, Grey, Black",
+	"Default": "Blue"},
+	
+    "Barn": {"AllowValues": "New, Old, False",
+	"Default": "New"},
+	
+	"Cabin": {"AllowValues": "New, Old, False",
+	"Default": "New"},
+	
+	"Coop": {"AllowValues": "New, Old, False",
+	"Default": "New"},
+	
+	"Greenhouse": {"AllowValues": "Wood, Stone, False",
+	"Default": "Wood"},
+	
+	"Gold Clock": {"AllowValues": "New, Old, Original, False",
+	"Default": "New"},
+	
+	"JunimoHut": {"AllowValues": "Natural, Built, False",
+	"Default": "Natural"},
+	
+	"Mill": {"AllowValues": "Closed, Open, False",
+	"Default": "Closed"},
+	
+	"Obelisk": {"AllowValues": "New, Old, Original, False",
+	"Default": "New"},
+	
+	"Shane Coop": {"AllowValues": "New, Old, False",
+	"Default": "New"},
+	
+	"Shed": {"AllowValues": "Old, New, Original, False",
+	"Default": "Old"},
+	
+	"Silo": {"AllowValues": "Stone, Wood, False",
+	"Default": "Stone"},
+	
+	"Slime Hutch": {"AllowValues": "Sign, NoSign, Winery, Brewery, False",
+	"Default": "Sign"},
+	
+	"Stable": {"AllowValues": "Stone, Wood, False",
+	"Default": "Stone"},
+	
+	"Well": {"AllowValues": "Stone, Wood, False",
+	"Default": "Stone"},
+	
+	"Fence Recolor": {"AllowValues": "False, True",
+	"Default": "False"},
+	
+	"Shipping Bin Recolor": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Mailbox Recolor": {"AllowValues": "True, False",
+	"Default": "True"},
+	
+	"Fish Pond Recolor": {"AllowValues": "True, False",
+	"Default": "False"},
+	
+	},
+	
+"Changes": [
+       // Barn
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/Barn",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Barn/{{Barn}}/Barn.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Barn": "New, Old",
+		  }
+       },
+
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Buildings/Barn",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Barn/{{Barn}}/Barn_{{season}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Barn": "New, Old",
+		  }
+       },
+	   
+	   // Big Barn
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/Big Barn",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Barn/{{Barn}}/Barn Big.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Barn": "New, Old",
+		  }
+       },
+
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Buildings/Big Barn",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Barn/{{Barn}}/Barn Big_{{season}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Barn": "New, Old",
+		  }
+       },
+	   
+	   // Deluxe Barn
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/Deluxe Barn",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Barn/{{Barn}}/Barn Deluxe.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Barn": "New, Old",
+		  }
+       },
+
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Buildings/Deluxe Barn",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Barn/{{Barn}}/Barn Deluxe_{{season}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Barn": "New, Old",
+		  }
+       },
+	   
+	   // Coop
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/Coop",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Coop/{{Coop}}/Coop.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Coop": "New, Old",
+		  }
+       },
+
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Buildings/Coop",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Coop/{{Coop}}/Coop_{{season}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Coop": "New, Old",
+		  }
+       },
+	   
+	   // Big Coop
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/Big Coop",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Coop/{{Coop}}/Coop Big.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Coop": "New, Old",
+		  }
+       },
+
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Buildings/Big Coop",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Coop/{{Coop}}/Coop Big_{{season}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Coop": "New, Old",
+		  }
+       },
+	   
+	   // Deluxe Coop
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/Deluxe Coop",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Coop/{{Coop}}/Coop Deluxe.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Coop": "New, Old",
+		  }
+       },
+
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Buildings/Deluxe Coop",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Coop/{{Coop}}/Coop Deluxe_{{season}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Coop": "New, Old",
+		  }
+       },
+	   
+	   // Gold Clock
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/Gold Clock",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Gold Clock/{{Gold Clock}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Gold Clock": "New, Old, Original",
+		  }
+       },
+
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Buildings/Gold Clock",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Gold Clock/{{Gold Clock}}_{{season}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Gold Clock": "New, Old, Original",
+		  }
+       },
+	   
+	   // Farmhouse
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/houses",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Farmhouse/{{Farmhouse Style}}.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 432 },
+		  "ToArea": { "X": 0, "Y": 0, "Width": 160, "Height": 432 },
+		  "Enabled": "True",
+		  "When": {
+		  "Farmhouse Style": "Cabin, Greenhouse, Manor, Rustic, StainedGlass, Vanilla",
+		  }
+       },
+
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Buildings/houses",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Farmhouse/{{Farmhouse Style}}/{{Farmhouse Material}}_{{Farmhouse Color}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Farmhouse Style": "Cabin, Greenhouse, Manor, Rustic, StainedGlass, Vanilla",
+		  }
+       },
+
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Buildings/houses",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Farmhouse/{{Farmhouse Style}}_{{season}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Farmhouse Style": "Cabin, Greenhouse, Manor, Rustic, StainedGlass, Vanilla",
+		  }
+       },
+	   
+	   // Greenhouse
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/houses",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Greenhouse/{{Greenhouse}}.png",
+		  "FromArea": { "X": 160, "Y": 0, "Width": 112, "Height": 432 },
+		  "ToArea": { "X": 160, "Y": 0, "Width": 112, "Height": 432 },
+		  "Enabled": "True",
+		  "When": {
+		  "Greenhouse": "Wood, Stone",
+		  }
+       },
+
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Buildings/houses",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Greenhouse/{{Greenhouse}}_{{season}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Greenhouse": "Wood, Stone",
+		  }
+       },
+	   
+	   
+	   // Mill
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/Mill",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Mill/{{Mill}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Mill": "Closed, Open",
+		  }
+       },
+
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Buildings/Mill",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Mill/{{Mill}}_{{season}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Mill": "Closed, Open",
+		  }
+       },
+	   
+	   // Shed
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/Shed",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Shed/{{Shed}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Shed": "New, Old, Original",
+		  }
+       },
+
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Buildings/Shed",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Shed/{{Shed}}_{{season}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Shed": "New, Old, Original",
+		  }
+       },
+	   
+	   // Big Shed
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/Big Shed",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Shed/{{Shed}} Big.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Shed": "New, Old, Original",
+		  }
+       },
+
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Buildings/Big Shed",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Shed/{{Shed}} Big_{{season}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Shed": "New, Old, Original",
+		  }
+       },
+	   
+	   // Silo
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/Silo",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Silo/{{Silo}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Silo": "Stone, Wood",
+		  }
+       },
+
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Buildings/Silo",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Silo/{{Silo}}_{{season}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Silo": "Stone, Wood",
+		  }
+       },
+	   
+	   // Slime Hutch
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/Slime Hutch",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Slime Hutch/{{Slime Hutch}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Slime Hutch": "Sign, NoSign, Brewery, Winery",
+		  }
+       },
+
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Buildings/Slime Hutch",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Slime Hutch/{{Slime Hutch}}_{{season}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Slime Hutch": "Sign, NoSign, Brewery, Winery",
+		  }
+       },
+	   
+	   // Stable
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/Stable",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Stable/{{Stable}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Stable": "Stone, Wood",
+		  }
+       },
+
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Buildings/Stable",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Stable/{{Stable}}_{{season}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Stable": "Stone, Wood",
+		  }
+       },
+	   
+	   // Well
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/Well",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Well/{{Well}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Well": "Stone, Wood",
+		  }
+       },
+
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Buildings/Well",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Well/{{Well}}_{{season}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Well": "Stone, Wood",
+		  }
+       },
+	   
+	   // Junimo Hut
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/Junimo Hut",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Junimo Hut/{{JunimoHut}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "JunimoHut": "Natural, Built",
+		  }
+       },
+	   
+	   // Shane's Coop
+	   {
+          "Action": "EditImage",
+          "Target": "Maps/{{season}}_outdoorsTileSheet",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Shane Coop/{{Shane Coop}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 32 }, 
+          "ToArea": { "X": 352, "Y": 1104, "Width": 48, "Height": 32 },
+		  "Enabled": "True",
+		  "When": {
+		  "Shane Coop": "New, Old",
+		  }
+       },
+	   {
+          "Action": "EditImage",
+          "Target": "Maps/{{season}}_outdoorsTileSheet",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Shane Coop/{{Shane Coop}}.png",
+          "FromArea": { "X": 0, "Y": 32, "Width": 48, "Height": 32 }, 
+          "ToArea": { "X": 240, "Y": 1216, "Width": 48, "Height": 32 },
+		  "Enabled": "True",
+		  "When": {
+		  "Shane Coop": "New, Old",
+		  }
+       },
+	   
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Maps/{{season}}_outdoorsTileSheet",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Shane Coop/{{Shane Coop}}_{{season}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 32 }, 
+          "ToArea": { "X": 352, "Y": 1104, "Width": 48, "Height": 32 },
+		  "Enabled": "True",
+		  "When": {
+		  "Shane Coop": "New, Old",
+		  }
+       },
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Maps/{{season}}_outdoorsTileSheet",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Shane Coop/{{Shane Coop}}_{{season}}.png",
+          "FromArea": { "X": 0, "Y": 32, "Width": 48, "Height": 32 }, 
+          "ToArea": { "X": 240, "Y": 1216, "Width": 48, "Height": 32 },
+		  "Enabled": "True",
+		  "When": {
+		  "Shane Coop": "New, Old",
+		  }
+       },
+	   
+	    // Earth Obelisk
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/Earth Obelisk",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Obelisk/{{Obelisk}}/Earth Obelisk.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Obelisk": "New, Old, Original",
+		  }
+       },
+
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Buildings/Earth Obelisk",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Obelisk/{{Obelisk}}/Earth Obelisk_{{season}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Obelisk": "New, Old, Original",
+		  }
+       },
+	   
+	   // Water Obelisk
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/Water Obelisk",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Obelisk/{{Obelisk}}/Water Obelisk.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Obelisk": "New, Old, Original",
+		  }
+       },
+
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Buildings/Water Obelisk",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Obelisk/{{Obelisk}}/Water Obelisk_{{season}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Obelisk": "New, Old, Original",
+		  }
+       },
+	   
+	   // Desert Obelisk
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/Desert Obelisk",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Obelisk/{{Obelisk}}/Desert Obelisk.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Obelisk": "New, Old",
+		  }
+       },
+
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Buildings/Desert Obelisk",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Obelisk/{{Obelisk}}/Desert Obelisk_{{season}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Obelisk": "New, Old",
+		  }
+       },
+	   
+	   // Log Cabin
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/Log Cabin",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Cabin/{{Cabin}}/Log Cabin.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Cabin": "New, Old",
+		  }
+       },
+
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Buildings/Log Cabin",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Cabin/{{Cabin}}/Log Cabin_{{season}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Cabin": "New, Old",
+		  }
+       },
+	   
+	   // Plank Cabin
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/Plank Cabin",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Cabin/{{Cabin}}/Plank Cabin.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Cabin": "New, Old",
+		  }
+       },
+
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Buildings/Plank Cabin",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Cabin/{{Cabin}}/Plank Cabin_{{season}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Cabin": "New, Old",
+		  }
+       },
+	   
+	   // Stone Cabin
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/Stone Cabin",
+          "FromFile": "assets/{{Color Palette}}/{{Building Theme}}/Cabin/{{Cabin}}/Stone Cabin.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Cabin": "New, Old",
+		  }
+       },
+
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Buildings/Stone Cabin",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Cabin/{{Cabin}}/Stone Cabin_{{season}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Cabin": "New, Old",
+		  }
+       },
+	   
+	   // Holiday Overlay
+	   {
+          "Action": "EditImage",
+          "Patchmode": "Overlay",
+          "Target": "Buildings/houses",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Holiday/{{Farmhouse Style}}_{{season}}.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Farmhouse Holiday": "True",
+		  "Farmhouse Style": "Cabin, Greenhouse, Manor, Rustic, StainedGlass, Vanilla",
+		  }
+		},
+		
+	   // Fence Recolor
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "LooseSprites/Fence1",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Fence1.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Fence Recolor": "True",
+		  }
+		},
+		
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "LooseSprites/Fence2",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Fence2.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Fence Recolor": "True",
+		  }
+		},
+		
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "LooseSprites/Fence3",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Fence3.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Fence Recolor": "True",
+		  }
+		},
+		
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "LooseSprites/Fence5",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Fence5.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Fence Recolor": "True",
+		  }
+		},
+		
+	   // Shipping Bin Recolor
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Buildings/Shipping Bin",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Shipping Bin.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Shipping Bin Recolor": "True",
+		  }
+		},
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Cursors.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Shipping Bin Recolor": "True",
+		  }
+		},
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Overlay",
+          "Target": "Maps/{{season}}_outdoorsTileSheet",
+          "FromFile": "assets/{{Color Palette}}/Overlays/{{season}}_outdoorsTileSheet.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Shipping Bin Recolor": "True",
+		  }
+		},
+		
+	   // Mailbox Recolor
+	   {
+          "Action": "EditImage",
+		  "Patchmode": "Replace",
+          "Target": "Maps/{{season}}_outdoorsTileSheet",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Mailbox.png",
+          "ToArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 },
+		  "Enabled": "True",
+		  "When": {
+		  "Mailbox Recolor": "True",
+		  }
+		},
+		
+	   // Fish Pond Recolor
+	   {
+          "Action": "EditImage",
+          "Target": "Buildings/Fish Pond",
+          "FromFile": "assets/{{Color Palette}}/Overlays/Fish Pond.png",
+		  "Enabled": "True",
+		  "When": {
+		  "Fish Pond Recolor": "True",
+		  }
+		},
+		
+    ]
+}

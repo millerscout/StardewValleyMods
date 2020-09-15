@@ -1,0 +1,21 @@
+{
+  "Mailbox": "fancy",
+  "Oak Trees": "pink",
+  "Maple Trees": "white",
+  "Pine Trees": "spruce",
+  "Grass": "flowering",
+  "WorldMap": "true",
+  "GroundUnderBowl": "default",
+  "ForeverPink": "false",
+  "BlossomTrees": "true",
+  "Interiors": "true",
+  "Walls&Floors": "true",
+  "Furniture": "true",
+  "Interface": "true",
+  "Flooring": "true",
+  "HardwoodFence": "true",
+  "Craftables": "true",
+  "JunimoHuts": "true",
+  "ShaneCoop": "false",
+  "SpringGrass": "blue"
+}
