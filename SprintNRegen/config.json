@@ -1,6 +1,6 @@
 {
   "SprintingEnabled": true,
-  "SprintingSpeed": 3,
+  "SprintingSpeed": 2,
   "SprintingConsumesStamina": false,
   "StaminaConsumedWhenSprintingPerSecond": 0.1,
   "StaminaRegenerationEnabled": true,
