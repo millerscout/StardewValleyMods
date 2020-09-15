@@ -1,0 +1,40 @@
+﻿{
+  // Mensagens de notificação
+  "travelingMerchant": "Mercador Viajante chegou",
+  "queenSauce": "Queen of Sauce vai ao ar hoje",
+  "luckyDay": "Dia de Sorte, vá buscar lixo e ir pra mina!",
+  "unluckyDay": "Dia do azar!",
+
+  // Festivais
+  "fMsg": "{{fest}} Hoje!",
+  "festival": "Festival",
+  "EggFestival": "Festival do ovo",
+  "FlowerDance": "Dança da flor",
+  "Luau": "Luau",
+  "MoonlightJellies": "Dança das Medusas-da-Lua",
+  "ValleyFair": "Feira Stardew Valley",
+  "SpiritsEve": "Véspera dos espíritos",
+  "IceFestival": "Festival do gelo",
+  "WinterStar": "Festa da Estrela do Inverno",
+  "NightMarket": "Mercado noturno",
+  "SecretSantaReminder": "{{charName}} é o amigo secreto",
+
+  "Salmonberry": "Temporada de Salmonberry",
+  "Conchas do mar": "Conchas do mar",
+  "Blackberry": "Temporada de Blackberry",
+
+  // Localizações
+  "CaveMushroom": "Cogumelos da caverna prontos para a colheita",
+  "CaveFruit": "Frutas da caverna prontas para a colheita",
+
+  "birthday": "aniversário de {{charName}}!",
+  "birthdayReminder": "Não se esqueça de dar um presente de aniversário para {{charName}} hoje!",
+  "toolPickup": "{{toolName}} está pronto para retirada",
+
+  "readyHarvest": "{{cropName}} pronto para a colheita",
+  "greenhouse_crops": "Culturas em estufa prontas para a colheita",
+  "autoGrabber": "O agarrador automático tem itens para colheita",
+  "hayMessage": "Silos reporta {{hayAmt}} pedaços de feno",
+  "noHayMessage": "Sem feno nos silos.",
+  "FishPond": "Piscinas prontas para a colheita."
+}

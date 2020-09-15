@@ -4,8 +4,8 @@
     {
       "id": 0,
       "texture": "misc items.png",
-      "name": "Gaming Console",
-      "description": "For those swag games",
+      "nome": "Console de jogos",
+       "descrição": "Para aqueles jogos de brindes",
       "type": "decor",
       "price": 1500,
       "index": 0,
