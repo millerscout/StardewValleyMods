@@ -1,5 +1,5 @@
 {
-  "SafeMode": false,
+  "SafeMode": true,
   "MineInfoGui": true,
   "AutoWaterNearbyCrops": true,
   "AutoWaterRadius": 1,

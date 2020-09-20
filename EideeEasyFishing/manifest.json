@@ -5,6 +5,6 @@
     "Description": "Fishing is now easy.",
     "UniqueID": "net.eidee.stardew_valley.easy_fishing",
     "EntryDll": "EideeEasyFishing.dll",
-    "MinimumApiVersion": "2.10.0",
+    "MinimumApiVersion": "2.10.0-miller",
     "UpdateKeys": [ "Nexus:4806" ]
 }
