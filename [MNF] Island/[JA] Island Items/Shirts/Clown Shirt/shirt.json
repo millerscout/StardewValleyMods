@@ -1,9 +1,0 @@
-{
-    "Name": "Clown Shirt",
-    "Description": "A clown costume so you can bring joy to people!",
-    "HasFemaleVariant": true,
-    "Price": 1,
-"NameLocalization": { "pt": "Camisa de Palhaço" },
-"DescriptionLocalization": { "pt": "Uma roupa de palhaço, com ela você poderá trazer alegria para as pessoas!" },
-    "Dyeable": false
-}

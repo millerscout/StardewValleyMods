@@ -1,8 +1,0 @@
-{
-  "Name": "Mosasaur Rib",
-  "Description": "A rib from a pre-historic marine creature.",
-  "Price": 750,
-"NameLocalization": { "pt": "Costélas de Mossasauro" },
-"DescriptionLocalization": { "pt": "Uma costéla de uma criatura marinha pré-histórica." },
-  "IsColored": false,
-}
