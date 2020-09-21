@@ -56,7 +56,7 @@
   "ButtonToggleFlowerColorUnification": "L",
   "CustomizedFlowerColors": {},
   "AutoLootTreasures": true,
-  "CloseTreasureWhenAllLooted": false,
+  "CloseTreasureWhenAllLooted": true,
   "CollectLetterAttachmentsAndQuests": false,
   "PauseWhenIdle": false,
   "IdleTimeout": 180,
