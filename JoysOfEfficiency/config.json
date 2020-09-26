@@ -23,7 +23,7 @@
   "AutoEat": false,
   "StaminaToEatRatio": 0.2,
   "HealthToEatRatio": 0.2,
-  "AutoHarvest": true,
+  "AutoHarvest": false,
   "AutoHarvestRadius": 1,
   "ProtectNectarProducingFlower": true,
   "HarvestException": [],

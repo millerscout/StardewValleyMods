@@ -1,8 +1,8 @@
 {
-  "replace void": "false",
-  "replace blue": "false",
-  "replace brown": "false",
-  "replace white": "false",
+  "replace void": "true",
+  "replace blue": "true",
+  "replace brown": "true",
+  "replace white": "true",
   "replace B-Cow": "true",
   "replace W-Cow": "true",
   "replace Sheep": "true",
