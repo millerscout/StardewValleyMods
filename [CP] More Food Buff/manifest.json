@@ -1,0 +1,13 @@
+{
+	"Name": "More Food Buff",
+	"Author": "SorryLate",
+	"Version": "1.0.0",
+	"Description": "Add buff to all food",
+	"UniqueID": "SorryLate.MoreFoodBuff",
+	"MinimumApiVersion": "3.0.1",
+	"UpdateKeys": [ "Nexus:5282" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "1.10.1"
+	}
+}
