@@ -27,7 +27,7 @@
   "AutoHarvestRadius": 1,
   "ProtectNectarProducingFlower": true,
   "HarvestException": [],
-  "ButtonToggleBlackList": "F2",
+  "ButtonToggleBlackList": "V",
   "AutoDestroyDeadCrops": true,
   "AutoRefillWateringCan": true,
   "ButtonShowMenu": "R",
