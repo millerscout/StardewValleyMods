@@ -1,0 +1,13 @@
+{
+  "Name": "Pterodactyl Skull",
+  "Description": "Although it has a beak, this skull belongs to a reptile.",
+  "Price": 750,
+  "IsColored": false,
+  // Translation
+  "NameLocalization": {
+	"pt": "Crânio de Pterodáctilo",
+  },
+  "DescriptionLocalization": {
+	"pt": "Parece o crânio de um réptil.",
+  },
+}

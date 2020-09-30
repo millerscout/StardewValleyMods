@@ -1,0 +1,13 @@
+{
+  "Name": "Pterodactyl R Wing Bone",
+  "Description": "A right wing bone from a huge flying reptile.",
+  "Price": 750,
+  "IsColored": false,
+  // Translation
+  "NameLocalization": {
+	"pt": "Asa Direita de um Pterodáctilo",
+  },
+  "DescriptionLocalization": {
+	"pt": "Fóssil da asa direita de um réptil.",
+  },
+}

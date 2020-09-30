@@ -1,0 +1,12 @@
+{
+  "Name": "Ancient Hilt",
+  "Description": "It's an ancient hilt. I wonder if I can find the blade.",
+  "IsColored": false,
+  // Translation
+  "NameLocalization": {
+	"pt": "Punhal Antigo",
+  },
+  "DescriptionLocalization": {
+	"pt": "É um punhal antigo, me pergunto se poderia encontrar sua lâmina.",
+  },
+}

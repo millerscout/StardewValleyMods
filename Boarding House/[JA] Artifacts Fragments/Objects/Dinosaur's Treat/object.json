@@ -1,0 +1,15 @@
+{
+  "Name": "Dinosaur's Treat",
+  "Description": "A treat made for Dinos with meat.",
+  "Price": 1000,
+  "EnableWithMod": "DIGUS.ANIMALHUSBANDRYMOD",
+  "IsColored": false,
+
+// Translation
+  "NameLocalization": {
+	"pt": "Aperitivo de Dinossauro",
+  },
+  "DescriptionLocalization": {
+	"pt": "Um aperitivo de carne feito para dinossauros.",
+  },
+}

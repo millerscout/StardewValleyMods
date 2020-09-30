@@ -1,0 +1,14 @@
+{
+  "Name": "Rabbit's Treat",
+  "Description": "A carrot cake filled with vegetables.",
+  "Price": 2000,
+  "EnableWithMod": "DIGUS.ANIMALHUSBANDRYMOD",
+  "IsColored": false,
+  
+  "NameLocalization": {
+	"pt": "Aperitivo de Coelhos",
+  },
+  "DescriptionLocalization": {
+	"pt": "Um bolo de cenoura coberto de vegetais .",
+  },
+}

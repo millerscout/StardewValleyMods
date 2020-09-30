@@ -1,0 +1,13 @@
+{
+  "Name": "Neanderthal Ribs",
+  "Description": "A neanderthal  rib cage with lots of fracture marks.",
+  "Price": 500,
+  "IsColored": false,
+  // Translation
+  "NameLocalization": {
+	"pt": "Costélas Neanderthal",
+  },
+  "DescriptionLocalization": {
+	"pt": "Caixa toráxica de um ser humano pré-histórico.",
+  },
+}

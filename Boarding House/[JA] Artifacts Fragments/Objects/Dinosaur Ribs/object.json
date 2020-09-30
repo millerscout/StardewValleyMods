@@ -1,0 +1,13 @@
+{
+  "Name": "Dinosaur Ribs",
+  "Description": "Those are some giant ribs.",
+  "Price": 1000,
+  "IsColored": false,
+  // Translation
+  "NameLocalization": {
+	"pt": "Costelas de Dinossauro",
+  },
+  "DescriptionLocalization": {
+	"pt": "Estas costelas são gigantes!",
+  },
+}

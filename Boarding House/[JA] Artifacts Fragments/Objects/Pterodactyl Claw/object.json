@@ -1,0 +1,13 @@
+{
+  "Name": "Pterodactyl Claw",
+  "Description": "It seems to be a small dinosaur claw.",
+  "Price": 750,
+  "IsColored": false,
+  // Translation
+  "NameLocalization": {
+	"pt": "Garra de Pterodáctilo",
+  },
+  "DescriptionLocalization": {
+	"pt": "É uma pequena garra de dinossauro.",
+  },
+}

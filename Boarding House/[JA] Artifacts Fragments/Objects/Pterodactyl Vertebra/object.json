@@ -1,0 +1,13 @@
+{
+  "Name": "Pterodactyl Vertebra",
+  "Description": "A segment of some prehistoric reptile's spine.",
+  "Price": 750,
+  "IsColored": false,
+  // Translation
+  "NameLocalization": {
+	"pt": "Vértebra de Pterodáctilo",
+  },
+  "DescriptionLocalization": {
+	"pt": "O segmento de uma coluna vertebral de um réptil.",
+  },
+}

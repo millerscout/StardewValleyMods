@@ -1,0 +1,13 @@
+{
+  "Name": "Neanderthal Limb Bones",
+  "Description": "Limb bones from a prehistoric human.",
+  "Price": 500,
+  "IsColored": false,
+  // Translation
+  "NameLocalization": {
+	"pt": "Ossos Neandertais",
+  },
+  "DescriptionLocalization": {
+	"pt": "Ossos de um humano pré-histórico!",
+  },
+}

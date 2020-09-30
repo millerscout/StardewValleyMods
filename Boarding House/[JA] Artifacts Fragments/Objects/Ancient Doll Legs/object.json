@@ -1,0 +1,12 @@
+{
+  "Name": "Ancient Doll Legs",
+  "Description": "It's part of a doll, I wonder if I can find the rest of it.",
+  "IsColored": false,
+  // Translation
+  "NameLocalization": {
+	"pt": "Pernas de Brinquedo",
+  },
+  "DescriptionLocalization": {
+	"pt": "É o pedaço de um brinquedo, talvez eu possa encontrar as outras partes.",
+  },
+}

@@ -1,0 +1,14 @@
+{
+  "Name": "Bug Trap",
+  "Description": "A trap to catch bugs outdoors on sunny days. Works better during summer, but won't work during winter.",
+  "CanPurchase": true,
+  "PurchaseFrom": "SheilaShopIcon",
+  "PurchasePrice": 50000,
+
+  "NameLocalization": {
+	"pt": "Armadilha de Insetos ",
+  },
+  "DescriptionLocalization": {
+	"pt": "Uma armadilha para capturar insetos ao ar livre em dias ensolarados. Funciona melhor durante o verão, mas não funciona durante o inverno.",
+  },
+}

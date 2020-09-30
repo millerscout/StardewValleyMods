@@ -1,0 +1,6 @@
+{
+    //Greg 14 Hearts Event
+	
+	"44120101/f Gregory 3500/O Gregory/w sunny/y 2":"continue/35 8/Gregory 32 4 1 Junimo 35 4 3 farmer 34 18 0/pause 200/speak Gregory \"Ei Marcus! Você voltou!$h\"/pause 100/playSound junimoMeep1/jump Junimo 4/pause 300/emote Junimo 8/speak Gregory \"Nós estamos bem, @ é um marido ótimo!$h^Nós estamos bem, @ é uma esposa ótima!$h\"/pause 100/playSound junimoMeep1/jump Junimo 4/emote Junimo 20/pause 100/playSound junimoMeep1/emote Junimo 16/pause 100/speak Gregory \"Claro, é um presente muito bom!$1\"/move farmer 0 -13 0/faceDirection Gregory 2/faceDirection Junimo 2/emote farmer 8/pause 100/speak Gregory \"Ei amor, Marcus parece estar feliz com nosso casamento!$1#$b#Ele gostaria de mudar nossos espantalhos para algo mais... único!\"/pause 100/emote farmer 8/speak Gregory \"$q 441200 scarecrow_answer#Então, o que acha?#$r 441200 0 scarecrow_yes#Claro, que tal um fofo?!#$r 441201 0 scarecrow_yes#Claro, que tal um gótico?!#$r 441202 0 scarecrow_yes#Claro, que tal um engraçado?!#$r 441203 -10 scarecrow_no#Eu prefiro os normais...\"/fork dontwantit/playSound junimoMeep1/jump Junimo 4/pause 100/emote Junimo 20/emote farmer 32/end",
+	"dontwantit": "emote Junimo 60/end",
+	 }

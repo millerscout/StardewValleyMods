@@ -1,0 +1,295 @@
+{
+	"Entries": {
+    "Gregory": {
+    "NPCName": "Gregory",
+    "Reactions": [
+      {
+        "Tag": "summer_movie_0",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Estou tão animado que você me convidou!$1"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/shake Gregory 3000/pause 500/message \"Gregory parece estar segurando sua empolgação.\"",
+            "Text": "Vá pegá-lo!$1"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Foi incrível! Passarei a jogar o Rei da Pradaria a partir de agora!$1"
+          }
+        },
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "summer_movie_1",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Duas coisas que eu gosto, comédia e fantasia. Vai ser incrível!$1."
+          },
+          "DuringMovie": {
+            "ResponsePoint": "null",
+            "Script": "pause 500/message \"Gregory está rindo muito.\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Foi engraçado pra caramba!$1"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "comedy",
+        "Response": "love",
+        "Whitelist": [],
+		"SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Estou pronto para a diversão!$1."
+          },
+          "DuringMovie": {
+            "ResponsePoint": "null",
+            "Script": "pause 500/message \"Gregory está rindo.\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu sei que podem parecer bobinhos de vez em quando, mas eu amo comédia!$1"
+          }
+        },
+        "ID": "reaction_2"
+      },
+	  {
+        "Tag": "fall_movie_0",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Espero que seja assustador!$1"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"Gregory parece confuso!\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ei, eu tenho cara de Scoobie-Doo pra ficar desvendando mistério?$6#$b#Estou brincando, mas eu realmente não entendi esse filme!$9"
+          }
+        },
+        "ID": "reaction_3"
+      },
+	  {
+        "Tag": "horror",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Espero que seja assustador!$1"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/jump Jas/pause 400",
+            "Text": "Meu pai amado! Quase tive um infarto aqui!"
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Ninguém precisa saber que fiquei tão assustador!$9#$b#Mas foi divertido, a gente precisa voltar qualquer dia!$1"
+          }
+        },
+        "ID": "reaction_4"
+      },
+      {
+        "Tag": "*",
+        "Response": "dislike",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Obrigado por me convidar!$1"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"Gregory parece entediado!\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Obrigado, foi interessante.$9"
+          }
+        },
+        "ID": "reaction_5"
+      },  
+    ]
+  },
+  "Sheila": {
+    "NPCName": "Sheila",
+    "Reactions": [
+      {
+        "Tag": "*",
+        "Response": "love",
+        "Whitelist": [ "Joel"],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Espero que meu pai não durma durante o filme, como sempre!$s"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"Joel está dormindo.\"",
+            "Text": "Típico!$1#$b#Não se preocupe, tenho certeza de que ele gostou."
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Obrigada por me convidar, embora meu pai tenha dormido foi bem divertido!$1"
+          }
+        },
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "classic",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu amo clássicos! Obrigada!$1"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"Sheila nem mesmo pisca.\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Era tudo que eu esperava!$1"
+          }
+        },
+        "ID": "reaction_1"
+      },
+      {
+        "Tag": "art",
+        "Response": "dislike",
+        "Whitelist": [],
+		"SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Parece promissor!"
+          },
+          "DuringMovie": {
+            "ResponsePoint": "null",
+            "Script": "pause 500/message \"Sheila parece desapontada.\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu achei que seria um dos bons... mas nem foi tanto assim."
+          }
+        },
+        "ID": "reaction_2"
+      },
+	  {
+        "Tag": "*",
+        "Response": "like",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu gosto de todo tipo de filme!$1"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "/message \"Sheila parece interessada!\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Foi um filme incrível! Obrigada por me convidar!$h"
+          }
+        },
+        "ID": "reaction_3"
+      },  
+    ]
+  },
+  "Joel": {
+    "NPCName": "Joel",
+    "Reactions": [
+      {
+        "Tag": "*",
+        "Response": "love",
+        "Whitelist": [ "Sheila"],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Eu nunca levei Sheila ao cinema quando ela era menor, mas acho que está na hora!$h"
+          },
+          "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "emote Joel 24/message \"Joel está dormindo.\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "O filme foi incrível, obrigado!$1"
+          }
+        },
+        "ID": "reaction_0"
+      },
+      {
+        "Tag": "*",
+        "Response": "love",
+        "Whitelist": [],
+        "SpecialResponses": {
+          "BeforeMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "Vamos ver o que esses jovens gostam de assistir!$1"
+          },
+           "DuringMovie": {
+            "ResponsePoint": null,
+            "Script": "emote Joel 24/message \"Joel está roncando!\"",
+            "Text": ""
+          },
+          "AfterMovie": {
+            "ResponsePoint": null,
+            "Script": "",
+            "Text": "O filme foi show de bola, obrigado!$1"
+          }
+        },
+        "ID": "reaction_1"
+      },
+    ]
+  },
+ }
+}

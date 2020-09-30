@@ -1,0 +1,16 @@
+{
+  "Name": "Goat's Treat",
+  "Description": "A handmade cave carrot cookie specially prepared to make goats happy.",
+  "Price": 1000,
+  "EnableWithMod": "DIGUS.ANIMALHUSBANDRYMOD",
+  "IsColored": false,
+
+// Translation
+  "NameLocalization": {
+	"pt": "Aperitivo de Cabras",
+  },
+  "DescriptionLocalization": {
+	"pt": "Um biscoito artesanal de Cenoura da Caverna especialmente preparado para alegrar as cabras!",
+  },
+
+}

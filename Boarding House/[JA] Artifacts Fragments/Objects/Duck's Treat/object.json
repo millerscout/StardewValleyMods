@@ -1,0 +1,15 @@
+{
+  "Name": "Duck's Treat",
+  "Description": "It looks tasty but it's actually made of worms and fish. Ducks love it.",
+  "Price": 1000,
+  "EnableWithMod": "DIGUS.ANIMALHUSBANDRYMOD",
+  "IsColored": false,
+
+// Translation
+  "NameLocalization": {
+	"pt": "Aperitivo de Patos",
+  },
+  "DescriptionLocalization": {
+	"pt": "Parece saboroso, mas na verdade é feito de vermes e peixes. Os patos adoram!",
+  },
+}

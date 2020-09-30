@@ -1,0 +1,12 @@
+{
+  "Name": "Chipped Amphora Piece 2",
+  "Description": "A piece of a ancient vase, I wonder if I can fix that.",
+  "IsColored": false,
+  // Translation
+  "NameLocalization": {
+	"pt": "Pedaço de Ânfora 2",
+  },
+  "DescriptionLocalization": {
+	"pt": "O pedaço de um jarro antigo, talvez seja possível restaurá-lo.",
+  },
+}

@@ -1,0 +1,14 @@
+{
+  "Name": "Buffalo's Treat",
+  "Description": "A cookie made from palm kernel cake for buffalos, which is sure to make them happy.",
+  "Price": 625,
+  "EnableWithMod": "DIGUS.ANIMALHUSBANDRYMOD",
+  "IsColored": false,
+// Translation
+  "NameLocalization": {
+	"pt": "Aperitivo para Búfalos",
+  },
+  "DescriptionLocalization": {
+	"pt": "Um biscoito feito com bolo de palmiste para búfalos, eles devem adorar!",
+  },
+}

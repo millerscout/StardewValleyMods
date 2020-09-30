@@ -1,0 +1,37 @@
+{
+  "Name": "Pterodactyl Skeleton R",
+  "Description": "The right wing of a Pterodactyl Skeleton.",
+  "ProvidesLight": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+		  "Object": "Pterodactyl Phalange",
+		  "Count": 1,
+      },
+      {
+		  "Object": "Pterodactyl Claw",
+		  "Count": 1,
+      },
+	  {
+		  "Object": "Pterodactyl R Wing Bone",
+		  "Count": 1,
+      },
+	  {
+		  "Object": 335,
+		  "Count": 10,
+      },
+	  {
+		  "Object": 709,
+		  "Count": 15,
+      },
+    ],
+	"CanPurchase": true,
+	"PurchaseFrom": "Dwarf",
+	"PurchasePrice": 5000,
+	"PurchaseRequirements": null,
+  },
+  // Translations
+  "NameLocalization": { "pt": "Esqueleto de Pterodáctilo - Direita." },
+  "DescriptionLocalization": { "pt": "A asa direita de um Pterodáctilo fossificado." },
+}

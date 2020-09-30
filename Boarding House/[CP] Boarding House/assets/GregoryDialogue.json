@@ -1,0 +1,67 @@
+{
+        "divorced": "Eu mal posso acreditar que você fez isso.$a",
+		"danceRejection": "Nah... Eu vou ficar aqui para assistir.",
+        "dumped_Guys": "Isso é tudo um jogo pra você?$a",
+        "secondChance_Guys": "Se você fizer isso novamente eu vou te processar, levar %pet, sua casa, seus sapatos e seu cavalo.$7",
+		"Mon": "Sabe, costumava ter muitos monsros por aqui.$e#Não se preocupe, eu fiz churrasco deles.",
+        "Tue": "Eu costumava ser um arqueólogo, hoje sou membro da Guilda de Aventureiros.$0",
+		"Wed": "Você viu o esqueleto na frente da minha cabana? Eu mesmo o matei.$0#$e#O quê? Estou falando sério.$3#",
+        "Thu": "Você viu alguém nas minas?$s#$b#Não? Eu jurava ter visto alguém.$6",
+        "Fri": "Desde que coloquei o amuleto no santuário, os monstros sumiram daqui...$0#$e#Eu me pergunto quem foi que fez o santuário.",
+        "Sat": "Ainda há um monstro que vive nesse lago... se tiver coragem de pescá-lo.$0",
+        "Sun": "Ei @, você conhece o Marlon?#$b#Ele é um velho amigo meu, já trabalhamos juntos em algumas missões.",
+		"Mon2": "Eu tive um pesadelo na noite passada...$0#$e#Era sobre... Laura.$s",
+		"spring_12": "Eu não vou muito para a superfície, mas não recusaria comer algo diferente!$1#$e#Nos vemos amanhã no Festival do Ovo!$1",//New
+		"spring_23": "Marlon veio me convidar para o Festival de Dança, então eu resolvi aparecer lá!#$b#Eita... eu quis dizer que ele me chamou para ir, não para dançar.$9",//New
+		"summer_10": "As pessoas do Vale não me conhecem muito bem, então acham suspeito eu adicionar coisas na Sopa.#$b#Mas eles gostam.",//New
+		"summer_27": "Marlon me falou para ir à praia para ver as Medusas no ano passado... eu fui, mas ele não apareceu.$3#$b#Esse ano ele me convidou novamente, vamos ver se ele aparece dessa vez!",//New
+		"fall_15": "A feira é amanhã! Estou animado para provar os hamburgueres do Gus!$1",//New
+		"fall_26": "Você sabia que eu sou o cara que ajuda Rasmodius a organizar o labirinto?$1#$e#Eu até mesmo me arranhei tentando capturar aqueles esqueletos.$3",
+		"winter_7": "Se eu soubesse pescar, com certeza participaria do festival amanhã!$h#$b#Provavelmente eu não precisaria comer as mesmas coisas todos os dias!$3",//New		
+		"winter_24": "Marlon sempre me chama para participar desse evento, por quê?! Nem ele mesmo participa!#$e#Talvez ele esteja querendo que eu vá para a superfície.",//New
+		"Mon6": "Eu daria tudo por uma cerveja gelada.$h",//New
+		"Tue2": "Tome cuidado com aquelas moscas, elas não podem te matar mas vão te machucar se atacarem no lugar certo.",
+        "Tue4": "Às vezes eu esqueço a estação que estamos... só lembro quando Marlon vem me convidar para os festivais.$7", //New
+		"Sun2": "Eu tenho sorte de ainda ter essas árvores por aqui, então eu nem sempre como cogumelos.$7#$e#Mas já estou ficando enjoado delas também.$3",
+		"Sun6": "Você que seria uma boa ideia trazer vacas aqui? Eu adoraria ver animais soltos por aí!$1",//New
+		"Wed2": "Certo, eu confesso que estava mentindo sobre aquele esqueleto. Estava aí desde que cheguei.$1#$e#Você já sabia?$3#",
+		"Wed6": "Ei, eu vi um esquilo correndo por aqui esses dias, como o coitado foi parar aqui?", //NEW
+		"Thu2": "Você achou alguma garota nos andares de cima?$7#$e#Ei, não brinque com essas coisas, eu juro que a ouvi a voz dela perto da escada.$a#$e#O quê? Você não está brincando!?$6",
+        "Thu4": "Sinto tanta falta da Laura...$s#$b#Mas graças à você eu não me sinto tão solitário mais.$1",
+        "Fri4": "O que eu deveria comer hoje? Frutas-Antigas, cogumelos ou nózes?$s#$e#Estou enjoado de comer a mesma coisa todos os dias...$3#$b#Ei, você se importaria de me trazer algo da próxima vez que vir aqui?$1",
+		"Fri6": "Os monstros das ruínas são bem mais fortes dos que vivem por aqui, então estar preparado é essencial para sobreviver.",//New		
+        "Sat4": "Sabe, esse vale é bem grande, mas eu fechei a passagem para cá do outro lado para evitar que os monstros invadam.$0#$e#Ah, sim, tem alguns dinossauros por lá. É de onde eu consigo os ovos.$1#$e#Se você se acha forte o bastante para enfrentá-los, vá em frente.",//New
+		"Sat6": "Se eu tivesse uma máquina de mayonnaise poderia fazer algo com esses ovos de dinossauro...",//New
+		"Sun2": "Poderia pedir ao Marlon para trazer alguma bebida na próxima vez que ele aparecer aqui?#$e#Fica frio com frequência aqui, então algo para beber poderia aquecer meus ossos!#$e#Certo... pode pedir para ele trazer em dias quentes também.$3#$e#Mas eu não sou um alcólatra.$9",//New
+        "Sun6": "Ei, você voltou.$1#$e#Desde que você começou a vir aqui com frequência, eu parei de ter aqueles pesadelos que costumava ter.",
+		"event_journal1": "Não se preocupe, não é sua culpa.$s",
+		"event_journal2": "Por que você mentiria sendo que eu vi você lendo?$a",
+		"Laura_event": "Obrigado, acho que está na hora de seguir em frente!",
+		"Laura_event1": "Sim, você tem razão...$s",
+		"Laura_event2": "@ você é um ótimo amigo!^@ você é uma ótima amiga!",
+		"Marcus_1": "Ahh, desculpa.$7",
+		"Marcus_2": "O QUÊ!?!?!?!.$6",
+		"Marcus_3": "...$4",
+		"give_flowersA": "Ah, eu adoraria ser seu namorado!$4",
+		"give_flowersB": "Sim, eu adoraria ser seu namorado!$4",
+		"give_pendant": ". . . .$6#$b#Sim! Claro que aceito!$4#$b#Levarei três dias para organizar as coisas, tudo bem?$4#$e#Ah, eu queria ter pedido primeiro!$1",
+		"stardrop_gift": "Ei amor, eu queria te dar isto, é um símbolo da minha gratidão por você ser quem é!$4",
+		"rejectNPCA": "Eu acho que é muito cedo para pensar nesse tipo de coisa.$7",	
+		"rejectNPCB": "Desculpa, não acho que estou pronto para isso.$s",
+		"reject_two_heartA": "Hmmm... Não tenho certeza sobre isso, como posso confiar em você?$7",
+		"reject_two_heartB": "Mas tão rápido? Vamos ser amigos primeiros!$1",
+		"refusal_no_heartsA": "Namorar um cara que você acabou de conhecer? Bizarro...$6",
+		"refusal_no_heartsB": "Como posso confiar em você? Você poderia ser um serialkiller.$7",
+		"reject_four_heartA": "Desculpa, mas não sinto o mesmo.$s",
+		"reject_four_heartB": "Eu não estou pronto para esse tipo de coisa.$s",		
+		"engageA": "Eu até aceitaria, mas como posso confiar meus segredos à você?$7",
+		"engageB": "Eu tenho a impressão que você está escondendo algo...$7",
+		"marriedA": "Eu levo casamento muito à sério, @, você também deveria levar.$a",
+		"marriedB": "Claro, eu adoraria ser amante de alguém...$3",
+		"refusal_knownA": "Eu adoraria, mas parece que sua casa não é muito maior que minha tenda.$s",
+		"refusal_knownB": "Eu poderia aceitar se soubesse como construir casas.$1",
+		"refusal_botherA": "Eu me pergunto se deveria quebrar os trilhos junto com as escadas.$3",
+		"refusal_botherB": "Estou falando alemão? Eu já disse que não!$a",
+		"scarecrow_yes": "Eu mal posso esperar para vê-los!$1",
+		"scarecrow_no": "Ah, entendi, desculpa Marcus...$s",
+    }

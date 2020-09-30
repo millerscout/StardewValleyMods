@@ -1,0 +1,14 @@
+{
+  "Name": "Sheep's Treat",
+  "Description": "A nutritious cookie specially made for sheep as a treat.",
+  "Price": 2000,
+  "EnableWithMod": "DIGUS.ANIMALHUSBANDRYMOD",
+  "IsColored": false,
+  
+  "NameLocalization": {
+	"pt": "Aperitivo de Ovelhas ",
+  },
+  "DescriptionLocalization": {
+	"pt": "Um biscoito especial feito especialmente para ovelhas.",
+  },
+}

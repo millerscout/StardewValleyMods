@@ -1,0 +1,13 @@
+{
+  "Name": "Dinosaur Vertebra",
+  "Description": "A segment of some huge prehistoric creature's spine.",
+    "Price": 1000,
+  "IsColored": false,
+  // Translation
+  "NameLocalization": {
+	"pt": "Vértebra de Dinossauro",
+  },
+  "DescriptionLocalization": {
+	"pt": "Um segmento fomentado da coluna vertebral de uma enorme criatura pré-histórica.",
+  },
+}

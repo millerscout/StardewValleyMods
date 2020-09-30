@@ -1,0 +1,14 @@
+{
+  "Name": "Pet's Treat",
+  "Description": "A homemade jerky treat that will make your pet happy!",
+  "Price": 100,
+  "EnableWithMod": "DIGUS.ANIMALHUSBANDRYMOD",
+  "IsColored": false,
+  
+  "NameLocalization": {
+	"pt": "Aperitivo para Pets ",
+  },
+  "DescriptionLocalization": {
+	"pt": "Um aperitivo feito em casa para deixar seu amigão feliz!",
+  },
+}

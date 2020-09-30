@@ -1,0 +1,11 @@
+{
+  "Name": "Lost Valley Forageables",
+  "Author": "Trent XV",
+  "Version": "5.0.0",
+  "Description": "Adiciona coletáveis para os mapas e cavernas do Boarding House",
+  "UniqueID": "BHForageables",
+  "MinimumApiVersion": "2.10",
+    "ContentPackFor": {
+    	"UniqueID": "spacechase0.JsonAssets"
+  },
+  }

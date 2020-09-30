@@ -1,0 +1,12 @@
+{
+  "Name": "Mask Piece 3",
+  "Description": "A piece of a mask, I wonder if I can fix that.",
+  "IsColored": false,
+  // Translation
+  "NameLocalization": {
+	"pt": "Pedaço de Máscara 3",
+  },
+  "DescriptionLocalization": {
+	"pt": "É o pedaço de uma máscara, talvez seja possível restaurá-la.",
+  },
+}

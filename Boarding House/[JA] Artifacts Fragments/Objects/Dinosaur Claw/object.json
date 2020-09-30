@@ -1,0 +1,13 @@
+{
+  "Name": "Dinosaur Claw",
+  "Description": "A large, sharp claw. Probably belonged to a huge dinosaur.",
+  "Price": 1000,
+  "IsColored": false,
+  // Translation
+  "NameLocalization": {
+	"pt": "Garra de Dinossauro",
+  },
+  "DescriptionLocalization": {
+	"pt": "Uma grande e afiada garra, provavelmente pertenceu à um dinossauro.",
+  },
+}

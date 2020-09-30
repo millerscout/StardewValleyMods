@@ -1,0 +1,14 @@
+{
+  "Name": "Wild Berries Treat",
+  "Description": "A bowl with a mix of wild berries, loved by peacocks and deer.",
+  "Price": 2750,
+  "EnableWithMod": "DIGUS.ANIMALHUSBANDRYMOD",
+  "IsColored": false,
+  
+  "NameLocalization": {
+	"pt": "Aperitivo de Frutas-Silvestres",
+  },
+  "DescriptionLocalization": {
+	"pt": "Uma tigela com uma mistura de Frutas-Silvestres, amada por Pavões e Veados.",
+  },
+}

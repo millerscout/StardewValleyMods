@@ -1,0 +1,15 @@
+{
+  "Name": "Chicken's Treat",
+  "Description": "A scone made out of corn dough, loved by chickens and turkeys.",
+  "Price": 225,
+  "EnableWithMod": "DIGUS.ANIMALHUSBANDRYMOD",
+  "IsColored": false,
+
+// Translation
+  "NameLocalization": {
+	"pt": "Aperitivo para Galinhas",
+  },
+  "DescriptionLocalization": {
+	"pt": "Um bolinho feito de massa de milho, amado por galinhas e perus!",
+  },
+}
