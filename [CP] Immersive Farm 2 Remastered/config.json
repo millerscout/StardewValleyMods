@@ -13,5 +13,5 @@
   "RemoveTableFromBackyard": "false",
   "RemovePetHouseFromBackyard": "false",
   "RemoveFlowerbedFromBackyard": "false",
-  "FarmSandboxLayout-AllOtherConfigurationsMustBeFalse": "false"
+  "FarmSandboxLayout-AllOtherConfigurationsMustBeFalse": "true"
 }

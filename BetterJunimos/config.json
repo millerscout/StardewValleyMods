@@ -9,7 +9,7 @@
     "ClearDeadCrops": true
   },
   "JunimoHuts": {
-    "MaxJunimos": 8,
+    "MaxJunimos": 6,
     "MaxRadius": 70,
     "AvailibleAfterCommunityCenterComplete": true,
     "AvailibleImmediately": false,
@@ -25,11 +25,11 @@
     "AvoidPlantingCoffee": true
   },
   "JunimoPayment": {
-    "WorkForWages": false,
+    "WorkForWages": true,
     "DailyWage": {
-      "ForagedItems": 1,
+      "ForagedItems": 0,
       "Flowers": 0,
-      "Fruit": 0,
+      "Fruit": 5,
       "Wine": 0
     }
   },
