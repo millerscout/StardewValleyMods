@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Mobile Phone App for Loan Mod",
+  "Author": "aedenthorn",
+  "Version": "0.1.0",
+  "Description": "Adds an app that triggers the default key for Doomnik's Loan Mod.",
+  "UniqueID": "aedenthorn.MobileLoanMod",
+  "MinimumApiVersion": "3.5.0",
+  "ContentPackFor": {
+    "UniqueID": "aedenthorn.MobilePhone",
+    "MinimumVersion": "0.1.0"
+  },
+  "Dependencies": [
+   { "UniqueID": "Doomnik.LoanMod", "IsRequired": true },
+     { "UniqueID": "aedenthorn.MobilePhone", "IsRequired": true },
+  ]
+}

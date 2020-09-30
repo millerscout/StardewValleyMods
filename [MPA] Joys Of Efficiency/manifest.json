@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Mobile Phone App for Joys of Efficiency",
+  "Author": "aedenthorn",
+  "Version": "0.1.0",
+  "Description": "Adds an app that triggers the default key for Joys of Efficiency.",
+  "UniqueID": "aedenthorn.MobileJoysOfEfficiency",
+  "MinimumApiVersion": "3.5.0",
+  "ContentPackFor": {
+    "UniqueID": "aedenthorn.MobilePhone",
+    "MinimumVersion": "0.1.0"
+  },
+  "Dependencies": [
+   { "UniqueID": "punyo.JoysOfEfficiency", "IsRequired": true },
+     { "UniqueID": "aedenthorn.MobilePhone", "IsRequired": true },
+  ]
+}

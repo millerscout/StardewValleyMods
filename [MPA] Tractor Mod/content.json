@@ -1,0 +1,7 @@
+﻿{
+	id: "LenneDalben.MobileTractor",
+	name: "Tractor",
+	iconPath: "assets/app_icon.png",
+    keyPress: "Back",
+	closePhone: true
+}

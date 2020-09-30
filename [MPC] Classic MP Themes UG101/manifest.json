@@ -1,0 +1,18 @@
+﻿{
+  "Name": "Classic Mobile Phone Themes",
+  "Author": "UltimateGamer10101",
+  "Version": "0.1.0",
+  "Description": "Adds skins and backgrounds with a more classic SDV appearance to the mobile phone.",
+  "UniqueID": "UltimateGamer10101.ClassicMobilePhoneThemes",
+  "MinimumApiVersion": "3.5.0",
+  "ContentPackFor": {
+    "UniqueID": "aedenthorn.MobilePhone",
+    "MinimumVersion": "0.1.0"
+  },
+  "Dependencies": [
+   {
+      "UniqueID": "aedenthorn.MobilePhone",
+      "IsRequired": true
+   },
+  ]
+}

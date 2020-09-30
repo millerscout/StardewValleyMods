@@ -1,0 +1,20 @@
+﻿{
+	"events":
+	[
+		{
+			"name": "Stranger",
+			"location": "BusStop",
+			"eventId":"520702"
+		},
+		{
+			"name": "Fight",
+			"location": "Sewer",
+			"eventId":"691039"
+		},
+		{
+			"name": "Ocean (Fourteen Hearts)",
+			"location": "Beach",
+			"eventId":"7771191"
+		},
+	]
+}

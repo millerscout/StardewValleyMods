@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Mobile Phone App for TMXL Map Toolkit",
+  "Author": "aedenthorn",
+  "Version": "0.1.0",
+  "Description": "Adds an app that triggers the default key for TMXL Map Toolkit.",
+  "UniqueID": "aedenthorn.MobileTMXL",
+  "MinimumApiVersion": "3.5.0",
+  "ContentPackFor": {
+    "UniqueID": "aedenthorn.MobilePhone",
+    "MinimumVersion": "0.1.0"
+  },
+  "Dependencies": [
+   { "UniqueID": "Platonymous.TMXLoader", "IsRequired": true },
+     { "UniqueID": "aedenthorn.MobilePhone", "IsRequired": true },
+  ]
+}
