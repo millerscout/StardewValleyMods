@@ -1,0 +1,11 @@
+{
+   "Name": "More Dialogues",
+   "Author": "Elyas",
+   "Description": "Adiciona novas falas para todos os personagens de Stardew Valley - Content Patcher version",
+   "Version": "4.1",
+   "UniqueID": "gizzymo.canonfriendlyexpansion",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+   "UpdateKeys": [ "Nexus:4108" ],
+}

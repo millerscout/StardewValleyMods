@@ -2,5 +2,5 @@
   "EnableConsoleCommands": false,
   "EnableContentPacks": true,
   "EnableTraceLogMessages": false,
-  "MonsterLimitPerLocation": 200
+  "MonsterLimitPerLocation": 80
 }

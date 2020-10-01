@@ -1,0 +1,10 @@
+﻿{
+  "Name": "AchievementGetter",
+  "Author": "millerscout",
+  "Version": "1.0.0",
+  "Description": "easy way to get achievements, when bug occur... ",
+  "UniqueID": "millerscout.AchievementGetter",
+  "EntryDll": "AchievementGetter.dll",
+  "MinimumApiVersion": "3.0.0",
+  "UpdateKeys": []
+}
