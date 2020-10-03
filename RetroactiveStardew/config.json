@@ -2,5 +2,7 @@
   "OnlyLog": false,
   "AchievementsCheck": true,
   "SpecialsCheck": true,
-  "RetroMail": true
+  "RetroMail": true,
+  "ArtisanAchievementShouldUseRecipeCount": true,
+  "RecipeCountForArtisanAchievement": 98
 }

@@ -1,0 +1,24 @@
+{
+  "ListOfDepreciationObjects": [
+    746,
+    747,
+    748,
+    784,
+    785,
+    786,
+    674,
+    675,
+    676,
+    677,
+    678,
+    679,
+    295,
+    450
+  ],
+  "LotValue": 1500000,
+  "TaxPaymentType": "Daily",
+  "ThresholdInPercentageToAskAboutPayment": 60,
+  "IncludeGreenhouseOnLotValue": true,
+  "IncludeOwnedObjectsOnLotValue": true,
+  "GreenhouseValue": 35000
+}
