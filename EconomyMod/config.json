@@ -1,4 +1,5 @@
 {
+  "DayOfPaymentWeekly": "Friday",
   "ListOfDepreciationObjects": [
     746,
     747,
@@ -16,9 +17,11 @@
     450
   ],
   "LotValue": 1500000,
-  "TaxPaymentType": "Daily",
+  "TaxPaymentType": "Weekly",
   "ThresholdInPercentageToAskAboutPayment": 60,
   "IncludeGreenhouseOnLotValue": true,
   "IncludeOwnedObjectsOnLotValue": true,
-  "GreenhouseValue": 35000
+  "GreenhouseValue": 35000,
+  "ScheduledTaxCount": 7,
+  "TaxAfterFirstYear": true
 }
