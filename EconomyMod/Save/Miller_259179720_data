@@ -1,7 +1,130 @@
 {
+  "ReferenceDaysPlayed": 263,
   "CalculatedUsableSoil": true,
   "PostPoneDaysLeftDefault": 1,
   "PostPoneDaysLeft": 1,
-  "PendingTaxAmount": 0,
-  "UsableSoil": 3600
+  "UsableSoil": 3600,
+  "HasPendingTax": false,
+  "Day": 15,
+  "ScheduledTax": [
+    {
+      "Detailed": {
+        "depreciationList": {
+          "674": 4,
+          "676": 5,
+          "677": 4
+        },
+        "UsableSoil": 3600,
+        "CurrentDepreciation": 13,
+        "LotValue": 3898241,
+        "DepreciationPercentage": 1,
+        "TaxTotal": 3898241
+      },
+      "Identifier": "81d7ca9f-fac6-434f-8080-3792f214bffe",
+      "Paid": true,
+      "DayCount": 264
+    },
+    {
+      "Detailed": {
+        "depreciationList": {
+          "674": 4,
+          "676": 5,
+          "677": 4
+        },
+        "UsableSoil": 3600,
+        "CurrentDepreciation": 13,
+        "LotValue": 3898241,
+        "DepreciationPercentage": 1,
+        "TaxTotal": 3898241
+      },
+      "Identifier": "37bd2ddb-6636-40e3-94b7-233bb837b1f3",
+      "Paid": false,
+      "DayCount": 271
+    },
+    {
+      "Detailed": {
+        "depreciationList": {
+          "674": 4,
+          "676": 5,
+          "677": 4
+        },
+        "UsableSoil": 3600,
+        "CurrentDepreciation": 13,
+        "LotValue": 3898241,
+        "DepreciationPercentage": 1,
+        "TaxTotal": 3898241
+      },
+      "Identifier": "b3ca9a5c-1d5a-49e7-9517-1cf2dfd740ca",
+      "Paid": false,
+      "DayCount": 278
+    },
+    {
+      "Detailed": {
+        "depreciationList": {
+          "674": 4,
+          "676": 5,
+          "677": 4
+        },
+        "UsableSoil": 3600,
+        "CurrentDepreciation": 13,
+        "LotValue": 3898241,
+        "DepreciationPercentage": 1,
+        "TaxTotal": 3898241
+      },
+      "Identifier": "25cf6224-e761-4c57-bb39-51c091dce54c",
+      "Paid": false,
+      "DayCount": 285
+    },
+    {
+      "Detailed": {
+        "depreciationList": {
+          "674": 4,
+          "676": 5,
+          "677": 4
+        },
+        "UsableSoil": 3600,
+        "CurrentDepreciation": 13,
+        "LotValue": 3898241,
+        "DepreciationPercentage": 1,
+        "TaxTotal": 3898241
+      },
+      "Identifier": "9feb1630-e5fe-4a53-8d41-820bc2feb2e9",
+      "Paid": false,
+      "DayCount": 292
+    },
+    {
+      "Detailed": {
+        "depreciationList": {
+          "674": 4,
+          "676": 5,
+          "677": 4
+        },
+        "UsableSoil": 3600,
+        "CurrentDepreciation": 13,
+        "LotValue": 3898241,
+        "DepreciationPercentage": 1,
+        "TaxTotal": 3898241
+      },
+      "Identifier": "86660ace-581c-4df1-9f19-1047857ff116",
+      "Paid": false,
+      "DayCount": 299
+    },
+    {
+      "Detailed": {
+        "depreciationList": {
+          "674": 4,
+          "676": 5,
+          "677": 4
+        },
+        "UsableSoil": 3600,
+        "CurrentDepreciation": 13,
+        "LotValue": 3898241,
+        "DepreciationPercentage": 1,
+        "TaxTotal": 3898241
+      },
+      "Identifier": "5399e7ef-4bcf-47cd-a056-ec34d926ff0d",
+      "Paid": false,
+      "DayCount": 306
+    }
+  ]
 }
