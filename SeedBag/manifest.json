@@ -1,22 +1,18 @@
 {
   "Name": "Seed Bag",
   "Author": "Platonymous",
-  "Version": "1.6.7",
+  "Version": "1.8.0",
   "Description": "Adds a Seed Bag to the Game",
   "UniqueID": "Platonymous.SeedBag",
   "EntryDll": "SeedBag.dll",
-  "MinimumApiVersion": "3.0.0",
+  "MinimumApiVersion": "3.14.0",
   "UpdateKeys": [ "Nexus:1133" ],
   "Dependencies": [
     {
-      "UniqueID": "Platonymous.PlatoTK"
+      "UniqueID": "spacechase0.SpaceCore"
     },
     {
       "UniqueID": "Platonymous.ModUpdater",
-      "IsRequired": false
-    },
-    {
-      "UniqueID": "Platonymous.Toolkit",
       "IsRequired": false
     }
   ],

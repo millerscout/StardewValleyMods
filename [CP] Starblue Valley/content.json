@@ -1,5 +1,5 @@
 {
-  "Format": "1.9",
+  "Format": "1.19.0",
   "ConfigSchema": {
     "Mailbox": {
       "AllowValues": "basic, fancy, none",
@@ -72,7 +72,11 @@
 	 "ShaneCoop": {
       "AllowValues": "false, true",
       "Default": "true",
-      },		  
+      },
+	 "ShipBin": {
+      "AllowValues": "false, true",
+      "Default": "true",
+      },	  
 	 "SpringGrass": {
       "AllowValues": "green, blue",
       "Default": "green",
@@ -111,12 +115,16 @@
       "FromFile": "assets/spring_outdoorsTileSheet.png",
       "PatchMode": "Overlay",
     },
-    {
+  {
       "LogName": "Seasonal Outdoors Overlay",
       "Action": "EditImage",
-      "Target": "Maps/{{season}}_outdoorsTileSheet,Maps/{{season}}_outdoorsTileSheet2",
+      "Target": "Maps/spring_outdoorsTileSheet,Maps/spring_outdoorsTileSheet2,Maps/summer_outdoorsTileSheet,Maps/summer_outdoorsTileSheet2,Maps/fall_outdoorsTileSheet,Maps/fall_outdoorsTileSheet2,Maps/winter_outdoorsTileSheet,Maps/winter_outdoorsTileSheet2,Maps/spring_island_tilesheet_1,Maps/summer_island_tilesheet_1,Maps/fall_island_tilesheet_1,Maps/winter_island_tilesheet_1",
       "FromFile": "assets/{{TargetWithoutPath}}.png",
       "PatchMode": "Overlay",
+      "Update": "OnLocationChange",
+      "When": {
+                "LocationName |contains=IslandSouth, IslandWest, IslandNorth, IslandEast": "false"
+      }
     },
     {
       "LogName": "Seasonal Grave Tiles",
@@ -192,7 +200,7 @@
       "PatchMode": "Overlay"
     },
     {
-      "LogName": "Desert Translations",
+      "LogName": "Desert Translations Overlay",
       "Action": "EditImage",
       "Target": "Maps/DesertTiles",
       "FromFile": "assets/DesertTiles.png",
@@ -265,6 +273,22 @@
       "PatchMode": "Overlay",
 	  "When": {"Interiors": "true"}
     },
+    {
+      "LogName": "Caroline's Greenhouse - Sunny",
+      "Action": "EditImage",
+      "Target": "Maps/CarolineGreenhouseTiles",
+      "FromFile": "assets/CarolineGreenhouseTiles.png",
+      "PatchMode": "Overlay",
+	  "When": {"Interiors": "true"}	  
+    },
+    {
+      "LogName": "Caroline's Greenhouse - Rainy",
+      "Action": "EditImage",
+      "Target": "Maps/CarolineGreenhouseTiles_rainy",
+      "FromFile": "assets/CarolineGreenhouseTiles_rainy.png",
+      "PatchMode": "Overlay",
+	  "When": {"Interiors": "true"}
+    },		
 	{
       "LogName": "Farmhouse",
       "Action": "EditImage",
@@ -365,8 +389,17 @@
           "GroundUnderBowl": "void"
       }
     },
+    {
+      "LogName": "Shipping Bin",
+      "Action": "EditImage",
+       "Target": "Maps/{{season}}_outdoorsTileSheet",
+      "FromFile": "assets/shipbin_{{season}}.png",
+	  "ToArea": { "X": 192, "Y": 224, "Width": 32, "Height": 32},
+      "PatchMode": "Overlay",
+	  "When": {"ShipBin": "true"},
+    },	
+	
     //Terrain Trees
-
     {
       "LogName": "Seasonal Oaks",
       "Action": "Load", 
@@ -441,6 +474,16 @@
       "PatchMode": "Overlay"
     },
     {
+      "LogName": "Cursors Translated Overlay",
+      "Action": "EditImage",
+      "Target": "LooseSprites/Cursors",
+      "FromFile": "assets/Cursors_{{language}}.png",
+      "PatchMode": "Overlay",
+      "When": {
+        "HasFile:assets/Cursors_{{language}}.png": "true"
+      }
+    },
+    {
       "LogName": "Cursors 2 Overlay",
       "Action": "EditImage",
       "Target": "LooseSprites/Cursors2",
@@ -468,7 +511,7 @@
       "PatchMode": "Overlay",
       "When": {
         "WorldMap": "true",
-        "HasMod:Bouhm.NPCMapLocations": false
+        "HasMod |contains= bouhm.npcmaplocations": "false"
       }
     },  
     {
@@ -494,7 +537,21 @@
       "PatchMode": "Overlay",
       "When": {"Interface": "true"}
     },	
-	{
+      {
+      "LogName": "World Map Interface",
+      "Action": "EditImage",
+      "Target": "LooseSprites/map",
+      "FromFile": "assets/map_border.png",
+      "PatchMode": "Overlay",
+      "ToArea": { "X": 208, "Y": 363, "Width": 40, "Height": 30},
+      "When": {
+        "WorldMap": "true",
+        "Interface": "true",
+        "HasMod |contains= bouhm.npcmaplocations": "false"
+      }
+    }, 
+
+  {
       "Action": "Load",
       "Target": "LooseSprites/Billboard",
       "FromFile": "assets/Billboard.png",
@@ -548,28 +605,72 @@
       "FromFile": "assets/font_bold.png",
 	  "When": {"Interface": "true"}
 		},	
+    {
+      "LogName": "DayBG",
+      "Action": "EditImage",
+      "Patchmode": "Overlay",
+      "Target": "LooseSprites/daybg",
+      "FromFile": "assets/daybg_{{season}}.png",
+	  "When": {"Interface": "true"}
+     },	
+    {
+      "LogName": "NightBG",
+      "Action": "EditImage",
+      "Patchmode": "Overlay",
+      "Target": "LooseSprites/nightbg",
+      "FromFile": "assets/nightbg_{{season}}.png",
+	  "When": {"Interface": "true"}
+     },	
+    {
+      "LogName": "Tailoring",
+      "Action": "EditImage",
+      "Patchmode": "Overlay",
+      "Target": "LooseSprites/tailoring",
+      "FromFile": "assets/tailoring.png",
+	  "When": {"Interface": "true"}
+     },	
+    {
+      "LogName": "Hover Box",
+      "Action": "EditImage",
+      "Patchmode": "Overlay",
+      "Target": "LooseSprites/hoverBox",
+      "FromFile": "assets/hoverBox.png",
+	  "When": {"Interface": "true"}
+     },	
+    {
+      "LogName": "Language Buttons",
+      "Action": "EditImage",
+      "Patchmode": "Overlay",
+      "Target": "LooseSprites/LanguageButtons",
+      "FromFile": "assets/LanguageButtons.png",
+	  "When": {"Interface": "true"}
+     },	
+
 //Flooring
 	{
      "Action": "EditImage",
       "Target": "TerrainFeatures/Flooring",
       "FromFile": "assets/Flooring_{{season}}.png",
       "PatchMode": "Replace",	  
-	  "When": {"IsOutdoors": "true", "Flooring": "true"}	  
-		},
+	  "When": {"IsOutdoors": "true", "Flooring": "true"},
+	  "Update": "OnLocationChange"
+	},
 	{
       "Action": "EditImage",
       "Target": "TerrainFeatures/Flooring",
       "FromFile": "assets/Flooring_spring.png",
       "PatchMode": "Replace",	
-	  "When": {"IsOutdoors": "false", "Flooring": "true"}	  
+	  "When": {"IsOutdoors": "false", "Flooring": "true"},
+	  "Update": "OnLocationChange"	  
 		},
-    {
+     {
      "Action": "EditImage",
-      "Target": "TerrainFeatures/Flooring_winter",
-      "FromFile": "assets/Flooring_winter.png",
-      "PatchMode": "Replace",	
-	  "When": {"Season": "Winter", "IsOutdoors": "true", "Flooring": "true"}
-		},
+     "Target": "TerrainFeatures/Flooring_winter",
+     "FromFile": "assets/Flooring_winter.png",
+     "PatchMode": "Replace",
+     "When": {"Season": "Winter", "IsOutdoors": "true", "Flooring": "true"},
+     "Update": "OnLocationChange"
+    },
     {
       "LogName": "Flooring Springobjects Overlay",
       "Action": "EditImage",
@@ -613,6 +714,7 @@
       "FromFile": "assets/Craftables_{{season}}.png",
 	  "When": {"Craftables": "true", "IsOutdoors": "true"},
 	  "PatchMode": "Overlay",
+	  "Update": "OnLocationChange"
 		},	
     {
 	  "LogName": "Craftables Overlay Indoors",
@@ -621,6 +723,7 @@
       "FromFile": "assets/Craftables_spring.png",
 	  "When": {"Craftables": "true", "IsOutdoors": "false"},
 	  "PatchMode": "Overlay",
+	  "Update": "OnLocationChange"
 		},
     {
       "LogName": "Craftables Springobjects Loom Outdoors",
@@ -629,7 +732,8 @@
       "FromFile": "assets/loom_{{season}}.png",
       "PatchMode": "Overlay",
       "ToArea":  { "X": 48, "Y": 288, "Width": 16, "Height": 16 },
-	  "When": {"Craftables": "true", "IsOutdoors": "true"}
+	  "When": {"Craftables": "true", "IsOutdoors": "true"},
+	  "Update": "OnLocationChange"
     },
     {
       "LogName": "Craftables Springobjects Loom Indoors",
@@ -638,7 +742,8 @@
       "FromFile": "assets/loom_spring.png",
       "PatchMode": "Overlay",
       "ToArea": { "X": 48, "Y": 288, "Width": 16, "Height": 16 },
-	  "When": {"Craftables": "true", "IsOutdoors": "false"}
+	  "When": {"Craftables": "true", "IsOutdoors": "false"},
+	  "Update": "OnLocationChange"
     },	
 //Flowering Grass
    {
@@ -702,15 +807,23 @@
 	  "When": {"SpringGrass": "blue"},
     },
     {
+      "LogName": "Spring Bluegrass Beach Farm",
+      "Action": "EditImage",
+      "Target": "Maps/spring_island_tilesheet_1",
+      "FromFile": "assets/bluergrass_spring_island_tilesheet_1.png",
+      "PatchMode": "Overlay",
+    "When": {"SpringGrass": "blue"},
+    },
+    {
       "LogName": "Spring Bluegrass Grave Tiles",
       "Action": "EditImage",
       "Target": "Maps/spring_monsterGraveTiles",
       "FromFile": "assets/bluergrass_grave.png",
       "PatchMode": "Overlay",
 	  "When": {"SpringGrass": "blue"},
-    },
+    },	
 {
-      "LogName": "Bluegrass Town Overlay",
+      "LogName": "Spring Bluegrass Town Overlay",
       "Action": "EditImage",
       "Target": "Maps/spring_town",
       "FromFile": "assets/bluergrass_town.png",
@@ -725,6 +838,15 @@
 	  "ToArea": { "X": 640, "Y": 2240, "Width": 64, "Height": 16 },
       "PatchMode": "Overlay",
 	  "When": {"SpringGrass": "blue"},
+    },
+    {
+      "LogName": "Spring Bluegrass Shipping Bin",
+      "Action": "EditImage",
+      "Target": "Maps/spring_outdoorsTileSheet",
+      "FromFile": "assets/shipbin_bluegrass.png",
+	  "ToArea": { "X": 192, "Y": 224, "Width": 32, "Height": 32},
+      "PatchMode": "Overlay",
+	  "When": {"SpringGrass": "blue", "ShipBin": "true"},
     },	
 	]
 }

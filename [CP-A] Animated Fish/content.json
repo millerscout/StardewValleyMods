@@ -30,13 +30,13 @@
 			"Blobfish2":
 				{
 				"AllowValues": "true,false",
-				"Default": "true",
+				"Default": "false",
 				"AllowMultiple": "false"
 				}, 
 			"Blobfish3":
 				{
 				"AllowValues": "true,false",
-				"Default": "true",
+				"Default": "false",
 				"AllowMultiple": "false"
 				}, 
 			"Bream":
@@ -96,7 +96,7 @@
 			"Crab1":
 				{
 				"AllowValues": "true,false",
-				"Default": "true",
+				"Default": "false",
 				"AllowMultiple": "false"
 				}, 
 			"Crab2":
@@ -144,7 +144,7 @@
 			"Ghostfish1":
 				{
 				"AllowValues": "true,false",
-				"Default": "true",
+				"Default": "false",
 				"AllowMultiple": "false"
 				}, 
 			"Ghostfish2":
@@ -222,7 +222,7 @@
 			"MidnightSquid1":
 				{
 				"AllowValues": "true,false",
-				"Default": "true",
+				"Default": "false",
 				"AllowMultiple": "false"
 				}, 
 			"MidnightSquid2":
@@ -476,7 +476,55 @@
 				"AllowValues": "true,false",
 				"Default": "true",
 				"AllowMultiple": "false"
-				}, 				
+				}, 
+				"SonOfCrimsonfish":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				},
+				"MsAngler":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 
+				"LegendII":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 
+				"RadioactiveCarp":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 	
+				"GlacierfishJr":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 	 	
+				"Stingray":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 	 	
+				"Lionfish":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 	 	
+				"BlueDiscus":
+				{
+				"AllowValues": "true,false",
+				"Default": "true",
+				"AllowMultiple": "false"
+				}, 	
 		},
 	
 	
@@ -600,8 +648,8 @@
 			"FromFile": "brokencd.png",
 			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
 			"ToArea": { "X": 48, "Y": 112, "Width": 16, "Height": 16 },
-			"AnimationFrameTime": 10,
-			"AnimationFrameCount": 8,
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 16,
 			"When":
 				{
 				"BrokenCD": "true"
@@ -697,7 +745,7 @@
 			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
 			"ToArea": { "X": 192, "Y": 240, "Width": 16, "Height": 16 },
 			"AnimationFrameTime": 10,
-			"AnimationFrameCount": 8,
+			"AnimationFrameCount": 16,
 			"When":
 				{
 				"Clam": "true"
@@ -1129,7 +1177,7 @@
 			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
 			"ToArea": { "X": 128, "Y": 256, "Width": 16, "Height": 16 },
 			"AnimationFrameTime": 10,
-			"AnimationFrameCount": 8,
+			"AnimationFrameCount": 16,
 			"When":
 				{
 				"NautilusShell": "true"
@@ -1744,6 +1792,134 @@
 				"Woodskip": "true"
 				},
 
-		}
+		},
+		{
+
+			"LogName": "Son of Crimsonfish",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "son_of_crimsonfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 160, "Y": 592, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"SonOfCrimsonfish": "true"
+				},
+
+		},
+		{
+
+			"LogName": "Ms Angler",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "ms_angler.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 176, "Y": 592, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"MsAngler": "true"
+				},
+
+		},
+		{
+
+			"LogName": "Legend II",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "legend_ii.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 192, "Y": 592, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"LegendII": "true"
+				},
+
+		},
+		{
+
+			"LogName": "Radioactive Carp",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "radioactive_carp.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 208, "Y": 592, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"RadioactiveCarp": "true"
+				},
+
+		},
+		{
+
+			"LogName": "Glacierfish Jr",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "glacierfish_jr.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 224, "Y": 592, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"GlacierfishJr": "true"
+				},
+
+		},
+		{
+
+			"LogName": "Stingray",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "stingray.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 320, "Y": 544, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Stingray": "true"
+				},
+
+		},
+		{
+
+			"LogName": "Lionfish",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "lionfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 336, "Y": 544, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"Lionfish": "true"
+				},
+
+		},
+		{
+
+			"LogName": "Blue Discus",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "blue_discus.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 352, "Y": 544, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+				{
+				"BlueDiscus": "true"
+				},
+
+		},
 	]
 }

@@ -739,73 +739,7 @@
             "GoodLuck": 30
           }
         }
-      ],
-      "ChanceForEasterEgg": {
-        "Value": {
-          "BadLuck": 5,
-          "Neutral": 15,
-          "GoodLuck": 25
-        },
-        "Range": 1000,
-        "RangeLevelModifier": {
-          "Min": {
-            "Level": 0,
-            "Modifier": 0
-          },
-          "Max": {
-            "Level": 0,
-            "Modifier": 0
-          }
-        }
-      },
-      "ChanceForExtraEasterEgg": {
-        "Value": {
-          "BadLuck": 0,
-          "Neutral": 12,
-          "GoodLuck": 25
-        },
-        "Range": 100,
-        "RangeLevelModifier": {
-          "Min": {
-            "Level": 0,
-            "Modifier": 0
-          },
-          "Max": {
-            "Level": 0,
-            "Modifier": 0
-          }
-        }
-      },
-      "ChanceForEasterEggsDoubled": {
-        "Value": {
-          "BadLuck": 75,
-          "Neutral": 87,
-          "GoodLuck": 100
-        },
-        "Range": 100,
-        "RangeLevelModifier": {
-          "Min": {
-            "Level": 0,
-            "Modifier": 0
-          },
-          "Max": {
-            "Level": 0,
-            "Modifier": 0
-          }
-        }
-      },
-      "MaxEasterEggsPerLevel": {
-        "LowerBound": {
-          "BadLuck": 0,
-          "Neutral": 1,
-          "GoodLuck": 2
-        },
-        "UpperBound": {
-          "BadLuck": 2,
-          "Neutral": 4,
-          "GoodLuck": 6
-        }
-      }
+      ]
     },
     "Clearings": {
       "ChanceForClearing": {

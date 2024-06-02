@@ -1,10 +1,10 @@
 ﻿{
   "Name": "Unique Children",
   "Author": "Shaklin",
-  "Version": "1.0",
+  "Version": "3.8",
   "Description": "Unique Sprites for each Child",
   "UniqueID": "shaklin.uniquechildren",
   "EntryDll": "UniqueChildren.dll",
-  "MinimumApiVersion": "2.10.1",
-  "UpdateKeys": [ "Nexus: 6278" ],
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ "Nexus: 6278" ]
 }

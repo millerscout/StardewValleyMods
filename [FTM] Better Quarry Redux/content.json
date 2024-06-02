@@ -3,22 +3,57 @@
   "LargeObjectSpawnEnabled": false,
   "OreSpawnEnabled": true,
   "MonsterSpawnEnabled": false,
-  "Forage_Spawn_Settings": null,
-  "Large_Object_Spawn_Settings": null,
+  "Forage_Spawn_Settings": {
+    "Areas": [],
+    "PercentExtraSpawnsPerForagingLevel": 0,
+    "SpringItemIndex": [
+      16,
+      20,
+      22,
+      257
+    ],
+    "SummerItemIndex": [
+      396,
+      398,
+      402,
+      404
+    ],
+    "FallItemIndex": [
+      281,
+      404,
+      420,
+      422
+    ],
+    "WinterItemIndex": [],
+    "CustomTileIndex": []
+  },
+  "Large_Object_Spawn_Settings": {
+    "Areas": [],
+    "CustomTileIndex": []
+  },
   "Ore_Spawn_Settings": {
     "Areas": [
       {
         "MiningLevelRequired": null,
         "StartingSpawnChance": null,
         "LevelTenSpawnChance": null,
-        "UniqueAreaID": "Mountain ore area 1",
+        "UniqueAreaID": "Mountain Quarry",
         "MapName": "Mountain",
-        "MinimumSpawnsPerDay": 8,
-        "MaximumSpawnsPerDay": 10,
-        "IncludeTerrainTypes": [],
-        "ExcludeTerrainTypes": [],
+        "MinimumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeTerrainTypes": [
+          "Quarry",
+          "Dirt",
+          "Diggable"
+        ],
+        "ExcludeTerrainTypes": [
+          "Custom",
+          "Grass",
+          "Stone",
+          "Wood"
+        ],
         "IncludeCoordinates": [
-          "105,11/126,33"
+          "105,11/128,37"
         ],
         "ExcludeCoordinates": [],
         "StrictTileChecking": "Maximum",
@@ -37,6 +72,53 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": null,
+        "LevelTenSpawnChance": null,
+        "UniqueAreaID": "Farm Quarry",
+        "MapName": "Farm",
+        "MinimumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeTerrainTypes": [
+          "Quarry",
+          "Dirt",
+        ],
+        "ExcludeTerrainTypes": [
+          "Diggable",
+          "Custom",
+          "Grass",
+          "Stone",
+          "Wood"
+        ],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlsayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
         "DaysUntilSpawnsExpire": null
@@ -46,45 +128,87 @@
     "MiningLevelRequired": {
       "Stone": 0,
       "Geode": 0,
-      "FrozenGeode": 4,
-      "MagmaGeode": 6,
-      "Gem": 5,
+      "FrozenGeode": 0,
+      "MagmaGeode": 0,
+      "OmniGeode": 0,
+      "Gem": 0,
       "Copper": 0,
       "Iron": 3,
-      "Gold": 6,
+      "Gold": 5,
       "Iridium": 7,
       "Mystic": 7,
-      "Diamond": 5
+      "Radioactive": 0,
+      "Diamond": 5,
+      "Ruby": 0,
+      "Jade": 0,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0,
+      "Mussel": 0,
+      "Fossil": 0,
+      "Clay": 0,
+      "CinderShard": 0,
+      "Coal": 0
     },
     "StartingSpawnChance": {
-      "Stone": 66,
-      "Geode": 8,
-      "FrozenGeode": 4,
-      "MagmaGeode": 2,
-      "Gem": 5,
-      "Copper": 21,
-      "Iron": 15,
-      "Gold": 10,
+      "Stone": 1852,
+      "Geode": 24,
+      "FrozenGeode": 16,
+      "MagmaGeode": 12,
+      "OmniGeode": 8,
+      "Gem": 0,
+      "Copper": 799,
+      "Iron": 394,
+      "Gold": 195,
       "Iridium": 1,
-      "Mystic": 1,
-      "Diamond": 1
+      "Mystic": 19,
+      "Radioactive": 0,
+      "Diamond": 24,
+      "Ruby": 24,
+      "Jade": 24,
+      "Amethyst": 24,
+      "Topaz": 24,
+      "Emerald": 24,
+      "Aquamarine": 24,
+      "Mussel": 0,
+      "Fossil": 0,
+      "Clay": 0,
+      "CinderShard": 0,
+      "Coal": 752
     },
     "LevelTenSpawnChance": {
-      "Stone": 42,
-      "Geode": 2,
-      "FrozenGeode": 2,
-      "MagmaGeode": 2,
-      "Gem": 5,
-      "Copper": 16,
-      "Iron": 13,
-      "Gold": 10,
+      "Stone": 1265,
+      "Geode": 16,
+      "FrozenGeode": 14,
+      "MagmaGeode": 14,
+      "OmniGeode": 16,
+      "Gem": 0,
+      "Copper": 799,
+      "Iron": 394,
+      "Gold": 195,
       "Iridium": 2,
-      "Mystic": 1,
-      "Diamond": 1
+      "Mystic": 19,
+      "Radioactive": 0,
+      "Diamond": 24,
+      "Ruby": 24,
+      "Jade": 24,
+      "Amethyst": 24,
+      "Topaz": 24,
+      "Emerald": 24,
+      "Aquamarine": 24,
+      "Mussel": 0,
+      "Fossil": 0,
+      "Clay": 0,
+      "CinderShard": 0,
+      "Coal": 752
     },
     "CustomTileIndex": []
   },
-  "Monster_Spawn_Settings": null,
+  "Monster_Spawn_Settings": {
+    "Areas": [],
+    "CustomTileIndex": []
+  },
   "QuarryTileIndex": [
     556,
     558,
@@ -100,7 +224,15 @@
     685
   ],
   "File_Conditions": {
-    "FarmTypes": [],
+    "FarmTypes": [
+      "Standard",
+      "Riverland",
+      "Forest",
+      "Hilltop",
+      "Wilderness",
+      "FourCorners",
+      "Beach"
+    ],
     "FarmerNames": [],
     "SaveFileNames": [],
     "OtherMods": {}

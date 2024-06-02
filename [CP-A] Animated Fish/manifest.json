@@ -1,7 +1,7 @@
 {
   "Name": "Animated Fish",
   "Author": "Gervig91",
-  "Version": "1.1.1",
+  "Version": "1.2.0",
   "Description": "Animates fish and fishing related items",
   "UniqueID": "Gervig91.AnimatedFish",
   "MinimumApiVersion": "2.10.0",

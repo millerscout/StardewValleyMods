@@ -1,4 +1,5 @@
 {
+  "NotificationTime": 6150.0,
   "NotifyBirthdays": true,
   "NotifyBirthdayReminder": true,
   "BirthdayReminderTime": 1700,
@@ -11,6 +12,10 @@
   "NotifySeasonalForage": true,
   "ShowEmptyhay": true,
   "NotifyHay": true,
+  "ShowWeatherNextDay": true,
+  "WeatherNextDayTime": 1700,
+  "NotifyTVChannels": true,
+  "ShowSpringOnionCount": true,
   "NotifyFarmCave": true,
   "NotifyGreenhouseCrops": true,
   "NotifyShed": true,

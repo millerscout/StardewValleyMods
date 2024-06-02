@@ -1,11 +1,15 @@
 {
-  "GetGradenPotEarlier": false,
+  "GetGardenPotEarlier": false,
+  "EnableUnlimitedRangeToTransplant": false,
   "CropTransplantEnergyCost": 4.0,
   "EnablePlacementOfCropsOutsideOutOfTheFarm": false,
   "EnablePlacementOfFruitTreesOutOfTheFarm": false,
   "EnablePlacementOfFruitTreesOnAnyTileType": false,
   "EnablePlacementOfFruitTreesNextToAnotherTree": false,
+  "EnablePlacementOfFruitTreesBlockedGrowth": false,
   "EnablePlacementOfTreesOnAnyTileType": false,
+  "EnableToPlantTeaBushesOutOfTheFarm": false,
+  "EnableToPlantTeaBushesOnAnyTileType": false,
   "EnableSoilTileUnderTrees": true,
   "FruitTreeTransplantEnergyCostPerStage": [
     4.0,

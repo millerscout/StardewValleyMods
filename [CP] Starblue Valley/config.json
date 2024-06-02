@@ -1,9 +1,9 @@
 {
-  "Mailbox": "fancy",
+  "Mailbox": "basic",
   "Oak Trees": "pink",
-  "Maple Trees": "white",
-  "Pine Trees": "spruce",
-  "Grass": "flowering",
+  "Maple Trees": "green",
+  "Pine Trees": "pine",
+  "Grass": "basic",
   "WorldMap": "true",
   "GroundUnderBowl": "default",
   "ForeverPink": "false",
@@ -16,6 +16,7 @@
   "HardwoodFence": "true",
   "Craftables": "true",
   "JunimoHuts": "true",
-  "ShaneCoop": "false",
-  "SpringGrass": "blue"
+  "ShaneCoop": "true",
+  "ShipBin": "true",
+  "SpringGrass": "green"
 }

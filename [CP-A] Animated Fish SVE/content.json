@@ -1,163 +1,551 @@
 {
-	"Format": "1.16.0",
-	
-			"ConfigSchema": 
-		{
-			"Butterfish":
-				{
-				"AllowValues": "true,false",
-				"Default": "true",
-				"AllowMultiple": "false"
-				}, 
-			"Clownfish":
-				{
-				"AllowValues": "true,false",
-				"Default": "true",
-				"AllowMultiple": "false"
-				}, 
-			"Minnow":
-				{
-				"AllowValues": "true,false",
-				"Default": "true",
-				"AllowMultiple": "false"
-				}, 
-			"Puppyfish":
-				{
-				"AllowValues": "true,false",
-				"Default": "true",
-				"AllowMultiple": "false"
-				}, 
-			"Starfish":
-				{
-				"AllowValues": "true,false",
-				"Default": "false",
-				"AllowMultiple": "false"
-				}, 
-			"Starfish2":
-				{
-				"AllowValues": "true,false",
-				"Default": "true",
-				"AllowMultiple": "false"
-				}, 
-			"VoidEel":
-				{
-				"AllowValues": "true,false",
-				"Default": "false",
-				"AllowMultiple": "false"
-				}, 
-			"VoidEel2":
-				{
-				"AllowValues": "true,false",
-				"Default": "true",
-				"AllowMultiple": "false"
-				}, 
-		},
+	"Format": "2.0",
 
-	
-	
+	"ConfigSchema": 
+	{
+		"Butterfish":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		}, 
+		"BabyLunaloo":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},
+		"Bonefish":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},
+		"BullTrout":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},
+		"Clownfish":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		}, 
+		"Daggerfish":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},
+		"DulseSeaweed":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},
+		"Frog":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		}, 
+		"Gemfish":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},
+		"Goldenfish":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},
+		"GrassCarp":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},
+		"KingSalmon":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		}, 
+		"Kittyfish":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},
+		"Lunaloo":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		}, 
+		"MeteorCarp":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		}, 
+		"Minnow":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		}, 
+		"Puppyfish":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		}, 
+		"RadioactiveBass":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},
+		"RazorTrout":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		}, 
+		"Seahorse":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},
+		"SeaSponge":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},
+		"ShinyLunaloo":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},
+		"SnatcherWorm":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},
+		"Starfish":
+		{
+			"AllowValues": "true,false",
+			"Default": "false",
+			"AllowMultiple": "false"
+		}, 
+		"Starfish2":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		}, 
+		"TorpedoTrout":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},
+		"Undeadfish":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},
+		"VoidEel":
+		{
+			"AllowValues": "true,false",
+			"Default": "false",
+			"AllowMultiple": "false"
+		}, 
+		"VoidEel2":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		}, 
+		"WaterGrub":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		}, 
+	},
 	"Changes": [
+		{
+			"LogName": "Baby Lunaloo",
+			"Action": "EditImage",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Baby Lunaloo",
+			"FromFile": "babylunaloo.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 4,
+			"When":
+			{
+				"BabyLunaloo": "true"
+			},
+		},
+		{
+			"LogName": "Bonefish",
+			"Action": "EditImage",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Bonefish",
+			"FromFile": "bonefish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 4,
+			"When":
+			{"Bonefish": "true"},
+		},
+		{
+			"LogName": "Bull Trout",
+			"Action": "EditImage",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Bull Trout",
+			"FromFile": "bull_trout.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 4,
+			"When":
+			{"BullTrout": "true"},
+		},
 		{
 			"LogName": "Butterfish",
 			"Action": "EditImage",
-			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Butterfish}}",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Butterfish",
 			"FromFile": "butterfish.png",
 			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
-			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Butterfish}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Butterfish}}", "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
 			"AnimationFrameTime": 30,
 			"AnimationFrameCount": 6,
 			"When":
-				{"Butterfish": "true"},
+			{"Butterfish": "true"},
 		},
 		{
-
 			"LogName": "Clownfish",
 			"Action": "EditImage",
-			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Clownfish}}",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Clownfish",
 			"FromFile": "clownfish.png",
 			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
-			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Clownfish}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Clownfish}}", "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
 			"AnimationFrameTime": 20,
 			"AnimationFrameCount": 4,
 			"When":
-				{"Clownfish": "true", "HasMod |contains=MoreFish": false},
+			{"Clownfish": "true", "HasMod |contains=MoreFish": false},
 		},
 		{
-			
+			"LogName": "Daggerfish",
+			"Action": "EditImage",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Daggerfish",
+			"FromFile": "daggerfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+			{"Daggerfish": "true"},
+		},
+		{
+			"LogName": "Dulse Seaweed",
+			"Action": "EditImage",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Dulse Seaweed",
+			"FromFile": "dulse_seaweed.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+			{"DulseSeaweed": "true"},
+		},
+		{
+			"LogName": "Frog",
+			"Action": "EditImage",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Frog",
+			"FromFile": "frog.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 10,
+			"When":
+			{"Frog": "true"},
+		},
+		{
+			"LogName": "Gemfish",
+			"Action": "EditImage",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Gemfish",
+			"FromFile": "gemfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+			{"Gemfish": "true"},
+		},
+		{
+			"LogName": "Goldenfish",
+			"Action": "EditImage",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Goldenfish",
+			"FromFile": "goldenfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+			{"Goldenfish": "true"},
+		},
+		{
+			"LogName": "Grass Carp",
+			"Action": "EditImage",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Grass Carp",
+			"FromFile": "grass_carp.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+			{"GrassCarp": "true"},
+		},
+		{
+			"LogName": "King Salmon",
+			"Action": "EditImage",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\King Salmon",
+			"FromFile": "kingsalmon.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+			{"KingSalmon": "true"},
+		},
+		{
+			"LogName": "Lunaloo",
+			"Action": "EditImage",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Lunaloo",
+			"FromFile": "lunaloo.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 4,
+			"When":
+			{"Lunaloo": "true"},
+		},
+		{
+			"LogName": "Meteor Carp",
+			"Action": "EditImage",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Meteor Carp",
+			"FromFile": "meteor_carp.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+			{"MeteorCarp": "true"},
+		},
+		{
+			"LogName": "Kittyfish",
+			"Action": "EditImage",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Kittyfish",
+			"FromFile": "kittyfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 6,
+			"When":
+			{"Kittyfish": "true"},
+		},
+		{
 			"LogName": "Minnow",
 			"Action": "EditImage",
-			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Minnow}}",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Minnow",
 			"FromFile": "minnow.png",
 			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
-			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Minnow}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Minnow}}", "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
 			"AnimationFrameTime": 20,
 			"AnimationFrameCount": 4,
 			"When":
-				{"Minnow": "true"},
+			{"Minnow": "true"},
 		},
 		{
-
 			"LogName": "Puppyfish",
 			"Action": "EditImage",
-			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Puppyfish}}",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Puppyfish",
 			"FromFile": "puppyfish.png",
 			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
-			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Puppyfish}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Puppyfish}}", "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
 			"AnimationFrameTime": 30,
 			"AnimationFrameCount": 6,
 			"When":
-				{"Puppyfish": "true"},
+			{"Puppyfish": "true"},
 		},
 		{
-			
-			"LogName": "Starfish",
+			"LogName": "Radioactive Bass",
 			"Action": "EditImage",
-			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Starfish}}",
-			"FromFile": "starfish.png",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Radioactive Bass",
+			"FromFile": "radioactive_bass.png",
 			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
-			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Starfish}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Starfish}}", "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
 			"AnimationFrameTime": 20,
 			"AnimationFrameCount": 4,
 			"When":
-				{"Starfish": "true", "HasMod |contains=MoreFish": false},
+			{"RadioactiveBass": "true"},
 		},
 		{
-			
+			"LogName": "Razor Trout",
+			"Action": "EditImage",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Razor Trout",
+			"FromFile": "razortrout.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+			{"RazorTrout": "true"},
+		},
+		{
+			"LogName": "Seahorse",
+			"Action": "EditImage",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Seahorse",
+			"FromFile": "seahorse.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+			{"Seahorse": "true"},
+		},
+		{
+			"LogName": "Sea Sponge",
+			"Action": "EditImage",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Sea Sponge",
+			"FromFile": "seasponge.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 4,
+			"When":
+			{"SeaSponge": "true"},
+		},
+		{
+			"LogName": "Shiny Lunaloo",
+			"Action": "EditImage",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Shiny Lunaloo",
+			"FromFile": "shinylunaloo.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 4,
+			"When":
+			{"ShinyLunaloo": "true"},
+		},
+		{
+			"LogName": "Snatcher Worm",
+			"Action": "EditImage",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Snatcher Worm",
+			"FromFile": "snatcher_worm.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 40,
+			"AnimationFrameCount": 5,
+			"When":
+			{"SnatcherWorm": "true"},
+		},
+		{
+			"LogName": "Starfish",
+			"Action": "EditImage",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Starfish",
+			"FromFile": "starfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+			{"Starfish": "true", "HasMod |contains=MoreFish": false},
+		},
+		{
 			"LogName": "Starfish2",
 			"Action": "EditImage",
-			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Starfish}}",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Starfish",
 			"FromFile": "starfish2.png",
 			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
-			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Starfish}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Starfish}}", "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
 			"AnimationFrameTime": 20,
 			"AnimationFrameCount": 16,
 			"When":
-				{"Starfish2": "true", "HasMod |contains=MoreFish": false},
+			{"Starfish2": "true", "HasMod |contains=MoreFish": false},
 		},
 		{
-			
-			"LogName": "Void Eel",
+			"LogName": "Torpedo Trout",
 			"Action": "EditImage",
-			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Void Eel}}",
-			"FromFile": "voideel.png",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Torpedo Trout",
+			"FromFile": "torpedo_trout.png",
 			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
-			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Void Eel}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Void Eel}}", "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
 			"AnimationFrameTime": 20,
 			"AnimationFrameCount": 4,
 			"When":
-				{"VoidEel": "true"},
+			{"TorpedoTrout": "true"},
 		},
 		{
-			
+			"LogName": "Undeadfish",
+			"Action": "EditImage",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Undeadfish",
+			"FromFile": "undeadfish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+			{"Undeadfish": "true"},
+		},
+		{
+			"LogName": "Void Eel",
+			"Action": "EditImage",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Void Eel",
+			"FromFile": "voideel.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+			{"VoidEel": "true"},
+		},
+		{
 			"LogName": "Void Eel2",
 			"Action": "EditImage",
-			"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:Void Eel}}",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Void Eel",
 			"FromFile": "voideel2.png",
 			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
-			"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:Void Eel}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:Void Eel}}", "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
 			"AnimationFrameTime": 20,
 			"AnimationFrameCount": 8,
 			"When":
-				{"VoidEel2": "true"},
+			{"VoidEel2": "true"},
+		},
+		{
+			"LogName": "Water Grub",
+			"Action": "EditImage",
+			"Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Water Grub",
+			"FromFile": "water_grub.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+			{"WaterGrub": "true"},
 		}
 	]
 }
