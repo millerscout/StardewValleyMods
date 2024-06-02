@@ -1,4 +1,5 @@
 {
-  "AbleToActivateSprinklersWithoutBeingDirectlyInFrontOfOne": false,
-  "EXPERIMENTAL_NOT_RECOMMENDED_AllowTheSprinklersToMakeTheGameLagLikeTheresNoTomorrow": false
+  "InfiniteReach": false,
+  "SprinklerAnimation": "WateringCanAnimation",
+  "AdjacentTileDirection": "LeftRight"
 }

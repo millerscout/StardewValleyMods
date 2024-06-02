@@ -1,9 +1,9 @@
 {
   "Dog 1": "BullyBrindle",
-  "Dog 1 Collar": "False",
+  "Dog 1 Collar": "false",
   "Dog 2": "HuskyBrown",
-  "Dog 2 Collar": "False",
+  "Dog 2 Collar": "false",
   "Dog 3": "CollieBrown",
-  "Dog 3 Collar": "False",
-  "MenuIcon": "True"
+  "Dog 3 Collar": "false",
+  "MenuIcon": "true"
 }

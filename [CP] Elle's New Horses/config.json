@@ -1,6 +1,6 @@
 {
   "Horse": "PrismaticWhite",
-  "HasSaddle": "False",
+  "HasSaddle": "false",
   "SaddleColor": "Blue",
-  "MenuIcon": "True"
+  "MenuIcon": "true"
 }

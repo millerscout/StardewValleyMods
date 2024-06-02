@@ -4,10 +4,28 @@
     "ToggleSearch": "LeftShift + F1",
     "ScrollUp": "Up",
     "ScrollDown": "Down",
+    "PageUp": "PageUp",
+    "PageDown": "PageDown",
     "ToggleDebug": "None"
   },
-  "ProgressionMode": false,
+  "ShowUnknownGiftTastes": true,
+  "ShowUnknownRecipes": true,
+  "ShowPuzzleSolutions": true,
   "HighlightUnrevealedGiftTastes": false,
+  "ShowGiftTastes": {
+    "Loved": true,
+    "Liked": true,
+    "Neutral": false,
+    "Disliked": false,
+    "Hated": false
+  },
+  "CollapseLargeFields": {
+    "Enabled": true,
+    "BuildingRecipes": 25,
+    "ItemRecipes": 25,
+    "NpcGiftTastes": 75
+  },
+  "ShowUnownedGifts": true,
   "HideOnKeyUp": false,
   "EnableTargetRedirection": true,
   "EnableTileLookups": false,

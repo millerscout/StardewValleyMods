@@ -89,7 +89,7 @@
         "MaximumSpawnsPerDay": 5,
         "IncludeTerrainTypes": [
           "Quarry",
-          "Dirt",
+          "Dirt"
         ],
         "ExcludeTerrainTypes": [
           "Diggable",
@@ -106,7 +106,7 @@
           "EndTime": 600,
           "MinimumTimeBetweenSpawns": 10,
           "MaximumSimultaneousSpawns": null,
-          "OnlySpawnIfAPlsayerIsPresent": false,
+          "OnlySpawnIfAPlayerIsPresent": false,
           "SpawnSound": ""
         },
         "ExtraConditions": {

@@ -50,6 +50,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -104,6 +106,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -148,6 +152,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": 1
         },
@@ -195,6 +201,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -245,6 +253,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": 1
         },
@@ -293,6 +303,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -334,6 +346,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -373,6 +387,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -412,6 +428,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -453,6 +471,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -492,6 +512,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -531,6 +553,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -571,6 +595,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -615,6 +641,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": 1
         },
@@ -662,6 +690,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": 1
         },
@@ -709,6 +739,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": 1
         },
@@ -753,6 +785,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": 1
         },
@@ -799,6 +833,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": 1
         },
@@ -909,6 +945,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -967,6 +1005,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -1028,6 +1068,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -1072,6 +1114,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": 1
         },
@@ -1116,6 +1160,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": 1
         },
@@ -1160,6 +1206,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": 1
         },
@@ -1222,6 +1270,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -1266,6 +1316,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": 1
         },
@@ -1310,6 +1362,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": 1
         },
@@ -1356,6 +1410,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": 3
         },
@@ -1400,6 +1456,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": 1
         },
@@ -1449,6 +1507,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -1497,6 +1557,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -1545,6 +1607,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -1583,6 +1647,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -1627,6 +1693,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": 1
         },
@@ -1671,6 +1739,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": 1
         },
@@ -1708,6 +1778,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -1762,6 +1834,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": 8
         },
@@ -1808,6 +1882,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -1946,6 +2022,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -2010,6 +2088,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": 1
         },
@@ -2074,6 +2154,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": 1
         },
@@ -2130,6 +2212,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -2176,6 +2260,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -2225,6 +2311,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -2271,6 +2359,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -2347,6 +2437,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -2392,6 +2484,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": 2
         },
@@ -2430,6 +2524,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -2485,6 +2581,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -2608,6 +2706,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -2694,6 +2794,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -2744,6 +2846,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -2788,6 +2892,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -2863,6 +2969,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -2916,6 +3024,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -2966,6 +3076,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -3016,6 +3128,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -3069,6 +3183,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -3122,6 +3238,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -3169,6 +3287,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -3224,6 +3344,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -3297,6 +3419,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -3354,6 +3478,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -3404,6 +3530,8 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
