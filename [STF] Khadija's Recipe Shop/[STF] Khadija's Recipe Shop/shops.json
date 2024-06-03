@@ -53,7 +53,7 @@
             // "hu": "",
             // "it": "",
             // "ja": "",
-            // "pt": "",
+             "pt": "Bem-vindo(a)! Khadija está feliz em te ver!",
             // "ru": "",
             // "tr": "",
             // "zh": "", 
@@ -187,10 +187,10 @@
                 "!z winter",
             ],
         }, ],
-        "When": [ //only open the store from 9AM to 6PM
+        "When": [ //só abrimos a loja das 9h às 18h
             "t 900 1800",
         ],
-        "ClosedMessage": "Zamir: Sorry, we're closed right now."
+        "ClosedMessage": "Zamir: Desculpe, estamos fechados agora."
     },
     {
         "ShopName": "RecipeShopSat",
@@ -216,7 +216,7 @@
             // "hu": "",
             // "it": "",
             // "ja": "",
-            // "pt": "",
+             "pt": "Eu trago coisas diferentes para vender aos sábados.",
             // "ru": "",
             // "tr": "",
             // "zh": "", 
@@ -316,7 +316,7 @@
                 "Anvil"
             ]
         }, ],
-        "When": [ //only open the store from 9AM to 6PM
+        "When": [ //só abrimos a loja das 9h às 18h
             "t 900 1800",
         ],
         "ClosedMessage": "Nasira: We're closed. Come back later.",
@@ -329,7 +329,7 @@
             // "hu": "",
             // "it": "",
             // "ja": "",
-            // "pt": "",
+             "pt": "Estamos fechados. Volte depois.",
             // "ru": "",
             // "tr": "",
             // "zh": "", 
