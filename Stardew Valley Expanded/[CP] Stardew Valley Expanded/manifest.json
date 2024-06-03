@@ -1,41 +1,21 @@
 {
   "Name": "Stardew Valley Expanded",
   "Author": "FlashShifter",
-  "Version": "1.13.8",
-  "Description": "A fanmade expansion for ConcernedApe's Stardew Valley. This mod adds 25 new characters, 32 locations, 220 character events, 850 location messages, reimagined vanilla areas, two farm maps, a reimagined world map reflecting all changes, new music, new quests, and many miscellaneous additions!",
+  "Version": "1.14.46",
+  "Description": "An expansive fanmade mod for ConcernedApe's Stardew Valley.",
   "UniqueID": "FlashShifter.StardewValleyExpandedCP",
-  "MinimumApiVersion": "3.0",
-  "UpdateKeys": [ "Nexus:3753" ],
+  "MinimumApiVersion": "4.0.7",
+  "UpdateKeys": [ "Nexus:???" ],
   "ContentPackFor": {
   "UniqueID": "Pathoschild.ContentPatcher",
    },
   "Dependencies": [
    {
-      "UniqueID": "Platonymous.Toolkit",
+      "UniqueID": "FlashShifter.SVE-FTM",
       "IsRequired": true,
    },
-   {
-      "UniqueID": "Bouhm.NPCMapLocations",
-      "IsRequired": false,
-   },
-   {
-      "UniqueID": "Platonymous.CustomMusic",
-      "IsRequired": true,
-   },
-   {
-      "UniqueID": "spacechase0.SpaceCore",
-      "IsRequired": true,
-   },
-   {
-      "UniqueID": "spacechase0.JsonAssets",
-      "IsRequired": true,
-   },
-   {
-      "UniqueID": "Esca.FarmTypeManager",
-      "IsRequired": true,
-   },
-   {
-      "UniqueID": "FlashShifter.StardewValleyExpandedALL",
+  {
+      "UniqueID": "FlashShifter.SVECode",
       "IsRequired": true,
    },
    {

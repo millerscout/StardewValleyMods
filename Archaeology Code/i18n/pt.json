@@ -1,0 +1,53 @@
+﻿{
+    "skill.name": "Arqueologia",
+    "skill.perk": "+{{bonus}}% de chance de item bônus ao cavar",
+    "skill.perk_bonus": "Chance de obter itens bônus de raridade {{rarity}} ao cavar",
+
+    "config.AlternativeSkillPageIcon": "Ícone Alternativo da Página de Habilidade",
+    "config.AlternativeSkillPageIcon.tooltip": "Necessita reiniciar; altera o ícone da página de um pincel e uma pedra para uma pá.",
+
+    "config.ExperienceFromArtifactSpots": "Experiência ao Escavar Locais de Artefato",
+    "config.ExperienceFromArtifactSpots.tooltip": "Experiência em Arqueologia ganha ao cavar especificamente em um local de artefato.",
+
+    "config.ExperienceFromMinesDigging": "Experiência ao Escavar em Minas e Caverna da Caveira",
+    "config.ExperienceFromMinesDigging.tooltip": "Experiência em Arqueologia ganha ao cavar nas minas ou na caverna da caveira.",
+
+    "config.ExperienceFromBuriedAndPannedItem": "Experiência ao Escavar e Garimpar Itens Enterrados",
+    "config.ExperienceFromBuriedAndPannedItem.tooltip": "Experiência em Arqueologia ganha ao desenterrar itens aleatórios como argila e ao garimpar.",
+
+    "config.ExperienceFromWaterShifter": "Experiência ao Coletar do Manipulador de Água",
+    "config.ExperienceFromWaterShifter.tooltip": "Experiência em Arqueologia ganha ao coletar de um deslocador de água.",
+	
+	"config.ExperienceFromResearchTable": "Ganho de experiência da Mesa de Pesquisa",
+	"config.ExperienceFromResearchTable.tooltip": "Esta configuração não faz nada no momento.",
+
+	"config.ExperienceFromAncientBattery": "Ganho de experiência da Bateria Antiga",
+	"config.ExperienceFromAncientBattery.tooltip": "Experiência em arqueologia obtida ao colher de uma bateria antiga",
+
+	"config.ExperienceFromPreservationChamber": "Ganho de experiência da Câmara de Conservação",
+	"config.ExperienceFromPreservationChamber.tooltip": "Experiência em arqueologia obtida ao colher de uma câmara de conservação",
+
+	"config.ExperienceFromHPreservationChamber": "Ganho de experiência da Câmara de Conservação de Madeira de Lei",
+	"config.ExperienceFromHPreservationChamber.tooltip": "Experiência em arqueologia obtida ao colher de uma câmara de conservação de Madeira de Lei",
+
+    "moonslime.Archaeology.skill_book.levelup": "Você aprendeu algumas coisas sobre Arqueologia.",
+
+    "moonslime.Archaeology.water_shifter.name": "Manipulador de Água",
+    "moonslime.Archaeology.water_shifter.description": "Coloque-o na água, amarre-o com fibra e verifique no dia seguinte para ver se tem algo. \nFunciona em córregos, lagos e no oceano.",
+
+
+    "Archaeology5a.name": "Pioneiro",
+    "Archaeology5a.desc": "Chances extras de pontos de artefatos aparecerem.",
+    "Archaeology5b.name": "Adivinhador",
+    "Archaeology5b.desc": "Chances extras de pontos de ouro aparecerem.",
+    "Archaeology10a1.name": "Antiquário",
+    "Archaeology10a1.desc": "Capacidade de encontrar artefatos adicionais enquanto escava.",
+    "Archaeology10a2.name": "Curador",
+    "Archaeology10a2.desc": "Venda artefatos que estão em exibição por duas vezes o valor!",
+    "Archaeology10b1.name": "Dragador",
+    "Archaeology10b1.desc": "Obtenha itens adicionais enquanto garimpa.",
+    "Archaeology10b2.name": "Quarenta e Nove",
+    "Archaeology10b2.desc": "Ao garimpar ou escavar com sucesso, obtenha um impulso de velocidade.\n Duração baseada no nível.",
+    "Archaeology10b2.buff": "Corrida de Ouro!"
+	
+}

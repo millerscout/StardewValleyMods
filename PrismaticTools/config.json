@@ -4,5 +4,7 @@
   "SprinklerRange": 3,
   "PrismaticToolLength": 7,
   "PrismaticToolWidth": 2,
-  "PrismaticToolCost": 100000
+  "PrismaticToolCost": 100000,
+  "PrismaticBarShardCost": 1,
+  "PrismaticBarNumberProduced": 5
 }

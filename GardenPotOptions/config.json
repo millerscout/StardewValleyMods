@@ -1,0 +1,11 @@
+{
+  "KeepContents": true,
+  "EnableSprinklers": true,
+  "AllowAncientSeeds": false,
+  "SafeTool": "Pickaxe",
+  "AllowTransplant": true,
+  "TreeTransplantMax": 3,
+  "FruitTreeTransplantMax": 2,
+  "HeartsForGardenPot": 4,
+  "HeartsForRecipe": 8
+}
