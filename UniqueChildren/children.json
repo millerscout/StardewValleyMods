@@ -1,0 +1,22 @@
+[
+  {
+    "UniqueGameID": 2994384543209272762,
+    "Child_Name": "Milena",
+    "Child_Gender": "Female",
+    "Child_DarkSkin": "False",
+    "Child_Adopted": "False",
+    "Child_Sprites": "Default",
+    "Spouse_Name": "Tusca",
+    "Spouse_Married": "True"
+  },
+  {
+    "UniqueGameID": 2994384543209272762,
+    "Child_Name": "Max",
+    "Child_Gender": "Male",
+    "Child_DarkSkin": "True",
+    "Child_Adopted": "False",
+    "Child_Sprites": "Default",
+    "Spouse_Name": "Miller",
+    "Spouse_Married": "True"
+  }
+]

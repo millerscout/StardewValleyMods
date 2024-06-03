@@ -1,0 +1,8 @@
+﻿{
+  "mod.description": "Um local centralizado para algum código auxiliar do atra.",
+  
+  "IllFormatedConfig": "O arquivo de configuração parece estar mal formatado. Usando o padrão. Por favor, use o Generic Mod Config Menu para configurar.",
+
+  "api-not-found": "{{APIID}} não encontrado, integração desativada.",
+  "api-too-old": "Por favor, atualize {{apiName}} ({{APIID}}) para pelo menos a versão {{minversion}}. Versão atual: {{currentversion}}. Integração desativada."
+}

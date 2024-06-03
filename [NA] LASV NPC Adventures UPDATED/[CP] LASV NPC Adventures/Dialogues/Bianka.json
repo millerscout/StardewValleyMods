@@ -1,0 +1,53 @@
+﻿{
+  "Changes": [
+    {
+      "LogName": "Companion dialogues for Bianka",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Bianka",
+      "Entries": {
+        "companionAccepted": "Sure why not?.$h#$b#Where we are going today?$h",
+        "companionAccepted_Spouse": "Oh, of course I will @!$h#$b#I love spending time together with you baby.$h",
+        "companionRejected": "I'm sorry but I have some errands to do today @ . Have fun though.",
+        "companionRejectedNight": "It's late and I'm kind of sleepy hehe.#$b#Sorr @.$s",
+        "companionRejectedNight_Spouse": "Sorry baby, Let's go out tomorrow instead.$s#$b#Let's just cuddle tonigh can we?$l",
+        "companionDismiss": "That was a fun adventure! Thanks for the time @.$h",
+        "companionDismiss_Spouse": "So soon baby? Oh well, I understand. See you later at home @.",
+        "companionDismissAuto": "It's getting kind of late @. I'm sorry but I need to go home now.#$b#Bye and goodluck!$h",
+        "companionDismissAuto_Spouse": "Hey baby I'll head on home first okay? See you at home!",
+        "companionRecruited": "Where are we going today, @?$h#$b#We aren't going to any scary places, are we?.$s",
+        "companionRecruited_Spouse": "I can't wait to go out with you baby!$h#What do you want to do today?$6",
+        "nomedkits": "I don't have much mana at the moment to heal you. Let me recharge.",
+        "heal": "Here @! I think I still have some magic to spare for healing you.",
+        "companion_Beach": "OH MY YOBA! It's been so long since I've been in the beach!$h",
+        "companion_Beach~1": "Woah! Look at the beautiful ocean!$h#$b#It's been so long.",
+        "companion_Beach~2": "Can we stay here for a while, I want to enjoy the sand and sea.$h",
+        "companion_Farm": "Woah! Your farm looks pretty @. Great job!$h",
+        "companion_Farm_Spouse": "Our farm looks amazing baby.$l#$b#I am so proud of you!!!$h",
+        "companion_Forest": "I can see a wizard tower from here! That looks cool.#$b#I wonder if the wizard there knows my parents?",
+        "companion_Forest~1": "It has been so long since I saw a forest from our world.#$b#Umuwi has a unique design to it's flora, but I do miss this view.$h",
+        "companionOnceEnter_Mine": "Wait, we're going to the mines? Oh no.$s",
+        "companion_Mine": "We're in the mines!$h#$b# It's good that I remembered to bring my war hammer!$h",
+        "companion_Mine~1": "BRING IT ON MONSTERS!$h",
+        "companion_Mountain": "%Bianka seems to be distracted at the animals that passed by.",
+        "companion_Mountain~1": "Who is that man over there that camps in the mountains?#$b#He seems like an interesting person.",
+        "companion_Town": "This town is so cute!$h#$b#I've been to a lot of towns with my mom before but this is just so cute I don't know why.",
+        "companion_Town_spring": "The spring flowers add up to the town's cuteness! I love it!$h",
+        "companion_Town_Night": "Hmm.. The town seems so empty at night doesn't it?#$b#I feel something strange at the graveyard as well.",
+        "companion_Town_fall": "It's the fall season! I sure do love wearing outfits for this season!$h#$b#I sure do wish there is a mall in this place, Oh how I miss those.$s",
+        "companion_Town_Rainy": "Good thing I brought my umbrella.#$b#Here get under here and let's stroll around the rain drenched town.$h",
+        "companion_Summit": "Hey! I've never been in the summit before!$h#$b#Woah look at that view!$h",
+        "companion_Summit~1": "It's amazing! Umuwi didn't have high mountains to have a view like this.#$b#Well atleast safe ones that is.",
+        "companion_Custom_BlueMoonVineyard": "Wine? OHHH MY I MISSED OUR WORLD'S WINE!$h#$b#Come let's go buy some! $h",
+        "companion_Railroad": "Hey the rail road! I sure do wish I can travel again when I have the time.",
+        "companion_Desert": "I should've bought a desert themed outfit! You should've told meee!$s#$b#Oh well, I guess it's nice enough you bought me to new places so it's fine.$h",
+        "companion_Custom_LASV_Umuwi": "The town of Umuwi has been like a second home to my brother and I.#$b#I do miss our home at Ruby Island as well but living here has opened me to independence to I'm kind of happy.$h",
+        "companion_Custom_LASV_Umuwi~1": "I really like talking to Oddi and Laarni, They share very interesting stories!$h#$b#I especialy like the time when they told me about the other shadowfolk towns in this world.",
+        "companionSuggest": "Hey @, I'm planning to stroll around anywhere. Wanna join?#$q -1 -1#Hey @, Wanna join me stroll around?#$r -1 0 Yes#Yeah sure! Let's go stroll around.#$r -1 0 No#I'm sorry but maybe next time",
+        "companionSuggest_Yes": "Oh really! Yey! Well let's go! I want to see places!$h",
+        "companionSuggest_No": "Awww, I understand. Well see you when I see you!$h",
+
+        "companion_Custom_Ridgeside_RidgesideVillage": "This village looks pretty! Beautiful even!$h#$b#I can see a bunch of waterfalls all around, it's really magical.$h"
+      }
+    }
+  ]
+}

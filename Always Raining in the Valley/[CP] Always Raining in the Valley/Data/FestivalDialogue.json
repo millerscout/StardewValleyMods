@@ -1,0 +1,299 @@
+{
+"Changes": [
+	
+//------------------------
+// FESTIVAL DIALOGUE   
+//------------------------
+
+	//Egg Festival----------------------
+	
+		{
+			"LogName": "EggFestival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"Entries": {
+			
+				"Sterling": "Ah, cara, lembro quando o Henry e eu costumávamos participar da Caça aos Ovos quando éramos moleques.$9#$b#É uma pena que o Lewis não nos deixe mais participar. $h#$e#... *resmungo* Mas ainda deixa a Abigail participar por algum motivo....$5",
+        		"Sterling_y2": "É melhor você vencer Abigail este ano, fazendeiro. Conto com você.$10^É melhor você vencer Abigail este ano, fazendeira.Conto com você.#$3#Por que??$7#$b#Nenhuma razão em particular...$3",
+        		"Mia": "Sinceramente, eu gosto muito da desculpa que o festival do ovo oferece para me vestir bem.$1#$b#Eu adoro o campo, mas sinto falta de várias peças do meu guarda-roupa.",
+				"Henry": "Sterling parece realmente obcecado por não poder participar da caça aos ovos por algum motivo.$2#$b#Eu sei que era divertido, mas... nós éramos crianças naquela época. As coisas mudam.$2#$b#Espero que ele consiga ver isso algum dia.",
+				"Henry_y2":"...Ok, então eu tenho conversado com o Sterling.$9#$b#E acho que ele está certo. Nós deveríamos ser autorizados a participar do festival também.$9#$b#Por que não relaxar e reviver algumas das nossas alegrias da infância, não é mesmo?#$b#Mas como não podemos, estamos contando com você para vencer em nosso lugar. Não nos decepcione, @.$1"
+			}
+		},
+				//Sterling Married 
+					{
+						"LogName": "EggFestival",
+						"Action": "EditData",
+						"Target": "Data/Festivals/spring13",
+						"Entries": {
+						
+							"Sterling_y2": "{{Random: Você já te contei o quanto você fica particularmente deslumbrante quando vence a Abigail na caça aos ovos?$10 ++ Vamos lá, amor. Você deve continuar a glória do nome de nossa família vencendo a caça, para que eu possa contar suas vitórias para todas as gerações futuras.$10#$e#Eu guardo todos os chapéus extras para nossos filhos!$9 ++  É sempre bom ver o Henry e a Mia durante as festas. Mesmo que o Henry esteja lutando para relaxar como de costume.$9#$b#Pelo menos, nos empanturramos de ovos cozidos, o que parece melhorar o humor dele. Talvez devêssemos convidá-los para jantar em breve. ++ Ei amor. O que é um ovo travesso?$10#$b#Uma gema prática!$9 |inputSeparator=++}}",
+							"Mia_y2": "{{Random: É tão estranho não ter o Sterling resmungando sobre a caça aos ovos na noite anterior. Espero que ele não esteja enchendo sua paciência, @.$5 ++ Sinceramente, eu gosto da desculpa que o festival dos ovos proporciona para me vestir bem.$1#$b#Eu adoro o campo, mas sinto falta de várias peças do meu guarda-roupa. ++ Henry e eu passamos a noite fazendo alguns ovos recheados com o molho secreto do avô dele. Esse molho é SUPER picante!$1|inputSeparator=++}}",
+							"Henry_y2":"Sterling parece bastante confiante de que você vai vencer a caça aos ovos este ano. Vocês têm algum tipo de plano secreto?$8#$b#Na verdade, esqueça que perguntei. Não quero saber que tipo de tramas esse homem tem em mente..$6"
+						},
+						"When":
+							{ "Relationship:Sterling": "Married"}
+					},
+		
+	//Flowerdance----------------------
+	
+		//Flower Dance Accept
+		
+		{
+			"LogName": "Marriage Flower Dance Accept Sterling",
+			"Action": "EditData",
+			"Target": "Strings/Events",
+			"Entries": {
+				"SpouseFlowerDanceAccept_Sterling": "Meu amor, esperei o ano inteiro para ouvir você dizer essas palavras. Depois de você, meu sol.",
+			}
+		},
+
+		//Dialogue 
+		{
+			"LogName": "FlowerDance",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": {
+			
+        		"Sterling": "Quando eu era criança, isso era chamado de 'A Dança do Milho'.#$b#As meninas usavam joias feitas de grãos de milho e dançavam ao redor de uma plantação de milho gigante enquanto cantavam cantos rituais.$h#$b#Entendo por que eles mudaram o nome.#$e#Estou só brincando com você, fazendeiro.$10^Estou só brincando com você, fazendeira.$10",
+        		"Sterling_y2":"O que foi, bonitão?$10^O que foi, linda?$10#$b#Espero que você esteja praticando seus passos este ano. Não queros pisar em nenhum pé dessa vez.#$b#Mesmo que você não me peça para dançar no evento, é melhor reservar uma dança para mim depois.$10",
+				"Mia": "É uma pena que seja apenas a Haley que seja escolhida todos os anos, eu adoraria participar.$4#$b#Ah, isso me lembra os bailes e festas de formatura da minha juventude. Eu sempre sonhava em ser a rainha e dançar a noite toda.$1",
+				"Mia_y2": "Estou me sentindo incrivelmente orgulhosa do trabalho que fiz este ano. Ajudei o comitê a cultivar as flores e tivemos resultados maravilhosos!$1#$b#Por favor, não ligue para mim, preciso elogiar a cor das tulipas este ano. Os avanços são tão emocionantes!$1",
+				"Henry": "Realmente não tenho certeza de por que vim a esse evento. Não sou bom em dançar.$3#$b#Mas suponho que seja um dia agradável... E a companhia é uma boa pausa de tudo isso.#$b#Só não espere me ver na pista de dança..",
+				"Henry_y2": "Todo ano venho aqui dizendo que nunca vou dançar, mas então vejo pessoas como você e Sterling se divertindo tanto.#$b#Posso não ser o melhor dançarino, mas acho que não custa nada entrar lá e dar uns passos, não é?$1#$b#Só... prometa que não vai rir de mim.$4"
+			},
+		},
+				//Sterling Married
+				{
+					"LogName": "FlowerDance",
+					"Action": "EditData",
+					"Target": "Data/Festivals/spring24",
+					"Entries": {
+					
+						"Sterling_y2":"{{Random: Bem, se não é a pessoa mais bonita da sala vindo falar comigo. Espero que alguém esteja pronto para dançar até não aguentar mais. ++  Lá está ele! O único Rei das Flores em meu coração.$1$^Lá está ela! A única Rainha das Flores em meu coração.$1#$b#É tão bom se arrumar e passar um tempo com você, você está simplesmente deslumbrante.$0 ++ A Mia está toda orgulhosa de cultivar as flores para o festival junto com a Aideen, mas o que ela não sabe é que a flor mais bonita aqui, ela não cultivou.#$b#É você, amor.$10#$b#%Sterling se aproxima para te beijar.|inputSeparator=++}}",
+						"Henry_y2":"{{Random:Todo ano venho aqui dizendo que nunca vou dançar, mas então vejo pessoas como você e Sterling se divertindo tanto.#$b#Posso não ser o melhor dançarino, mas acho que não custa nada entrar lá e dar uns passos, não é?$1#$b#Só... prometa que não vai rir de mim.$4 ++ Eu estou bem assim? Sempre me sinto meio engraçado vestindo-me para esses grandes festivais chiques.$4#$b#A Mia me ajudou a montar tudo isso. Realmente não sei o que faria sem ela.#$b#...T-talvez eu deva convidá-la para dançar. Você acha que ela diria sim?$4 |inputSeparator=++}}"
+					},
+					"When":
+							{ "Relationship:Sterling": "Married"}
+					
+				},
+		
+	//Luau----------------------
+	
+		{
+			"LogName": "Luau",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": {
+			
+        		"Sterling": "Ei, fazendeiro! Já experimentou a água? Está tão boa nesta época do ano!$15^Ei, fazendeira! Já experimentou a água? Está tão boa nesta época do ano!#$b#Você deveria vir competir com o Henry e eu.$17",
+        		"Sterling_y2":"%Sterling assobia para você do outro lado da praia.#$e#Arrasando, coisa linda!$17",
+				"Mia": "Nunca soube o quanto amo molhar os pés na água e aproveitar o sol durante o verão. E estar cercado por todos?$1#$b#É simplesmente maravilhoso.$3#$e#Não se esqueça de passar protetor solar, @!",
+				"Mia_y2": "Originalmente, eu só tinha planos de tomar sol e comer, mas competir com os rapazes está soando *incrivelmente* tentador agora.$1#$b#ou fazer eles tirarem aquele sorriso arrogante do rosto, $5",
+				"Henry" : "Nunca estive em um evento como esse antes. Certamente não é o que eu esperava.#$b#A comida está deliciosa, mas estou realmente animado para ver o que todos trouxeram para a sopa.$1#$b#Eu coloquei um pouco do molho secreto do meu avô. Deve dar um toque especial.$1",
+				"Henry_y2": "{{Random: Esta é definitivamente minha tradição favorita na Vila Pelicanos atualmente.#$b#É sempre bom ver todos se reunindo para fazer algo que todos possamos desfrutar.$1#$b#E não se preocupe, eu não esqueci o molho do Vovô Max.$10 ++  Sterling continua tentando me provocar para uma corrida. Um dia ele terá que aprender a ter paciência.$3#$b#Será que seria irresponsável considerar nadar após comer? Tenho que esperar pelo menos trinta minutos.$9 |inputSeparator=++}}"
+			},
+		},
+				{
+				"LogName": "Luau",
+					"Action": "EditData",
+					"Target": "Data/Festivals/summer11",
+					"Entries": {
+						
+							"Sterling_y2": "{{Random:Estou morrendo de fome para experimentar a comida depois de ver o que você trouxe. As pessoas vão adorar.$14#$b#Como eu tive sorte de me casar com o melhor produtor de produtos do vale?$17^Como eu tive sorte de me casar com a melhor produtora de produtos do vale?$17 ++  Ei, amor! Quer me ajudar a convencer o Henry a correr comigo? Não temos tantas oportunidades agora que não posso incomodá-lo todos os dias.$15#$b#Ou você pode correr comigo em vez disso, a menos que esteja com medo de que eu vá te vencer.$17 ++ Estou pensando em irmos para a pista de dança após a cerimônia, dançar o resto da noite.$14#$b#Ou agora, se não se importar de molhar suas roupas bonitas.$15|inputSeparator=++}}",
+							"Henry_y2":"{{Random:Fiquei tentado a trazer minha vara de pesca hoje. Pensei que seria divertido pegar algo fresco para adicionar à panela.#$b#Mas achei que este tempo seria melhor passado com meus amigos. Posso pescar bastante em meu próprio tempo.#$b#Além disso, este é um grupo bem barulhento. Provavelmente espantariam todos os peixes.$1 |inputSeparator=++}}"
+				},
+					"When":
+					{ "Relationship:Sterling": "Married"}
+
+			},
+	//Jellies----------------------
+	
+		{
+			"LogName": "Jellies",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"Entries": {
+
+				"Sterling": "Sim, sempre fico um pouco triste quando o verão acaba.#$b#Prefiro muito mais o clima quente, a cidade sempre é tão fria. É uma boa lembrança de que estou em casa.",
+				"Mia": "Antes de me dedicar à agronomia, eu estava pensando em seguir a Biologia Marinha.#$b#Eu adoraria escrever um trabalho sobre a vida endêmica das águas-vivas no Vale do Orvalho. Teria sido uma tese realmente interessante.#$e#...  Suponho que posso apenas aproveitar o espetáculo da vida marinha por enquanto.$3",
+				"Mia_y2": "{{Random: Reunindo-me com o resto da cidade, vendo as águas-vivas virem e irem sem se importarem conosco...#$b#Isso me coloca em um certo estado de espírito. Não consigo descrevê-lo.#$e#....#$b#Como se eu realmente estivesse em casa aqui. ++ Ei, fazendeiro, você sabia que as águas-vivas não têm cérebro, coração, ossos ou olhos? Elas são feitas de um corpo liso, parecido com uma bolsa.^Ei, fazendeira, você sabia que as águas-vivas não têm cérebro, coração, ossos ou olhos? Elas são feitas de um corpo liso, parecido com uma bolsa#$b#Meio assustador, não é? Especialmente quando você considera que algumas dessas criaturas sem cérebro e sem pensamento são imortais.#$e#Yoba age de maneiras realmente estranhas às vezes. |inputSeparator=++}}",
+				"Henry": "Nunca vi nada parecido com isso antes. É um lembrete tão bonito de que a natureza é incrível de tantas maneiras.#$b#Justo quando você pensa que a entende, você descobre algo novo para tirar o fôlego.$1",
+				"Henry_y2": "Você já se perguntou como seria viver como essas águas-vivas? Migrando de um lugar para outro conforme as estações mudam?#$b#Parece uma vida ideal, nunca tendo que lidar com condições difíceis ou algo do tipo.#$b#Quem sabe um dia poderemos desfrutar de algum tipo de liberdade assim.$1"
+			}
+		},
+				{
+					"LogName": "Jellies",
+					"Action": "EditData",
+					"Target": "Data/Festivals/summer28",
+					"Entries": {
+
+						"Sterling_y2": "{{Random: Todo ano nos reunimos. Todo ano Eloise nos enche de fatos sobre águas-vivas, todos se reúnem e todo ano as águas-vivas migram.#$b#Existe uma certa beleza na certeza disso.#$b#Eu realmente nunca pensei que seria eu a dizer isso.$9 ++ Ei querido, você vai vir assistir à migração conosco?^Ei querida, você vai vir assistir à migração conosco?#$b#Claro que você pode vir com a gente! Somos todos uma família afinal.$1#$e#Nada como evitar multidões juntos como uma família. ++ Sabe, agora mesmo eu estou com muita vontade de dar um mergulho rápido, é uma pena por causa das águas-vivas.$1#$b#O quê? Eu sei que viemos aqui para vê-las! Só parece que seria bem refrescante.$0 |inputSeparator=++}}",
+						"Henry_y2":"{{Random: Você já se perguntou como seria viver como essas águas-vivas? Migrando de um lugar para outro conforme as estações mudam?#$b#Parece uma vida ideal, nunca tendo que lidar com condições difíceis ou algo do tipo.#$b#Quem sabe um dia poderemos desfrutar de algum tipo de liberdade assim.$1 ++ Lembro-me que um tempo atrás, Sterling estava falando sobre nadar com as águas-vivas.#$b#Consegui explicar a ele por que era uma má ideia e convencê-lo a desistir, mas talvez você possa lhe dar um pequeno lembrete? ++ `Ei @, você sabe se o festival vai acabar em breve?#$b#É sempre divertido, mas eu e a Mia vamos pescar depois. Vou dar a ela algumas dicas sobre pesca noturna.$1#$b#Ela não é a melhor nisso, mas ainda é minha parceira de pesca favorita. Ela sempre faz o melhor que pode.$10 |inputSeparator=++}}",
+						"Mia_y2": "{{Random: Oh, graças a Yoba que você está aqui! Se eu tiver que passar mais um minuto tentando impedir o seu marido de entrar na água, vou enlouquecer.$5#$b#É melhor você ficar para assistir ao show conosco depois.$0#$e#Você é uma companhia muito melhor que a do Sterling.$5 ++ Você já pensou em todos os diferentes eventos e motivos que nos trouxeram até aqui, juntos, para assistir a isso?#$b#Eu, por exemplo, estou feliz que tudo tenha acontecido. Ver você e o Sterling juntos, ajudar o Henry a sair daquela casa horrível dele... Cada decisão é como uma luz flutuando no oceano. E ainda assim, todas se movem tão harmoniosamente juntas. Como se fosse destino. ++  Reunir-se com o resto da cidade, ver as águas-vivas virem e irem, sem se importar conosco...#$b#Isso me coloca em um certo estado de espírito. Eu não consigo descrever.#$e#....#$b#Como se, eu realmente pertencesse a este lugar. |inputSeparator=++}}"
+				},
+					"When":
+					{ "Relationship:Sterling": "Married"}
+				},
+
+
+	//SVFair----------------------
+	
+		{
+			"LogName": "SVFair",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+			
+      			"Sterling": "O Henry acha que precisa me vigiar senão eu vou sair e apostar todo o meu dinheiro na roleta.$10#$e#*resmungo*",
+      			"Sterling_y2":"{{Random: O Henry acha que precisa me vigiar senão eu vou sair e apostar todo o meu dinheiro na roleta.$10#$e#*resmungo* ++ Eu tentei a minha sorte no teste de força e ganhei algumas fichas. Toma essa, homem forte.$10|inputSeparator=++}}",
+				"Mia": "{{Random: Você já viu os porquinhos, @?$1 ++ Minha parte favorita da feira é aproveitar todas as sobras.#$b#Limpar é chato, mas isso faz tudo valer a pena$1 |inputSeparator=++}}",
+				"Henry": "Realmente, há tantas atividades aqui... nem sei por onde começar.#$b#Mia parece pensar que eu me sairia bem no teste de força, mas... não sei.$4",
+				"Henry_y2": "Tudo bem, este ano vou ser inteligente.#$b#Não só fiz um cronograma para garantir que eu possa participar de todas as atividades, mas também me dei um orçamento.$1#$b#...Ou talvez eu gaste tudo no jogo de pesca.$8"
+			}
+		},
+				{
+					"LogName": "SVFair",
+					"Action": "EditData",
+					"Target": "Data/Festivals/fall16",
+					"Entries": {
+					
+						"Sterling_y2":"{{Random: O Henry acha que precisa me vigiar senão eu vou sair e apostar todo o meu dinheiro na roleta.$10#$e#*resmungo* ++ Eu tentei a minha sorte no teste de força e ganhei algumas fichas. Toma essa, homem forte.$10 ++ Ei, amor! Deixei todos os produtos que concordamos ao lado da bancada de exibição para você organizá-los como quiser. Você sempre foi melhor em organizar as coisas. Afinal, eles também são seus produtos.#$b#Não há como não vencermos este ano com todas as coisas que você cultivou.$1 ++ Será que precisamos sabotar a bancada do Pierre este ano, amor? É só dizer a palavra, eu faço parecer um acidente.$10|inputSeparator=++}}",
+						"Henry_y2":"{{Random: Tudo bem, este ano vou ser inteligente.#$b#Não só fiz um cronograma para garantir que eu possa participar de todas as atividades, mas também me dei um orçamento.$1#$b#...Ou talvez eu gaste tudo no jogo de pesca.$8 ++ Ei, @. Você está de olho no Sterling, certo?$9#$b#Sei que ele tem melhorado muito desde que você chegou, mas não custa nada ficar atento. O jogo pode ser uma tentação real.$9#$b#Bom... Tenho certeza de que vai ficar tudo bem de qualquer forma. Talvez eu devesse confiar mais no cara.|inputSeparator=++}}",
+						"Mia_y2":"{{Random: Você já viu os porquinhos, @?$1 ++ Minha parte favorita da feira é aproveitar todas as sobras.#$b#Limpar é chato, mas isso faz tudo valer a pena.$1 ++ Henry e eu ainda estamos preparando nossa própria exposição no Grampleton, ainda não conseguimos decidir o que faremos. Mas ele disse que podemos usar os melões que venho cultivando!#$b#Também tem sido bom passar tanto tempo juntos ultimamente.$4|inputSeparator=++}}"
+					},
+					"When":
+					{ "Relationship:Sterling": "Married"}
+				},
+		
+	//IceFest----------------------
+	
+		{
+			"LogName": "IceFest",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": {
+			
+      			"Sterling": "%Sterling parece estar respirando pesadamente.#$b#Henry venceu a última luta de bolas de neve, mas vou fazer aquele homem comer neve nem que seja a última coisa que eu faça.$h#$e#%Ele está um pouco cansado para continuar falando.",
+				"Henry": "Pode estar frio lá fora, mas os peixes ainda estão mordendo.$1#$b#Não pretendo entrar no concurso nem nada assim. Estou apenas feliz em ter a chance de pescar um pouco.$1#$b#A temporada já começou de forma difícil, então essa é uma mudança de ritmo muito necessária.$6",
+				"Henry_y2": "Oi, @. Pegou algum peixe vencedor este ano? Até agora, só peguei alguns percas pequenos.#$b#Não que eu esteja reclamando. Pescar nunca se trata apenas da captura, mas do próprio ato.$1#$b#Não consigo pensar em uma maneira mais relaxante de passar um dia de inverno do que pescando com meus amigos.$10",
+				"Mia": "Você viu essa obra de arte adorável? Não é a coisa mais bonitinha? Não é?$1",
+				"Mia_y2": "Os meninos são muito bobos e me provocam todos os anos por eu estar ansioso para passar um tempo com o porquinho.."
+
+			}
+		},
+				{
+					"LogName": "IceFest",
+					"Action": "EditData",
+					"Target": "Data/Festivals/winter8",
+					"Entries": {
+					
+						"Sterling_y2": "{{Random: É uma pena que eles não nos deixem ficar com os peixes, um peixe com batatas fritas para o jantar parece extremamente saboroso.$1 ++ %Sterling parece estar respirando pesadamente.#$b#Henry venceu a última luta de bolas de neve, mas vou fazer aquele homem comer neve nem que seja a última coisa que eu faça.$h#$e#%Ele está um pouco cansado para continuar falando. ++ Ei, querido! Você quer se juntar a mim? Seremos você e eu contra Henry e Mia, vamos apagar aqueles sorrisos convencidos de seus rostos de uma vez por todas!$1^Ei, querida! Você quer se juntar a mim? Seremos você e eu contra Henry e Mia, vamos apagar aqueles sorrisos convencidos de seus rostos de uma vez por todas!#$b#Nossa equipe é superior simplesmente pelo fato de ter a pessoa mais gostosa do grupo.$10#$b# O quê? Eu quis dizer você!$9|inputSeparator=++}} ",
+						"Mia_y2": "{{Random: Os meninos são muito bobos e me provocam todos os anos por eu estar ansioso para passar um tempo com o porquinho. ++  Você poderia me fazer um favor e jogar neve no rosto do Sterling? Isso me faria sentir muito melhor.$3 ++ Ei @! Animado para desafiar o Henry para ganhar aquele chapéu de marinheiro? |inputSeparator=++}}",
+						"Henry_y2": "Mia realmente gosta daquele porquinho, não é mesmo? Ela fica tão animada com as coisas mais bobas.$9#$b#É fofo, porém. Eu queria que as coisas simples me fizessem tão feliz assim.#$b#Não que eu esteja reclamando. É apenas algo que sempre admirei nela. É bom vê-la sorrindo.$4"
+
+					},
+						"When":
+						{ "Relationship:Sterling": "Married"}
+				},
+		
+	//WinterStar----------------------
+	
+		{
+			"LogName": "WinterStar",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": {
+			
+      			"Sterling": "Pelo menos isso é melhor do que passar o Festival do Inverno sozinho na cidade.#$e#Não consigo me lembrar da última vez em que não foi só eu, os pássaros na janela e uma caixa vazia de pizza.",
+      			"Sterling_y2":"Pelo que sou grato...?#$b#Minha família, esta cidade.#$b#Sua infinita paciência.$4#$b#Aguentando minha estupidez quando cometo erros, sempre me apoiando, a mão amiga que todos me estenderam, a chance de uma nova vida#$e#Caramba, você pensaria que eles já teriam desistido de mim a essa altura.$10",
+				"Mia": "Ainda é estranho passar o festival da estrela invernal sem meu pai.#$b#Ele trabalha muito, mas eu me certifico de escrever para ele e enviar muitas fotos para que ele saiba que estou pensando nele.",
+				"Henry": "Esses eventos são sempre tão estranhos quando você realmente não conhece ninguém.$9#$b#Espero que eles gostem do que eu trouxe. Não pude comprar nada, então tive que fazer eu mesmo.$3#$b#Afinal, árvores de Natal nunca têm ornamentos demais, certo?$6",
+				"Henry_y2": "É sempre bom ver todo mundo tão feliz quando nos aproximamos do final do inverno.#$b#É a estação mais difícil do ano, mas aqui estamos, dando presentes apesar de tudo isso.$1#$b#É realmente doce quando você para para pensar. Mas acho que é apenas o espírito das festas.$10"
+			
+			},
+		},
+				{
+					"LogName": "WinterStar",
+					"Action": "EditData",
+					"Target": "Data/Festivals/winter25",
+					"Entries": {
+					
+						"Sterling_y2":"{{Random:Juro que a cada ano minha lista de coisas pelas quais sou grato fica muito mais longa.$1#$b#Mas você está em primeiro lugar em todas elas, amor.#$b#Você, nosso lar, nosso trabalho... E qualquer futuro filho.$4#$e#E mais ainda, a cada ano eu agradeço por não ter desistido desse homem por completo.$10 ++ Feliz estrela invernal, meu amor. Eu não sei como você faz, mas de alguma forma consegue se superar a cada ano.#$b#Eu estava contando para o Henry sobre nossos planos de jantar para esta noite, o que você acha de pato?$1#$b#Não se preocupe, o Henry está fornecendo.$10 ++ Mmmm, se não é o meu presente favorito? Você está com um aspecto delicioso, meu querido.$10#$b#Quer dizer, lindo! Lindo!$9 |inputSeparator=++}}",
+						"Henry_y2": "{{Random: Então... Eu talvez tenha comprado um presente extra para a Mia este ano..#$b#WNós temos passado muito tempo juntos desde que você e o Sterling se casaram e... tem sido muito bom.#$b#Eu só queria mostrar minha gratidão por tudo. Mas não conte a ninguém, certo? Não quero me meter em encrenca por quebrar a tradição ou algo assim.$4 ++ É sempre bom ver todos tão felizes quando nos aproximamos do final do inverno.#$b#É a estação mais difícil do ano, mas aqui estamos, dando presentes apesar de tudo isso.$1#$b#É realmente doce quando você para para pensar. Mas acho que é apenas o espírito das festas.$10 ++  Eu venho querendo dizer isso há um tempo, mas...#$b#Ver você e o Sterling tão felizes juntos sempre me traz um sorriso no rosto. É um lembrete de que duas pessoas realmente podem encontrar o amor juntas.#$b#Eu sei que é meio clichê, mas estou realmente feliz que vocês dois se encontraram. E que agora você faz parte da nossa família.$10#$b#Me avise se precisar de alguma coisa, @. Estou sempre feliz em ajudar. $10 |inputSeparator=++}}",
+						"Mia_y2": "{{Random:Ainda sinto muita falta do meu pai, mas não há nada melhor do que ter o jantar de estrela invernal todos juntos como família.#$b#Eu preparei algo muito especial para você e o Sterling, mal posso esperar para que vejam. ++ @!Feliz estrela invernal Para você e o Sterling. Ainda estamos combinados para o jantar esta noite?#$e#Eu trouxe o meu especial eggnogg para o café da manhã amanhã. ++ Henry e eu nos aconchegamos perto da lareira ontem à noite, quase nos atrasamos para a festa de hoje.$3#$b#Tive que ajudá-lo a arrumar o cabelo, como sempre.$0|inputSeparator=++}}",
+					
+					},
+						"When":
+							{ "Relationship:Sterling": "Married"}
+				},
+
+	//RSV Ember of Resolutions----------------------
+	
+	{
+		"LogName": "RSV Ember of Resolutions Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter28",
+		"Entries": {
+		
+			"Sterling": "Uma das minhas partes favoritas de estar de volta ao vale é a quantidade incrível de festivais.$10s#$b#Há uma celebração para quase tudo!$1#$b#E onde há celebração, também há comida grátis.$10",
+			"Sterling_y2": "Cara! A comida do Pika é incrível.$10#$b#Minha resolução para o próximo ano é mais da comida do Pika, por favor.$9",
+			"Mia": "Feliz Ano Novo, @! Desejo muito sucesso na sua fazenda nos próximos anos.#$b#É um prazer compartilhar uma comunidade com você, espero que possamos compartilhá-la por muitos anos vindouros.",
+			"Mia_y2": "{{Random: Eu trouxe algumas cobertas para mim e os meninos este ano, venha compartilhar conosco se sentir frio, certo?#$b#As estrelas estão tão claras aqui fora, é uma experiência tão aconchegante observá-las perto da fogueira...++Feliz Ano Novo, @! Espero que este ano traga muitas, muitas bênçãos.$1#$b#Eu? Só espero por mais um bom ano aqui e que meu pai esteja bem... Eu gostaria de convencê-lo a vir aqui para ocasiões assim.$4|inputSeparator=++}}",
+			"Henry": "Realmente, eu não deveria estar aqui agora. Há tanto trabalho a ser feito para preparar para a primavera...$3#$b#Mas Mia e Sterling formam uma dupla convincente. Até eu tenho dificuldade em dizer não a eles às vezes.$6",
+            "Henry_y2":"Um novo ano está prestes a começar. A ideia costumava ser exaustiva só de pensar, mas agora...#$b#É realmente empolgante. Há muito o que esperar atualmente. Espero que o próximo ano seja tão bom quanto este.$10"
+		},
+		"When":
+		{ "HasMod":"Rafseazz.RSVCP"}
+	},
+			//Sterling Married 
+				{
+					"LogName": "RSV Ember of Resolutions Dialogue Married Sterling",
+					"Action": "EditData",
+					"Target": "Data/Festivals/winter28",
+					"Entries": {
+					
+						"Sterling_y2": "{{Random: Cara! A comida do Pika é incrível.$10#$b#MMinha resolução para o próximo ano é mais da comida do Pika, por favor.$9#$b#E ainda assim, de alguma forma, não é tão boa quanto a sua, amor.$10++Mmm...  Este ano, eu desejo ter você por muitos, muitos anos.$4++... E talvez também alguns pequeninos.$10|inputSeparator=++}}",
+						"Mia_y2": "{{Random: Eu trouxe algumas cobertas para mim e os meninos este ano, venha compartilhar conosco se sentir frio, certo?#$b#As estrelas estão tão claras aqui fora, é uma experiência tão aconchegante observá-las perto da fogueira...++Meu desejo para este ano? Eu quero ser tia no próximo ano, @.$5#$b#Com todas essas crianças que eu cuido e ainda não tenho sobrinhos ou sobrinhas. Você não pode realmente esperar que eu não tenha isso, pode?$5|inputSeparator=++}}",
+						"Henry_y2": "{{Random: Olá, fazendeiro. Eu estava me perguntando quando você apareceria.$1^Olá, fazendeira. Eu estava me perguntando quando você apareceria.$1#$b#Você deveria provavelmente ir checar seu marido em breve. A forma como ele está olhando para a comida do Pika me preocupa, ele pode comer até entrar em coma se você não o parar.++Você sabe, dizem que é boa sorte entrar no novo ano com as pessoas que você ama.#$b#Acho que isso significa que você vai ter um ano muito bom, fazendeiro.^Acho que isso significa que você vai ter um ano muito bom, fazendeira.#$b#E eu? Bem, eu tenho a Mia comigo, então... Sim. Acho que eu vou ficar bem também.$4|inputSeparator=++}}"
+					},
+					"When":
+						{ "Relationship:Sterling": "Married",
+						  "HasMod":"Rafseazz.RSVCP"}
+				},
+
+	//RSV Gathering Festival----------------------
+	
+	{
+		"LogName": "RSV Gathering Festival Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall20",
+		"Entries": {
+		
+			"Sterling": "Ei fazendeiro! Comprou algo bonito?^Ei fazendeira! Comprou algo bonito?#$b#Sim? A Mia ainda não esgotou todas as barracas?$10",
+			"Sterling_y2": "{{Random: Ei fazendeiro! Comprou algo bonito?^Ei fazendeira! Comprou algo bonito?#$b#Sim? A Mia não comprou todas as barracas já?$10++Você sabia que as pessoas em Ridgeside competem para vender mais produtos todos os anos?#$b#Oh, não se preocupe, estou acima dessa competição mesquinha.#$b#... Eu comprei um monte de coisas dos caras. As garotas têm isso fácil com seus charmes.$10++Oh, ei fazendeiro! Henry e eu estávamos falando sobre o que vamos almoçar.^Oh, ei fazendeira! Henry e eu estávamos falando sobre o que vamos almoçar.#$b#Claro que vai ser no Pika's!!$1|inputSeparator=++}}",
+			"Mia": "Você acha que seria estranho se eu entregasse alguns dos meus cartões aqui?#$b#Há tantos fazendeiros e eu amo demais trabalhar no vale.$1#$b#Muito melhor do que a cidade.$3",
+			"Mia_y2": "Os garotos são tão chatos, eles acham que precisam me manter afastada senão eu vou ficar louca comprando coisas.$5#$b#...$2#$b#... Mas você acha que poderia distraí-los? Ainda há algumas coisas que eu PRECISO comprar e os garotos não vão me deixar.$4",
+			"Henry": "Este é um tipo de evento... interessante. Não tenho certeza se é realmente o meu estilo, mas alguém tem que manter Sterling e Mia sob controle.$6#$b#O concerto deve ser legal, porém. Parece uma boa maneira de encerrar a noite. Só espero que eles não toquem nada muito selvagem.",
+            "Henry_y2":"Por mais legal que seja ver a Mia ficar animada, eu gostaria que ela fosse um pouco mais responsável com seus gastos.$6#$b#Eu nem sei onde ela pretende colocar todas essas coisas que ela quer comprar. Mas não tenho certeza se ela está pensando tão à frente assim.$6"
+		},
+		"When":
+		{ "HasMod":"Rafseazz.RSVCP"}
+	},
+			//Sterling Married 
+				{
+					"LogName": "RSV Gathering Festival Dialogue Sterling Married",
+					"Action": "EditData",
+					"Target": "Data/Festivals/fall20",
+					"Entries": {
+					
+						"Sterling_y2": "{{Random:Ei, amor! Comprou alguma coisa fofa?#$b#É mesmo? A Mia ainda não esgotou todas as barracas?$10++Toda essa gente competindo para ver quem tem os melhores produtos do vale, sem saber que o melhor produtor está bem na minha frente.$10#$b#E me beijando.$10#$b#%Sterling rouba um beijo de você.++Você está animado para a banda tocar mais tarde esta noite? Vou reservar lugares para nós, querido.^Você está animada para a banda tocar mais tarde esta noite? Vou reservar lugares para nós, querida|inputSeparator=++}}",
+						"Mia_y2": "{{Random:Você acha que seria estranho se eu entregasse alguns dos meus cartões aqui?#$b#Há tantos fazendeiros e eu amo demais trabalhar no vale.$1#$b#Muito melhor do que a cidade..$3++Henry e eu estávamos pensando em vender os produtos da fazenda dele aqui, mas ele acha que pode ser difícil convencer o pai dele.$7|inputSeparator=++}}",
+						"Henry_y2": "{{Random: Você e Sterling já pensaram em abrir uma barraca de venda um desses anos?#$b#Com seus produtos e a lábia de Sterling, tenho certeza de que vocês superariam qualquer um.$3++Juro, toda vez que viro as costas por um segundo, Mia tem outra sacola para eu carregar.$3#$b#Eu quero brigar com ela por isso, mas quando vejo aquele grande sorriso dela e ela começa a falar sobre o quanto ela ama sua nova compra...É realmente difícil ficar bravo.$6|inputSeparator=++}}"
+					},
+					"When":
+						{ "Relationship:Sterling": "Married",
+						  "HasMod":"Rafseazz.RSVCP"}
+				},
+]
+}

@@ -1,0 +1,18 @@
+{
+	"Name": "Lunna - Astray in StardewValley HEARTEVENT7 Lunna Patch SVR2",
+	"Author": "Rafseazz",
+	"Version": "3.0",
+	"Description": "Patches for SDVR2 with Lunna 7 Heart Event",
+	"UniqueID": "Rafseazz.LunnaHeartEvent7Patch",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [ "Nexus:???" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"Dependencies": [
+	 {
+	  "UniqueID": "Rafseazz.LunnaCP",
+	  "IsRequired": true,
+	 },
+	]
+}

@@ -1,0 +1,312 @@
+{
+    "Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Ancient_Fiber": {"Price": "55"},
+				"FlashShifter.StardewValleyExpandedCP_Monster_Fruit": {"Price": "600"},
+				"FlashShifter.StardewValleyExpandedCP_Monster_Mushroom": {"Price": "300"},
+				"FlashShifter.StardewValleyExpandedCP_Salal_Berry": {"Price": "20"},
+				"FlashShifter.StardewValleyExpandedCP_Slime_Berry": {"Price": "40"},
+				"FlashShifter.StardewValleyExpandedCP_Void_Root": {"Price": "200"},
+				"FlashShifter.StardewValleyExpandedCP_Joja_Berry": {"Price": "310"},
+				"FlashShifter.StardewValleyExpandedCP_Joja_Veggie": {"Price": "500"},		
+			},		
+            "When": {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "Stardew Valley Expanded": true, "Crops": true}		
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Mushroom_Colony": {"Price": "90"},	
+				"FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia": {"Price": "150"},		
+				"FlashShifter.StardewValleyExpandedCP_Big_Conch": {"Price": "100"},	
+				"FlashShifter.StardewValleyExpandedCP_Bearberrys": {"Price": "60"},	
+				"FlashShifter.StardewValleyExpandedCP_Poison_Mushroom": {"Price": "65"},	
+				"FlashShifter.StardewValleyExpandedCP_Red_Baneberry": {"Price": "25"},	
+				"FlashShifter.StardewValleyExpandedCP_Ferngill_Primrose": {"Price": "130"},	
+				"FlashShifter.StardewValleyExpandedCP_Thistle": {"Price": "120"},
+				"FlashShifter.StardewValleyExpandedCP_Goldenrod": {"Price": "140"},
+				"FlashShifter.StardewValleyExpandedCP_Winter_Star_Rose": {"Price": "150"},				
+				"FlashShifter.StardewValleyExpandedCP_Dewdrop_Berry": {"Price": "200"},	
+				"FlashShifter.StardewValleyExpandedCP_Lucky_Four_Leaf_Clover": {"Price": "200"},					
+			},		
+            "When": {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "Stardew Valley Expanded": true, "Forage": true}		
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": {"Price": "65"},	
+				"FlashShifter.StardewValleyExpandedCP_Bonefish": {"Price": "115"},	
+                "FlashShifter.StardewValleyExpandedCP_Bull_Trout": {"Price": "155"},	
+				"FlashShifter.StardewValleyExpandedCP_Butterfish": {"Price": "135"},
+				"FlashShifter.StardewValleyExpandedCP_Clownfish": {"Price": "50"},				
+				"FlashShifter.StardewValleyExpandedCP_Daggerfish": {"Price": "85"},	
+				"FlashShifter.StardewValleyExpandedCP_Frog": {"Price": "115"},	
+                "FlashShifter.StardewValleyExpandedCP_Goldenfish": {"Price": "145"},	
+				"FlashShifter.StardewValleyExpandedCP_Grass_Carp": {"Price": "165"},
+				"FlashShifter.StardewValleyExpandedCP_King_Salmon": {"Price": "155"},	
+				"FlashShifter.StardewValleyExpandedCP_Kittyfish": {"Price": "165"},	
+				"FlashShifter.StardewValleyExpandedCP_Lunaloo": {"Price": "115"},	
+				"FlashShifter.StardewValleyExpandedCP_Meteor_Carp": {"Price": "155"},	
+				"FlashShifter.StardewValleyExpandedCP_Minnow": {"Price": "50"},	
+				"FlashShifter.StardewValleyExpandedCP_Puppyfish": {"Price": "165"},	
+				"FlashShifter.StardewValleyExpandedCP_Radioactive_Bass": {"Price": "245"},	
+				"FlashShifter.StardewValleyExpandedCP_Razor_Trout": {"Price": "165"},	
+				"FlashShifter.StardewValleyExpandedCP_Seahorse": {"Price": "55"},	
+				"FlashShifter.StardewValleyExpandedCP_Sea_Sponge": {"Price": "65"},	
+				"FlashShifter.StardewValleyExpandedCP_Snatcher_Worm": {"Price": "170"},		
+				"FlashShifter.StardewValleyExpandedCP_Starfish": {"Price": "135"},	
+				"FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": {"Price": "145"},		
+				"FlashShifter.StardewValleyExpandedCP_Undeadfish": {"Price": "155"},		
+				"FlashShifter.StardewValleyExpandedCP_Void_Eel": {"Price": "210"},		
+				"FlashShifter.StardewValleyExpandedCP_Water_Grub": {"Price": "95"},
+				"FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": {"Price": "50"},	
+				"FlashShifter.StardewValleyExpandedCP_Gemfish": {"Price": "315"},	
+				"FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo": {"Price": "210"},			
+			},		
+            "When": {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "Stardew Valley Expanded": true, "Fish": true}		
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Baked_Berry_Oatmeal": {"Price": "805"},	
+				"FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger": {"Price": "345"},	
+				"FlashShifter.StardewValleyExpandedCP_Flower_Cookie": {"Price": "695"},	
+				"FlashShifter.StardewValleyExpandedCP_Frog_Legs": {"Price": "290"},	
+				"FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish": {"Price": "510"},		
+				"FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie": {"Price": "310"},	
+				"FlashShifter.StardewValleyExpandedCP_Mushroom_Berry_Rice": {"Price": "665"},	
+				"FlashShifter.StardewValleyExpandedCP_Seaweed_Salad": {"Price": "295"},	
+				"FlashShifter.StardewValleyExpandedCP_Void_Delight": {"Price": "4840"},	
+				"FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi": {"Price": "565"},		
+			},		
+            "When": {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "Stardew Valley Expanded": true, "Food": true}		
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {	
+				"FlashShifter.StardewValleyExpandedCP_Void_Pebble": {"Price": "300"},		
+			},		
+            "When": {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "Stardew Valley Expanded": true, "Miscellaneous Items": true}		
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {	
+				"FlashShifter.StardewValleyExpandedCP_Baked_Berry_Oatmeal": { 
+				"Buffs": [{"Duration": "1200","IsDebuff": false,"CustomAttributes": {"FarmingLevel": "4", "ForagingLevel": "4", "Speed": "2"}}],
+				},
+				"FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger": { 
+				"Buffs": [{"Duration": "500","IsDebuff": false,"CustomAttributes": {"Speed": "1", "Attack": "3"}}],
+				},		
+				"FlashShifter.StardewValleyExpandedCP_Flower_Cookie": { 
+				"Buffs": [{"Duration": "800","IsDebuff": false,"CustomAttributes": {"LuckLevel": "2", "ForagingLevel": "2", "Speed": "2"}}],
+				},			
+				"FlashShifter.StardewValleyExpandedCP_Frog_Legs": { 
+				"Buffs": [{"Duration": "500","IsDebuff": false,"CustomAttributes": {"Speed": "2", "Defense": "2"}}],
+				},		
+				"FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish": { 
+				"Buffs": [{"Duration": "600","IsDebuff": false,"CustomAttributes": {"FishingLevel": "2", "LuckLevel": "2"}}],
+				},
+				"FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie": { 
+				"Buffs": [{"Duration": "1200","IsDebuff": false,"CustomAttributes": {"FarmingLevel": "3", "MaxStamina": "50"}}],
+				},	
+				"FlashShifter.StardewValleyExpandedCP_Mushroom_Berry_Rice": { 
+				"Buffs": [{"Duration": "800","IsDebuff": false,"CustomAttributes": {"MiningLevel": "3", "MaxStamina": "-50", "MagneticRadius": "32", "Defense": "3", "Attack": "3"}}],
+				},	
+				"FlashShifter.StardewValleyExpandedCP_Seaweed_Salad": { 
+				"Buffs": [{"Duration": "800","IsDebuff": false,"CustomAttributes": {"FishingLevel": "1", "MaxStamina": "30"}}],
+				},		
+				"FlashShifter.StardewValleyExpandedCP_Void_Delight": { 
+				"Buffs": [{"Duration": "600","IsDebuff": false,"CustomAttributes": {"MiningLevel": "2", "LuckLevel": "2", "MaxStamina": "20", "MagneticRadius": "32", "Speed": "2", "Attack": "3"}}],
+				},	
+				"FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi": { 
+				"Buffs": [{"Duration": "1200","IsDebuff": false,"CustomAttributes": {"FishingLevel": "3", "LuckLevel": "3", "MaxStamina": "80", "Defense": "5"}}],
+				},	
+				"FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken": { 
+				"Buffs": [{"Duration": "900","IsDebuff": false,"CustomAttributes": {"FarmingLevel": "3"}}],
+				},			
+			},		
+			"When": {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "Stardew Valley Expanded": true, "Food Buffs": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja","Items"],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Jazz_Seeds, !IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay": {"Price": "80"},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Jazz_Seeds": {"Price": "80"},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Jazz_Seeds": {"Price": "80"},
+				"FlashShifter.StardewValleyExpandedCP_Tulip_Bulb": {"Price": "85"},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Tulip_Bulb": {"Price": "85"},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Tulip_Bulb": {"Price": "85"},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Poppy_Seeds": {"Price": "80"},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Poppy_Seeds": {"Price": "80"},
+				"FlashShifter.StardewValleyExpandedCP_Spangle_Seeds": {"Price": "85"},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Spangle_Seeds": {"Price": "85"},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Spangle_Seeds": {"Price": "85"},		
+				"FlashShifter.StardewValleyExpandedCP_Fairy_Seeds": {"Price": "50"},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Fairy_Seeds": {"Price": "50"},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Fairy_Seeds": {"Price": "50"},	
+				"FlashShifter.StardewValleyExpandedCP_Sunflower_Seeds": {"Price": "200"},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Sunflower_Seeds": {"Price": "200"},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Sunflower_Seeds": {"Price": "200"},	
+				"(BC)272": {"Price": "100000"}, //Auto-Petter
+			},
+            "When": {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "Stardew Valley Expanded": true, "Flowers": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Hospital","Items"],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Stamina_Capsule": {"Price": "2500", "IgnoreShopPriceModifiers": true},				
+			},
+            "When": {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "Stardew Valley Expanded": true, "Shops": true}	
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Saloon","Items"],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken": {"Price": "650", "IgnoreShopPriceModifiers": true},	
+				"FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger": {"Price": "1500", "IgnoreShopPriceModifiers": true},
+				"FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie": {"Price": "1200", "IgnoreShopPriceModifiers": true},
+				"FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish": {"Price": "1200", "IgnoreShopPriceModifiers": true},				
+			},
+            "When": {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "Stardew Valley Expanded": true, "Shops": true}	
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Saloon","Items"],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken": {"AvailableStock": "3", "AvailableStockLimit": "Player"},	
+				"FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger": {"AvailableStock": "1", "AvailableStockLimit": "Player"},
+				"FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie": {"AvailableStock": "1", "AvailableStockLimit": "Player"},
+				"FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish": {"AvailableStock": "1", "AvailableStockLimit": "Player"},				
+			},
+            "When": {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "Stardew Valley Expanded": true, "Limited Shop Inventories": true}	
+		},
+		//Susan Special Order
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"303": {"Price": "100"}, //Pale Ale
+				"346": {"Price": "200"}, //Beer
+			},	
+				
+            "When": {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "Stardew Valley Expanded": true, "HasSeenEvent: anyPlayer| contains=5407917": true, "Crops": true}		
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"459": {"Price": "330"}, //Mead
+			},			
+            "When": {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "Stardew Valley Expanded": true, "HasSeenEvent: anyPlayer| contains=5407917": true, "Miscellaneous Items": true}		
+		},
+		//Andy Special Order
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"400": {"Price": "85"}, //Strawberry
+			},			
+            "When": {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "Stardew Valley Expanded": true, "HasSeenEvent: anyPlayer| contains=5407915": true, "Crops": true}		
+		},
+		//Morgan Event
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"176": {"Price": "70"}, //Egg
+				"180": {"Price": "70"}, //Egg
+				"6480.blueegg_BlueEgg": {"Price": "135"}, //Blue Egg
+				"305": {"Price": "135"}, //Void Egg
+				"442": {"Price": "220"}, //Duck Egg
+				"440": {"Price": "335"}, //Wool
+				"107": {"Price": "945"}, //Dinosaur Egg
+				"928": {"Price": "315"}, //Golden Egg
+				"184": {"Price": "80"}, //Milk
+				"436": {"Price": "155"}, //Goat Milk
+				"430": {"Price": "200"}, //Truffle
+				"289": {"Price": "1155"}, //Ostrich Egg
+				"174": {"Price": "135"}, //Large Egg
+				"182": {"Price": "135"}, //Large Egg
+				"444": {"Price": "210"}, //Duck Feather
+				"446": {"Price": "670"}, //Rabbit's Foot
+				"186": {"Price": "155"}, //Large Milk
+				"438": {"Price": "315"}, //L. Goat Milk
+				"306": {"Price": "145"}, //Mayonnaise
+				"6480.blueegg_BlueMayo": {"Price": "300"}, //Blue Mayonnaise
+				"308": {"Price": "300"}, //Void Mayonnaise
+				"307": {"Price": "480"}, //Duck Mayonnaise
+				"428": {"Price": "735"}, //Cloth
+				"807": {"Price": "2100"}, //Dinosaur Mayonnaise
+				"6480.blueegg_GoldenMayo": {"Price": "420"}, //Golden Mayonnaise
+				"424": {"Price": "170"}, //Cheese
+				"426": {"Price": "345"}, //Goat Cheese
+				"432": {"Price": "435"}, //Truffle Oil
+			},		
+            "When": {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "Stardew Valley Expanded": true, "HasSeenEvent: anyPlayer| contains=5978939": true, "Animals": true}		
+		},
+		//Sofia Event
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"398": {"Price": "75"}, //Grape
+			},		
+            "When": {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "Stardew Valley Expanded": true, "HasSeenEvent: anyPlayer| contains=8185300": true, "Spouse": "Sophia", "Crops": true}		
+		},
+		//Apples Event
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"268": {"Price": "250"}, //Starfruit
+			},		
+            "When": {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "Stardew Valley Expanded": true, "HasSeenEvent: anyPlayer| contains=7776009": true, "Crops": true}		
+		},
+		//Susan Event
+	    {
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Fields": {
+			    "Preserves Jar": {0:"388 40 390 30 709 5 726 1"},
+				"Keg": {0:"388 20 334 1 335 1 725 1"},
+				"Cask": {0:"388 15 709 1"},
+			},
+			"When": {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "Stardew Valley Expanded": true, "HasSeenEvent: anyPlayer| contains=1000083": true, "Machines": "Normal"}
+		},
+	    {
+				
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Fields": {
+			    "Preserves Jar": {0:"388 40 390 30 709 10 726 2"},	
+				"Keg": {0:"388 30 334 2 335 2 725 2"},
+				"Cask": {0:"388 20 709 2 726 1"},
+			},
+			"When": {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "Stardew Valley Expanded": true, "HasSeenEvent: anyPlayer| contains=1000083": true, "Machines": "Hard"}
+		},
+	    {
+				
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Fields": {
+			    "Preserves Jar": {0:"388 50 390 40 709 15 726 3"},
+				"Keg": {0:"388 40 334 3 335 3 725 3"},
+				"Cask": {0:"388 40 709 3 726 2"},
+			},
+			"When": {"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "Stardew Valley Expanded": true, "HasSeenEvent: anyPlayer| contains=1000083": true, "Machines": "Very Hard"}
+		},
+	]
+}

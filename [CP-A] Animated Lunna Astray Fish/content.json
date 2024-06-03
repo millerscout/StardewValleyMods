@@ -1,0 +1,101 @@
+{
+	"Format": "2.0.0",
+
+	"ConfigSchema": 
+	{
+		"DewdropFish":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		}, 
+		"PurpleSpottedTrout":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		}, 
+		"Relicantlette":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		}, 
+		"Serafin":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		}, 
+		"UmuwiCarp":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},
+	},
+	"Changes": [
+		{
+			"LogName": "Dewdrop Fish",
+			"Action": "EditImage",
+			"Target": "LASV/Objects",
+			"FromFile": "dewdrop_fish.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+			{"DewdropFish": "true"},
+		},
+		{
+			"LogName": "Purple Spotted Trout",
+			"Action": "EditImage",
+			"Target": "LASV/Objects",
+			"FromFile": "purple_spotted_trout.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+			{"PurpleSpottedTrout": "true"},
+		},
+		{
+
+			"LogName": "Relicantlette",
+			"Action": "EditImage",
+			"Target": "LASV/Objects",
+			"FromFile": "relicantlette.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+			{"Relicantlette": "true"},
+		},
+		{
+			"LogName": "Serafin",
+			"Action": "EditImage",
+			"Target": "LASV/Objects",
+			"FromFile": "serafin.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 48, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+			{"Serafin": "true"},
+		},
+		{
+
+			"LogName": "Umuwi Carp",
+			"Action": "EditImage",
+			"Target": "LASV/Objects",
+			"FromFile": "umuwi_carp.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+			{"UmuwiCarp": "true"},
+		}
+	]
+}

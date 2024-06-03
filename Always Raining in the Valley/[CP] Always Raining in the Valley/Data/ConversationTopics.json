@@ -1,0 +1,215 @@
+{
+    "Changes": 
+      [
+    
+
+
+
+    //CONVERSATION TOPICS
+
+    //STERLING
+{
+    "LogName": "Conversation Topics - Sterling",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Sterling",
+    "Entries": 
+    {
+        "SterlingTrash": "%Sterling parece bastante doente, é melhor não incomodá-lo muito.#$b#... Ah, oi @. Desculpe, estou meio de ressaca-,$6#$e#... Sinto muito que você tenha presenciado isso, ontem à noite.$6#$e#%Ele parece estar se esforçando muito para se concentrar no trabalho.",
+        "SterlingTrain": "... Desculpe, fazendeiro... Você acha que poderíamos não falar sobre o que aconteceu ontem à noite?$3^... Desculpe, fazendeira... Você acha que poderíamos não falar sobre o que aconteceu ontem à noite?$3",
+        "SterlingShaneParty": "É sempre gratificante ter alguém que te entende.$1#$e#Desculpe fazendeiro, não tenho certeza se os detalhes seriam algo com o que você se identificaria...$3^Desculpe fazendeira, não tenho certeza se os detalhes seriam algo com o que você se identificaria...$3",
+        "SterlingSwim":"Shh! Tenha certeza de ser quieto, fazendeiro. Costumávamos levar broncas o tempo todo quando éramos mais jovens.$9^Shh! Tenha certeza de ser quieto, fazendeira. Costumávamos levar broncas o tempo todo quando éramos mais jovens.$9#$b#Oh, como George detestava isso.$10",
+        "SterlingBike":"Hmm...$4#$b#SDesculpe, @. Eu estava pensando na costa.#$b#Obrigado por ter vindo comigo. Significou muito para mim.",
+        "SterlingDrugs":"Acho que sinto falta da cidade às vezes...$12#$b#Algumas coisas eram muito mais fáceis de conseguir por lá. Talvez devesse perguntar ao Shane-$6#$e#!$7#$b#... Cara, eu realmente não deveria estar falando assim.$3#$b#Desculpe, @. Estou agindo como um idiota.#$e#%Sterling parece estressado e... nervoso?",
+        "SterlingSobriety":"Sabe, talvez eu deva realmente desempacotar mais das minhas coisas.#$b#Quem sabe eu não encontro mais coisas legais como o chip.$1",
+        "SterlingRelapse":"%Melhor dar um tempo para o Sterling. Ele não parece bem.",
+        "SterlingApology":"Ei, @.#$b#Sim, apenas... Tentando fazer as pazes e tudo mais.$4#$b#Um passo de cada vez, certo?",
+        "SterlingDinner":"O futuro parece um pouco mais brilhante. Eu não acho...$4#$b#Eu não acho que tenha sido assim por um bom tempo. Obrigado.$0#$e#... Shane lidou bem com tudo, a propósito. Decidimos deixar em termos amigáveis.#$b#Dói muito, mas... Acho que preciso disso. Não estar cercado por maus hábitos.",
+        "SterlingRiver": "Nossa.$3#$b#Um passo de cada vez, certo?$3$#b#... Acho que finalmente chegou a hora para essa coisa em particular.#$e#Você agora pode vir tomar um refrigerante gelado no bar comigo.$10",
+    }
+},
+    //HENRY
+/*{
+    "LogName": "Conversation Topics - Henry",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Henry",
+    "Entries": 
+    {
+        "SterlingTrash": "Ouvi dizer que você conheceu o Sterling. Por favor, permita-me pedir desculpas pelo comportamento dele.$3#$b#Ele é uma boa pessoa, mas ainda tem muitas coisas com as quais precisa lidar. Então, dê a ele uma chance.$9",
+        "SterlingTrain": "Toda vez que ouço o trem passar, fico preocupado com meu primo. Ele está sempre brincando nos trilhos, e...$3#$b#Bem, na verdade, não é da sua conta. Nem tenho certeza por que mencionei isso para começar.",
+        "SterlingShaneParty": "Quase me atrasei para o trabalho hoje porque tive que limpar a bagunça de Sterling depois que ele chegou em casa$3#$b#Estou prestes a chegar ao limite com ele e seu comportamento. Esse garoto está em maus lençóis.$9",
+        "SterlingSwim":"Sterling chegou tarde em casa ontem à noite. Nunca consigo dormir quando ele sai até altas horas da noite..#$b#Mas quando ele me disse que estava com você, percebi que talvez não precise me preocupar tanto com ele. Estou feliz em vê-lo começando a fazer escolhas melhores em companhia.",
+        "SterlingBike":"Você e Sterling certamente têm se dado bem, não é?$1#$b#Faz muito tempo que não o vejo tão feliz. Ele realmente gosta de passar tempo com você.#$b#Obrigado, @. Acredito que seu apoio tem feito uma grande diferença em sua recuperação.",
+        "SterlingDrugs":"...$9#$b#Ei @. Você viu o Sterling ultimamente? Ele parece... Estranho. Estou realmente começando a me preocupar com ele.$9#$b#As coisas têm corrido tão bem para ele ultimamente. Espero sinceramente que ele não esteja fazendo nada estúpido.$3",
+        "SterlingRelapse":"Sinto muito que você tenha tido que ver aquela confusão na loja. Sei que o Sterling preferiria que você não o visse em um estado tão ruim.$2#$b#b#Mas ele está bem agora. Mia e eu vamos ficar de olho nele.$9#$b#Você pode querer passar por lá e visitá-lo em algum momento. Tenho certeza de que ele vai apreciar.$9",
+        "SterlingApology":"Foram semanas difíceis, mas é bom ver as coisas começando a voltar ao normal.#$b#Obrigado por não desistir dele. Sei que seu apoio tem feito toda a diferença em sua mentalidade.$1",
+        "SterlingDinner":"",
+        "SterlingRiver":"Ei @. Você falou com o Sterling recentemente?#$b#Ah, então você já ouviu as boas notícias. Sabe, eu realmente acredito que ele está falando sério desta vez.$1#$b#Ainda há uma batalha para a vida toda pela frente, mas acho que ele finalmente tem a força para seguir em frente. E sei que você teve um papel importante nisso.$10#$b#Se precisar de algo de mim, é só dizer. Nossa família está em dívida com você pelo que você fez por ele.",
+    }
+},
+    //MIA
+{
+    "LogName": "Conversation Topics - Mia",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Mia",
+    "Entries": 
+    {
+        "SterlingTrash": "",
+        "SterlingTrain": "",
+        "SterlingShaneParty": "",
+        "SterlingSwim":"",
+        "SterlingBike":"",
+        "SterlingDrugs":"",
+        "SterlingSobriety":"",
+        "SterlingRelapse":"",
+        "SterlingApology":"",
+        "SterlingDinner":"",
+        "SterlingRiver":"",   
+    }
+},
+*/
+    //VANILLA TOWNIES
+    //SHANE
+{
+    "LogName": "Conversation Topics - Shane",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Shane",
+    "Entries": 
+        {
+            "SterlingTrash": "O que você quer?#$b#Ei, você já conheceu o Sterling? Se você gosta de incomodar tanto assim, vai gostar de incomodá-lo também.$2",
+            "SterlingTrain": "Ei.#$b#Fique de olho no Sterling, certo?$3#$b#Ele é um cara legal, mas às vezes é um idiota enorme.$2",
+            "SterlingShaneParty": "A vida não é tão ruim quando se tem uma cerveja, pizza e um bom amigo.$6#$b#O que? Não, eu quis dizer o Sterling.$2",
+            "SterlingSwim": "Toda vez que eu tento algo novo, dá horrivelmente errado.$2#$b#Não se preocupe, eu e o Sterling cuidamos disso. Ele entende isso.",
+            "SterlingBike": "O Sterling estava com você ontem?$2#$e#... Huh.",
+            "SterlingDrugs": "O que? Nada está errado com o Sterling. Nos deixe em paz.$2",
+            "SterlingRelapse": "...$2#$b#%Shane não quer falar com você.#$e#O que você está fazendo tentando falar comigo? Vá verificar o Sterling.$2#$b#Ele precisa disso.$2",
+            "SterlingDinner": "... Acho que mereci isso.$3#$b#Não se preocupe, eu e o Sterling estamos bem. Sem drama para tentar fofocar.$0#$b#Deixamos as coisas de forma amigável, como homens adultos.#$e#Se nós dois conseguirmos nos recompor o suficiente... Poderíamos tentar novamente.$3",
+            "SterlingRiver":"Pierre me contou o que o Sterling fez.#$b#Estou orgulhoso dele.$6",   
+        }
+},
+
+   //Pierre
+   {
+    "LogName": "Conversation Topics - Pierre",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Pierre",
+    "Entries": 
+        {
+            "SterlingTrash": "Claro, o Sterling aparece novamente no trabalho de ressaca.$4#$e#Juro por Yoba. Por que eu aguento isso?$3",
+            "SterlingTrain": "@! Você tirou um momento para examinar nossas novas prateleiras coloridas?$1#$b#Como Morris pode competir com uma mente como a minha?#$e#O quê?$4#$b#Quem se importa se o Sterling fez elas? Foi minha ideia. Eu sou o chefe! Alguém tem que delegar..$3",
+            "SterlingShaneParty": "É bom não ter que tirar o lixo você mesmo agora.",
+            "SterlingSwim": "Você acredita que eu nunca consegui convencer a Abigail a vir ajudar o pai dela na loja?$2#$b#Quem poderia saber que eu conseguiria convencer o bêbado do Sterling antes da minha própria filha?$1#$e#... Você poderia tentar falar com ela? Talvez você a convença.$2",
+            "SterlingBike":"Tch. O que deixou aquele garoto tão feliz assim de repente?",
+            "SterlingDrugs":"Sterling está agindo pior do que o normal.$4#$b#Ele voltou a usar alguma coisa?! É melhor ele não estar se drogando enquanto trabalha.",
+            "SterlingSobriety": "Loja feliz. Chefe feliz.$1#$e#Ainda mais feliz quando você não precisa ser o único a fazer a limpeza.$1",
+            "SterlingRelapse": "%Pierre está muito bravo para conversar no momento.",
+            "SterlingApology": "É... Bom ter o garoto de volta.#$b#A loja estava solitária sem ele.$1",
+            "SterlingRiver": "Então o garoto finalmente está largando a garrafa na mão? Ótimo.#$b#Nada de aparecer no trabalho de ressaca!$1#$e#$4!#$b#Também é ótimo para a saúde dele!$1",   
+        }
+},
+    //CAROLINE
+{
+    "LogName": "Conversation Topics - Caroline",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Caroline",
+    "Entries": 
+        {
+            "SterlingTrash": "Apesar de tentarmos, nunca conseguimos convencer a Abigail a ajudar na loja em meio período.#$b#É bom que ao menos o Pierre tenha o Sterling para ajudá-lo. Ele é um bom rapaz.",
+            "SterlingTrain": "Às vezes, o Henry envia alguns dos seus produtos para serem vendidos na Vila Pelicanos. Seu pai cultivava pêssegos maravilhosos.#$b#Nos últimos anos, as coisas têm desacelerado. Eu me pergunto se está tudo bem...$2",
+            "SterlingSwim": "Mia é uma excelente parceira de aeróbica.$h#$b#Estávamos fazendo exercícios em casal e, apesar do Pierre ter se recusado, ela não teve problemas em me acompanhar#$e#Você deveria vir treinar conosco algum dia, @.",
+            "SterlingDrugs":"O Sterling tem parecido estranho no trabalho para você?#$2#$b#Ele parece um pouco suspeito. Espero que ele não esteja se metendo em encrenca.",
+            "SterlingSobriety": "Apenas ontem, mostrei a minha estufa para Mia e ela adorou.#$b#Ela disse que estava muito profissional, acredita? Sinto-me importante, impressionando uma agrônoma.$1",
+            "SterlingRelapse":"Oh querido, você teve notícias do Sterling? Ouvi sobre o que aconteceu na loja pelo Pierre.#$b#Espero que ele fique bem. Eu sei que ele está perturbado, mas ele nunca foi tão mal assim quando era mais jovem.$2#$e#Pierre ficou bem chateado depois do que aconteceu.$2",
+            "SterlingApology": "Tudo parece estar indo muito melhor desde que o Pierre e o Sterling se reconciliaram..#$b#Fico feliz que o Sterling tenha se desculpado, meu marido ficou muito chateado.#$e#Aquele bolo que ele e a Mia assaram estava delicioso, porém.",
+        }
+},
+    //GUS
+{
+    "LogName": "Conversation Topics - Gus",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Gus",
+    "Entries": 
+        {
+            "SterlingTrash": "Tive que limpar algumas sujeiras do meu lixo esta manhã.#$b#Embalei tudo e chamei o dia de encerrado.#$e#Acontece com mais frequência do que você imagina.$2",
+            "SterlingTrain": "Sterling bebeu muito além do limite dele ontem à noite.$2#$b#*suspiro* piro* Lembro-me do Sterling sendo muito melhor do que isso quando ele ainda era um moleque.#$e#Eu já estou acostumado a lidar com os bêbados da cidade. É apenas decepcionante ver o Sterling se juntar às fileiras deles.$2",
+            "SterlingRiver": "Você viu o que o Sterling está bebendo?#$b#Um refrigerante, é um refrigerante!$1#$b#Esse é o meu garoto.",   
+        }
+},
+    //EVELYN
+{
+    "LogName": "Conversation Topics - Evelyn",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Evelyn",
+    "Entries": 
+        {
+            "SterlingTrain": "Oh querido. Acabei de ouvir que o Sterling voltou para a cidade.^Oh querida. Acabei de ouvir que o Sterling voltou para a cidade.#$b#Ele é um bom rapaz. Uma pena sobre o pai dele.#$e#Você sabia que o George costumava ser babá dele?",
+            "SterlingRelapse": "ia trouxe alguns biscoitos ontem. Eles estavam tão deliciosos.#$e#É uma pena que o George tenha recusado experimentar um."
+        }
+},
+   //HALEY
+   {
+    "LogName": "Conversation Topics - Haley",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Haley",
+    "Entries": 
+        {
+            "SterlingShaneParty": "Aff. O Sterling é tão desleixado.$2#$b#Não consigo acreditar que eu achava ele bonitinho.$3#$e#Se você contar a ele que eu disse isso, eu nego.$5 ",
+            "SterlingBike": "Ugh. Por que ninguém normal tem bicicletas? O Sebastian é muito estranho e o Sterling é muito velho pra mim.$3#$e#... Eu queria que o Alex me convidasse para passeios.$2",
+            "SterlingDrugs": "Eca, por que o Sterling tá agindo de forma tão estranha? Verifica o que tá acontecendo com ele, ele tá parecendo tão suspeito e esquisito.$3#$b#Tão assustador.$2",
+            "SterlingSobriety": "Eu gosto das unhas do Sterling. É preciso confiança em um homem para pintá-las, sabia?",
+            "SterlingRelapse":"Aff. Você ouviu sobre o escândalo que o Sterling causou na loja do Pierre? Isso não é nada bonitinho$3",
+            "SterlingApology": "O Henry é... Ok.$2#$b#Ele seria muito mais bonitinho sem esses óculos.",
+            "SterlingRiver": "Ok. Ficar sóbrio fez o Sterling ficar 1% mais bonitinho.",   
+        }
+},
+   //HARVEY
+   {
+    "LogName": "Conversation Topics - Harvey",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Harvey",
+    "Entries": 
+        {
+
+            "SterlingShaneParty": "Eu me preocupo com os fígados da Pam, Shane e Sterling. Não é bom beber tanto regularmente.$2",
+            "SterlingSwim": "Mia passou por aqui com os biscoitos mais fofos que já vi. Eles tinham formato de pássaros.$7#$b#Eram até sem açúcar! Somos vizinhos de sorte.$4",
+            "SterlingBike": "Me pergunto se eu poderia convencer o Sterling a fazer um check-up anual.#$b#Agora que ele está de volta em casa, é importante começarmos a cuidar de sua saúde.",
+            "SterlingDrugs": "Você já ouviu falar do Starshot de Mia... Cappuccino?#$b#É uma bebida de café diferente, oficialmente feita para o meu consumo mensal de açúcar.#$b#Ela insistiu que queria que eu experimentasse.$7",
+            "SterlingSobriety": "Maru disse que a Mia passou por aqui para entregar alguns cookies. É uma pena que eu tenha perdido.$4#$b#Para agradecê-la pessoalmente, é claro.$7#$e#Você já teve a chance de experimentá-los?$4",
+            "SterlingRelapse": "Mia e Henry trouxeram o Sterling para me ver depois do que aconteceu.$2#$b#Não posso revelar muito, mas não se preocupe. Sterling não teve overdose de nada.#$b#Provavelmente, o corpo dele simplesmente não estava mais acostumado com aquelas substâncias. Ele não as tolerou.$1",
+            "SterlingDinner": "Você jantou na casa da Mia? Deve ser tão bom.$4",
+            "SterlingRiver": "Mia me disse que o Sterling está se comprometendo com a sobriedade. Não é maravilhoso?$5?#$b#Tenho pesquisado recursos para ele, é uma decisão muito importante e séria.$1",   
+        }
+},
+   //EMILY
+   {
+    "LogName": "Conversation Topics - Emily",
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Emily",
+    "Entries": 
+        {
+
+            "SterlingShaneParty": "Sterling e Shane são os únicos que pagam meu salário!#$b#É surreal o quanto de álcool que os fígados deles conseguem aguentar quando bebem juntos.$1",
+            "SterlingSobriety":"",
+            "SterlingRelapse":"Passei na loja depois que Sterling saiu. Pierre estava muito chateado.$2#$b#Espero que Sterling esteja bem",
+
+        }
+},
+ 
+    //PAM
+    {
+        "LogName": "Conversation Topics - Pam",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/Pam",
+        "Entries": 
+            {
+            "SterlingShaneParty": "Eu gosto daquele cara, Sterling.#$b#Ele aguenta a bebida como um homem."
+            }
+        }
+
+
+
+
+
+
+
+      ]
+}

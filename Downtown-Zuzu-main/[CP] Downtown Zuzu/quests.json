@@ -1,0 +1,16 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Quests",
+      "Entries": {
+        // Go see Bill
+		"85870001": "Basic/Bill/Você comprou a Serraria, agora precisa ir ver o Bill e seus construtores para consertá-la./Converse com o Bill na empresa de construção Bill's Builders, a leste do Cruzamento na Cidade Zuzu./null/85870002/0/null/false",
+		// Get the permit
+		"85870002": "Basic/Permissão de Construção/O Bill ofereceu ajuda para consertar a serraria, mas você precisa de uma permissão para isso./Vá pegar uma permissão de construção no Escritório de Permissões Zuzu, ao norte do Cruzamento na Cidade Zuzu./null/85870003/0/null/false",
+		// Fix the sawmill
+		"85870003": "Basic/Conserto da Serraria/Agora que você tem sua permissão, volte e fale com o Bill sobre consertar a Serraria./Converse com o Bill na empresa de construção Bill's Builders, a leste do Cruzamento na Cidade Zuzu./null/-1/0/null/false"
+      }
+    }
+  ]
+}

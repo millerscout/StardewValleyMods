@@ -1,0 +1,25 @@
+﻿{
+  "Format": "1.26.0",
+  "Changes": [
+    // Common NPC Adventures data
+    {
+      "Action": "Include",
+      "FromFile": "Data/Animations.json, Data/Mail.json, Strings/SpeechBubbles.json"
+    },
+
+    // Companion dialogues
+    {
+      "Action": "Include",
+      "FromFile": "Dialogues/Bianka.json, Dialogues/Lunna.json, Dialogues/Raphael.json"
+    },
+
+    {
+      "LogName": "Load translations",
+      "Action": "Include",
+      "FromFile": "Locale/{{language}}/content.json",
+      "When": {
+        "HasFile:{{FromFile}}": true
+      }
+    }
+  ]
+}

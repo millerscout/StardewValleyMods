@@ -1,0 +1,87 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load NPC Adventures companion speech bubbles",
+      "Action": "EditData",
+      "Target": "Strings/SpeechBubbles",
+      "Entries": {
+        "ambient_Mine_Lunna": "It is so dark in here...",
+        "ambient_Mine_Lunna~1": "Protect me {0} please...",
+        "ambient_Mine_Lunna~2": "I am scared...",
+        "ambient_Mine_Lunna~3": "I sure do hope no danger befalls us..",
+        
+        "ambient_Town_Lunna": "It is so pretty in here!",
+        "ambient_Town_Lunna~1": "I < this place!",
+        "ambient_Town_Lunna~2": "I hope the ice cream stand is open.",
+        "ambient_Town_Lunna~3": "Strolling around town is fun {0}",
+        
+        "ambient_Forest_Lunna": "Look at all the pretty flowers!",
+        "ambient_Forest_Lunna~1": "I am sooo sleepy...",
+        
+        "ambient_Beach_Lunna": "This is a good place to relax.",
+        "ambient_Beach_Lunna~1": "Look at the sea! Wow!",
+        
+        "ambient_Umuwi_Lunna": "Oh how I missed this place!",
+        "ambient_Beach_Lunna~1": "I wonder what Dianna is up to?",
+        "ambient_Beach_Lunna~2": "I wonder what Bianka is up to?",
+        
+        "fight_Lunna": "Take this!",
+        "fight_Lunna~1": "EEEP",
+        "fight_Lunna~2": "Stay away!!",
+        "fight_Lunna~3": "HUHUHUHU",
+        
+        
+        "ambient_Mine_Bianka": "BRING IT ON MONSTERS!",
+        "ambient_Mine_Bianka~1": "Come here monsters!",
+        "ambient_Mine_Bianka~2": "Hey look! Gems!",
+        "ambient_Mine_Bianka~3": "The mines smell wierd.",
+        
+        "ambient_Town_Bianka": "OH MY YOBA LET'S GO SHOPPING!",
+        "ambient_Town_Bianka~1": "I want to visit Haley today.",
+        "ambient_Town_Bianka~2": "This town is among my favorites.",
+        "ambient_Town_Bianka~3": "I wonder if Pierce would consider selling fashionable clothes?",
+        
+        "ambient_Forest_Bianka": "Ohh! Look at the cute bunnies!",
+        "ambient_Forest_Bianka~1": "Little little birdies fly fly away <",
+        
+        "ambient_Beach_Bianka": "I wish I brought my sunscreen..",
+        "ambient_Beach_Bianka~1": "I want to soak my feet in the water!",
+        
+        "ambient_Umuwi_Bianka": "I bet Raphael is in his shop again.",
+        "ambient_Beach_Bianka~1": "I wonder how is Lunna doing?",
+        "ambient_Beach_Bianka~2": "You can hear the falls from here!",
+        
+        "fight_Bianka": "HAHA YOU DARE FIGHT ME MONSTER!?",
+        "fight_Bianka~1": "Take this!",
+        "fight_Bianka~2": "Hiya!",
+        "fight_Bianka~3": "Whoops!",
+        
+        
+        "ambient_Mine_Raphael": "This is a good place for training.",
+        "ambient_Mine_Raphael~1": "It seems this place is not sealed.",
+        "ambient_Mine_Raphael~2": "There is an eerie aura in the air.",
+        "ambient_Mine_Raphael~3": "Magic seems to be rampant here.",
+        
+        "ambient_Town_Raphael": "I wonder how is Clint doing?",
+        "ambient_Town_Raphael~1": "Pelican town has some interesting products.",
+        "ambient_Town_Raphael~2": "The barrier in this town.. Hmmm..",
+        "ambient_Town_Raphael~3": "This town has a strong protection barrier..",
+        
+        "ambient_Forest_Raphael": "Look at that tower!",
+        "ambient_Forest_Raphael~1": "Magic seems to be calm and rich here.",
+        
+        "ambient_Beach_Raphael": "I can see traces of mermaids..",
+        "ambient_Beach_Raphael~1": "A hippocampus passed by!",
+        
+        "ambient_Umuwi_Raphael": "The falls can be heard from here!",
+        "ambient_Beach_Raphael~1": "The barrier is still holding up.",
+        "ambient_Beach_Raphael~2": "I sense hostile beings in the distance...",
+        
+        "fight_Raphael": "Grr!",
+        "fight_Raphael~1": "Huff!",
+        "fight_Raphael~2": "Take this!",
+        "fight_Raphael~3": "Woah!",
+      }
+    }
+  ]
+}

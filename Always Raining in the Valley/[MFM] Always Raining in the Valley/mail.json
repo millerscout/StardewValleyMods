@@ -1,0 +1,277 @@
+[
+    /*Template*
+    {
+      "Id": "MyMail",
+      "GroupId": null,
+      "Title": "My Letter Title",
+      "Text": "Hi @, this is a letter!^^-Lewis",
+      "Recipe": "Recipe Name",
+      "Date": "1 spring Y1",
+      "FriendshipConditions": [
+        {
+          "NpcName": "Lewis",
+          "FriendshipLevel": 2
+        }
+      ]
+    },
+    /*SENDING RECIPES*/
+    /*Kitty Muffin: Sterling, 7 heart gift */
+    /*Bear Muffin:  Sterling, 250k gift */
+   /*Mia*/
+    {
+      "Id": "arv.bearpancakes",
+      "Title": "Pancakes Famosos do Urso da Mia!",
+      "Text": "Olá @,^Os meninos me disseram que já falaram bastante sobre minhas panquecas de urso. Tenho certeza de que também já mencionei elas muitas vezes. Bem, estava pensando em você enquanto fazia alguns deles esta manhã, então decidi escrever minha receita para que você também possa aproveitá-la! Não se preocupe, ainda farei alguns extras para você quando passar pela casa. ^^(Ps, se precisar de ajuda para fazer os formatos^não hesite em me procurar, ficarei feliz em ajudar!)^-Mia",
+      "Recipe": "HimeTarts.ARV_Bear_Pancakes",
+      "LetterBG": "MiaLetter.png",
+      "Repeatable": false,
+      "FriendshipConditions": [
+        {
+          "NpcName": "Mia",
+          "FriendshipLevel": 4
+        }
+      ]
+    },
+      {
+        "Id": "arv.cattoast",
+        "Title": "Mimo Matinal da Mia",
+        "Text": "Olá @, Espero que você não esteja se esforçando demais na sua fazenda! É uma manhã de torradas doces, então pensei em enviar-lhe a receita de uma das minhas guloseimas favoritas para que você também possa aproveitar. Que tal fazer uma pausa e me visitar em casa para que eu possa prepará-la para você também?^^-Com muito amor,^Mia!",
+         "Recipe": "HimeTarts.ARV_Morning_Cat_Toast",
+        "LetterBG": "MiaLetter.png",
+        "Repeatable": false,
+        "FriendshipConditions": [
+            {
+            "NpcName": "Mia",
+            "FriendshipLevel": 6
+            }
+        ]
+      },
+      {
+        "Id": "arv.crabcroissant",
+        "Title": "Uma Experiência Divertida no Café da Manhã!",
+        "Text": "",
+        "Recipe": "HimeTarts.ARV_Crab_Croissant",
+        "LetterBG": "MiaLetter.png",
+        "Repeatable": false,
+        "FriendshipConditions": [
+          {
+            "NpcName": "Mia",
+            "FriendshipLevel": 6
+          }
+        ]
+      },
+      {
+        "Id": "arv.froggyburger",
+        "Title": "Eu acho você cativante como um sapo!",
+        "Text": "Olá @,^Percebi que cozinhar não é tão satisfatório quando não coloco toda a minha criatividade nisso. Hoje, quis fazer algo especial e acabei optando por um 'Hambúrguer do Sapo'! Foi um grande sucesso com os meninos, então imediatamente decidi escrever a receita para você. Quem sabe para impressionar um futuro pretendente...? (Ou uma criança, ambos parecem funcionar com igual eficiência!)^^Com muito, muito amor,^-Mia",
+        "Recipe": "HimeTarts.ARV_Froggy_Burger",
+        "LetterBG": "MiaLetter.png",
+        "Repeatable": false,
+        "TotalMoneyEarned": 75000,
+      },
+      {
+        "Id": "arv.owlricecrisp",
+        "Title": "Um agrado para a Eloise",
+        "Text": "Olá, @!^Como o vale está tratando você? Eu imagino que você já tenha feito muitos amigos até agora. Você teve a chance de conversar com as crianças? Se elas parecem um pouco distantes, eu escrevi uma receita para um dos lanches favoritos delas. A Eloise adora especialmente! Às vezes, nós as preparamos juntas, então talvez seja uma forma de fortalecer os laços?^Lembre-se de se manter hidratado durante o verão!^^Com amor,^-Mia",
+        "Recipe": "HimeTarts.ARV_Owl_Rice_Crisp",
+        "LetterBG": "MiaLetter.png",
+        "Repeatable": false,
+        "Date": "5 summer Y2"
+
+      },
+      {
+        "Id": "arv.berryparfait",
+        "Title": "Delícia Frutada do Sterling",
+        "Text": "Ei @!^Desculpe se isso parece meio aleatório. Eu tenho visto a Mia escrevendo cartas com as crianças e pensei que poderia ser divertido tentar também, então aqui estamos! Eu tenho que apagar a cada 2 palavras porque parece que minha caligrafia é terrível, então por favor, perdoe isso^^Espero que você esteja indo bem na fazenda! Lembre-se de falar comigo sempre que for à Pierre's, pois você é sempre o ponto alto do meu dia. Como agradecimento, eu queria escrever para você a receita desse parfait de frutas que eu costumava fazer quando era mais jovem. Sem cranberries, porém ;P ^Lembre-se de pensar em mim enquanto o aproveita ;) ^^-Sterling",
+        "Recipe": "HimeTarts.ARV_Berry_Parfait",
+        "Repeatable": false,
+        "Date": "1 summer Y1",
+        "FriendshipConditions": [
+          {
+            "NpcName": "Sterling",
+            "FriendshipLevel": 4
+          }
+        ]
+        
+      },
+      {
+        "Id": "arv.kittymuffin",
+        "Title": "As Delícias Incríveis do Sterling",
+        "Text": "Ei,@!^Finalmente decidi tentar assar com a Mia, então pensei que poderia interessar você no resultado? Eu preciso que você experimente esta receita MIAU-VILHOSA que acabamos de fazer. Sou muito AFURR-TUNADO de ter você como amigo, então se você estiver se sentindo triste, apenas experimente esses Muffins de Gatinho e deixe-os ACARICIÁ-LO!^^Seu amigo FORMIAUDÁVEL de pelos,^-Sterling",
+        "Recipe": "HimeTarts.ARV_Kitty_Muffin",
+        "Repeatable": false,
+        "FriendshipConditions": [
+          {
+            "NpcName": "Sterling",
+            "FriendshipLevel": 8
+          },
+        ],
+        "EventsSeen": [401800010]
+        
+      },
+      {
+        "Id": "arv.bearmuffin",
+        "Title": "Muffins inigualáveis do Sterling.",
+        "Text": "Oi @,^Você sabe o que o urso disse para sua esposa urso no dia do casamento deles? Mal posso esperar para envelhecer ao seu lado! Pensando nisso, eu queria enviar-lhe meu novo petisco favorito. Eu os fiz com as minhas próprias MÃOS DE URSO! Os detalhes são bem delicados para acertar, mas nada é impossível, se você se dedicar. Acredito que você está mais do que KOALAFICADO para a tarefa!^^Agradeço a você para sempre,^-Sterling",
+        "Recipe": "HimeTarts.ARV_Bear_Muffin",
+        "Repeatable": false,
+        "TotalMoneyEarned": 250000,
+  
+      },
+      {
+        "Id": "arv.berrydelights",
+        "Title": "Um Agradecimento dos Coopers",
+        "Text": "Olá @,^Na noite passada, estávamos refletindo sobre nosso tempo juntos e todas as coisas maravilhosas que surgiram desde que você chegou ao vale. A verdade é que todos nós éramos estranhos de certa forma; mas, mesmo sendo um peixe fora d'água quando chegou ao vale, você ainda estendeu uma mão amigável para o Sterling enquanto ele lutava para seguir em frente. Você assou com a Mia em noites silenciosas, quando parecia que o mundo dela estava desabando, e ofereceu uma mão amiga ao Henry para que ele percebesse que ele mesmo era seu pior inimigo. ^De muitas maneiras, nenhum de nós seria o mesmo se você nunca tivesse vindo, e por isso, somos todos eternamente gratos por sua amizade. ^Enquanto pensávamos em você, decidimos escrever uma receita para uma de nossas guloseimas favoritas. Ela tem um pouco de cada um de nós, assim como temos um pouco de você em nós. Esperamos que você possa aproveitar e tenha muitos anos melhores pela frente no vale.^^Sinceramente, - Sterling, Henry and Mia.^",
+        "Recipe": "HimeTarts.ARV_Berry_Delight_Cake",
+        "LetterBG": "MiaLetter.png",
+        "Repeatable": false,
+        "FriendshipConditions": // Each NPC of the list must check all conditions.
+        [
+            {
+                "NpcName": "Mia", //Name of the NPC. Can use custom NPCs.
+                "FriendshipLevel": 8, // NPC must have a friendship heart level equal or higher what is defined. Default is 0.
+            },
+            {
+                "NpcName": "Sterling", //Name of the NPC. Can use custom NPCs.
+                "FriendshipLevel": 8, // NPC must have a friendship heart level equal or higher what is defined. Default is 0.
+            },
+            {
+                "NpcName": "Henry", //Name of the NPC. Can use custom NPCs.
+                "FriendshipLevel": 8, // NPC must have a friendship heart level equal or higher what is defined. Default is 0.
+            }
+        ],
+      },
+      {
+        "Id": "arv.plaincroissant",
+        "Title": "O Café da Manhã Prático do Fazendeiro.",
+        "Text": "Olá @,^Eu realmente não tenho muito tempo para visitar os moradores da cidade, então significa muito para mim que você tenha feito um esforço para passar um tempo comigo. Não é muito, mas eu queria compartilhar esta receita com você como um gesto de agradecimento. Não sou muito bom na cozinha, então não posso fazer muito com ela. Mas talvez você se saia melhor..^^-Henry Cooper",
+        "Recipe": "HimeTarts.ARV_Plain_Croissant",
+        "Repeatable": false,
+        "FriendshipConditions": [
+          {
+            "NpcName": "Henry",
+            "FriendshipLevel": 4
+          }
+        ]
+      },
+      {
+        "Id": "arv.scallopedpotatoes",
+        "Title": "Especial da Vovó Cooper",
+        "Text": "Olá @,^Então, provavelmente você já sabe que eu não sou muito bom na cozinha. Mas tem uma receita que eu me dediquei de coração para tentar dominar. É um prato de família que foi aperfeiçoado ao longo das gerações, um verdadeiro clássico da primavera. E como você tem sido um amigo tão bom, pensei em lhe dar a chance de experimentá-lo por si mesmo. Espero que goste.^^Seu amigo,^Henry Cooper",
+        "Recipe": "HimeTarts.ARV_Scalloped_Potatoes",
+        "Repeatable": false,
+        "FriendshipConditions": [
+          {
+            "NpcName": "Henry",
+            "FriendshipLevel": 8
+          }
+        ]
+      },
+    /*GENERIC DIALOGUE*/
+    /* Mia*/
+    /* Mia Welcome*/
+    {
+      "Id": "arv.miawelcome",
+      "Title": "Bem Vindo ao Vale!",
+      "Text": "Oi, @!^Acabei de ouvir que você se mudou dos moradores da cidade, então eu queria oficialmente lhe dar as boas-vindas ao vale!^^ Meu nome é Mia, e sou uma das suas vizinhas. Por que você não vem nos visitar algum dia? Sterling, Henry e eu moramos em East Scarpe, e ficaríamos felizes em recebê-lo. Adoro receber convidados para o almoço! Mas tenho certeza de que você está muito ocupado, então incluí um agrado para você. ^^Espero te ver em breve! ^-Mia.",
+      "Attachments": [
+          {
+        "Type": "Object",
+        "Name": "HimeTarts.ARV_Bear_Pancakes",
+        "Stack": 1
+      }
+    ],
+      "LetterBG": "MiaLetter.png",
+      "Date": "7 spring Y1"
+    },
+    /*Mia Summer*/
+    {
+      "Id": "arv.miasummer",
+      "Title": "Lembrete da Mia para se Hidratar",
+      "Text": "Olá, @!^^Você percebeu que é verão? Claro, isso significa que é época de melancia. Mas o mais importante é garantir que você esteja se mantendo hidratado! Em casa, essa é meu maior desafio com os meninos. No entanto, até hoje nada supera uma boa bebida do meu Limonada Rosa de Verão. Estou enviando alguns para você experimentar^^Certifique-se de se manter hidratado!^-Mia.",
+      "Attachments": [
+        {
+      "Type": "Object",
+      "Name": "HimeTarts.ARV_Summer_Pink_Lemonade",
+      "Stack": 1
+    }
+  ],
+      "LetterBG": "MiaLetter.png",
+      "Date": "5 summer Y1"
+    },
+    /*Mia Summer Y2*/
+    {
+      "Id": "arv.miasummery2",
+      "Title": "Mia's Summer Reminder",
+      "Text": "Olá, @!^^O verão chegou! Sabe o que isso significa? Minha grande busca pela hidratação recomeça mais uma vez, e você é minha próxima vítima.^^Anexei algumas xícaras para você aproveitar este ano, pois tenho certeza de que você está aumentando a produção na fazenda. Por favor, aproveite!^^Certifique-se de se manter hidratado!^-Mia.",
+      "Attachments": [
+        {
+      "Type": "Object",
+      "Name": "HimeTarts.ARV_Summer_Pink_Lemonade",
+      "Stack": 3
+    }
+  ],
+      "LetterBG": "MiaLetter.png",
+      "Date": "3 summer Y2"
+    },
+
+
+    /* Henry*/
+    /*Henry Welcome*/
+    {
+      "Id": "arv.henrywelcome",
+      "Title": "Boas Vindas do Henry",
+      "Text": "Olá @,^É bom conhecer um colega agricultor. Eu estava preocupado que a fazenda do seu avô fosse ficar abandonada, mas estou feliz que esteja em boas mãos agora. Não é muito, mas eu queria dar uma coisinha para você começar. Espero que ajude.^^-Henry Cooper",
+      "Attachments": [{
+        "Type": "Object",
+        "Index": 369,
+        "Stack": 3
+      } ],
+      "FriendshipConditions": [
+        {
+          "NpcName": "Henry",
+          "FriendshipStatus": ["Friendly"]
+        }
+      ]
+    },
+    //Sterling
+    /*Sterling Bike Ride*/
+
+    {
+    "Id": "arv.sterlingbike",
+    "Title": "Uma Tarde Especial",
+    "Text": "Olá, @.^Depois que a Mia conseguiu me convencer a contar a ela por que tenho me sentido tão grato e feliz, ela sugeriu que eu tentasse colocar meus sentimentos em palavras. É muito mais difícil do que parece, haha.^Mas acho que o que estou tentando dizer é... Obrigado. Por vir comigo e conversar comigo. Eu não costumo me conectar com as pessoas assim com frequência.^^Fique seguro E quente, está bem, fazendeiro?^-Sterling",
+    "EventsSeen": [40180006]
+    },
+
+    /*Dinner Invite*/
+    {
+    "Id": "arv.sterlingdinner",
+    "Title": "Jantar na Casa dos Cooper",
+    "Text": "Olá, @.^Depois de tentar compensar tudo da melhor maneira possível, passei as últimas semanas pensando em como pedir desculpas a você. Pelo que aconteceu na loja do Pierre, pela minha atitude, se acabei decepcionando você. Foi um longo processo, mas pelo menos posso começar dizendo que sinto muito, e trabalharei para que minhas ações também mostrem isso.^^Gostaria de convidá-lo para jantar em nossa casa, com o Henry, a Mia e eu. Como uma família. Venha até a casa depois das 6, tudo bem?^^Com carinho,^Sterling.",
+    "FriendshipConditions": 
+    [
+        {
+            "NpcName": "Sterling", 
+            "FriendshipLevel": 8, 
+        },
+    ],
+    "EventsSeen": [40180009]
+  },
+
+  /*Sterling Birthday Share*/
+  {
+    "Id": "arv.sterlingbirthdayy2",
+    "Title": "É Meu Aniversário!",
+    "Text": "Olá, @!^^Adivinha só? É o meu aniversário! Depois de descobrir como é incrível comemorar com as pessoas que você ama, decidi estender a celebração para você também! Aqui estão alguns dos cupcakes que a Mia e eu assamos. Não coma todos de uma vez, ok?^^Com muito açúcar no sangue,^Sterling.",
+    "Attachments": [
+        {
+      "Type": "Object",
+      "Name": "HimeTarts.ARV_Kitty_Muffin",
+      "Stack": 3
+    }
+  ],
+    "Date": "15 summer Y2"
+  },
+    
+]

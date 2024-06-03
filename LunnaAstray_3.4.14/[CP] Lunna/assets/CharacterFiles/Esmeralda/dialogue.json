@@ -1,0 +1,58 @@
+{
+    //Dialogues	
+    "Mon": "Oh, olá meu bem.#$b#O que o trouxe aqui em Umuwi?#$b#O portal? Hmm, entendo.#$e#Tenho que estudar esse portal! Tenho a impressão de que ele possui muitas capacidades mágicas.",
+    "Mon4": "Comece bem a sua semana cuidando das suas colheitas.#$b#Sabe, elas também têm sentimentos.",
+    "Mon6": "Bom dia meu bem!$h#$b#Tente regar suas plantas enquanto conversa com elas. Isso ajuda no crescimento delas.$h",
+    "Mon8": "Vejo que você está seguindo meu conselho sobre cuidados com a pele.#$b#Eu te disse que usar movimentos ascendentes ao lavar o rosto ajuda a evitar a flacidez.$h",
+    "Mon10": "Oh, olá meu bem, sinto muito, devo ficar fora esses dias.$s#$b#Sinto que minha energia está ficando baixa.",
+
+    "Tue": "Cuidado!$u#$b#Não se deve interromper uma feiticeira quando ela está praticando seus feitiços. Você pode se transformar em um sapo se continuar assim.",
+    "Tue4": "Como você ainda está gostando de Umuwi?#$b#Hmm, eu sinto que uma certa pessoa pode ser a razão pela qual você vem aqui com freqüência. Estou certa?$h",
+    "Tue6": "Desculpe-me meu bem, eu realmente tenho que terminar de reunir ingredientes para minha confecção.",
+    "Tue8": "Lembra do cristal que eu estava procurando da última vez?#$e#Estudei seus componentes e descobri que o iluminador veio de corpos celestes que nos agraciaram durante a lua rosa.$h#$b#Isso está me deixando em êxtase!$h",
+    "Tue10": "Eu me preocupo com minha filha às vezes.$s#$b#As pessoas esperam muito dela sendo a filha da grande feiticeira.#$e#Tenho medo que ela não queira lidar com isso.$s",
+
+    "Wed": "Saudações, @. Você já viu minha bola de cristal?#$b#Parece que a deixei cair em algum lugar.",
+    "Wed4": "Oi meu bem, você está procurando por Raphael ou por Bianka?#$b#Parece que esses dois têm um mundo próprio.$s#$e#Estou orgulhosa de ter conseguido criá-los para serem quem quiserem ser.$h",
+    "Wed6": "Salvador tem se preocupado com o meu paradeiro.#$b#Ele parece duro por fora, mas meu marido é bem mole.",
+    "Wed8": "É engraçado como outras pessoas representam nossa espécie.$h#$b#Eles geralmente nos representam como se fôssemos baixinhos, verdes e feios.$u#$e#Quer dizer, você pode me imaginar verde? Ugh, definitivamente não é a minha cor, meu bem.",
+    "Wed10": "Incrementum terra crescere vinea... Incrementum terra crescere vinea.#$e#$e#Huh? Oh, o quê? Desculpa, eu estava me concentrando nos meus encantamentos.#$b#Apenas algo para ajudar no crescimento da natureza.$h",
+
+    "Thu": "Espero que você tenha um bom passeio por Umuwi meu bem!$h",
+    "Thu4": "Uma palavra de conselho meu bem, sempre que você lavar seu rosto tente usar movimentos ascendentes.#$b#Isso ajuda a evitar a flacidez.$h",
+    "Thu6": "Eu me lembro de como Bianka e Raphael costumavam praticar seu ABC recitando encantamentos.$h#$b#Eu sinto falta destes momentos...$s",
+    "Thu8": "Estou desconfiada sobre o portal para a cidade.#$b#Sinto que há algo de errado sobre sua magia.#$e#Olhar para o que aconteceu com a querida Lunna. Ela deve estar aterrorizada com tudo o que aconteceu.#$u#$b#Eu deveria ter mandado meu conselho investigar isto...",
+    "Thu10": "Hmm... Com todo o tempo que você passa aqui em Umuwi @, você quer aprender alguns encantamentos?$h#$b#Haha, oh não importa. Eu estava pensando que talvez você daria um bom aprendiz.$h",
+
+    "Fri": "Bianka e Raphael têm falado bem de você.$h#$b#Acredito que você encantou meus filhos.$h#$b#Estou ansiosa para ouvir mais sobre você, @.",
+    "Fri4": "Como está Lunna agora que ela é uma humana?#$b#Estou interessada em saber qual é o efeito de sua forma humana em sua aparência de monstro.",
+    "Fri6": "Como a vida tem tratado você esses dia @?#$b#Ouvi dizer que Bianka está muito interessada em aprender sobre os caminhos que você usa para voltar à Vila Pelicanos.#$e#Por favor, certifique-se de que ela seja bem tratada sempre que ela for para lá, tudo bem?#$b#Se não!$u",
+    "Fri8": "O conselho que deixei nas Ilhas Rubi tem me contatado através de meus cristais.#$b#Preciso encontrar uma maneira de me projetar lá, para que eu possa ver qual é o problema.$u",
+    "Fri10": "Já vi você entrar e sair dos dois reinos vezes o suficientes para assumir que a magia não lhe assusta. Não é mesmo @?#$b#Fique atento ao que você encontra todos os dias, certo?",
+
+    "Sat": "Lunna fala tão bem de você.#$b#Espero que trate Bianka e Raphael com a mesma cortesia que você tem com Lunna.",
+    "Sat4": "Todos aqui estão no limite desde que Lunna desapareceu naquele dia.#$b#Obrigado, corpos celestes, por permitirem que ela voltasse ou teríamos um grande problema em diferentes reinos.",
+    "Sat6": "Manter diferentes reinos sob controle tem sido exaustivo.$s#$e#Ser capaz de satisfazer meu marido e cuidar de meus filhos enquanto faço todo o trabalho é o que me surpreende.$h",
+    "Sat8": "Estou aqui há muito tempo, sabe...#$b#Quero ter meus próprios netos.$s#$e#Quero ser jovem o suficiente para correr e perseguir minha neta ou neto pelos reinos.",
+    "Sat10": "Oh, olá meu bem. É maravilhoso ver você hoje.$h#$e#Estive navegando pelos meus grimórios e encontrei alguns feitiços que poderiam reviver plantas e flores mortas.$h#$b#Estou ansiosa para me familiarizar novamente com esses encantamentos e adicionar meu próprio talento a eles.$h",
+
+    "Sun": "Os dias de descanso são importantes para nós.#$b#Dá-nos tempo para o autocuidado e o rejuvenescimento.$h",
+    "Sun4": "Você já explorou as minas da sua Vila?#$e#Ouvi dizer que seus cristais têm algumas capacidades místicas...#$b#Pergunto-me onde eu poderia encontrar alguns...$h",
+    "Sun6": "Devo dizer, estou muito impressionada com seu estilo @.$h#$b#Você deve falar comigo sobre isso algum dia.",
+    "Sun8": "A bola de cristal me permite ver através de diferentes reinos.#$b#No entanto, acho uma desvantagem que eles não possam me ver. Eu tenho que descobrir um feitiço que me permita fazer isso logo.",
+    "Sun10": "Belle la vie a cette fleur. Belle la vie a cette fleur. Phasmatos tribum las es viras.#$b#Huh? Oh, o quê? Sinto muito pelo espaçamento. Atualmente estou trabalhando no encantamento que preciso para reavivar a natureza.",
+
+    "spring_12": "Aposto que posso fazer um feitiço localizador para me informar a localização exata dos ovos amanhã.#$h#$b#Oh. Mas que diversão eu teria com isso?",
+    "spring_23": "*Esmeralda está ocupada falando encantamentos que parecem estar relacionado às flores*#$b#Oh Desculpe-me, eu não te vi chegando, eu só estava me preparando para o festival de amanhã.#$e#Quero que nossas flores floresçam como o vôo da primavera.$h",
+    "summer_10": "Tenho que preparar uma cerveja especial para meu marido amanhã.#$b#Parece que seu estômago fica perturbado com gostos peculiares.#$e#Não queremos que um acidente como o do ano passado aconteça novamente, queremos?$h",
+    "summer_27": "Devo trazer minha celestita para as festividades de amanhã!#$b#Desta forma poderá absorver mais energias dos corpos celestes.$h",
+    "fall_15": "O que você planeja colocar em sua exposição amanhã?#$b#Tenha certeza de ostentar todos os seus melhores produtos!$h",
+    "fall_26": "Hmm, estou pensando em conjurar alguns espíritos para se juntarem a nós amanhã.#$b#Faria o festival se sentir mais autêntico, não faria?$h",
+    "winter_7": "Como qualquer homem, meu marido gosta de pescar.#$b#Honestamente não entendo o que as pessoas veem na pesca.$u#$e#Bem, deixe-os se divertir. Desde que eles não estejam fazendo nada que perturbe o equilíbrio da natureza, não me importo com isso.$h",
+    "winter_14": "Sair de noite às vezes me preocupa porque muitos espíritos se espreitam durante a noite.#$b#E por causa desse fato, atravessar diferentes reinos se torna fácil.$u#$e#Temo que se não tivéssemos nenhuma barreira protetora, nossa casa não estaria segura.$s",
+    "winter_24": "Isto marca o fim de um ano próspero @! Espero que ainda possamos vê-lo no próximo ano!$h^Isto marca o fim de um ano próspero @! Espero que ainda possamos vê-la no próximo ano!$h",
+
+	"GreenRain": "Ah! Outro daqueles fenômenos não naturais.#$b#O que será que causou isso...?",
+
+
+}

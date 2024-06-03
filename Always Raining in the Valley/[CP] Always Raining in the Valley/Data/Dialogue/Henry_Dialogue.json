@@ -1,0 +1,73 @@
+{
+"Changes": 
+    [
+        {
+            "LogName": "Henry Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Henry",
+            "Entries": 	
+            {
+        //Conversation Topics
+
+            "Introduction": "Oi, estranho. Acho que nunca te vi por aqui na cidade.^Oi, estranha. Acho que nunca te vi por aqui na cidade.#$b#Meu nome é Henry. Trabalho na fazenda da minha família em Grampleton.#$b#Não passo muito tempo na cidade, mas talvez nos vejamos por aí.",
+            "danceRejection": "Ah. Obrigado, mas...#$b#Desculpe. Eu não sou muito de dançar.$4#$b#Mas, uh... Boa sorte por aí?$4",
+            "divorced": "...O que é isso, @?$9#$b#Olha, eu tenho estado muito ocupado desde que voltei para a fazenda antiga. Tem sido-$7#$b#Esquece. Não quero falar sobre isso com você.$3",
+            "dumped_Girls": "Desculpe, @, mas estou bem ocupado agora.$7",
+            "breakUp": "Hein? Para que é isso?#$b#Ah, é... Oh.$2#$b#Tudo bem. Está tudo bem, entendi, de verdade.$6#$b#...Acho que nos veremos por aí então.$6",
+
+
+        //Special Dates
+
+            "spring_12": "Consegui convencer meu pai a me deixar ir ao festival do ovo amanhã, estou realmente animado.$1#$b#Eu devo levar uma caixa de nossos próprios ovos para promover a fazenda, mas na verdade, só estou esperando para acariciar algumas galinhas este ano.$10",
+            "spring_23": "Então, @, você estava planejando ir para a dança das flores amanhã?#$b#Inicialmente, eu não estava planejando, mas estou começando a sentir que deveria.$8#$b#Sabe... Apenas para fazer companhia para a Mia, caso ela não encontre um par para dançar.$4",
+            "spring_7": "Ei, @, você poderia fazer um favor para mim?#$b#Eu não consegui folga amanhã, então você poderia comprar algo legal para dar de presente para a Mia em seu aniversário?$3#$b#Ela fez tanto por mim... E eu sei que algo vindo de você a faria sorrir.$4#$b#Por favor. Eu não posso lhe dar muito, mas isso significaria o mundo para mim se você pudesse fazer isso.$4",
+            "spring_28": "O verão está quase chegando. Espero que você consiga colher todas as suas culturas antes que o clima mude.#$b#A cada estação, parece que tudo muda tão rápido que as culturas simplesmente morrem da noite para o dia se você não as colher a tempo.$1",
+            "summer_10": "Eu admito, não estava planejando ir a esse luau, mas o Sterling insistiu que eu fosse.#$b#Eles insistem que será divertido, mas será difícil não ficar pensando em todo o trabalho que deveria estar fazendo.$6",
+            "summer_14": "Ah, ainda bem que é você.$3#$b#Escuta, amanhã é o aniversário do Sterling e eu vou estar trabalhando o dia todo.$3#$b#Você poderia ficar de olho nele e se certificar de que ele não vai se empolgar muito com a celebração? Você sabe como ele pode ser às vezes.$6",
+            "summer_28": "Difícil de acreditar que o ano já está quase na metade, não é?#$b#Espero que esteja preparado para a temporada movimentada, @. Logo estaremos nos preparando para o inverno.",
+            "fall_15":   "A grande feira está chegando! Você tem algo que está animado para mostrar?$1#$b#A Mia, o Sterling e eu estaremos em Grampleton, já que minha família estará competindo lá. Mas espero que as coisas corram bem para você aqui.$1",
+            "fall_23": "...Alguém te disse que é meu aniversário?$3#$b#Eu disse para os dois que não queria fazer nada. É apenas mais um dia, nada que valha a pena comemorar.$3#$b#Mas... Obrigado por ter vindo dizer oi de qualquer maneira. Eu aprecio.$6",
+            "fall_26": "Nunca entendi toda a empolgação em torno das Véspera dos Espíritos? Não é tudo um pouco... sombrio?$7#$b#Bem, contanto que todos vocês se divirtam, eu acho. Só não espere que eu participe de qualquer uma dessas atividades.$7",
+            "fall_28": "O inverno está chegando...$3#$b#Eu queria que isso me animasse como quando eu era criança.$3#$b#Agora estou apenas preocupado em poder pagar minha parte do aluguel e manter a fazenda funcionando.$3#$b#Ah! Não, não se preocupe comigo.$6#$b#Está tudo bem, de verdade. Eu apenas terei muito no meu prato nas próximas semanas.$6",
+            "winter_7":  "O inverno pode ter começado um pouco difícil, mas pelo menos meu festival favorito do ano está chegando.$1#$b#Sinto que raramente tenho tempo para pescar nesta época do ano, então isso será um verdadeiro presente.$1",
+            "winter_15": "Nossa, tem muitas coisas legais aqui esta noite.#$b#Eu realmente não tenho dinheiro para gastar com nada disso, mas pelo menos é divertido passear pelas vitrines às vezes?$6",
+            "winter_16": "Você viu aquele cara com o submarino? É loucura pensar que ele realmente deixa as pessoas andarem nele.#$b#Eu definitivamente terei que economizar para tentar pescar no mar profundo no próximo ano. Parece uma experiência incrível.$1",
+            "winter_17": "Eu amo a Mia, mas nunca vou entender os hábitos dela de compras.$3#$b#Normalmente, ela é tão inteligente e responsável, mas se você colocar algo bonito na frente dela, ela esquece como ler os preços.$3#$b#Pelo menos ela tem o Sterling e eu para mantê-la no caminho certo.$1",
+            "winter_24": "Oh, meu Deus. Está quase na hora do banquete e eu ainda não tenho um presente pronto.$3#$b#Eu tenho estado ocupado demais para fazer qualquer coisa, e definitivamente não posso pagar por algo legal...#$b#Talvez eu possa convencer meu pai a me dar uma caixa de ovos...",
+            "winter_28": "Parece que o inverno está quase acabando.#$b#Foi difícil, mas estou feliz que todos nós tenhamos passado sem problemas.$1#$b#Espero que esteja preparado para fazer tudo de novo. Não há pausas para pessoas como nós.$6",
+
+
+        //Daily Dialogue
+            "Mon":"Eu sei que muitas pessoas pensam em flores quando pensam na primavera. Mas eu?#$b#Sempre penso em batatas. Práticas, deliciosas e econômicas. O cultivo perfeito, se me perguntar.$1",
+            "Tue": "Você poderia fazer um favor para mim e verificar como o Sterling está quando tiver tempo?#$b#Ele é um cara legal, mas eu me preocupo com ele quando estou ausente.$2",
+            "Wed": "Você acredita em quanto lixo algumas pessoas parecem jogar por aí?$9#$b#Parece que não se pode pescar sem puxar o lixo de alguém.$7",
+            "Thu": "Me avise se precisar de alguma dica para administrar a fazenda.#$b#Não importa quanto tempo você esteja nisso, sempre há mais coisas para aprender.$1",
+            "Fri": "Fazer trabalho na fazenda usando óculos é tão incômodo.$7#$b#Talvez eu deva conseguir algo mais prático. Como óculos com prescrição...$8",
+            "Sat": "O Sterling tem me chamado a atenção ultimamente. Ele diz que 'falo sobre trabalho e a fazenda demais.'$3#$b#Mas... Essa tem sido toda a minha vida. Sobre o que mais eu deveria falar?$2",
+            "Sun": "A Mia e meu primo sempre me dizem que eu deveria ao menos descansar aos domingos.#$b#Mas acho que não preciso dizer a um colega fazendeiro por que isso não é possível.$6",
+            "summer_Mon": "Tenho tentado ensinar a Mia a pescar ultimamente.#$b#Estranho pensar que pessoas da cidade são tão inteligentes, mas nem sabem como iscar um anzol, não é?$10",
+            "summer_Tue": "Eu prometi ao Max que o levaria para passear na praia hoje, mas simplesmente não há tempo.$3#$b#Talvez na próxima semana...$3",
+            "summer_Wed": "Realmente não há nada como observar as estrelas numa noite de verão.#$b#Você deveria tentar arranjar tempo para apreciar a beleza da natureza.$10",
+            "summer_Thu": "Você fala com seus animais enquanto cuida deles?#$b#Sempre senti que eles entendem mais do que percebemos.",
+            "summer_Fri": "Estou economizando para comprar uma máquina de sementes para a fazenda, mas parece que sempre surge alguma coisa.$3#$b#Dinheiro é uma coisa engraçada assim. Você nunca pode prever onde ele vai acabar indo.$3",
+            "summer_Sat": "Eu estava realmente esperando cultivar algo mais colorido este ano. Como repolhos vermelhos ou papoulas.#$b#Mas parece que vamos plantar apenas trigo novamente este ano. Muito trigo.$3",
+            "summer_Sun": "Às vezes, gostaria de saber pintar só para poder capturar a beleza de um pôr do sol de verão.#$b#Mas então começo a pensar sobre...$2#$b#Desculpe. Eu realmente deveria ir.$2",
+            "fall_Mon": "O outono é uma época movimentada do ano para pessoas como nós, não é mesmo?#$b#Sempre há tanta preparação a ser feita antes do inverno chegar. É um pouco avassalador.$6",
+            "fall_Tue": "Folhas caídas são ótimas para fazer cobertura morta. Tudo o que você precisa fazer é picá-las e espalhar algumas camadas sobre o solo.#$b#Vai levar algum tempo para se decompor, mas pode realmente ajudar o solo. Você deveria experimentar algum dia.",
+            "fall_Wed": "Não será fácil, mas estou tentando cultivar uma safra gigante de abóboras este ano.#$b#Vai funcionar desta vez. Tem que funcionar.$3",
+            "fall_Thu": "Todo outono meu pai insiste que plantemos rosas das fadas em nossos campos.$9#$b#Ele diz que elas atraem fadas para abençoar nossas culturas, mas...$3#$b#Desculpe. Você não precisa se preocupar com tudo isso.$6",
+            "fall_Fri": "Eu sei que o Sterling está fazendo o possível, mas alguns dias eu simplesmente não tenho paciência para ele.$7#$b#Já tenho tanta coisa na cabeça. Não posso ficar cuidando dele todas as noites.$3",
+            "fall_Sat": "Então você simplesmente anda pela cidade cumprimentando as pessoas?#$b#Deve ser bom ter tanto tempo livre.$6",
+            "fall_Sun": "O inverno estará aqui antes que você perceba. Certifique-se de estar preparado.$3#$b#Se precisar de ajuda para se preparar, é só me avisar. Não me importo de passar para ajudar um pouco.$6",
+            "winter_Mon": "Se você estiver passando pela nossa fazenda e sentir um cheiro de algo gostoso, sinta-se à vontade para passar.#$b#A Mia sempre faz o suficiente para todos.$1",
+            "winter_Tue": "A Mia e o Sterling parecem pensar que eu não deveria trabalhar tanto durante o inverno. Eles realmente não entendem.$3#$b#Entre toda a manutenção, remoção de neve, cuidado com o gado e corte de lenha extra, há tanto para fazer.$3#$b#Mas acho que não preciso explicar isso a um colega fazendeiro.$6",
+            "winter_Wed": "Se você não pode pagar por café ou chá, não há nada de errado em beber uma simples xícara de água quente para aquecer o estômago.$1#$b#Não é muito, mas às vezes você só tem que trabalhar com o que tem.",
+            "winter_Thu": "O inverno é sempre uma época difícil do ano para pessoas como nós.$3#$b#Realmente me faz apreciar ter a Mia e o Sterling por perto para ajudar a aliviar a carga. Vou ter que trabalhar ainda mais duro na primavera para retribuir a eles",
+            "winter_Fri": "A Mia e o Sterling têm tentado me convencer a ir patinar no gelo com eles. De novo.$9#$b#Mas não vou cair nessa novamente. Não depois do que aconteceu da última vez...$7",
+            "winter_Sat": "Quando o Sterling e eu éramos crianças, nós e minha irmã íamos para fora e construíamos um grande boneco de neve onde o espantalho costumava ficar.$1#$b#Não podíamos desperdiçar uma cenoura no nariz, mas sempre encontrávamos maneiras criativas de nos divertir.$10",
+            "winter_Sun": "Como não podemos cultivar nesta época do ano, meu pai me faz cortar lenha extra para vender para os moradores da região.#$b#Mas pelo menos todo esse trabalho árduo impede que o frio me atinja.$6",
+        
+            }
+        }
+    ]
+}

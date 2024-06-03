@@ -1,0 +1,8 @@
+{
+    "SetBackpackSizeCommand": "Defina o tamanho da mochila do jogador. Isso deve ser um múltiplo de 12",
+    "Purchase": "Compra ({{cost}}g)",
+    "BackpackUpgrade": "Atualização da Mochila -- 48 espaços",
+    "PremiumPack": "Pacote Premium",
+    "BackpackCostName": "Custo da Mochila",
+    "BackpackCostTooltip": "Quanto você tem que pagar para comprar esta mochila na loja."
+}

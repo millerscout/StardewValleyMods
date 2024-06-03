@@ -1,0 +1,17 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load NPC Adventures companion animation descriptions",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {
+        "lunna_eat": "0/16 16 16 16 16 16 16 16 16 16 16 16 17 18 19 19 19/0/",
+        "lunna_lie": "0/49/0/",
+        "bianka_dance": "0/16 16 16 16 17 17 17 17 18 18 18 18 19 19 19 19/0",
+        "bianka_meditate": "24/24/24/",
+        "raphael_meditate": "0/16 16 16 17 17 17 18 18 18 19 19 19 18 18 18 17 17 17/0",
+        "raphael_forge": "0/29 29 29 29 29 29 29 29 30 30 30 30 30 30 30 30 30 30 31 31 31 31 31 31 31 31 31 31 31 31 31 31 30 30 30 30 29 29/0",
+      }           
+    }
+  ]
+}

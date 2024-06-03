@@ -1,0 +1,108 @@
+{
+    "Introduction": "Oh? Nunca te vi por aqui antes.$u#$b#Bem. Olá! Meu nome é Lunna! Você é?$0#$b#...$0#$b#Sr. @?^Srta. @?$0#$b#Bem... Eu espero que você tenha uma vida próspera aqui nesta vila!$h",
+
+    //Dialogues	
+    "Town_72_9": "...$s#$b#Olá @$s#$b#A brisa aqui é tão boa.$0",
+    "spring_3": "Olá @!$0#$e#Este dia é como qualquer outro dia.$u",
+    "spring_12": "Estou tão animada para o festival amanhã.$h#$e#Esse festival é muito legal! Eu amo ele!$0",
+    "spring_23": "@! Você vai estar no festival das flores amanhã?$0#$e#Eu adoro ver as roupas de todos durante o festival$8",
+    "summer_10": "Estou planejando não comer muito hoje.$u#$e#Por quê?$0#$b#Para se preparar para o Luau amanhã!$h",
+    "summer_27": "Estou ansiosa para ver a bela vista que as criaturas gelatinosas vão apresentar na praia amanhã.$0#$e#Hã? Eu pareço estranha?$u",
+    "fall_15": "Ei @! Estou ansioso pela sua exibição amanhã!$h#$e#Eu admiro o trabalho árduo de todos nesta cidade.$0",
+    "fall_26": "Oh. Olá @.$0#$e#Uhhmm... O festival de amanhã é algo que me confunde. Embora eu ainda fique ansiosa por toda aquela comida.$u",
+    "winter_7": "Olá @! Você vai pescar no gelo amanhã?$0#$e#Eu espero que sim! Eu me divirto vendo as pessoas competirem!$h",
+    "winter_14": "O mercado noturno que chega amanhã é muito interessante.$0#$e#Ainda mais são as pessoas que o trazem!$8",
+    "winter_24": "O ano está quase acabando @!$8#$e#Espero que você tenha tido um bom ano!$h",
+
+    "Mon": "Oh oi @! Como estão as coisas?$0#$e#Espero que você esteja bem!",
+    "Mon4": "Olá @! Trabalhando duro?$u#$e#Bem, se você estiver, por favor, descanse quando tiver tempo$8",
+    "Mon6": "Olá @! Que surpresa legal!$0#$e#Por quê? Oh porque você é um bom amigo!^Por quê? Oh porque você é uma boa amiga!$8",
+    "Mon8": "@! Olá! É um prazer falar com você novamente!$0#$e#Uhmm... Tão bom.$8",
+    "Mon10": "Olá amor! Eu espero que você esteja bem!#$e#Venha me ver quando puder, ta bom?$l",
+
+    "Tue": "Olá @!#$e#Espero que tenha um bom dia!",
+    "Tue4": "@!$h#$e#Espero que você esteja muito bem!",
+    "Tue6": "Olá! Espero que você esteja bem meu amigo!^Olá! Espero que você esteja bem minha amiga!$h#$e#Vamos passear pela vila algum dia!",
+    "Tue8": "Voce parece amavel hoje @!$8#$e#Realmente adorável, posso dizer...$l",
+    "Tue10": "Olá, Sr. Bonitão.$l^Olá, Srta. Bonitona.$l#$e#Posso ganhar um beijo seu?$u",
+
+    "Wed": "Espero que este seja um bom dia @.#$e#Bom... Se cuida!",
+    "Wed4": "Olá @! Espero que você tenha uma boa produção nesta temporada!#$e#Eu adoraria comprá-los quando eu tivesse a chance também!",
+    "Wed6": "@!!! Quando vamos passear pela floresta novamente?#$e#É tão divertido passar o tempo com você!",
+    "Wed8": "@!!!$l#$e#Oh nada. Você me surpreendeu!$u",
+    "Wed10": "@!!! Me abraça$7#$e#Nós podemos?$l",
+
+    "Thu": "Olá @!#$e#Eu espero que você esteja bem!",
+    "Thu4": "Oi @! Vejo que você está indo bem!#$e#Continue assim!$h",
+    "Thu6": "@, eu estou tendo um ótimo dia hoje!$h#$e#E você meu bom amigo?^E você minha boa amiga?",
+    "Thu8": "Ei @!#$e#Ei uhmmm se você tiver tempo, eu não me importaria se você passasse na minha cabana de vez em quando.$l",
+    "Thu10": "Ei amor!#$e#Está ficando um pouco frio, você pode me dar um pouco de calor?$l",
+
+    "Fri": "Olá @!#$e#Eu passo a maior parte do dia com Sr. Rasmodius.#$b#Por quê? Bem... Para aprender mais sobre o mundo.$8",
+    "Fri6": "Olá @!#$e#Este vai ser um dia agitado. Ainda bem que você apareceu.$u",
+    "Fri8": "Estou muito cansada...$s#$e#Oh. Olá @!$6#$b#Parece que meu cansaço diminuiu um pouco.$l",
+    "Fri10": "Amor! @! Estou tão feliz por podermos conversar hoje!#$e#Ei... Uhmm você pode perguntar ao Sr. Rasmodius se eu posso ficar livre hoje? Eu quero passar o dia com você.$s",
+
+    "Sat": "Oh. Olá @...$s#$e#Eu estou tão faminta...$s",
+    "Sat4": "Olá @! Você já colheu alguma comida recentemente?#$e#Eu adoraria experimentar novos gostos!$h",
+    "Sat6": "Olá, Sr. @!^Olá, Srta.@!#$e#O que? Formalidade? Achei maravilhoso!$u",
+    "Sat8": "@!!!$7#$e#Vamos passar um tempo juntos hoje, por favor!",
+    "Sat10": "Olá amor. Espero que você esteja comendo comida saborosa!#$e#Eu adoraria te acompanhar nisso também.$l",
+
+    "Sun": "*Boceja*$s#$e#Oh Olá @... Desculpe, ainda estou com muito sono...$8",
+    "Sun6": "Eu estou muito cansada hoje @...$s#$e#Se eu cair no sono em outro lugar, você se importaria de me levar de volta para minha cabana? Hehe obrigada!$u",
+    "Sun8": "Olá @.$u#$e#Uhmm... Se você se sentir cansado, diga-me, ta bom? Eu ficaria feliz em te proteger enquanto você dorme.^Uhmm... Se você se sentir cansada, diga-me, ta bom? Eu ficaria feliz em te proteger enquanto você dorme.",
+    "Sun10": "Estou muito cansada e com preguiça hoje, amor...$s#$e#Ei... Você quer me acompanhar até a minha cama na minha cabana? Por favor?$l",
+
+    "spring_Mon": "Todas as flores são lindas, não são @?!$u#$e#Eu amo muito essa temporada.",
+    "spring_Mon8": "Esta temporada está linda como sempre.#$e#Mas não tão adorável quanto você @...$l",
+    "summer_Sat": "Estou gostando muito do ar quente desta temporada @!$h#$e#Não é?$8",
+    "summer_Sat8": "Está ficando quente aqui não é?$u#$e#Uhhm... Ou sou só eu? Acho que só posso ser eu.$l",
+    "fall_Fri": "As folhas que caem nesta estação proporcionam uma paz maravilhosa quando você olha para elas de dentro de casa.#$e#Ou eu acho que pode ser apenas o meu gosto.",
+    "fall_Fri8": "Todas essas folhas caindo ao nosso redor. Elas são tão bonitas.#$e#Enquanto estou aqui... caindo também... mas para alguém lindo...$l",
+    "winter_Sun": "Está muito frio lá fora!$s#$e#Mas estou ansiosa para ver a floresta em sua forma branca e brilhante.$h",
+    "winter_Sun8": "Nessa época do ano é melhor estar dentro de casa. Certo @?#$e#Ainda mais quando dentro de casa tem... Alguém... Certo?$l",
+
+    //Special Dialogue
+    "danceRejection": "Me desculpe, mas não, eu não sei dançar...$u",
+    "divorced": "Não quero falar com você...$a",
+	"MovieInvitation": "A movie? Why those are the moving pictures are they not? That is indeed exciting! I shall see you there.$h",
+
+    //Event Dialogue
+    "event_1lunna1": "Oh?$s#$b#Mesmo @?$u",
+    "event_1lunna2": "Oh?$s#$b#Bem, eu acho que você está certo @.$h",
+    "event_1lunna3": "Oh...%fork$s",
+
+    "event_2lunna1": "Oh...$s#$b#Espero que você tenha ótimos achados.$u",
+    "event_2lunna2": "Compreendo...$8#$b#A floresta fica maravilhosa na chuva.$u",
+    "event_2lunna3": "Oh @!$8#$b#Você não deve se preocupar em se molhar apenas para me fazer companhia. Eu posso cuidar de mim mesma.$u",
+    "event_2lunna4": "Oh!$6#$b#Uhmm... É melhor eu manter isso para mim mesma @...$s",
+    "event_2lunna5": "Sim... Realmente faz...$u",
+    "event_2lunna6": "Obrigada @.$u#$b#Isso significa muito.$0",
+
+    "event_3lunna1": "Oh aquilo!$0#$b#Sim, bem... Eu só tinha fundos suficientes para comprar os materiais. Mas não o suficiente para seus serviços.$u",
+    "event_3lunna2": "Oh @! Muito obrigada! Eu sabia que podia contar com você!$h",
+    "event_3lunna3": "Oh...%fork$s",
+
+    "event_4lunna1": "Oh$l#$b#...Você realmente me acha bonita?$l",
+    "event_4lunna2": "Uau engraçado?$h#$b#Eu não pensei isso de mim.$h",
+    "event_4lunna3": "Oh...$s#$b#Eu, pelo menos, aprecio sua honestidade... Vou tomar nota disso...$s",
+
+    "event_5lunna1": "Mas...mas @...$11#$b#... Você não entende...$11",
+    "event_5lunna2": "@.... Porque?...$11#$b#... Por que você não se importa?...$11#$b#... Você é muito confiante...$11",
+    "event_5lunna3": "Oh @....$11#$b#Eu..... Eu.......$11",
+    "event_5lunna4": "@.....$11#$b#Você é um tolo...^Você é uma tola...$11",
+
+    //Resort
+    "Resort_Entering": "Oh, este lugar é adorável @!#$b#Mal posso esperar para passar o dia aqui!$h",
+    "Resort_Leaving": "Awww estamos partindo da ilha tão cedo? Oh, como eu desejo voltar mais uma vez um dia.$u",
+    "Resort_Shore": "Os oceanos parecem ainda mais maravilhosos neste local! Oh! eu amo isto!$h#$e#Ei @? Você pode me ensinar sobre 'castelos de areia'? Eu gostaria de governar um reino também!$u",
+    "Resort_Chair": "Oh, não se importe comigo @, estou apenas dando um tempo para descansar. Isso é muito emocionante para mim.$u",
+    "Resort_Bar": "Oh! Mais bebidas por favor!$h#$b#Oh não se preocupe @, eu não fico bêbada facilmente!$u#$e#*hic*$l",
+    "Resort_Umbrella": "Este pequeno objeto aqui bloqueia o calor do sol. O sol também é bastante intenso nesta área, não é?$u",
+    "Resort_Wander": "Oooh! Que maravilhas o esperam nesta ilha!$h#$e#Se importaria em se juntar a mim @?",
+    "Resort": "%Lunna parece estar maravilhada com o ambiente.#$e#Tudo parece um novo mundo divertido!$h",
+
+	"GreenRain": "Infelizmente... Minha curiosidade venceu...$s#$b#Essa chuva não tinha um gosto bom!$s",
+	
+}

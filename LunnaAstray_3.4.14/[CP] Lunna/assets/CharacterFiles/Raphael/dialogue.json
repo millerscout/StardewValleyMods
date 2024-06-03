@@ -1,0 +1,85 @@
+{
+
+    //Dialogues	
+    "Mon": "Oh saudações @. Estou apenas fazendo minha ronda por essas tochas de proteção.#$b#Essas tochas formam uma barreira que protege Umuwi de invasões.#$b#Estou sendo extremamente cuidadoso para evitar o que aconteceu da última vez.$s",
+    "Mon4": "Olá @! Fazendo o que de bom hoje?#$e#Eu cuido das tochas todas as segundas-feiras. Cuidar delas dá muito trabalho.",
+    "Mon6": "Ufa! As rodadas têm sido tão repetitivas!$s#$e#Acompanhe-me de vez em quando quando, puder, se estiver tudo bem para você?$h",
+    "Mon8": "Oh eae @.#$b#Quer se juntar a mim enquanto faço minhas rondas?$l#$e#É muito divertido quando você vem por algum motivo.$h",
+    "Mon10": "Olá @...$l#$b#Hoje o dia está um pouco chato.#$e#Estou feliz que você veio! Vamos! Podemos fazer minhas rondas juntos como se fosse um encontro!$h",
+
+    "Tue": "Como você está @? Espero que você tenha uma boa visita.$h#$b#Ahhh, esse lugar é realmente calmo e tranquilo quando não há desastres ou ameaças.$h",
+    "Tue4": "Olá @. Mesmo que não haja ameaças no momento, estou sempre em alerta máximo.#$e#Relaxar? Não tenho tempo para isso!$h",
+    "Tue6": "E ai, como vai? Estou treinando hoje.#$e#Quer treinar comigo?$h",
+    "Tue8": "@! Fui visitar o Clint ontem!$h#$e#Ele disse que não tem muitos amigos na vila e que estava feliz por me ter como amigo!$h#$e#Também estou muito feliz por ele ser meu amigo!",
+    "Tue10": "Olá meu amor. É tão bom quando você vem me visitar.$h#$e#Ei, estou desocupado hoje, se você também estiver, vamos ter um encontro?$h",
+
+    "Wed": "A casa de Reenus é um ótimo ponto de encontro.#$b#Gabbi então iniciaria ótimos tópicos de conversa.",
+    "Wed4": "Às vezes eu jogo um joguinho comigo mesmo onde tento beber o máximo de vinho até ficar bêbado!#$e#Então eu só uso magia para ficar sóbrio de novo haha.$h",
+    "Wed6": "Olá! Quer sair hoje?#$e#Podemos nos encontrar em Reenus se você quiser! Bem, vejo você quando eu te ver!",
+    "Wed8": "Olá @! Ocupado hoje? Se não, podemos sair se você quiser.^Olá @! Ocupada hoje? Se não, podemos sair se você quiser.#$e#Me desculpe, eu realmente não sei como iniciar conversas!$h",
+    "Wed10": "Olá meu lindo, gostaria de se juntar a mim para tomar algumas bebidas?$l^Olá minha linda, gostaria de se juntar a mim hoje para tomar algumas bebidas?$l#$e#Venha aqui... *Beija você*$l",
+
+    "Thu": "Lunna está vivendo bem na vila, certo? acredito que sim.#$b#Ela foi uma grande ajuda para que minha irmã e eu nos adaptássemos a este lugar. Ela é uma querida amiga.",
+    "Thu4": "Reenus é um bom amigo meu. Ele é como outra figura paterna se você pensar sobre isso.#$e#O filho dele, Mico, também é um garoto muito bom! Só um pouco preguiçoso em casa, mas muito ativo ",
+    "Thu6": "Laarni tem uma vida muito ocupada, não concorda?#$e#Lidar com gêmeos, para não mencionar que ambos são muito hiperativos, deve ser realmente exaustivo!$h#$b#Eu venho ajudá-los às vezes!",
+    "Thu8": "Dianna disse que é sempre bem-vindo aquele que vem para Umuwi.#$e#Por que, você pergunta?$u#$b#Oh nada. Apenas dizendo...$l",
+    "Thu10": "Oddi disse que acha você bonito, não sei o porquê, mas me senti um pouco territorial.$s^Gabbi disse que acha você bonita. Não sei o porquê, mas me senti um pouco territorial.$s.#$e#Mas eu confio em você então está tudo bem!$h",
+
+    "Fri": "Oh ei! Tanta coisa mudou no mundo humano desde o tempo em que estivemos fora!$h#$e#Agora existem modelos de computador mais avançados!",
+    "Fri4": "Olá @! Eu visito a vila no meu tempo livre, joguei um jogo no bar também.#$e#Foi muito difícil! Havia uma garota de cabelo roxo rindo enquanto eu estava perdendo repetidas vezes!$s",
+    "Fri6": "@! Boas notícias! Na verdade, terminei um nível do jogo no Saloon!$h#$e#Nada de especial, mas fiquei muito feliz quando consegui finalizar o nível!$h",
+    "Fri8": "Olá @.$l#$b#Você se importaria de me mostrar a vila hoje?$h#$e#Por que estou vermelho?$u#$b#Oh uhhm, talvez seja o calor! Está me afetando!$l",
+    "Fri10": "Ainda não consigo acreditar que papai disse que está orgulhoso de mim!$h#$e#Eu sei que isso foi há muito tempo, mas ainda é um grande feito pra mim!$h",
+
+    "Sat": "Minha oficina é minha casa aqui em Umuwi.$h#$b#Bianka não me deixa colocar uma cama lá, ela disse que eu nem usaria se houvesse.$s",
+    "Sat4": "Eu forjo armas e ferramentas para contribuir com a comunidade daqui, bem como me preparar para ataques.#$e#Eu não vendo muito as ferramentas, nós as mantemos como sobressalentes!",
+    "Sat6": "Também temos um caldeirão na loja onde eu ou Bianka podemos usar para experimentos com poções e misturas.#$e#Bianka também faz poções muito eficazes! É o talento dela!$h",
+    "Sat8": "Olá @! Espero que você tenha uma boa visita!$l#$e#Oh isso? Sim, eu só tiro minha jaqueta aqui dentro porque está muito quente na loja. Não é?$l",
+    "Sat10": "Sabe... Nós podemos ficar na loja e eu posso trancar a porta se você quiser...$l#$e#Também posso criar uma barreira de cancelamento de ruído em torno dela, que também é invisível.$l",
+
+    "Sun": "A pulseira de Bianka é a média para seus poderes mágicos, o mesmo para este meu amuleto.#$b#Ainda não somos feiticeiros de pleno direito, mas estamos chegando lá.$h",
+    "Sun4": "Mamãe e papai são seres realmente poderosos por si próprios. Eu não iria contra eles nunca!$s#$e#Eles são boas pessoas, então você não precisa se preocupar com eles tentando dominar o mundo.",
+    "Sun6": "De volta para casa e aqui em Umuwi, minha programação não difere muito para ser honesto.#$e#Sim, é principalmente apenas treinar e estudar magia.$h",
+    "Sun8": "Nós viajamos para lugares diferentes antes de ficarmos presos aqui em Umuwi. A melhor visita para mim foi em Castle Village.#$e#Por que lá? Bem, eu aprendi muito e eles vendem esta incrível espada roxa feita de minério espacial!",
+    "Sun10": "Uma vez, mamãe me contou sobre a história de amor dela e de meu pai e como tudo começou.#$b#É muito diferente do nosso começo, mas ainda assim foi uma história interessante!$h#$e#Era principalmente apenas a mãe perseguindo o pai desde o início até que as coisas funcionassem.$h",
+
+    "spring_12": "Amanhã é o festival do ovo da sua vila, não é??#$b#Deve ser bom visitar.",
+    "spring_23": "Você tem um festival de flores todo dia 24 da primavera, não é??#$b#Bianka está me obrigando a acompanhá-la ao seu evento, mas eu sou tímido.$s",
+    "summer_10": "Ei @! Vai haver uma coisa de sopa na sua praia amanhã?#$e#Tenho certeza que estou interessado em visitar tal evento.",
+    "summer_27": "Se bem me lembro, as criaturas aquáticas luminosas mágicas da grande trincheira ocidental estarão passando por sua vila amanhã à noite.#$e#É uma visão maravilhosa de se ver!$h",
+    "fall_15": "Bianka e eu vamos visitar a Vila Pelicanos amanhã na Feira.#$e#Vou visitar um antigo mentor.",
+    "fall_26": "Amanhã à noite, os espíritos vão estar ativos e é preciso estar alerta.#$e#Fortaleci a barreira aqui na cidade para uma certa ocasião.",
+    "winter_7": "A pesca é uma das coisas que não consigo dominar!$s#$e#Se eu fosse competir no seu festival amanhã, com certeza me envergonharia!$s",
+    "winter_14": "Os tritões vão ressurgir amanhã. É melhor ter cuidado.#$e#É engraçado saber que muitos humanos pensam que as sereias não existem! E é melhor continuar assim para ser honesto.",
+    "winter_24": "Espero um bom ano novo e que nenhum problema surja.$s",
+
+    "summer_9": "Psst ei @! Mantenha isso entre nós, mas hoje é o aniversário da pequena tagarela!#$b#Vá cumprimentá-la se puder.$h",
+
+    "spring_3": "Oh oi @! Diga oi para Lunna por mim, sim?#$b#Espero que ela esteja bem na Vila Pelicanos",
+    "winter_2": "Você deveria visitar Dianna de vez em quando. Ela é uma companhia tão boa.#$b#Na verdade, se alguém for prefeito em exercício deste lugar, só poderia ser aquela menina.$h#$e#Ela é como uma criatura pequena, mas mandona!$h",
+
+    //Special Dialogue
+    "danceRejection": "Oh! Eu terei que te dizer não por enquanto @. Desculpa.$s",
+    "divorced": "Desculpa... estou ocupado.$a",
+	"MovieInvitation": "Oh, wow! A movie huh? Let me get ready and I'll see you there.$h",
+
+    //Event Dialogues
+    "event_1raphael1": "Fantástico @! %fork$h",
+    "event_1raphael2": "Oh isso é muito ruim. Compreendo! Esta tarefa às vezes fica entediante haha.",
+    "event_1raphael3": "Uau! Isso é duro, me desculpe se eu perguntei então...$s",
+    "event_2raphael1": "@... Obrigado por isso... Mas...",
+    "event_2raphael2": "... Uhmmm... É, eu já sei disso... %fork$a",
+
+    //Resort
+    "Resort_Entering": "Mal posso esperar para fazer algumas explorações! Este lugar me lembra de casa!$h",
+    "Resort_Leaving": "Estou ansioso para ver a paisagem enquanto voltamos para casa.#$b#O oceano é uma coisa tão maravilhosa.$h",
+    "Resort_Shore": "Hmmm... Acho que posso desenvolver um feitiço do tipo areia aqui. As partículas daqui parecem ser tão ricas.#$e#Não se preocupe @, não será perigoso.$h",
+    "Resort_Chair": "%Raphael está dormindo.",
+    "Resort_Bar": "Eu gostaria de pedir outro! A mistura deles é incrível!$h#$b#Se tivesse o sabor de uma poção, mesmo que fosse veneno, eu não me importaria!$h",
+    "Resort_Umbrella": "Ohh cara, eu acho que tenho uma queimadura de sol!$s#$b#Ah bem. Vou ficar na sombra um pouco.$h",
+    "Resort_Wander": "Adoraria saber mais segredos sobre esta ilha.#$e#Ei, não me deixe se você voltar, certo!$s",
+    "Resort": "Devo mapear este lugar logo.#$b#Bem, farei isso na próxima visita. Por enquanto eu deveria me divertir.$h",
+
+	"GreenRain": "Esta chuva possui qualidades mágicas.#$b#Mas por segurança, não deveríamos ficar expostos a ela por muito mais tempo.",
+	
+}

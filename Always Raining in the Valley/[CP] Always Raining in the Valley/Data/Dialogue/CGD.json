@@ -1,0 +1,241 @@
+{
+    "Changes": [
+    
+      
+        
+        {
+            "LogName": "Sterling custom gift reactions - not dating, engaged, or married",
+            "When": {
+                "Relationship:Sterling |contains=Dating, Engaged, Married": false,
+            },
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sterling",
+            "Entries": {
+
+                // Stardrop Tea
+                "AcceptGift_(O)StardropTea": "Chá? Para mim?#$b#Isso é fofo. Obrigado, ${fazendeiro^fazendeira}$, nada como uma boa hospitalidade do vale. Vou desfrutar isso com um biscoito e pensar em você.",
+
+                // Sunflower
+                "AcceptBirthdayGift_(O)421": "... P-Para... Mim?$7#$b#E-Eu...$7#$b#Desculpa fazendeiro, estou fazendo um escândalo - é que...$13^Desculpa fazendeira, estou fazendo um escândalo - é que...$13#$b#É... É minha flor favorita.$4#$b#É estranho admitir isso. Mais estranho ainda recebê-las no meu aniversário...$4#$e#É tão emocionante, obrigado.$13#$b#Não vou esquecer este aniversário tão cedo.$4#$b#Vou ter certeza de te dar algo extra especial no seu, tudo bem?$1",
+                "AcceptGift_(O)421":"...!$7#$b#Eles... Eles são tão bonitos.$4#$b#Eu sabia que girassóis eram bonitos, mas nunca pensei que alguém os daria para mim, eu...$4#$b#Desculpe, estou ficando constrangido. Fui eu quem sempre deu flores a vida toda, suponho. É uma mudança estranha.",
+                
+                //Flowers category
+                "AcceptGift_category_flowers": "...!$7#$b#Para... Mim? Está dando para a pessoa certa?$7#$b#N-Não, eu só... Desculpa, não quero parecer estranho.$7#$b#Nunca realmente... Recebi flores antes na minha vida. Não pensei que caras poderiam recebê-las.#$b#...Obrigado.$4",
+
+                // Beer
+                "AcceptBirthdayGift_(O)346": "Ah, obrigado pela bebida fazendeiro. Vou te convidar para a próxima rodada da próxima vez que você passar pelo Saloon.^Ah, obrigado pela bebida fazendeira. Vou te convidar para a próxima rodada da próxima vez que você passar pelo Saloon.#$e#Oh! É para o meu aniversário? Obrigado por lembrar.$1",
+                "AcceptGift_(O)346": "{{Random:Ah! Nada como uma boa cerveja para realmente acertar onde importa. Obrigado ${fazendeiro^fazendeira}$, você é um amor.$1++Você está tentando acelerar nossa amizade com as minhas bebidas favoritas, ${fazendeiro^fazendeira}$?$10#$b#Porque, se estiver, está funcionando. Continue assim, posso sentir meu loveômetro subindo.$10++O que é isso, tentar me embebedar para diminuir meus padrões, @?$10#$b#Não se preocupe, com ou sem álcool em mim, você é atraente$10#$b#E também meus padrões de beleza já estão no chão. $1++Nada como uma cerveja para aliviar o ânimo, você está realmente tentando me agradar, não é?$10#$b#Não se preocupe, ${fazendeiro^fazendeira}$, você já roubou meu coração.  Sorte sua, eu aceito a cerveja como pagamento devido.$10|inputSeparator=++}}",
+
+                // Pale Ale
+                "AcceptGift_(O)303": "{{Random:OH! Você é o melhor fazendeiro, obrigado!^OH! Você é a melhor fazendeira, obrigado!#$b#Sabe, na cidade era realmente difícil conseguir pale ale. Era uma bebida hipster. Estou feliz de conseguir essa delícia.++Nossa, isso parece tão bom. O lúpulo é da sua fazenda? Mal posso esperar para experimentar.$1#$b#Estou ansioso para isso.$9++Pale ale da %farm? Mal posso esperar para experimentar!#$b#Sabe, eu estava realmente ansioso para experimentar a pale ale do Gus quando cheguei à cidade.#$b#Infelizmente, não era tão boa quanto parecia!$10|inputSeparator=++}}",
+                
+                // Mead
+                "AcceptGift_(O)459": "{{Random:Você é ${um^uma}$ ${verdadeiro^verdadeira}$ ${amigo^amiga}$, sabia, ${fazendeiro^fazendeira}$?$10#$b#Afinal, um amigo com hidromel é um amigo de verdade!$9++OHO, gostaria de saber por que você é tão gentil comigo. Obrigado, ${fazendeiro^fazendeira}$.$10++Mmm, nada como uma bebida para alegrar o dia. Você é ${o^a}$ melhor!$10#$b#Se eu soubesse que as pessoas do vale eram tão generosas, teria me mudado mais cedo..|inputSeparator=++}}",
+                
+                // Wine
+                "AcceptGift_(O)348": "{{Random:Você não tem ideia de quanto eu precisava de uma bebida hoje.#$b#Ahhh... Sim, acertou em cheio. Obrigado, ${fazendeiro^fazendeira}$.$9++Você está tentando acelerar nossa amizade com as minhas bebidas favoritas, ${fazendeiro^fazendeira}$?$10#$b#Porque, se estiver, está funcionando. Continue assim, posso sentir meu loveômetro imaginário subindo.$10++Ohhh ${fazendeiro^fazendeira}$, você fica tão ${lindo^linda}$ comigo quando é tão ${generoso^generosa}$. Adoro quando grandes mentes bebem da mesma forma. #$b#Nada como uma boa bebida para relaxar.$9|inputSeparator=++}}",
+                
+                // Piña Colada
+                "AcceptGift_(O)873": "{{Random:Você está tentando acelerar nossa amizade com as minhas bebidas favoritas, ${fazendeiro^fazendeira}$?$10#$b#Porque, se estiver, está funcionando. Continue assim, posso sentir meu loveômetro subindo.$10++Mmm, nada como uma piña colada e ser pego na chuva. $1++Você não tem ideia de quanto eu precisava de uma bebida hoje.#$b#Ahhh... Sim, acertou em cheio. Obrigado, ${fazendeiro^fazendeira}$.$9|inputSeparator=++}}",
+
+                // Strange Bun
+                "AcceptBirthdayGift_(O)203": "Mãe enrugada de Yoba - Para mim?!$7#$b#Este é o MELHOR presente de aniversário! Essas coisas são tão saborosas, não sei por que minha família acha que sou louco.#$e#Muito obrigado ${fazendeiro^fazendeira}$!$1#$b#Aqui, quer dividir comigo?$10#$b#Nada como um Pão Estranho para dizer 'Viva mais um ano longo e feliz.'$10",
+                "AcceptGift_(O)203": "Ohh ${fazendeiro^fazendeira}$, você não faz ideia de quanto eu estava esperando por um desses.$10#$b#Eu estava tão ansioso por um lanche saboroso. Você quer compartilhar comigo?$9",
+                
+                // Field Snack
+                "AcceptBirthdayGift_(O)403": "Mmm, nada como uma boa barrinha energética para começar o meu aniversário. Obrigado, ${fazendeiro^fazendeira}$!#$b#Aliás, as que você faz são ÓTIMAS.$1#$b#Obrigado por pensar em mim.$9",
+                "AcceptGift_(O)403": "{{Random: Mmm, nada como um bom lanche para passar o dia.#$b#Obrigado fazendeiro!++Oh cara, eu amo esses, nada como seus Lanchinhos, ${fazendeiro^fazendeira}$.++Ohhh sim, vem pra mim, baby.$10#$b#Desculpa ${fazendeiro^fazendeira}$, eu estava falando com os Lanchinhos.$|inputSeparator=++}}",
+                
+                // Bear Pancakes
+                "AcceptBirthdayGift_(O)HimeTarts.ARV_Bear_Pancakes": "Para mim? $7#$b#Oh meu deus, essas são IGUAIS às que a Mia faz. Você é o MELHOR fazendeiro.$1^Oh meu deus, essas são IGUAIS às que a Mia faz. Você é a MELHOR fazendeira.$1#$b#Isso é um presente de aniversário tão especial, tem que ser o meu favorito.",
+                "AcceptGift_(O)HimeTarts.ARV_Bear_Pancakes": "Oh querido Yoba, essas são tão fofas. Eu perco a cabeça quando a Mia faz.$1#$b#Obrigado, docinho.$9",
+                
+                // Scalloped Potatoes
+                "AcceptBirthdayGift_(O)HimeTarts.ARV_Scalloped_Potatoes": "Mmm, igualzinho à forma que minha avó costumava fazê-los.#$b#Henry é o único que realmente conseguiu capturar o sabor, mas ele raramente tem tempo para fazer.#$b#O sabor sempre me remete ao calor do toque dela...$4#$b#Obrigado, @. Isso significa muito para mim.#$b#Melhor presente de aniversário de todos.$9",
+                "AcceptGift_(O)HimeTarts.ARV_Scalloped_Potatoes": "Batatas? Manteiga? Cebolinha? MUITO creme?$9#$b#Meu senhor, ${fazendeiro^fazendeira}$, você está apenas tentando ganhar seu caminho direto para meu coração.$10",
+                
+                // Kitty Muffin
+                "AcceptBirthdayGift_(O)HimeTarts.ARV_Kitty_Muffin": "OHHH. EU AMO esses!$1#$b#É para o meu aniversário? Você é o MELHOR fazendeiro.$9^É para o meu aniversário? Você é a MELHOR fazendeira.$9",
+                "AcceptGift_(O)HimeTarts.ARV_Kitty_Muffin": "Ohhh, caramba, ${fazendeiro^fazendeira}$! O dia não tem chance contra mim com um desses.$10#$b#Muito obrigado, docinho.",
+                
+                // Morning Cat Toast
+                "AcceptBirthdayGift_(O)HimeTarts.ARV_Cat_Toast": "MMM Nada como um café da manhã de campeões antes de um dia de aniversário ÓTIMO.$1#$b#Muito obrigado ${fazendeiro^fazendeira}$! Estas são exatamente como a Mia faz também.$1",
+                "AcceptGift_(O)HimeTarts.ARV_Cat_Toast": "Cara, isso me lembra o quanto eu odeio trocadilhos com gatos.$11#$b#Só estou brincando!$9#$b#Eu acho eles PURRfeitos.$10",
+                
+                // Bear Muffin
+                "AcceptBirthdayGift_(O)HimeTarts.ARV_Bear_Muffin": "OHHH. EU AMO esses!$1#$b#É para o meu aniversário? Você é o MELHOR fazendeiro.$9^É para o meu aniversário? Você é a MELHOR fazendeira.$9",             
+                "AcceptGift_(O)HimeTarts.ARV_Bear_Muffin": "Obrigado ${fazendeiro^fazendeira}$, estes são…#$b#Estes são…$2#$b#Tenha paciência comigo, ${fazendeiro^fazendeira}$. Vou pensar em um trocadilho em breve.$3",
+                
+                // Summer Pink Lemonade
+                "AcceptGift_(O)HimeTarts.ARV_Summer_Pink_Lemonade": "Ah!$1#$b#Obrigado ${fazendeiro^fazendeira}$, eu estava realmente com sede. Isso é ótimo.$10",
+
+                // Crab Croissant
+                "AcceptGift_(O)HimeTarts.ARV_Crab_Croissant": "Vejo que você desenvolveu um apreço pela comida da Mia.$10#$b#Oh, não se preocupe, este é o MAIOR dos elogios.10#$b#Mia é uma ótima cozinheira, não é? Estão deliciosos, obrigado ${fazendeiro^fazendeira}$.",
+    
+                // Cranberries - reject
+                "RejectItem_(O)282": "Uhh, cuidado aí ${fazendeiro^fazendeira}$! Sou incrivelmente alérgico a essas coisas, e a reação se eu chegar perto delas não será nada bonita, eu juro.$3",
+            }
+        },
+        {
+            "LogName": "Sterling custom gift reactions - dating or engaged",
+            "When": {
+                "Relationship:Sterling |contains=Dating, Engaged": true
+            },
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sterling",
+            "Entries": {
+                
+                /* Vanilla Items */
+
+                //Stardrop Tea
+                "AcceptGift_(O)StardropTea": "Mm?$1#$b#Oh! Obrigado, meu amor.$1#$b#Isso parece tão bom... Obrigado.$4",
+                
+                // Sunflower
+                "AcceptBirthdayGift_(O)421": "... Caramba.$13#$b#P-Para mim?$1#$b#Você realmente cultivou minhas flores favoritas para o meu aniversário - Eu-- Caramba, amor.$4#$b#Nunca me senti tão amado antes. Muito obrigado. Muito obrigado.$13",
+                "AcceptGift_(O)421":"Ahh cara...$4#$b#Essas são lindas, muito obrigado. E-Eu não sei o que dizer, são as minhas favoritas.#$b#Nenhum parceiro nunca me deu flores antes.$4",
+                
+                // Flowers category
+                "AcceptGift_category_flowers": "... @!$9#$b#Muito obrigado, eu... Eu realmente gosto de flores.#$b#É estranho admitir, isso não é normalmente coisa de homem, não é?$9",
+                
+                // Strange Bun
+                "AcceptBirthdayGift_(O)203": "!$7#$b#Caramba, quer me pedir em casamento ou o quê?$10#$b#Feliz aniversário para mim! Eu amo essas coisas.$9#$b#Agora me conta, você as pegou de algum monstro estranho? Ou as encontrou nas profundezas das minas?",
+                "AcceptGift_(O)203": "Sabe de uma coisa? Ainda não faço ideia do que tem dentro destes ou o que os torna tão bons.$11#$b#Eu sei que *tecnicamente* deveria estar mais preocupado, mas não é minha culpa que esses sejam meu lanche favorito.$10",
+                
+                // Beer
+                "AcceptBirthdayGift_(O)346": "Nossa. Não há presente de aniversário melhor do que meu amor alimentando meu vício.$10#$b#Obrigado, ${querido^querida}$.$9",
+                "AcceptGift_(O)346": "{{Random:Ora, obrigado, amor. Esse aqui vai direto para a barriga do papai. $10#$b#.... Eu prometo nunca mais me chamar de papai se você não parar de me trazer bebidas. $3++Você não precisa me deixar bêbado, ${querido^querida}$. Eu já estou loucamente bêbado por você. Isso é apenas a cereja do bolo.++Hmm, finalmente alguém que realmente me permite beber. Estava cansando de levar bronca toda vez que abria uma cerveja.#$b#*beijo* Obrigado, amor! Vou pensar em você enquanto bebo.$1++Obrigado, amor. Eu... Eu não sei, será que devo mesmo?#$b#Acho que vou guardar para amanhã...|inputSeparator=++}}",
+                
+                // Pale Ale
+                "AcceptGift_(O)303": "{{Random:Ah, obrigado, ${querido^querida}$! Você é ${o^a}$ melhor. O orçamento para álcool estava começando a apertar.$1+Quando meu amigo adormeceu no bar, derramei ale nele. Foi um despertar alcoólico.$9++Ah... Justo quando eu disse que tentei não beber hoje.$3#$b#Bem, amanhã é outro dia!$9|inputSeparator=++}}",
+                
+                // Alcoholic Drinks - generic
+                "AcceptGift_(O)459": "{{Random:Você não precisa me deixar bêbado, ${querido^querida}$. Eu já estou loucamente bêbado por você. Isso é apenas a cereja do bolo.+:Ah, obrigado, ${querido^querida}$! Você é ${o^a}$ melhor. O orçamento para álcool estava começando a apertar.$1++Oh, refrescos! Obrigado, amor, você é realmente ${o^a}$ melhor.$9|inputSeparator=++}}",
+                "AcceptGift_(O)348": "{{Random:Você não precisa me deixar bêbado, ${querido^querida}$. Eu já estou loucamente bêbado por você. Isso é apenas a cereja do bolo.++Ah, obrigado, ${querido^querida}$! Você é ${o^a}$ melhor. O orçamento para álcool estava começando a apertar.$1++Oh, refrescos! Obrigado, amor, você é realmente ${o^a}$ melhor.$9|inputSeparator=++}}",
+                "AcceptGift_(O)873": "{{Random:Você não precisa me deixar bêbado, ${querido^querida}$. Eu já estou loucamente bêbado por você. Isso é apenas a cereja do bolo.++Ah, obrigado, ${querido^querida}$! Você é ${o^a}$ melhor. O orçamento para álcool estava começando a apertar.$1++Oh, refrescos! Obrigado, amor, você é realmente ${o^a}$ melhor.$9|inputSeparator=++}}",  
+                
+                // Field Snack
+                "AcceptBirthdayGift_(O)403": "OH! Você fez esses, amor?$1#$b#Para o meu aniversário? Obrigado!$9#$b#Sabe, um dia você mora na cidade, e no dia seguinte você mora no vale e seu parceiro está fazendo Lanchinhos para o seu aniversário.$10",
+                "AcceptGift_(O)403": "{{Random: Humm, tem gosto de bordo! Está me fazendo desejar um jantar de panquecas.$1++Isso é simplesmente sensacional. Obrigado, ${querido^querida}$.$10++Oh, obrigado Yoba, eu realmente preciso dessa dose extra de energia.$6#$b#*MWAH* Obrigado, meu bem! Você é uma delícia.$1|inputSeparator=++}}",
+                
+                /* ARV Modded Items */
+                
+                // Bear Pancakes
+                "AcceptBirthdayGift_(O)HimeTarts.ARV_Bear_Pancakes": "Panquecas especiais da Mia? No MEU aniversário?$1#$b#Amor, você aprendeu a fazer essas com a Mia só para mim?$1#$b#Juro que não te mereço, meu amor.$9",
+                "AcceptGift_(O)HimeTarts.ARV_Bear_Pancakes": "Mmmm, com morangos frescos ao lado. Obrigado, meu bem. Isso vai direto para minha barriga.$1#$b#Yoba, essas panquecas são simplesmente sensacionais.$9",
+                
+                // Scalloped Potatoes
+                "AcceptBirthdayGift_(O)HimeTarts.ARV_Scalloped_Potatoes": "Yoba, isso cheira maravilhosamente. Você fez isso para mim? $1#$b#Deus, amor. Você é um presente de Yoba, minha avó e Henry ficariam com inveja de como você mandou bem.$9#$b#Obrigado, cupcake, você não precisava ir tão longe só para o meu aniversário.",
+                "AcceptGift_(O)HimeTarts.ARV_Scalloped_Potatoes": "Batatas? Manteiga? Cebolinha? MUITO creme?$9#$b#Tão terrível e gorduroso quanto minha avó queria. Ela ficaria orgulhosa de você, meu amor.$10#$b#Caramba... Isso é tão bom.$4",
+                
+                // Kitty Muffin
+                "AcceptBirthdayGift_(O)HimeTarts.ARV_Kitty_Muffin": "Yoba, cupcake, você é ${um^uma}$ ${cozinheiro ^cozinheira}$ incrível. Você não fica cansado de ser tão incrível?$1#$b#Esses muffins são a minha guloseima de aniversário favorita, obrigado ${querido^querida}$.$10",
+                
+                // Morning Cat Toast
+                "AcceptBirthdayGift_(O)HimeTarts.ARV_Cat_Toast": "Para o meu aniversário? Obrigado, amor!$9#$b#Por que não brindamos a nós?$10 ",
+                "AcceptGift_(O)HimeTarts.ARV_Cat_Toast": "Para mim? Oh, obrigado ${querido^querida}$.#$b#Eu te amo.$4",
+                
+                // Bear Muffin
+                "AcceptBirthdayGift_(O)HimeTarts.ARV_Bear_Muffin": "Yoba, cupcake, você é ${um^uma}$ ${cozinheiro ^cozinheira}$ incrível. Você não fica cansado de ser tão incrível?$1#$b#Esses muffins são a minha guloseima de aniversário favorita, obrigado ${querido^querida}$.$10",    
+                
+                // Summer Pink Lemonade
+                "AcceptGift_(O)HimeTarts.ARV_Summer_Pink_Lemonade": "OH, obrigado!$1#$b#Yoba, eu odeio beber água normal, isso é muito melhor. Obrigado, meu amor.#$e#A Mia não te incentivou a fazer isso, né?$10",
+                
+                // Crab Croissant
+                "AcceptGift_(O)HimeTarts.ARV_Crab_Croissant": "Para mim? Cara. Este café da manhã é quase bom demais para eu comer.#$b#Quase.$10",          
+                
+                /* Rejections */
+                
+                //Cranberries - reject
+                "RejectItem_(O)282": "Ahhh, amor, você deveria saber que sou *muito* alérgico a oxicocos. Se elas se aproximarem de mim, fico muito, muito doente.$3#$b#É melhor vendê-las, ${querido^querida}$, não estou ansioso para morrer tão cedo.$3", 
+            }
+        },
+        {
+            "LogName": "Sterling custom gift reactions - marriage",
+            "When": 
+            {
+                "Relationship:Sterling |contains=Married": true,
+            },
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sterling",
+            "Entries": 
+            {
+                
+                /* Vanilla */
+                
+                //Stardrop Tea
+                "AcceptGift_(O)StardropTea": "Isso tem um cheiro maravilhoso!$1#$b#Obrigado, ${querido^querida}$.$b#Vamos compartilhar. Acho que ainda temos alguns biscoitos na geladeira.$4",
+                
+                // Sunflower
+                "AcceptGift_(O)421":"Caramba, você é tão doce, você sabe disso?#$b#Os girassóis são os meus favoritos, isso me deixa tão feliz toda vez que você se lembra.$4",
+                
+                // Flowers
+                "AcceptGift_category_flowers": "{{Random:Eu nunca pensei que fosse gostar tanto de receber flores, obrigado, amor.$4++ Estas são tão lindas, vou pegar um vaso para elas!#$b#Embora não sejam tão bonitas quanto você.$4 ++ Deus, não acredito que ainda coro toda vez que você me dá flores. Obrigado, meu bem. Elas são lindas.|inputSeparator=++}}",
+                
+                // Blueberry Tart
+                "AcceptGift_(O)234": "Sabe, quando cheguei pela primeira vez na cidade, tinha alguns dólares no bolso e um apartamento bem ruim onde morava até partir.#$b#Mas todas as manhãs, eu acordava e corria até a padaria para gastar meus poucos dólares em uma torta de mirtilo, eram simplesmente deliciosas.#$b#Meus antigos amigos achavam isso bobo e, eventualmente, perdi todo o interesse em comprá-las.$13#$b#Mas cheirando essa guloseima que você fez para mim? Oh, meu amor. Nunca achei que seria possível me sentir com 17 anos novamente, cheio de esperanças e sonhos. Obrigado, meu amor.$4",
+                
+                /* ARV Modded Items */
+                
+                // Scalloped Potatoes
+                "AcceptBirthdayGift_(O)HimeTarts.ARV_Scalloped_Potatoes": "Para o meu aniversário?$7#$b#Oh, amor, eu... Eu acho que você vai me fazer chorar.$4#$b#Não, não está de ruim. Isso simplesmente cheira tão maravilhoso... Está me fazendo perceber o quanto sinto falta da minha avó.$9#$b#Obrigado, ${querido^querida}$.$4",
+
+                /* Rejections */
+                
+                // Wine - reject
+                "RejectItem_(O)348": "{{Random:... Isso não é engraçado, @.$5#$b#Estou realmente tentando ficar sóbrio, você não precisa zombar de mim assim.$11++Apenas... Uma taça de vinho não vai machucar, certo?$3#$b#.... Droga.$6#$b#Não faça isso, okay? Não tente me dar álcool. Vou acabar racionalizando e bebendo e....$5#$b#Você é o maior apoio que tenho agora. Preciso que você esteja ao meu lado, o vício é difícil.$11++Hmm, talvez possamos cozinhar com isso? Um pouco de salmão talvez, como a Mia costumava fazer.#$b#Mas se for o caso, por favor... Por favor, não me traga. Você sabe o quanto fico tentado. Preciso do seu apoio nisso.$3|inputSeparator=++}}",
+                
+                // Generic alcohol - reject
+                "RejectItem_alcohol_item": "{{Random:... Isso não é engraçado, @.$5#$b#Estou realmente tentando ficar sóbrio, você não precisa zombar de mim assim.$11++Você acha que não estou lutando contra a vontade de ir até o saloon e beber até não acordar todos os dias, @?$8#$b#É mesmo? Então eu agradeceria se você não tentasse me empurrar álcool na cara.++Eu... Eu não cortei relações com o Shane e meus velhos amigos para ser você a começar a me incentivar.$5#$b#Por favor, não quero que você também seja assim.$2++Isso é muito cruel da sua parte, @. Você sabe que estou lutando.$11#$b#Você deveria estar ao meu lado, não me arrastando mais para o fundo do poço.$5|inputSeparator=++}}",
+                
+                //Cranberries - reject
+                "RejectItem_(O)282": "Eita! Cuidado, garanhão. Sou INCRIVELMENTE alérgico a oxicocos. A menos que você queira que eu vire uma vidraça jovem, é melhor manter essas longe de mim.$3^Eita! Cuidado, boneca. Sou INCRIVELMENTE alérgico a oxicocos. A menos que você queira que eu vire uma vidraça jovem, é melhor manter essas longe de mim.$3",
+            
+                
+                // Sunflower birthday gift
+               "AcceptBirthdayGift_(O)421": "... ! $7#$b#Yoba. Nunca vou parar de me surpreender quando você me entrega essas coisas.$4#$b#Obrigado amor. Nada diz 'Feliz por estar aqui mais um ano' como um belo buquê de girassóis que é metade do meu tamanho.$10#$b#Você simplesmente não encontra esse tipo de coisa na cidade. Obrigado ${querido^querida}$, você sabe como tornar o dia especial de um homem ainda mais especial.$1",
+                
+                // Strange Bun
+                 "AcceptBirthdayGift_(O)203": "Você desceu nas minas só para pegar um desses para o meu aniversário? $1#$b#Nossa, amor. Você é ${o^a}$ melhor de ${todos^todas}$.$10#$b#Ainda não faço ideia do que sejam essas coisas ou por que você as encontra aleatoriamente no chão, mas o que não mata nas minas certamente engorda.$1#$b#Obrigado, meu bem. Eu te amo. Feliz aniversário para mim.$4",
+                 "AcceptGift_(O)203": "Caramba, ${querido^querida}$! Como você sabia que eu estava querendo um item estranho encontrado no chão de monstros?$1#$b#Isso parece sarcasmo, mas eu realmente quis dizer. Um pão estranho parecia exatamente o que eu precisava hoje.$10#$b#Obrigado, amor.$0",
+                
+                // Field Snack
+                 "AcceptBirthdayGift_(O)403": "Hmm! Lanchinho!$9#$b# Você pensaria que eu teria enjoado deles até agora, mas não há nada como seus mimos para o meu aniversário.#$b#Deliciosos, nutritivos, crocantes e satisfatórios ao morder.$0#$b#Assim como você, amor.$10#$b#Obrigado por sempre lembrar do meu aniversário, ${querido^querida}$. Nada como passar mais um ano ao seu lado para fazer todos os desafios valerem a pena.$0",
+                 "AcceptGift_(O)403": "{{Random: Humm, tem gosto de bordo! Está me fazendo desejar um jantar de panquecas.++Isso é simplesmente sensacional. Obrigado, ${querido^querida}$.$10++Oh, obrigado Yoba, eu realmente preciso dessa dose extra de energia.$6#$b#*MWAH* Obrigado, meu bem! Você é uma delícia.$1|inputSeparator=++}}",
+                
+                // Scalloped Potatoes
+                "AcceptGift_(O)HimeTarts.ARV_Scalloped_Potatoes": "Batatas Gratinadas para o jantar?$9#$b#Você é ${o^a}$ MELHOR!$1#$b#Vou retribuir mais tarde. Que tal uma massagem? Um banho relaxante? Pedido do cônjuge.$10",                
+
+                // Bear Pancakes
+                "AcceptBirthdayGift_(O)HimeTarts.ARV_Bear_Pancakes": "Ah! Meu aniversário, você lembrou!$1#$b#Meu café da manhã favorito na cama feito pela minha pessoa favorita no mundo...? O que mais um homem poderia querer?$4#$b#E você até adicionou um laço ao urso. Puxa. Estar vivo é bom.$9#$b#Estou tão feliz por estar aqui mais um ano com você.",
+                "AcceptGift_(O)HimeTarts.ARV_Bear_Pancakes": "Bem, você não pode simplesmente dar ao seu marido este tipo de café da manhã chique e não esperar que ele ${o^a}$ arraste de volta para a cama.$10#$b#Para agradecer com carinhos, é claro.$10",
+
+                // Kitty Muffin
+                "AcceptBirthdayGift_(O)HimeTarts.ARV_Kitty_Muffin": "Obrigado amor! Outro aniversário feliz passado com você e %pet.$9#$b#Mas na próxima vez, posso pedir para assarmos juntos? Qualquer desculpa para passar meu dia com minha pessoa favorita no mundo.$4#$b#%Sterling se inclina para te dar um beijo suave.#$b#Mmm... Tem um gosto maravilhoso.$4#$b#Os cupcakes, é claro.$10",
+                "AcceptGift_(O)HimeTarts.ARV_Kitty_Muffin": "Um muffin do meu muffin? O que mais um homem poderia querer?$10#$b#%Sterling dá um beijo em sua bochecha.#$b#Vou aproveitar até a última migalha, obrigado, ${querido^querida}$.",
+
+                // Bear Muffin
+                "AcceptGift_(O)HimeTarts.ARV_Bear_Muffin": "Mm. Estes são incrivelmente bons. Na verdade, preciso me orientar. Um segundo. Tenha paciência com seu ursinho.#$b#$Aqui. Delicioso. Tenho certeza de que você é ${o^a}$ melhor ${cozinheiro^cozinheira}$ do vale inteiro.$10",
+                
+                // Summer Pink Lemonade
+                "AcceptGift_(O)HimeTarts.ARV_Summer_Pink_Lemonade": "{{Random: Ah, obrigado!$1#$b#Yoba, eu odeio beber água normal, isso é muito melhor. Obrigado, amor.#$e#Será que a Mia te pediu para fazer isso?$10++Oh doce mãe das bebidas refrescantes.$10#$b#Obrigado, ${querido^querida}$. Estes são tão bons quanto quando a Mia os faz, você realmente tem o toque mágico.$1#$b#Um homem realmente não pode ficar desidratado neste canto de Sunberry quando a Mia e meu amor estão cuidando do caso.$10|InputSeparator=++}}",
+                
+            }
+        }
+        
+        /* Henry */
+        
+        //{
+        //    "LogName": "Henry Trash flowers",
+        //    "Action": "EditData",
+        //    "Target": "Characters/Dialogue/Henry",
+        //    "Entries": {
+        //        
+        //        "AcceptGiftCategory_-20": "Mais lixo? De onde vem toda essa coisa?#$b#De qualquer forma, obrigado por pegar isso. Vou jogar fora para você.$10",
+        //
+        //    
+        //    
+        //
+        //    }
+        //}
+    ]
+}

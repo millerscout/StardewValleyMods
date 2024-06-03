@@ -1,0 +1,57 @@
+{
+    //Dialogues	
+    "Mon": "Olá fazendeiro, ouvi algumas grandes histórias sobre sua vila.^Olá fazendeira, ouvi algumas grandes histórias sobre sua vila.#$b#O que você tem achado de Umuwi até agora?",
+    "Mon4": "Sei que a maioria das pessoas preferiria a Espada da Galáxia.#$b#No entanto, se você pedir minha opinião, acredito que a Cimitarra de Metal é melhor porque você pode carregá-la sem dificuldade.",
+    "Mon6": "Como estão as coisas do outro lado do portal, filho?^Como estão as coisas do outro lado do portal filha?#$e#Ouvi dizer que você poderia visitar as minas.#$b#Por acaso, você poderia me dizer como que estão as minas? Já faz um tempo desde que pude visitar.",
+    "Mon8": "Estou muito orgulhoso de meus filhos.$h#$b#Eles definitivamente assumirão depois que a Esmeralda e eu pararmos.$h",
+    "Mon10": "Sei que tenho sido duro com Raphael e Bianka.$s#$b#Não poderia simplesmente deixá-los sair por conta própria sem nenhum conhecimento adequado sobre como se defenderem.#$e#Sei que eles devem me odiar por isso.$s#$b#Só espero que eles encontrem em seu coração uma maneira de me entender.",
+
+    "Tue": "Ouvi dizer que as pessoas do outro lado do portal tendem a deixar seus resíduos onde não deveriam.$u#$b#Certifique-se de não deixar nenhum lixo por aqui, ok?!$u",
+    "Tue4": "Perdemos muita gente ao longo dos anos nas Ilhas Rubi.#$e#Umuwi tornou-se nosso porto seguro.#$b#Este lugar manteve minha família sã.",
+    "Tue6": "Um pouco de informação sobre como derrotar monstros, fazer uso de seus anéis e lembrar de aumentar a velocidade do ataque e das armas para o máximo dano é importante.",
+    "Tue8": "Minha filha tem sido o raio de sol da família desde que nasceu.$h#$b#Não hesitarei em ferir quem a ameaçar.$u",
+    "Tue10": "Aguamenti, ignos et mortifina.#$b#Oh, não é nada querido amigo. Eu precisava conjurar um pouco de água para molhar a terra hoje.^Oh, não é nada querida amiga. Eu precisava conjurar um pouco de água para molhar a terra hoje.",
+
+    "Wed": "Você tem mexido com magia ultimamente?$u#$b#Nunca, NUNCA pratique magia sem supervisão, você me ouviu?$u",
+    "Wed4": "Minha filhinha tem lido muito sobre o outro lado do portal.#$b#Acho que ainda não estou pronto para deixá-la sair do meu ninho.$s",
+    "Wed6": "Você já viu minha esposa hoje?#$b#Não está linda?$h#$e#No entanto, me preocupo com ela porque ser a Feiticeira Chefe consome muito tempo e energia.",
+    "Wed8": "Conheci Esme enquanto estava treinando para a guilda dos Aventureiros.$h#$b#Acredito que o alongamento do meu corpo chamou sua atenção. Haha!$h#$h#$e#Hey, onde você acha que Raphael conseguiu sua boa aparência e inspiração para um corpo em forma?$h",
+    "Wed10": "Admiro a força de minha esposa, bem como sua capacidade de liderar sua Associação.#$b#Não posso deixar de me preocupar com ela.#$s#$e#Acho que é por isso que estou grato por Bianka não estar interessada em magia.#$b#Ainda quero que ela pratique para que ela ainda possa se defender.",
+
+    "Thu": "Espíritos de Magma e Faíscadores de Magma são fáceis de se livrar se você tiver habilidades mágicas.#$b#Isso nos torna ainda mais fortes.$h ",
+    "Thu4": "Desculpe-me, querido menino.^Desculpe-me, querida menina.#$b#Não tenho tempo para falar com você agora, tenho muitas coisas para preparar para o treinamento semanal do meu filho.",
+    "Thu6": "Eu me encarreguei de liderar o conselho de defesa de diferentes reinos.#$b#Sinto que é minha responsabilidade, como marido da Feiticeira Chefe, assegurar que os súditos de minha esposa sejam protegidos.",
+    "Thu8": "Raphael e Bianka estão treinando desde pequenos.#$b#Raphael sempre mostrou grande potencial, por isso sempre fui duro com ele. Acredito que ele pode superar minhas habilidades.",
+    "Thu10": "Há muitas entidades espectrais nas minas.#$b#Acredito que sua essência é conveniente e eficaz para muitos encantamentos.",
+
+    "Fri": "Sabe, em meus dias de treinamento na guilda dos aventureiros, tivemos que estudar sobre os monstros que combatemos.#$b#Acredito que foi assim que ficamos tão bons em combatê-los.",
+    "Fri6": "Estou pensando em fazer o jantar para minha família.#$b#Qual refeição você acha que é melhor conzinhar? Algo que poderia animá-los, sabe?",
+    "Fri8": "Bianka tem falado comigo sobre o novo romance que ela está lendo.#$b#Ela estava falando deste cavaleiro que se aventurou pelos desertos e florestas por uma donzela.#$e#Não gosto do estilo deste livro.$u#$b#Acredito que minha filha deveria ser capaz de se defender o suficiente para travar suas próprias batalhas.#$b#É para isso que servem nossas habilidades!",
+    "Fri10": "Minha Esmeralda me disse que ela acha que você poderia ser um bom aprendiz.#$b#Acho que ela gosta de você.$h",
+
+    "Sat": "Quais são suas intenções com meus filhos?#$b#É melhor você não ferir nenhum de seus corações, você me ouviu?",
+    "Sat4": "Tenho treinado Raphael desde pequeno.#$b#Ele trabalha duro, mas acredito que ele pode fazer melhor.",
+    "Sat6": "Lunna e Diana têm sido uma parte tão grande de nossas vidas que às vezes parecem pertencer a nossa família.#$e#Muito parecido com o que pensamos das pessoas dos diferentes reinos onde estivemos.#$b#E eu dou o meu melhor para proteger minha família.",
+    "Sat8": "Ter um exterior duro nem sempre é fácil.#$s#$b#As pessoas pensam que você não se machuca, mas na realidade nós apenas desejamos que possamos proteger a todos de quaisquer sentimentos de mal-estar.",
+    "Sat10": "Como tem sido seu dia até agora, querido garoto?^Como tem sido seu dia até agora, querida menina?#$b#Se você tiver vontade de praticar sua habilidade com a espada, sinta-se livre para faze-lo a qualquer momento.$h",
+
+    "Sun": "Ah, um dia de descanso e relaxamento.$h#$b#Meu dia favorito da semana porque a família e eu poderíamos estar juntos.$h",
+    "Sun4": "Os domingos têm sido difíceis ultimamente porque temos estado ocupados.#$b#Então, com licença @, eu preciso enviar alguns recados.",
+    "Sun6": "Se você tiver a chance de falar com Bianka, poderia descobrir se ela quer mesmo viajar pelo mundo?#$e#Preocupo-me com ela.#$s",
+    "Sun8": "Raphael e eu conversamos sobre o quanto sou duro com ele.#$b#Fico feliz por ter podido ouvir seu lado e aprender com meus erros.#$e#Preciso fazer melhor por eles",
+    "Sun10": "Meus filhos significam o mundo para mim.#$b#Eles têm sido minha maior fonte de realização e inspiração. Eles me ensinaram que eu sou capaz de amar incondicionalmente.$h#$b#Eu abriria mão de meus poderes se isso significasse que eu poderia proteger minha família.",
+
+    "spring_12": "Se ao menos Raphael e Bianka fossem autorizados a se juntar amanhã, você veria a rapidez com que eles encontrariam esses ovos.#$e#Eu treinei seus sentidos desde pequenos. É por isso que eles são tão perspicazes e rápidos.#$h",
+    "spring_23": "Hmm, talvez eu peça a minha esposa para dançar amanhã.#$b#Mas tenho medo de me apaixonar ainda mais por ela se fizermos.$h",
+    "summer_10": "Espero que você traga algo delicioso amanhã.#$e#Pode sugerir algo simples?#$b#A sopa é bem diferente das que temos aqui. Tenho certeza de que um ingrediente simples não deixaria o sabor ficar ruim.#$e#No ano passado, meu estômago não esteve bem por dias.$s",
+    "summer_27": "Lembro-me da primeira vez que trouxe minha pequena Bianka para a Dança das Medusas-da-Lua.#$b#Os olhos dela se iluminaram como se fosse a coisa mais maravilhosa que ela tinha visto.$h",
+    "fall_15": "Não deixe de exibir todos os seus produtos amanhã.#$b#Talvez até ostentar seu armamento!$h",
+    "fall_26": "Acho que minha esposa gostaria de se fantasiar para amanhã.#$b#Você acha que talvez eu devesse dar a ela uma fantasia?$h",
+    "winter_7": "Estou ansioso por amanhã.#$b#Acredito que posso pescar tantos peixes quanto Willy...",
+    "winter_14": "Tenho que dar a minha esposa a selenita mais tarde esta noite.#$b#Ela tem que colocá-los em todo o lugar para nos proteger da maldade dos outros reinos",
+    "winter_24": "Espero que tenha tido um ano próspero @.#$b#Seja grato pelo seu presente! Essas pessoas são como sua família.",
+
+	"GreenRain": "Uma chuva verde? Minha esposa talvez saiba alguma coisa ou duas sobre isso...",
+
+
+}

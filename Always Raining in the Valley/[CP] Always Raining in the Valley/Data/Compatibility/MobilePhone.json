@@ -1,0 +1,44 @@
+{
+    "Changes": [
+
+
+//Sterling
+{
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Sterling",
+    "Entries":
+          {
+    "MobilePhoneGreeting": "Ei, coisa linda. Como você está?",
+    "MobilePhoneReminisce": "Bem, alguém está se sentindo nostálgico hoje, não é?",
+    "MobilePhoneGoodBye": "Até mais, @! Você sabe como me encontrar se quiser conversar."
+    }
+  },
+  {
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Sterling",
+    "When":  {
+    "Relationship:Sterling": "Dating"
+    },
+    "Entries":
+    {
+      "MobilePhoneGreeting": "E aí, cupcake. Está com tanta saudade da minha voz, meu bem?",
+      "MobilePhoneReminisce": "Como você sabia que minha atividade favorita é pensar no tempo que passamos juntos?",
+      "MobilePhoneGoodBye": "Falo com você mais tarde, amor. Saiba que estou a um toque de distância se precisar de mim, certo?"
+    }
+  },
+   {
+    "Action": "EditData",
+    "Target": "Characters/Dialogue/Sterling",
+    "When":  {
+      "Relationship:Sterling": "Married"
+      },
+    "Entries":
+    {
+      "MobilePhoneGreeting": "Olá, você ligou para o escritório do homem mais sortudo do mundo. Como posso ajudar, coisa linda?",
+      "MobilePhoneReminisce": "Hmm, nada como relembrar minhas memórias favoritas contigo. Sobre o que gostaria de conversar, amor?",
+      "MobilePhoneGoodBye": "Agora vou beijar o telefone até você desligar. Mwah, mwah mw-"
+    }
+   }
+
+               ]
+}

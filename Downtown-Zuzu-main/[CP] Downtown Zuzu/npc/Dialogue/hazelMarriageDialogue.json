@@ -1,0 +1,29 @@
+{
+	// First day of season
+	"spring_1": "É o mês da história nacional! Nós historiadores finalmente estamos recebendo um pouco de reconhecimento!$h",
+	"summer_1": "Argh, aí vem o calor do verão...$a",
+	"fall_1": "O outono sempre é um pouco mais fresco do que o verão. É para o melhor, realmente!$h",
+	"winter_1": "Brrr... Eu comprei um novo livro para o inverno na loja do Pierre outro dia.",
+	// Locations
+	"patio_Selena": "Que lindo aqui fora, @.$l#$b#Nós somos tão sortudos.$l",
+	"Rainy_Night_1": "Boa noite, @. Espero que você durma bem.$l",
+	"Rainy_Night_2": "O som da chuva é tão reconfortante. Vamos para a cama, @.",
+	"Rainy_Night_3": "Boa noite, @, te amo.$l",
+	"Rainy_Day_1": "E aí, @. Como você está?$h#$e#Você sabia que há duzentos anos, neste dia, houve uma grande batalha aqui no Vale?$6",
+	"Rainy_Day_2": "Sempre adorei dias chuvosos. Eles são os melhores dias para se aconchegar com um livro.$h",
+	"Rainy_Day_3": "Hoje parece um bom dia para se aconchegar e ler...$h",
+	"indoor_Night_1": "Você teve um bom dia, @?#$b#O que você fez hoje?$l",
+	"indoor_Night_2": "Seu dia foi interessante, @?$l",
+	"indoor_Night_3": "Sinto sua falta quando você passa o dia todo fora, @.$s#$b#Pelo menos tenho %pet para me fazer companhia!$h",
+	"indoor_Day_1": "E aí, @. Você tem um mapa do Vale, por acaso?$h",
+	"indoor_Day_2": "Você já foi para a Caverna do Crânio, @?$6#$b#Dizem que altos níveis de irídio exterminaram uma civilização antiga que vivia lá embaixo...$s",
+	"indoor_Day_3": "Divirta-se hoje, @! Isso é o mais importante.$l",
+	"spring_Selena": "E aí, @. Espero que não se importe se eu for ver o Buddy em breve, faz um tempo que não o vejo!$h",
+	"summer_Selena": "Dias quentes como esse me fazem apreciar ainda mais viver no campo.$l",
+	"fall_Selena": "Você sabia que a Véspera do Espírito era originalmente uma celebração dos Santos que fundaram Ferngill, @?$6",
+	"winter_Selena": "Brrr... Você poderia ligar a lareira, @?$u",
+	"Outdoor_Selena": "Mmmm... sinta a brisa, @.$h",
+	"OneKid_1": "Awn, %kid1 é tão curioso. Talvez tenhamos outro historiador na família um dia.$l",
+	"TwoKids_1": "%kid2 e %kid1 serão crianças incríveis, tenho certeza.$l",
+	"spouseRoom_Selena": "Olá, @. Estou apenas lendo sobre a história da Vila Pelicanos.$h"
+}

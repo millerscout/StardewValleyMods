@@ -1,40 +1,51 @@
 ﻿{
-  // Mensagens de notificação
-  "travelingMerchant": "Mercador Viajante chegou",
-  "queenSauce": "Queen of Sauce vai ao ar hoje",
-  "luckyDay": "Dia de Sorte, vá buscar lixo e ir pra mina!",
-  "unluckyDay": "Dia do azar!",
+  // Notification messages
+  "travelingMerchant": "A comerciante está na floresta hoje!",
+  "queenSauce": "Rainha do Molho vai ao ar hoje!",
+  "checkLiving": "Vivendo da Terra vai ao ar hoje!",
+  "luckyDay": "Dia de sorte!",
+  "unluckyDay": "Dia de azar!",
 
-  // Festivais
+  // Festivals
   "fMsg": "{{fest}} Hoje!",
   "festival": "Festival",
-  "EggFestival": "Festival do ovo",
-  "FlowerDance": "Dança da flor",
+  "EggFestival": "Festival do Ovo",
+  "FlowerDance": "Dança das Flores",
   "Luau": "Luau",
   "MoonlightJellies": "Dança das Medusas-da-Lua",
-  "ValleyFair": "Feira Stardew Valley",
-  "SpiritsEve": "Véspera dos espíritos",
-  "IceFestival": "Festival do gelo",
-  "WinterStar": "Festa da Estrela do Inverno",
-  "NightMarket": "Mercado noturno",
-  "SecretSantaReminder": "{{charName}} é o amigo secreto",
+  "ValleyFair": "Feira do Vale do Orvalho",
+  "SpiritsEve": "Véspera dos Espíritos",
+  "IceFestival": "Festival do Gelo",
+  "WinterStar": "Festival da Estrela Invernal",
+  "NightMarket": "Mercado Noturno",
+  "SecretSantaReminder": "{{charName}} é seu amigo secreto",
 
-  "Salmonberry": "Temporada de Salmonberry",
-  "Conchas do mar": "Conchas do mar",
-  "Blackberry": "Temporada de Blackberry",
+  "Salmonberry": "Chegou a temporada de Amora-silvestre!",
+  "Seashells": "Há conchas na praia",
+  "Blackberry": "Chegou a temporada de Amora!",
 
-  // Localizações
-  "CaveMushroom": "Cogumelos da caverna prontos para a colheita",
-  "CaveFruit": "Frutas da caverna prontas para a colheita",
+  // Weathers
+  "weather-rain": "chover",
+  "weather-sunny": "ser ensolarado",
+  "weather-tstorm": "ter trovoadas",
+  "weather-snow": "nevar",
+  "weather-wind": "ter ventania",
+  "weather-festival": "ser o dia do festival",
+  "weather-wedding": "ser o dia do casamento",
 
-  "birthday": "aniversário de {{charName}}!",
-  "birthdayReminder": "Não se esqueça de dar um presente de aniversário para {{charName}} hoje!",
-  "toolPickup": "{{toolName}} está pronto para retirada",
+  // Locations
+  "CaveMushroom": "Cogumelos na caverna estão prontos para a coleta",
+  "CaveFruit": "Frutas na caverna estão prontas para a colheita",
 
+  "birthday": "Hoje é aniversário de {{charName}}!",
+  "weather": "O tempo de amanhã vai {{weather}}.",
+  "birthdayReminder": "Não se esqueça de dar a {{charName}} um presente de aniversário hoje!",
+  "toolPickup": "A ferramenta {{toolName}} está pronta",
+  "springOnion": "{{count}} cebolinha estão crescidos na Floresta",
   "readyHarvest": "{{cropName}} pronto para a colheita",
-  "greenhouse_crops": "Culturas em estufa prontas para a colheita",
-  "autoGrabber": "O agarrador automático tem itens para colheita",
-  "hayMessage": "Silos reporta {{hayAmt}} pedaços de feno",
+  "greenhouse_crops": "Culturas na estufa estão prontas para a colheita",
+  "autoGrabber": "A auto recolhedora tem itens para coletar",
+  "hayMessage": "Silos relatam {{hayAmt}} pedaços de feno",
   "noHayMessage": "Sem feno nos silos.",
-  "FishPond": "Piscinas prontas para a colheita."
+  "FishPond": "Viveiros de peixes prontos para a coleta."
 }

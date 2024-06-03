@@ -1,0 +1,30 @@
+{
+    //Dialogues	
+    "Mon": "Ei @!#$e#Espero quocê tenha um bão dia!$h",
+    "Mon4": "Oi @!! Espero quocê tenha uma boa visita!$h#$e#Vá lá em casa condo ocê puder.",
+    "Mon6": "Oi @! Vamu brincar?! Ainda sou criança, sabe! Hahaha$h#$e#Traga muita comida se for brincar!",
+    "Mon8": "Cê é amigo dupeito @! purque cê num vem morar aqui cum nois!? Wahaha!$h^Cê é amiga dupeito @! purque cê num vem morar aqui com nois!? Wahaha! Wahaha!$h",
+    "Mon10": "EI @ MEU BÃO GAROTO!^EI @ MINHA GAROTINHA LINDA!#$e#Sempre posso contar com tu! Cê é o melhor!$h^Sempre posso contar com tu! Cê é a melhor!$h",
+    "Tue": "Olá @!#$e#É meio difícil cultivar quando cê é uma sombra piquitucha. Mas tudo bem! SOU FORTE$u",
+    "Wed": "Ei! cê veio visitar novamente!#$b#Umuwi num tem muito a oferecer, mas vivemos em paz agora e isso basta, neh?",
+    "Thu": "Oh, bão dia procê, grandão!^Oh, bão dia procê, grandona!#$e#Os outros me acham estranha purque tenho meu próprio estilo de falar. ehehe num ligo pra eles.",
+    "Fri": "@! BRINQUE COMIGO$h#$b#POR FAVORZINHO, OU ENTÃO...$a#$e#Tô só brincando. Muhahahaha (Risada Maligna)!$h#$b#ou num tô?$u",
+    "Sat": "Olá @! Todos os sábados eu brinco de sorrir e encarar os outros até ganhar atenção.#$e#(Dianna está te encarando com um sorriso)$0",
+    "Sun": "Ei @!$h#$e#Outro dia, outro trabalho duro! Num tô certa, compadre!?$u^Outro dia, outro trabalho duro! Num tô certa, comadre!?$u",
+
+    "spring_3": "PSSST @! Num sei se cê sabe mas...#$b#HOJE É O ANIVERSÁRIO DA LUNNA!$u#$e#Toma, dá isso pra ela! Ela adora isso! [305 308]$h",
+    "winter_2": "ADIVINHA QUE DIA É HOJE!!!$h#$e#Entãooooooo????????$0",
+
+    //Resort
+    "Resort_Entering": "Uau !! UMA ILHA!! E OLHA LÁ! UM RESORT!$h#$b#EU VOU AMAR!!$h",
+    "Resort_Leaving": "Ei. Me deixa aqui @. Quero ser uma nativa daqui agora.#$b#Brincadeira, eu preciso ir para casa ou eles vão me caçar.$u",
+    "Resort_Shore": "Tô pensando. Se eu pular no oceano azul, vou me misturar com ele?#$b#Eu viraria um oceano?#$b#Eu ficaria grande?#$b#Eu deixaria de existir?#$e#Humm... Deixa quieto. Tô com preguiça de descobrir.$u",
+    "Resort_Chair": "Ei, olhe, eu posso sentar mwehehehehehehe$h",
+    "Resort_Bar": "Eles acham que eu sou uma criança fantasiada.$u#$b#Bem, por mim tudo bem.#$e#EI GARÇOM, OUTRA RODADA PARA A CRIANÇA AQUI, HEIN!?$h",
+    "Resort": "Este é o meu resort, não sabia?#$b#Sim. Este é o Palácio da Dianna. Bem vindo à minha casa.#$e#Onde que fica o banheiro? Como vou saber?$u",
+
+    //Special
+    "Custom_LASV_FallsCave": "EAE @!$h#$b#Eu sou humana de novo! TADAAAH!$u#$b#Bem, pelo menos me torno humana sempre que entro nesta caverna! Parece que a magia daqui gosta de mim.#$b#Eu também gosto da magia e da flora daqui! Eu recolho sementes daqui às vezes.#$b#OH! Minhas roupas?!#$b#Nah! Num acho que preciso de roupas.$u#$b#Essas nuvens que cobrem meu corpo nunca desaparecem.#$b#Essa coisa fofa num me larga, e num ligo tanto pra isso!$h#$b#Vou criar uma nova moda. Cê vai ver! $u",
+
+	"GreenRain": "Esta chuva tem um gosto nojento. Credo...",
+}

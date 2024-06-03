@@ -1,0 +1,154 @@
+{
+"Changes": [
+	
+//-------------------------
+// D I S P O S I T I O N S 
+//-------------------------
+
+
+//STERLING
+	{
+		"LogName": "Sterling NPC Dispositions",
+		"Action": "EditData",
+		"Target": "Data/Characters",
+		"Entries": {
+			"Sterling": {
+				"DisplayName": "Sterling",
+				"Gender": "Male",
+				"Age": "Adult",
+				"Manner": "Polite",
+				"SocialAnxiety": "Outgoing",
+				"Optimism": "Positive",
+				"BirthSeason": "Summer",
+				"BirthDay": 15,
+				"HomeRegion": "Town",
+				"CanBeRomanced": "true",
+				"LoveInterest": null,
+				"CanSocialize": true,
+				"IntroductionsQuest": true,
+				"PerfectionScore": true,
+				"EndSlideShow": "MainGroup",
+				"SpawnIfMissing": true,
+				"SocialTab": "UnknownUntilMet",
+				"Calendar": "HiddenUntilMet",
+				"ShakePortraits": [24, 25],
+				"SpouseRoom":{
+					"MapAsset": "ARVSpouseRooms",},
+				"Home": [
+					{
+						"ID": "Default",
+						"Location": "Custom_ARVHouse",
+						"Tile": {"X": "29", "Y": "8",},
+						"Direction": "Down"
+					}
+				]
+	       
+		}
+
+		}
+	},
+
+	//MIA
+	{
+		"LogName": "Mia NPC Dispositions",
+		"Action": "EditData",
+		"Target": "Data/Characters",
+		"Entries": {
+			"Mia": {
+				"DisplayName": "Mia",
+				"Gender": "Female",
+				"Age": "Adult",
+				"Manner": "Polite",
+				"SocialAnxiety": "Outgoing",
+				"Optimism": "Positive",
+				"BirthSeason": "Spring",
+				"BirthDay": 8,
+				"HomeRegion": "Town",
+				"CanBeRomanced": false,
+				"LoveInterest": null,
+				"CanSocialize": false,
+				"IntroductionsQuest": false,
+				"PerfectionScore": false,
+				"WinterStarParticipant": false,
+				"EndSlideShow": "MainGroup",
+				"Home": [
+					{
+						"ID": "Default",
+						"Location": "Custom_ARVHouse",
+						"Tile": {"X": "17", "Y": "4",},
+						"Direction": "Down"
+					}
+				]
+	       
+		}
+
+		}
+	},
+	//HENRY
+	{
+		"LogName": "Henry NPC Dispositions",
+		"Action": "EditData",
+		"Target": "Data/Characters",
+		"Entries": {
+			"Henry": {
+				"DisplayName": "Henry",
+				"Gender": "Male",
+				"Age": "Adult",
+				"Manner": "Polite",
+				"SocialAnxiety": "Neutral",
+				"Optimism": "Negative",
+				"BirthSeason": "Fall",
+				"BirthDay": 23,
+				"HomeRegion": "Town",
+				"CanBeRomanced": false,
+				"LoveInterest": null,
+				"CanSocialize": false,
+				"IntroductionsQuest": false,
+				"PerfectionScore": false,
+				"WinterStarParticipant": false,
+				"EndSlideShow": "MainGroup",
+				"Home": [
+					{
+						"ID": "Default",
+						"Location": "Custom_ARVHouse",
+						"Tile": {"X": "5", "Y": "4",},
+						"Direction": "Down"
+					}
+				]
+	       
+		}
+
+		}
+	},
+
+	
+//------------------------
+// G I F T S              	
+//------------------------
+
+	{
+		"LogName": "Gift tastes",
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"Entries": {
+		
+	        "Sterling": "Oh Meu Deus, você está falando sério? Isso é incrível! Você realmente não precisava ir tão longe./203 211 403 421 234 200/Oh! Obrigado por ter pensado em mim, você realmente não precisava./-80 376 346 410 459 239 597 595 591 593/Eu definitivamente não tenho nenhum uso para isso, você tem certeza de que não seria mais útil para você?/723 272 213/Uhh, isso realmente não é engraçado. /612 238 493 118 282/Obrigado. Isso será útil de alguma forma./167 171/.",
+
+		}
+		},
+		
+        {
+          "LogName": "Sterling gift tastes - married/engaged",
+            "Action": "EditData",
+           "Target": "Data/NPCGiftTastes",
+           "Entries": {
+               "Sterling": "{{Random: Oh querido, isso é para mim? Anjo, você não precisava. Isso é mais do que eu poderia pedir.$4 ++ Ah, ${querido^querida}$, você me conhece tão bem, não é? Obrigado, docinho. ++ Uma surpresa? Você já me deu o presente da pessoa mais maravilhosa que conheço. Tudo depois disso é apenas um bônus. ++ Você é verdadeiramente a pessoa mais gentil e atenciosa que já conheci.$4#$b#Já mencionei que você é sexy? Você também é muito, muito sexy. *beijo* $10|inputSeparator=++}}/203 211 403 421 234/{{Random: Oh! Obrigado por pensar em mim, você realmente não precisava. ++Ah! Obrigado, anjo. Isso é adorável. $1++ Uma oferta maravilhosa que você tem aí. Que tal eu te dar um beijo em troca?$10#$b#Não? Que tal dez?$1 ++ Uau! Você não precisava, ${querido^querida}$. Obrigado. |inputSeparator=++}}/-80 376 410 459 239 597 595 591 593/Uhh ${querido^querida}$, eu não sou muito fã disso.$3/723 272 213/Uhh, isso realmente não é engraçado, amor.$11/612 238 493 118 282 346 303 348/Obrigado. Vai ser útil de alguma forma./167 171/."
+       },
+          "When": {
+               "Relationship:Sterling |contains=Engaged, Married": true,
+        },
+       },
+
+]
+}
+

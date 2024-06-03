@@ -1,0 +1,215 @@
+{
+  "Changes": 
+    [
+      {
+    "LogName": "Sterling Strings",
+    "Action": "EditData",
+    "Target": "Strings/schedules/Sterling",
+    "Entries": 
+          {
+        //Spirit's Eve Bodyguarding
+         "halloween.000": "Desculpe, fazendeiro! Mas o bar está sendo preparado para a festa desta noite. Você não pode entrar até 13h$10^Desculpe, fazendeira! Mas o bar está sendo preparado para a festa desta noite. Você não pode entrar até 13h$10",
+        //Random Spirit's Eve Dialogue
+         "halloween.001": "{{Random: Infelizmente, a celebração principal está um pouco lotada para mim, mas a Mia e eu preferimos ficar aqui dentro com o resto dos vizinhos.$10++Ei fazendeiro! Está ótimo, qual é a fantasia de hoje?^Ei fazendeira! Está ótima, qual é a fantasia de hoje?#$b#Gostou da minha? Obrigado! A Mia e a Emily fizeram para mim, então você deveria elogiá-las pelo trabalho sempre que puder.$9|inputSeparator=++}}",
+        //Married Spirit's Eve Bodyguarding
+         "halloween.002": "Desculpe, amor, não posso deixar entrar. Ninguém pode entrar até 13h, nem mesmo se forem o cônjuge mais bonito, inteligente e talentoso do mundo.$10#$b#Que chato, eu sei.",
+        //Married Random Spirit's Eve Dialogue
+         "halloween.003": "{{Random: Experimente um pouco do ponche das crianças, amor. Eles fizeram sem oxicoco este ano e está absolutamente delicioso.$1++Ohhh, está ótimo este ano, raio de sol. Adoro sua fantasia.++Estávamos pensando em esculpir algumas abóboras depois da festa, em vez de irmos para a principal da cidade. Escolhemos algumas das melhores da nossa colheita deste ano especificamente para hoje$1.++Nada como se reunir com os vizinhos, eu gostaria que fizéssemos isso com mais frequência.|inputSeparator=++}}",
+        //Sterling at Pierre's
+          "married.000": "Oh, olá amor. Eu fiz um cálculo de eficiência de custos das sementes do Pierre hoje de manhã e agora só estou conferindo o que ele tem em estoque para a nossa produção nesta estação. Não se preocupe, ainda me lembro de toda a lista de estoque.#$b#Acho que trabalhar na loja do Pierre tem suas vantagens afinal.$4",
+        //Sterling talking to Pierre
+          "married.001": "{{Random: Eu só estou batendo um papo com o Pierre.#$b#O velho não admite, mas ele está morrendo de saudades minhas.$10++Mesmo depois de trabalhar por tanto tempo, o velho acha que pode me superar nos preços.$10#$b#Eu conheço aquela tabela de preços de cor e salteado. Consigo identificar uma taxa de marcação quando vejo.$10 ++ Ei docinho, estava só dando uma olhada em como a Abigail está se saindo. Provavelmente vou lá dar um oi para ela logo depois do Pierre.++ O Pierre não está parecendo bem hoje? Posso perceber que ele se arrumou. Para um homem tão cheio de si, ele parece ter dificuldade em receber um elogio, no entanto.#9|inputSeparator=++}}",
+        //Random outside dialogue   
+          "married.002": "{{Random: Certifique-se de beber bastante água enquanto está fora, lindo.^Certifique-se de beber bastante água enquanto está fora, linda. ++ Sabe do que estou com muita vontade? De uma boa noite de encontro. Talvez depois que você terminar as tarefas de hoje, eu possa pegar minha moto e irmos para a Cidade ZuZu..#$b#Ou talvez pela rota panorâmica ao longo da costa? Mmm, tantas possibilidades.$10#$b#Agora deixe-me beijar você antes de sair. *beijo*$1 ++ Hoje Henry e eu fizemos algumas compras online na JojaPet. Max e %pet vão ficar tão felizes, mal posso esperar.$1 ++ E aí, gatinho! Só fazendo uma pausa rápida da minha corrida. Preciso me manter ativo!$1^E aí, gatinha! Só fazendo uma pausa rápida da minha corrida. Preciso me manter ativo!$1 ++ Ei, adivinha só? Mia fez um pouco a mais de ravióli caseiro e me mandou com algumas vasilhas.#$b#Parece que teremos um jantar fácil hoje! Vou fazer uma salada.$1 ++ Nada como o ar fresco do vale para nos fazer felizes por estarmos vivos!$9|inputSeparator=++}}",
+        //Sunday Saloon dialogue
+          "married.003": "{{Random: Fico feliz em ver você aqui, amor! Venha para perto de mim, o jogo está começando.$1$#$b#Você está dentro?++Sou grato por morar tão perto da família agora. Nada melhor do que dar um beijo de bom-dia em meu marido e depois colocar o papo em dia durante um jogo com Henry à noite.^Nada melhor do que dar um beijo de bom-dia em minha esposa e depois colocar o papo em dia durante um jogo com Henry à noite.#$b#Você vai se juntar a nós hoje, amor?++Juro que a Mia nunca fica sem receitas. Hoje à noite ela me deu uma receita de frango Alfredo.#$b#Talvez eu tente fazer hoje à noite.$9++O jogo de hoje está indo muito bem, meu amor.#$b#Tão bem, na verdade, que aposto três beijos e uma massagem nas costas que este é por conta do time %farm.$10#$b#Agora me dê um beijo de boa sorte enquanto eu termino isso.$4++Henry, Mia e eu ainda gostamos de nos reunir para o nosso jogo de domingo. Agora também é uma desculpa perfeita para colocarmos o papo em dia.#$b#É claro que você está convidado, bobinho! Você faz parte da família agora. Sempre fará, casado ou não.$9^É claro que você está convidado, bobinha! Você faz parte da família agora. Sempre fará, casado ou não.$9++Ah! Você chegou, amor. Gostaria que eu te trouxesse uma bebida? Caso contrário, você pode compartilhar o meu refrigerante comigo.|inputSeparator}}",
+        //Random Sterling Shopping
+        "married.004": "{{Random: Ei, lindeza.#$b#Achei que cuidaria das compras semanais enquanto você estava ocupado na fazenda. Serve saber todos os preços de cor para fazer um orçamento.$1#$e#Agora me diga, cereal frutado ou aveia integral?++Hoje eu fiz um monte de compras no supermercado. Pierre perguntou se eu queria lutar por isso#$b#Tive que dizer a ele que a luta livre era mais o meu esporte.$10++Bem, olá. Um homem bonito não estava na minha lista de compras, mas posso ser espontâneo^Bem, olá. Uma mulher bonita não estava na minha lista de compras, mas posso ser espontâneo$10++Mmm... Molho Alfredo ou bolonhesa?++Você acreditaria se eu dissesse que nunca fiz compras com um parceiro antes? Isso é tão... Doméstico. Me deixa aconchegado.$4++Cuidar das compras é realmente divertido e tudo mais, mas já te disse o quanto eu adoro ver o rosto salgado do Pierre sempre que ele me vê entrar sem uniforme?$10#$b#... Eu meio que sinto falta dele. Ele tem melhorado muito. Mais parecido com o homem que conheci quando era um jovem bobo.$1++%Sterling está cantarolando o jingle de alguns cereais enquanto os coloca no carrinho.++%Sterling está secretamente rearranjando alguns itens. Parece que resíduos do tempo em que trabalhava na loja do Pierre.|inputSeparator=++}}",  
+        //Random Beach Dialogue
+         "married.005": "{{Random:Certifique-se de beber muita água enquanto estiver fora, amor. ++ Sabe do que estou com muita vontade? De uma boa noite de encontro. Talvez depois que você terminar as tarefas de hoje, eu possa pegar minha moto e irmos para a Cidade ZuZu.#$b#Ou talvez pela rota panorâmica ao longo da costa? Mmm, tantas possibilidades.$10#$b#Agora me deixe te beijar antes de você ir. *beijo*$1 ++ Hoje Henry e eu fizemos algumas compras online na JojaPet. Max e %pet vão ficar tão felizes, mal posso esperar.$1++Vamos dar um mergulho, amor!  Eu estive esperando por você.  Foi um longo dia na fazenda.++Cara! É por isso que eu amo o verão, nada melhor do que um bom tempo com sol, areia e oceano.#$b#Agora vamos nadar antes que eu tenha que te jogar no oceano eu mesmo.#$b#E depois te resgatar, é claro.$10++Olhe essas conchas que encontrei ao longo da costa? Talvez eu possa decorar meus frascos com elas...++É um dia maravilhoso hoje, não é?
+|inputSeparator=++}}",  
+        //Random ARV House Dialogue
+         "married.006": "{{Random:É bom passar um tempo com Mia e Henry, colocar o papo em dia, ver que bagunça eles fizeram no meu antigo quarto.$10++Mmm, desculpe, amor. Eu só ia ficar uma hora, mas então a Mia compartilhou um pouco do espaguete dela e....#$b#Salvei um prato para você!$10++Yoba, Max é tão adorável... Eu sempre finjo que venho aqui por causa do Henry e da Mia, mas na verdade, ele é a verdadeira estrela do show.$10#$b#Só não conte para o Henry|inputSeparator=++}}",  
+        //Henry Help Dialogue
+         "married.007": "{{Random:Não espere por mim hoje, meu bem. Estou indo para Grampleton ajudar o Henry e meu tio durante a tarde. Sempre há muito trabalho antes do inverno.#$b#%Sterling se inclina para te dar um beijo suave.++Você precisa de algo da cidade, amor? Estou indo para Grampleton agora mesmo, posso pegar qualquer coisa que o Pierre não venda aqui.++Desculpe, querido, estou indo para a fazenda do meu tio. Você poderia fazer o jantar?^Desculpe, querida, estou indo para a fazenda do meu tio. Você poderia fazer o jantar?#$b#Eu troco isso por uma massagem nos pés quando formos nos deitar à noite.++Desculpe, amor, eu perguntaria se você quer vir junto, mas meus tios são... Pessoas horríveis, para dizer o mínimo.$3#$b#Eles são incrivelmente desagradáveis ​​de se ter por perto, mas... Família é família e sempre cuidamos uns dos outros, se não por eles, eu ajudo por Henry.$11|inputSeparator=++}}",
+        //Coming home from helping Henry
+        "married.008": "{{Random:Mmm, finalmente a caminho de casa depois de um dia de trabalho. Gostaria de voltar para casa comigo, querido?^Mmm, finalmente a caminho de casa depois de um dia de trabalho. Gostaria de voltar para casa comigo, querida?++Sempre é um saco lidar com meu tio. Ele faz as perguntas mais intrusivas ou apenas resmunga e finge que você não está lá.$6#$b#Pelo menos hoje está feito e acabado. Talvez possamos ter um jantar rápido e preguiçoso antes de dormir?|inputSeparator=++}}"
+      },
+    },   
+
+    {
+      "LogName": "Mia Strings",
+      "Action": "EditData",
+      "Target": "Strings/schedules/Mia",
+      "Entries": 
+            {
+          //Spirit's Eve Bodyguarding
+           "halloween.000":"Jpenas fazendo companhia ao Sterling enquanto ele fica de vigia na porta!$1#$b#Desculpe, fazendeiro, eu também não posso deixá-lo entrar. Mas espero te ver à noite na festa.$1^Desculpe, fazendeira, eu também não posso deixá-la entrar. Mas espero te ver à noite na festa.$1",
+          //Random Spirit's Eve Dialogue
+           "halloween.001":"{{Random: .|inputSeparator=++}}",
+          //Married Spirit's Eve Bodyguarding
+           "halloween.002":".",
+          //Married Random Spirit's Eve Dialogue
+           "halloween.003":"",
+
+          }
+        },
+
+    //Map Strings
+    {
+      "LogName": "Map Strings",
+      "Action": "EditData",
+      "Target": "strings/StringsFromMaps",
+      "Entries": 
+          {
+        //Sterling Room
+          "SterlingDiary": "Laptop do Sterling. Está conectado e ligado, e quando você olha para a tela, parece encontrar o que parece ser uma entrada de diário.#'... Recebi uma mensagem do Kai ontem, ele ainda está se perguntando onde diabos eu estive. Continuo me dizendo que vou responder um pouco mais tarde, e agora praticamente o ignorei. Tentado a ir para as trilhas de trem novamente para pensar, mas não quero causar outro incidente... Acho que hoje à noite é mais uma daquelas noites de apagão...'#O texto continua, mas você decide não ler mais adiante.",
+          "SterlingPlant": "Você percebe que a Mia realmente colocou plantas em todos os cantos desta casa. Esta parece um pouco menor e mais resistente do que as outras. Provavelmente uma boa escolha para o Sterling.",
+          "SterlingShoes.1": "Você vê as botas e sapatos de trabalho do Sterling. Eles estão bem sujos. Ele provavelmente deveria limpá-los",
+          "SterlingShoes.2": "Você vê algumas caixas de sapatos abertas com coisas como o carregador do Sterling e algumas correntes.",
+          "SterlingMove.1": "Parece que o Sterling não desembalou a maioria de suas coisas desde que se mudou da cidade.",
+          "SterlingMove.2": "Você olha curiosamente para a caixa e vê um bicho de pelúcia olhando de volta para você.",
+          "SterlingMove.3": "Esta caixa está lacrada. Sterling não parece ter feito nenhum esforço para começar a desembalá-la.",
+          "SterlingFridge": "Está principalmente cheio de cerveja.",
+          "SterlingNote": "É uma lista de nomes que você não consegue entender completamente.",
+        //Mia Room
+          "MiaVanity": "É a mesa de maquiagem da Mia. Há uma foto dela com o pai quando era jovem, durante a Estrela Invernal, em seu espelho. A maquiagem dela está espalhada sobre ele, mas de uma maneira organizada que você pode apreciar.",
+          "MiaSmell": "Você sente o aroma do ambiente. É fresco e doce. Você conclui que isso combina muito bem com a Mia.",
+          "MiaSnoop": "Você realmente deveria ficar bisbilhotando as coisas pessoais de alguém, estranho?#...#Você encontra o carregador do celular da Mia, uma escova e alguns comprimidos para dormir.",
+          "MiaBottle": "Há um pequeno frasco estranho com um líquido transparente que você não reconhece. Parece ser algum tipo de medicamento injetável?",
+          "MiaClothes": "Tem... MUITAS roupas aqui. A Mia se preocupou em pressioná-las o mais fino possível para arrumá-las na cômoda.",
+          "MiaWallpaper": "Mia tem uma foto dela, do Henry e do Max na fazenda de Grampleton como papel de parede.",
+          "MiaNote": "Diário agrícola da Mia. Ela parece estar acompanhando os processos usados na empresa em que trabalha.",
+          "MiaFlower": "Um belo vaso com uma única flor. Parece fresca. Provavelmente foi colhida no jardim ou comprada de Aideen.",
+        //Henry Room
+          "HenryNote": "Caderno do Henry. Parece que ele tem trabalhado para equilibrar o orçamento de sua fazenda.#... Não parece bom.",
+          "HenryBoots": "Um par de botas de trabalho surpreendentemente limpas. Pela aparência do couro desgastado, elas foram esfregadas várias vezes ao longo dos anos.",
+          "HenryStand": "A gaveta superior está cheia de óculos genéricos. Henry deve ter comprado alguns de reserva quando estavam em promoção. ",
+          "HenryClothes": "Você abre a gaveta e encontra a maior coleção de jeans que já viu. Calças jeans, macacões, jaquetas... E por um momento, você até pensa que vê uma cueca de jeans.",
+          "MaxBed": "Uma cama macia e aconchegante para um garoto fofo.#Não, não é do Henry. É do Max. Henry dorme na cama dos humanos ali.",
+          "HenryBookshelf.1": "Essa seção está cheia de livros de quebra-cabeça que sua avó costumava comprar no supermercado.",
+          "HenryBookshelf.2": "Uma coleção de Almanaques do Agricultor datando de décadas atrás. Uma coleção dos sonhos para um nerd da agricultura.",
+          "HenryBookshelf.3": "Há um anuário do ensino médio da Grampleton High de alguns anos atrás. A capa é uma bela pintura de uma paisagem rural idílica.#No canto, você pode ver a assinatura do artista: 'Gloria Cooper'. ",
+          "HenryBookshelf.4": "'We All Lift Together' Parece ser um livro sobre trabalhadores ciborgues sendo forçados a trabalhar para pagar por suas melhorias mecânicas para que não sejam 'retirados'. E também sobre ninjas do espaço.",
+          "HenryTie": "Entre outras coisas, há uma coleção de lenços pendurados no suporte.#Ao olhar mais de perto, você vê que, escondida com os lenços, há uma gravata já amarrada. Você fica se perguntando a quem pertence essa gravata misteriosa e quem é o gênio por trás dela.",
+          "MaxMedals": "Várias fitas de competição de exposição canina do Max, orgulhosamente expostas. Nenhuma delas é de primeiro lugar, mas você tem a sensação de que o Henry não poderia estar mais orgulhoso.",
+
+        //ARV House
+          "ARVFrame.1": "Uma foto de uma fazenda que você não reconhece. Deve ser a fazenda do Henry em Grampleton.",
+          "ARVFrame.2": "Uma foto de um jovem Henry ao lado de uma garota junto a uma vaca. De alguma forma, ele parecia muito mais feliz naquela época.",
+          "ARVFrame.3": "Uma foto de Mia e Henry. Você se lembra de que eles são amigos há alguns anos.",
+          "ARVNotebook":"'Agricultura de Restauração e Gestão Holística.' Apesar de ser um agricultor, a página em que está aberto parece um pouco complexa para o seu gosto. Há anotações cuidadosas da Mia que tornam mais fácil de entender.",
+          "ARVBookshelf.1": "Cultivando uma revolução: como a agricultura é um ato de desafio em um pesadelo capitalista.",
+          "ARVBookshelf.2": "Um exercício de Scope Creep: Um livro de auto-ajuda de Himetarts",
+          "ARVBookshelf.3": "Superando o vício e como lidar com um membro da família perdido.",
+          "ARVBookshelf.4": "São álbuns de fotos. Eles parecem ser de Mia.",
+          "ARVTrash": "Você coloca a mão no lixo dos Cooper sem pensar duas vezes e encontra...#Uma Barra de Ouro! O item foi adicionado ao seu inventário.#... O quê? Não. Claro que isso não acontece. Se acontecesse, você encontraria alguns recipientes de iogurte e toalhas de papel usadas. Que tipo de pessoa vasculha o lixo dos outros, seu estranho?#Seja como for, agora você tem um pouco de fiapos e um braço com cheiro ruim para mostrar pelos seus esforços.",
+          "ARVShoes": "Você encontra sapatos cuidadosamente empilhados de diferentes tamanhos e formatos. Alguém tem se esforçado para mantê-los limpos... Exceto os de Sterling, que você reconhece como uma bagunça óbvia.",
+          "ARVFridge.1": "Você encontra alguns picolés e carnes congeladas. O gelo está começando a se acumular. De repente, você não se sente tão mal consigo mesmo.",
+          "ARVFridge.2": "A exibição de produtos frescos e bonitos do jardim de Mia, organizados em fileiras impecáveis, faz com que a loja do Pierre pareça vergonhosa. Tudo parece estar cuidadosamente rotulado, com datas de envasamento e avisos sobre o que Mia vai cozinhar com eles.#De repente, você sente vergonha do estado da sua geladeira. Talvez você devesse fazer algumas compras...",
+          "ARVFridge.3": "A preparação da refeição que Mia organizou para o jantar de hoje à noite. Sua boca se enche de água, e você decide ir para casa e cozinhar uma grande refeição para você mesmo hoje à noite. Como um agrado.",
+          "MiaPie": "Mia fez uma torta! É de {{Random:mirtilo, framboesa, morango, damasco, escondidinho, melão, ...feijão?}}",
+          "MaxBowl.1": "Ração de boa qualidade para o bom menino.",
+          "MaxBowl.2": "Água fresca para o bom menino.",
+          //Spouse Room Sterling
+          "SterlingConsole": "O Z-Box do Sterling que ele trouxe da Cidade Zuzu. Agora faz um barulho engraçado ao ligar.",
+          "SterlingControllers": "Enquanto você olha com carinho para o segundo controle que Sterling comprou para jogar com você, você se pergunta por que Yoba não poderia simplesmente lhe dar um marido que deixasse você ganhar de vez em quando. Como um marido normal.",
+          "SterlingTherapyPlant": "A Planta Terapêutica do Sterling! Quando você perguntou a ele o que ele queria dizer com isso, ele respondeu que ela estava aqui para ajudá-lo a chegar à raiz de seus problemas!#Você prontamente deu um soquinho no braço dele.",
+          "SterlingPhotographs": "Você olha para cima as fotos que Sterling pendurou na parede. Você pode ver uma foto de quando ele era criança, sorrindo com dentes tortos.#Uma foto de Henry e ele quando eram adolescentes, ambos ainda bastante magricelas.#E por último uma foto de vocês dois, tirada na última vez que saíram da cidade juntos. Foi um dia maravilhoso.",
+          "RoomSterlingShoes.1": "As botas de trabalho do Sterling, ele parece tê-las polido de verdade! E também um par de tênis que ele provavelmente deveria substituir por agora.",
+          "RoomSterlingShoes.2": "As suas próprias botas de fazendeiro, além de seus sapatos bonitos que o Sterling cuidadosamente limpou e poliu. Eles fazem você ansiar pelo próximo encontro de vocês.",
+          "RoomSterlingFlowerVase": "Algumas flores sazonais que o Sterling ajudou você a cultivar e arranjou sozinho.#Ele parece estar ficando cada vez menos autoconsciente sobre o seu amor por flores.",
+          "RoomSterlingDiary": "Confortável com a sua comunicação com o Sterling, você decidiu não bisbilhotar em seus diários pessoais.",
+          "RoomSterlingTV.1": "É bom ver que o Sterling finalmente desembalou suas caixas quando se mudou para morar com você. Você não tinha ideia de que ele tinha trazido sua TV de Cidade ZuZu!",
+          "RoomSterlingTV.2": "Você cuidadosamente procura pelos filmes e decide escolher {{Random:Wumbus 2: Wubaloo Elétrico++Está sempre saudando no vale++Lamento Eterno de uma Mente Inútil++Ataque dos Tomates Assassinos!++Wee Movie|inputSeparator=++}} para a noite de cinema de hoje..",
+          "RoomSterlingTV.3": "É uma TV muito boa! Ainda assim, você fica chateado que ela só pode sintonizar três canais.",
+          "RoomSterlingFridge": "Contém os petiscos para a noite de cinema.#Você está satisfeito com a ideia de Sterling para ela, já que nenhum de vocês gostava de levantar para ir até a cozinha quando o filme ficava bom.",
+          "RoomSterlingPlant": "Uma planta floral que o Sterling está cuidando. Você se sente feliz sabendo que seu talento para jardinagem está influenciando ele."
+          }
+    },
+     //Diary Post 1st Date
+     {
+      "LogName": "Diary",
+      "Action": "EditData",
+      "Target": "strings/StringsFromMaps",
+      "Entries": 
+      {
+        "SterlingDiary": "'... Estou me sentindo animado. Como se estivesse saltitante. É bom realmente FAZER coisas, com pessoas. Eu praticamente esqueci da minha cerveja. Quando foi a última vez que fiz algo divertido sem álcool com meus amigos de volta para casa? Ou... Aqui, para ser mais preciso...'", //hap after dates
+      },
+      "When": {"HasSeenEvent": "40180005"}
+    },
+    //Diary Post 2nd Date
+     {
+      "LogName": "Diary",
+      "Action": "EditData",
+      "Target": "strings/StringsFromMaps",
+      "Entries": 
+      {
+        "SterlingDiary": "... Eu me sinto FORTE? Tipo, quem diria que ar fresco e uns mergulhos noturnos poderiam realmente fazer diferença em uma pessoa. E! A boa companhia! Eu sabia que mudar foi a escolha certa, mas agora finalmente está começando a parecer assim. Estou olhando para o meu telefone e, de repente, responder àquele texto de Kai não parece tão assustador. Talvez eu finalmente o encare. Enfrentá-lo...",
+      },
+      "When": {"HasSeenEvent": "40180006"}
+    },
+    //Diary
+     {
+      "LogName": "Diary",
+      "Action": "EditData",
+      "Target": "strings/StringsFromMaps",
+      "Entries": 
+      {
+        "SterlingDiary": "'... aaaaaaaa. Eu não sei o que fazer com essa inquietação. Eu sei que minha psicóloga disse que mesmo se eu não a visitasse, manter um diário seria saudável, mas ela não disse o que fazer com todos esses... /tremores/. #E se eu simplesmente fizer... algo, algo leve. Talvez alguns remédios ou algo assim, apenas para amenizar a ansiedade. #porra, faz tanto tempo. Talvez não. Não sei...'", //thinking about drugs
+      },
+      "When": {"HasSeenEvent": "40180007",
+              "Hearts:Sterling": "5,6"}
+    },
+      //Diary Relapse
+      {
+        "LogName": "Diary",
+        "Action": "EditData",
+        "Target": "strings/StringsFromMaps",
+        "Entries": 
+        {
+          "SterlingDiary": "'... merda, merda, merda, merda, merda, merda, merda, merda...'#Este registro continua assim por um longo tempo. Não é exatamente compreensível. Acho melhor parar de ler.", //relapse
+        },
+        "When": {"HasSeenEvent": "40180008",  }
+      },
+      //Diary It's gonna be OK
+      {
+        "LogName": "Diary",
+        "Action": "EditData",
+        "Target": "strings/StringsFromMaps",
+        "Entries": 
+        {
+          "SterlingDiary": "... apenas... Quantas vezes preciso ser salvo das minhas velhas besteiras? Ahh... Sinto vergonha. E estúpido. E... Como se isso estivesse tudo bem? Tudo bem. Acho que posso fazer melhor. É tão ruim, mas de alguma forma é reconfortante saber que não há outro caminho senão para cima a partir daqui e, pela primeira vez, consigo ver aquela luz lá em cima. Eu acredito nisso. Eu acredito nisso.'#O registro parece terminar aqui.", 
+        },
+        "When": {"HasSeenEvent": "40180009",  }
+      },
+     //Diary Dating
+     {
+      "LogName": "Diary",
+      "Action": "EditData",
+      "Target": "strings/StringsFromMaps",
+      "Entries": 
+      {
+        "SterlingDiary": "'AHHHHHHHHHHHHHHHHHHHHHH'#Você pula a longa exclamação. 'Sinto-me como uma criança que recebeu a Estrela do Inverno mais cedo. Mas em vez de um pacote de seis, ganhei algo precioso e caro como presente. Lindo. Frágil. Como se eu precisasse tratá-lo com cuidado e poli-lo sempre que possível. É... Parece que não mereço, mas vou trabalhar para sentir que sou digno de tê-lo como meu.'#'Depois do Kai, nunca pensei que poderia lidar com alguém se aproximando, mas agora... O futuro. Parece brilhante. Parece maravilhoso. Vou valorizá-lo da melhor maneira possível.'#Sentindo suas bochechas corarem e seu rosto esquentar, você se afasta do computador de Sterling. Bobo.", 
+      },
+      "When": {"HasSeenEvent": "40180009",
+               "Relationship:Sterling": "Dating"  }
+    },
+    //Diary Pledges Away from Alcohol
+    {
+      "LogName": "Diary",
+      "Action": "EditData",
+      "Target": "strings/StringsFromMaps",
+      "Entries": 
+      {
+        "SterlingDiary": "Só há a tela inicial. O papel de parede é uma foto sua caminhando por seus próprios campos de girassóis. Você está olhando para a câmera com um sorriso brilhante.",
+        "SterlingFridge": "A geladeira de Sterling está vazia.",
+        "SterlingShoes.1": "Parece que Sterling arrumou seus sapatos."
+      },
+      "When": {"HasSeenEvent": "40180010",  }
+    },
+    
+
+    ]
+}
+    

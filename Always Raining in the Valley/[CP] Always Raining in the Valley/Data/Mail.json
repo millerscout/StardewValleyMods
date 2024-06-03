@@ -1,0 +1,16 @@
+{
+"Changes": [
+ 
+   {
+      "LogName": "ARV Mail",
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+    "SterlingHandwritten":"Ei, @!^^Você acredita que nunca escrevi uma carta na minha vida? Muito menos uma escrita à mão; admito que isso é meio novo para mim. É meio romântico, talvez eu faça isso mais vezes.^^Queria te agradecer por ter me apoiado na outra noite.^^-Sterling",
+    "MiaPinkCake":"Oi, @!^^Tenho assado muito ultimamente, e os rapazes nem conseguem acompanhar todas as sobras mais. Enviei para você o bolo que assei esta manhã, mas você deveria vir até a casa um desses dias para que possamos tomar chá e comer doces enquanto eles estão fresquinhos. Mal posso esperar para te ver!^^-Com carinho,^Mia %item object 220 1 221 1 611 1 %%",
+    "TJSeeds":"Oi, @! O outono está chegando e você provavelmente vai acelerar sua produção antes do inverno. Estou enviando algumas sementes de girassol caso queira cultivá-las nesta temporada. Espero que elas possam te ajudar de alguma forma! Dê uma passada se quiser mais, tenho certeza de que a Mia adoraria te ver.^^PS: PS: Se você cultivá-las, pode ser útil saber que são as flores favoritas tanto da Haley quanto da Mia. Nada melhor do que fazer uma dama sorrir dando-lhe flores (ou alguns rapazes! seja lá o que você curte!)^^-Teddy. %item object 431 10%%"
+      }
+
+    },
+]
+}

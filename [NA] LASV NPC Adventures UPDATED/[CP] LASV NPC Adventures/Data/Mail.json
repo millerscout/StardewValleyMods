@@ -1,0 +1,14 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load NPC Adventures mail data",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        "bagItemsSentLetter.Lunna": "Greetings {0},^^You forgot these items in my bag, I hope I did not miss anything.^Here they are! I hope you have a good day!^^ -{1}",
+        "bagItemsSentLetter.Bianka": "Hi {0},^^So, your things were with me. I think you forgot to get them back.^Well here they are! Don't lose them again! Good thing I'm a somewhat honest person.^^  -{1}",
+        "bagItemsSentLetter.Raphael": "Hi {0},^^You kind of forgot your stuff with me haha. It's fine though.^Here they are, I hope they're intact.^^  -{1}"
+      }      
+    }
+  ]
+}

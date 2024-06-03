@@ -1,0 +1,35 @@
+{
+	"Name": "Stardew Valley Balance Overhaul",
+	"Author": "Theoddon",
+	"Version": "2.7.3",
+	"Description": "Rebalances just about everything.",
+	"UniqueID": "Theoddon.BalanceOverhaul",
+	"UpdateKeys": ["Nexus:13426"],
+	"ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"},
+	"Dependencies": [
+		{
+		"UniqueID": "6480.blueegg",
+		"IsRequired": true
+		},
+		{
+		"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+		"IsRequired": false
+		},
+		{
+		"UniqueID": "Rafseazz.RSVCP",
+		"IsRequired": false
+		},
+		{
+		"UniqueID": "Aimon111.WitchSwampOverhaulCP",
+		"IsRequired": false
+		},
+		{
+		"UniqueID": "LemurKat.EastScarpe.CP",
+		"IsRequired": false
+		},
+		{
+		"UniqueID": "Lumisteria.GlimmeringClumpsNodes",
+		"IsRequired": false
+		},
+	]
+}

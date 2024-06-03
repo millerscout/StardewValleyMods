@@ -1,0 +1,81 @@
+{
+    //Dialogues	
+    "Mon": "Salve @! O que o te traz aqui em Umuwi hoje? Nossas lindas lojas, nossos preços locais, ou essa linda garota?#$b#Bem, seja o que for, espero que você tenha uma ótima visita!$h",
+    "Mon4": "Oh @! Bom te ver!$h#$b#Nossa... Como eu gostaria de poder fazer compras em grandes shoppings ou em qualquer outro lugar, as lojas aqui são muito escassas.$s",
+    "Mon6": "Olá @! Fico feliz em te ver aqui! Agora eu tenho alguém diferente e divertido para conversar! Como está a vila hoje? Você já visitou outros lugares daqui?$h",
+    "Mon8": "Oh! Olá @.$l#$b#Oh nada, eu só estava pensando em algo...#$b#Se... Eu comprar uma casa na cidade e aluga-la temporariamente, eu poderia usar esse dinheiro para pagala e depois expulsaria o inquilino.#$b#Full Stonks!$h",
+    "Mon10": "@, MEU ANJO!!! COMO EU SENTI SUA FALTA!$h#$b#Passe mais tempo comigo por favor!#$b#O que você anda fazendo? Sempre tão ocupado.^O que você anda fazendo? Sempre tão ocupada.$l",
+
+    "Tue": "Finalmente posso visitar minha cidade natal!$h#$e#Obrigada @. Temos tentado abrir esse portal por tanto tempo desde que ficamos presos aqui.#$b#Proxima parada shoppings!... Eu disse isso em voz alta?",
+    "Tue4": "@! Espero que você esteja muito bem hoje!#$e#Acabei de comprar um vestido novo! Eu fiquei fabulosa nele!#$e#Quer ver? Melhor não, vou deixar pra ocasioes especiais... Mas se você insistir talvez eu mostre.#$b#Não insista!$h",
+    "Tue6": "Salve! Você parece muito bem hoje @!$h#$e#Vamos passear por Umuwi algum dia! Eu tenho tantas coisas para te contar!#$e#Mas eu vou tentar pupar seus ouvidos.",
+    "Tue8": "Por algum motivo, você parece radiante hoje @!$8#$e#Realmente adorável, digo... Quer tirar uma folga e me acompanhar hoje?$l",
+    "Tue10": "Olá lindão.$l^Olá lindinha.$l#$e#Posso ganhar um beijo seu? Vamos!!! Por favor!#$e#Por favorzinho?#$b#Coé só isso?#$b#Agora sim!$l",
+
+    "Wed": "Espero que você goste da atmosfera local. Os nativos são muito amigáveis, não são??$h#$b#Eles têm sido muito gentis com meu irmão e eu. Devemos muito a eles.#$b#Por exemplo eu devo 300 conto pro... Hihihi! Brincadeira.",
+    "Wed4": "E ai, como vai @! Dando uma volta?$h#$e#Você deveria ir ao Reenu algum dia!$h^Devíamos brincar de nos fantasiar algum dia!$h",
+    "Wed6": "Se você tem algo divertido em mente para fazer, me avise! Para eu poder aprontar junto.$h#$b#Aqui às vezes é bem chato$s^Devíamos nos divertir com maquiagem!$h",
+    "Wed8": "@! Você me surpreendeu!$l#$b#Não vá se esgueirando assim seu ladino! Caminhando pelas sobras Shinobidu...^Não vá se esgueirando assim sua ladina! Caminhando pelas sobras Shinobidu...$a#$b#... Só porque ... Eu uhmm... NADA!$l",
+    "Wed10": "Ei, vamos em uma caverna?$l#$e#Por quê? Bem, você sabe... Ter uma pequena reencenação de filmes românticos...$l#$b#Ainda passa Lagoa Azul na sessão tarde? Já assistiu? Classico.",
+
+    "Thu": "Você pode não ter me visto, mas na verdade eu fui à Vila Pelicanos e comprei algumas coisas.#$e#Hehehe, eu sou muito sorrateira, não sou?$h",
+    "Thu4": "Fiz amigos na vila! Hihihi.#$b#Haley e Alex eram pessoas interessantes!#$e#Hayley e eu ficamos conversamos sobre os melhores shoppings do estado!$h",
+    "Thu6": "Salve @!!! Eu dei um pulinho na vila ontem! Conheci a Penny, a Jas e o Vincent!#$b#Eu me juntei a eles em sessão de estudos!$h#$e#Vincent era um menino tão falante, e eu tinha que entretê-lo! Penny estava um pouco triste por Vincent não estar mais prestando atenção na aula.",
+    "Thu8": "Ei @... Você pode me ajudar a fazer um tour pela sua vila de novo?$l#$b#Eu adoraria passar um tempo com você!$h#$e#Eu também quero conhecer mais pessoas locais!$h",
+    "Thu10": "Eu me pergunto quando posso me mudar para a vila?...$l#$b#Nada! Nada! Só estou pensando alto!$h#$e#... Uma fazenda pode ser um bom lugar para morar também...$l",
+
+    "Fri": "Olá @! Que lindo dia hoje, não é?#$b#Meu irmão, Raphael, tem estado obcecado com magia de proteção desde o ataque de monstros.$a",
+    "Fri6": "Ah oi!#$b#Ei @! Você pode pedir ao Raphael para sair com você algum dia? Ele precisa interação humana!$h#$e#Aposto que ele e Clint serão bons amigos! Eu sinto isso!",
+    "Fri8": "Meu irmão e eu podemos brigar na maioria das vezes, mas eu amo aquele grande idiota.#$b#Não diga isso a ele!$a#$e#Ele realmente é um grande idiota, e um filhinho da mamãe também!$h",
+    "Fri10": "bebê! @! Estou tão feliz por podermos conversar hoje! Eu tenho tantas coisas para te contar!#$e#Vamos lá! Vamos ter um encontro hoje! Eu quero sair com você! $l",
+
+    "Sat": "Como vai @? Visitando Umuwi novamente?#$b#Não me diga que você veio aqui só para me ver? Hahaha só estou brincando.$h",
+    "Sat4": "@! Você veio me ver novamente, não é??$h#$b#Hahaha, só estou brincando com você!$h",
+    "Sat6": "Oh , mano @! HEYA!!^Oh, mana @!! HEYA!!#$e#Talvez eu tenha deixado a Dianna irritada pela forma como estou falando. hehehe.",
+    "Sat8": "Ei @!!! Você está aqui por mim?$l#$b#Oh! Nada, nada!!$u#$e#Quer passar o dia pela vila? Eu tenho algumas histórias para contar!",
+    "Sat10": "Olá bebê!$l#$b#Acabei de me lembrar das vezes em que costumava provocar você sobre vir aqui por mim... Bem, estou feliz por ter feito isso.$l#$e#Eu me pergunto, o que poderia ter acontecido se eu fosse uma garota quieta?",
+
+    "Sun": "Oh ei! Como vão as coisas?#$b#Os produtos locais de Umuwi são saborosos, mas às vezes sinto falta das colheitas humanas.$0",
+    "Sun6": "Oh ei!!! Que tipo de safra você está cultivando em sua fazenda?#$b#Eu posso comprar?!$h#$e#Pierre, da sua vila, vendia produtos muito bons!$h",
+    "Sun8": "Olá @!$l#$b#Você pode me fazer um tour pela sua fazenda algum dia?$l#$e#Oh! Só estou um pouco curiosa, só isso!$l",
+    "Sun10": "Meu anjo! Vamos passar o dia juntos na sua casa, certo?$l#$b#Eu prometo que vou me comportar...$l#$e#Tipo realmente REALMENTE 'Me comportar'...$l",
+
+    "spring_12": "Oh, como eu gostaria de ver o festival do ovo um dia...$s#$b#Talvez eu vá... Hehehe.$h",
+    "spring_23": "@!! Olá! Eu gostaria de poder ver a dança das flores da Vila Pelicanos!$s#$b#Hehehehe....$h",
+    "summer_10": "Ouvi dizer que vai haver um luau na praia amanhã!$h#$b#Deve ser uma pena se alguém resolvesse aparecer aleatoriamente, hein? Hehehehe...#$b#Que foi?",
+    "summer_27": "OHH!! Amanhã as orbes mágicas do mar passarão pela praia!#$b#Raphael e eu vamos ver!#$b#Mesmo que eu tenha que arrastá lo.",
+    "fall_15": "AMANHÃ VAI TER UMA FEIRA NA SUA VILA!!$h#$b#Eu vou morrer se eu perder essa!$h",
+    "fall_26": "Oooohh amanhã será uma noite assustadora hein?#$b#Hehehe, duvido você me encontrar amanhã!$h",
+    "winter_7": "Amanhã é o festival de pesca no gelo, certo?#$b#Talvez eu vá, gosto de fazer bonecos de neve e comparar o meu com os outros hehehe.#$b#Talvez eu sabote o de alguem... Eu disse isso em voz alta?",
+    "winter_14": "Sereias! Amanhã! MINHA NOSSA!!$h#$b#Oh! Nada hehehe.",
+    "winter_24": "Eu sinto que vai ser um bom ano!$h#$b#E não, eu não usei magia para ter certeza!$h#$b#Deveria ter usado?",
+
+    "winter_18": "Ei! Hoje é o aniversário do grande idiota!$h#$b#Vá cumprimentá-lo se puder, não diga a ele que eu te disse isso!#$b#Ou talvez diga...#$b#Melhor não.",
+    "spring_3": "Oh ei! A propósito, como está Lunna? Ela está bem no Vale do Orvalho?#$b#Ela é uma das minhas amigas mais próximas aqui em Umuwi.$h",
+    "winter_2": "Você deveria visitar mais a Dianna. Ela pode não demonstrar, mas às vezes fica muito sozinha.#$b#Eu tento passar o tempo com ela o máximo que posso.#$b#Vai lá aposto que ela vai adorar sua presença!",
+
+    //Special Dialogue
+    "danceRejection": "Desculpa @. Não estou com vontade de dançar... Hoje quero só observar!$s",
+    "divorced": "Por que você está falando comigo? Cai fora seu mané!^Por que você está falando comigo? Cai fora!$a",
+	"MovieInvitation": "Awww! A movie! You're adorable! See you later then!$h",
+
+    //Event Dialogue
+    "event_1bianka1": "Eba!$h",
+    "event_1bianka2": "Ah... Eu... Eu entendo...%fork$s",
+    "event_2bianka1": "@? Você realmente acredita que eu vou ficar bem?$s",
+    "event_2bianka2": "Hmmm... Se você acha que estou sendo exageradamente dramática e egoísta... Então acho que devo levar isso em conta...%fork$s",
+
+    //Resort
+    "Resort_Entering": "Ahh... Uma fuga, para uma liberdade relaxante! Com certeza eu vou fazer isso denovo!$h",
+    "Resort_Leaving": "Estou acostumada a viajar muito. Mas partir desta ilha é um pouco doloroso. Eu gostaria de poder ficar um pouco mais.$s#$b#Bem, pelo menos o passeio de barco para casa é um deleite também. Espero que vejamos alguns golfinhos.$h",
+    "Resort_Shore": "O banho de sol aqui é um hobby relaxante.#$b#Ahh. Oh como eu senti falta dessas praias.$h#$e#Este lugar me lembra de casa também.$h",
+    "Resort_Chair": "Ufa! Acho que estou exausta! Eu deveria relaxar um pouco mais.#$e#Vou dar uma olhada nas vitrines mais tarde, quem sabe eu leve algumas lembrancinhas < $h",
+    "Resort_Bar": "Os martinis aqui são fabulosos! Oh como eu vivi para isso!$h#$e#E não, eu não sou uma bêbada barulhenta quando estou bebendo. Pelo contrário, eu calo a boca.",
+    "Resort_Umbrella": "Quer esfregar um pouco de loção nas minhas costas, @? Isso beneficiaria a nós dois, hein?#$b#Haha, só estou brincando. Eu já passei antes de vir.$h",
+    "Resort_Wander": "Ahh, fazer caminhadas ao longo da ilha é uma felicidade. Ei olhe ali!$h#$e#Há tanta coisa para ver!",
+    "Resort": "Eu deveria ligar para mamãe e papai, talvez eles estejam por aqui.#$e#Quem sabe onde esses dois vão parar. Eles viajam muito!$h",
+
+	"GreenRain": "Espero que essa chuva verde não tinga minhas roupas de verde!",
+	
+	
+}

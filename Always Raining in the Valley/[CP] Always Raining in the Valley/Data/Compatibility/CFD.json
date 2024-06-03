@@ -1,0 +1,160 @@
+﻿{
+    "Changes": [
+        {
+            "LogName": "Sterling New Dialogue Keys",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sterling",
+            "Entries": {
+                // winter star - sterling receives gift
+                "WinterStar_ReceiveGift": "Oh! Então é você?$h#$b#Ah... {1} {0}! Obrigado.",
+                
+                // placeholder - "SpouseStardrop": ""
+                
+				"Spouse_MonstersInHouse": "Uh... amor? O que esses monstros estão fazendo aqui dentro?",
+				"SpouseFarmhouseClutter": "Tem um monte de coisas suas bloqueando a cozinha... Eu não sei onde você quer guardar tudo isso, então poderia arrumar?"                
+            }
+        },
+   
+        /* Flower Dance */
+        
+		{
+			"LogName": "Flower Dance - Just Met",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sterling",
+			"Entries": {
+                // no longer possible without CFD :(
+				//"Event.cs.1736": "$q -1 null#...Sim?#$r -1 0 danceAsk#(Pedir a Sterling para ser seu parceiro de dança)#$r -1 0 null#Deixa para lá...",
+				//"Event.cs.1738": "$q -1 null#...Sim?#$r -1 0 danceAsk#(Pedir a Sterling para ser seu parceiro de dança)#$r -1 0 null#Deixa para lá...",
+				"FlowerDance_Decline": "...Não.",
+			},
+			"When": {
+				"Hearts:Sterling": "0, 2"
+			}
+		},
+		{
+			"LogName": "Flower Dance - Friendliest",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sterling",
+			"Entries": {
+                // no longer possible without CFD :(
+				//"Event.cs.1736": "$q -1 null#...E aí, @?#$r -1 0 danceAsk#(Pedir a Sterling para ser seu parceiro de dança)#$r -1 0 null#Deixa pra lá...",
+				//"Event.cs.1738": "$q -1 null#...E aí, @?#$r -1 0 danceAsk#(Pedir a Sterling para ser seu parceiro de dança)#$r -1 0 null#Deixa pra lá...",
+				"FlowerDance_Accept": "Tudo bem, mas só porque é você.$6",
+				"FlowerDance_Decline": "Desculpe, @. Eu já disse que dançaria com outra pessoa.",
+			},
+			"When": {
+				"Hearts:Sterling": "3, 8"
+			}
+		},
+		{
+			"LogName": "Flower Dance - Romance",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sterling",
+			"Entries": {
+                // no longer possible without CFD :(
+				//"Event.cs.1736": "$q -1 null#...Sim, camarada?#$r -1 0 danceAsk#(APedir a Sterling para ser seu parceiro de dança)#$r -1 0 null#Deixa pra lá...",
+				//"Event.cs.1738": "$q -1 null#....Sim, camarada?#$r -1 0 danceAsk#(Pedir a Sterling para ser seu parceiro de dança)#$r -1 0 null#Deixa pra lá...",
+				"FlowerDance_Accept": "Dançar? Nossa. Tudo bem, me dê um minuto para ver se ainda lembro como fazer isso...$6",
+			},
+			"When": {
+				"Relationship:Sterling |contains=Dating, Engaged, Married": true,
+			}
+		},
+
+        /* Dumpster Dive Comments */
+
+		{
+			"LogName": "Dumpster Dive Strangers",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sterling",
+			"Entries": {
+				"DumpsterDiveComment": "!$7#$b#... As pessoas do vale são tão estranhas.$3",
+			},
+            "When": {
+                "Hearts:Sterling": "{{Range: 0, 1}}"
+            }
+		},
+		{
+			"LogName": "Dumpster Dive Friends",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sterling",
+			"Entries": {
+				"DumpsterDiveComment": "Não se preocupe, cara. Estou saindo e fingindo que não vi nada.$1^Não se preocupe, moça. Estou saindo e fingindo que não vi nada.$1",
+			},
+			"When": {
+				"Hearts:Sterling": "{{Range: 2, 8}}"
+			}
+		},
+		{
+			"LogName": "Dumpster Dive Dating",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sterling",
+			"Entries": {
+				"DumpsterDiveComment": "Uau! Estamos procurando algo em particular?$1",
+            },
+            "When": {
+                "Relationship:Sterling |contains=Dating, Engaged, Married": true
+            }
+		},
+
+        /* Marriage */
+        {
+            "LogName": "Sterling - Marriage and Adoption Dialogue Fix",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                // wedding lines
+                // commented these out bc i think they're not the correct keys (someone said lewis misgendered them during the ceremony XD)
+                //"Utility.cs.5371": "@... Sterling... #$b# Como prefeito da Vila Pelicanos e portador regional do selo matrimonial, eu os declaro marido e mulher!$h",
+                //"Utility.cs.5377": "@... Sterling... #$b# Como prefeito de Vila Pelicanos e portador regional do selo matrimonial, eu os declaro marido e..., bem, marido!$h",
+                "Utility.cs.5367": "Chega um momento na vida de todos nós em que nos vemos seguindo caminhos inesperados. Às vezes, por motivos que podem nem parecer lógicos na época...#$b#E hoje, me encontro unindo em matrimônio duas pessoas que se viram escapando de suas vidas e se juntando a nós no vale.#$b#Sterling, @, a verdade era$h#$b#É minha grande honra, neste dia {0} de {1}, unir @ e Sterling nos laços do matrimônio.",
+                "Utility.cs.5369": "Quando @ chegou pela primeira vez na Vila Pelicanos, ninguém sabia se ela se encaixaria em nossa comunidade...#$b#Mas a partir de hoje, @ será tão parte desta cidade quanto qualquer um de nós!$h#$b#É com grande honra neste dia {0} de {1}, que uno @ e Sterling nos laços do casamento.",
+                
+                // adoption dialogue
+                "NPC.cs.4440": "{0}, Quando penso em começarmos uma família, eu fico tão... Emotivo. Espero que nossos papéis de adoção sejam aprovados.$4",
+                "NPC.cs.4441": "{0}, Eu entreguei nossos papéis de adoção. Agora só podemos cruzar os dedos e esperar.$l",
+            },
+            "When": {
+                "Relationship:Sterling |contains=Engaged, Married": true
+            }
+        },
+		{
+			"LogName": "Extra Dialogue - Spouse",
+            "Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			"Entries": {
+                "Mines_PlayerKilled_Spouse_PlayerMale": "Você demorou tanto que comecei a ficar preocupado! O que aconteceu lá embaixo? Consegue andar?$10",
+                "Mines_PlayerKilled_Spouse_PlayerFemale": "Você demorou tanto que comecei a ficar preocupado! O que aconteceu lá embaixo? Consegue andar?$10",
+                "NewChild_SecondChild1": "Dê só uma olhada na nossa família... Nós chegamos longe, não é mesmo?$6",
+                "NewChild_SecondChild2": "Três filhos maravilhosos... Nós chegamos longe, não é mesmo?$6",
+                "NewChild_Adoption": "Então, pronto para ser os melhores pais que %kid1 poderia ter?$6#$b#É um desafio e tanto, mas acho que vamos dar conta.$h",
+                "NewChild_FirstChild": "Então, pronto para ser os melhores pais que %kid1 poderia ter?$6#$b#É um desafio e tanto, mas acho que vamos dar conta.$h",
+            },
+            "When": {
+                "Relationship:Sterling": "Married"
+            }
+        },
+        
+        /* Movie Invite */
+        
+		{
+			"LogName": "Movie Invitation Reactions Married",
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			"Entries": {
+				"MovieInvite_Spouse_Sterling": "Noite de cinema juntos?$1#$b#Nada me faria mais feliz, ${querido^querida}$. Que tal você se arrumar enquanto eu preparo alguns lanches para levarmos escondido?$10",
+			},
+		},
+        
+        /* Summit Dialogue */
+        
+		{
+			"LogName": "Summit Event Dialogue",
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			"Entries": {
+				"SummitEvent_Dialogue3_Sterling": "WQuando nos conhecemos, eu mostrei a você todas as piores partes de mim...$3#$b#E você escolheu ficar comigo mesmo assim.\"/pause 500/speak Sterling \"Então você escolheu estar comigo e... e me amar. Mesmo vendo quem eu sou.$3#$b#Ou talvez porque você me vê.$6\"/pause 1000/speak Sterling \"Você não desistiu de mim, e eu nunca vou desistir de você...#$b#...Mesmo se você soltar pum enquanto dorme.$6\"/pause 100/emote farmer 12/pause 200/speak Sterling \"Estou brincando, estou brincando.$h\"/pause 1000/emote Sterling 40/pause 1000/speak Sterling \"Olhando tudo isso...$6#$b#Eu só--\"/faceDirection Sterling 3/speak Sterling \"Também vejo você, sabia?$l",
+			},
+		},
+	]
+}
