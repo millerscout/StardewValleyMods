@@ -53,6 +53,7 @@
     //TODO   "GrampletonFieldsW": "Grampleton Fields - West",
     //TODO   "IslandFarm": "Island Farm",
     //TODO "SVEAurora": "Aurora Vineyard",	
+	//TODO    "Clairabelle": "Clairabelle Lagoon",	
     //Config Menu translation
     //General
     //TODO"config.section.General.name": "General",
@@ -168,6 +169,8 @@
     //TODO    "config.EnableGingerIslandFarm.description": "Integrated Minecarts - Ginger Island Farm",
 	//TODO    "config.EnableSVEAurora.name": "SVEAurora",
 	//TODO    "config.EnableSVEAurora.description": "Stardew Valley Expanded - Aurora Vineyard",
+    //TODO 		"config.EnableClairabelle.name": "Clairabelle",
+    //TODO 		"config.EnableClairabelle.description": "Nuclear Valley - Clairabelle Lagoon",
     //Farm Location
     //TODO    "config.section.FarmLocation.name": "Farm Minecart Settings",
     //TODO    "config.section.FarmLocation.description": "The settings in this section relate to the Farm Minecart. Use the settings relevant to the farm you are playing on below",

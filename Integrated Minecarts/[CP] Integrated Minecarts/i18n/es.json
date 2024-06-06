@@ -53,6 +53,7 @@
     "GrampletonFieldsW": "Grampleton Fields - Oeste",
     "IslandFarm": "Granja de la Isla",
     //TODO "SVEAurora": "Aurora Vineyard",
+	//TODO    "Clairabelle": "Clairabelle Lagoon",	
     //Config Menu translation
     //General
     "config.section.General.name": "General",
@@ -168,6 +169,8 @@
     "config.EnableGingerIslandFarm.description": "Integrated Minecarts - Granja de Isla Jengibre",
 	//TODO    "config.EnableSVEAurora.name": "SVEAurora",
 	//TODO    "config.EnableSVEAurora.description": "Stardew Valley Expanded - Aurora Vineyard",
+    //TODO 		"config.EnableClairabelle.name": "Clairabelle",
+    //TODO 		"config.EnableClairabelle.description": "Nuclear Valley - Clairabelle Lagoon",
     //Farm Location
     "config.section.FarmLocation.name": "Ajustes de Vagoneta de la Granja",
     "config.section.FarmLocation.description": "Las configuraciones en esta sección se relacionan con la Vagoneta de la Granja. Usa las configuraciones relevantes para la granja en la que estás jugando a continuación",

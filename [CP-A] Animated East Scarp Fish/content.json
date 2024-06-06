@@ -1,0 +1,225 @@
+{
+	"Format": "2.0.0",
+
+	"ConfigSchema": 
+	{
+		"Cerulean Nudibranch":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		}, 
+		"Fairy Betta":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},
+		"Golden Trout":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		}, 
+		"King Carp":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},
+		"Kokanee Salmon":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		}, 
+		"Obsidian Maw":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},
+		"Ornate Nudibranch":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},
+		"Red Herring":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},
+		"Sea Bunny Nudibranch":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		}, 
+		"Slime Barbel":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},
+		"Sunset Nudibranch":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},/*
+		"":
+		{
+			"AllowValues": "true,false",
+			"Default": "true",
+			"AllowMultiple": "false"
+		},*/
+	},
+	"Changes": [
+		{
+			"LogName": "Cerulean Nudibranch",
+			"Action": "EditImage",
+			"Target": "Mods\\Lemurkat.EastScarp\\esobjects",
+			"FromFile": "cerulean_nudibranch.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 0, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 4,
+			"When":
+			{"Cerulean Nudibranch": "true"},
+		},
+		{
+			"LogName": "Fairy Betta",
+			"Action": "EditImage",
+			"Target": "Mods\\Lemurkat.EastScarp\\esobjects",
+			"FromFile": "fairy_betta.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 128, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 6,
+			"When":
+			{"Fairy Betta": "true"},
+		},
+		{
+			"LogName": "Golden Trout",
+			"Action": "EditImage",
+			"Target": "Mods\\Lemurkat.EastScarp\\esobjects",
+			"FromFile": "golden_trout.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 80, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+			{"Golden Trout": "true"},
+		},
+		{
+			"LogName": "King Carp",
+			"Action": "EditImage",
+			"Target": "Mods\\Lemurkat.EastScarp\\esobjects",
+			"FromFile": "king_carp.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 112, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+			{"King Carp": "true"},
+		},
+		{
+			"LogName": "Kokanee Salmon",
+			"Action": "EditImage",
+			"Target": "Mods\\Lemurkat.EastScarp\\esobjects",
+			"FromFile": "kokanee_salmon.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 96, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+			{"Kokanee Salmon": "true"},
+		},
+		{
+			"LogName": "Ornate Nudibranch",
+			"Action": "EditImage",
+			"Target": "Mods\\Lemurkat.EastScarp\\esobjects",
+			"FromFile": "ornate_nudibranch.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 16, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 4,
+			"When":
+			{"Ornate Nudibranch": "true"},
+		},
+		{
+			"LogName": "Obsidian Maw",
+			"Action": "EditImage",
+			"Target": "Mods\\Lemurkat.EastScarp\\esobjects",
+			"FromFile": "obsidian_maw.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 144, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+			{"Obsidian Maw": "true"},
+		},
+		{
+			"LogName": "Red Herring",
+			"Action": "EditImage",
+			"Target": "Mods\\Lemurkat.EastScarp\\esobjects",
+			"FromFile": "red_herring.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 64, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+			{"Red Herring": "true"},
+		},
+		{
+			"LogName": "Sea Bunny Nudibranch",
+			"Action": "EditImage",
+			"Target": "Mods\\Lemurkat.EastScarp\\esobjects",
+			"FromFile": "sea_bunny_nudibranch.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 32, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 4,
+			"When":
+			{"Sea Bunny Nudibranch": "true"},
+		},
+		{
+			"LogName": "Slime Barbel",
+			"Action": "EditImage",
+			"Target": "Mods\\Lemurkat.EastScarp\\esobjects",
+			"FromFile": "slime_barbel.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 160, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 4,
+			"When":
+			{"Slime Barbel": "true"},
+		},
+		{
+			"LogName": "Sunset Nudibranch",
+			"Action": "EditImage",
+			"Target": "Mods\\Lemurkat.EastScarp\\esobjects",
+			"FromFile": "sunset_nudibranch.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+			"ToArea": { "X": 48, "Y": 16, "Width": 16, "Height": 16 },
+			"AnimationFrameTime": 30,
+			"AnimationFrameCount": 4,
+			"When":
+			{"Sunset Nudibranch": "true"},
+	}/*
+	{
+		"LogName": "",
+		"Action": "EditImage",
+		"Target": "{{spacechase0.JsonAssets/ObjectSpriteTilesheet:}}",
+		"FromFile": ".png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+		"ToArea": { "X": "{{spacechase0.JsonAssets/ObjectSpriteX:}}", "Y": "{{spacechase0.JsonAssets/ObjectSpriteY:}}", "Width": 16, "Height": 16 },
+		"AnimationFrameTime": 20,
+		"AnimationFrameCount": 4,
+		"When":
+		{"": "true"},
+	},*/
+]
+}

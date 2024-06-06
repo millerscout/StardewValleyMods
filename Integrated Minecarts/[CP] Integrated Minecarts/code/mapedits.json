@@ -1635,18 +1635,18 @@
         {
             "Action": "EditMap",
             "Target": "Maps/Custom_GrampletonFields",
-            "FromFile": "assets/Cart.tmx",
+            "FromFile": "assets/CartEntranceNarrow.tmx",
             "FromArea": {
                 "X": 0,
                 "Y": 0,
                 "Width": 1,
-                "Height": 2
+                "Height": 3
             },
             "ToArea": {
                 "X": 160,
-                "Y": 42,
+                "Y": 41,
                 "Width": 1,
-                "Height": 2
+                "Height": 3
             },
             "PatchMode": "Overlay",
             "When": {

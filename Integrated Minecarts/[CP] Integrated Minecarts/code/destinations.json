@@ -1388,5 +1388,21 @@
 				"HasMod |contains=unclearya.FarmCaveminecart": "false",
             },
 					},
+        //Clairabelle Lagoon
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": ["Default", "Destinations", ],
+            "Fields": {
+                "Clairabelle": {
+                    "DisplayName": "{{i18n: Clairabelle}}",  
+					"Price": "{{PriceToRide}}",
+                },
+            },
+            "When": {
+                "EnableClairabelle": true,
+                "HasMod |contains=ApryllForever.NuclearBombCP": "true",
+            },
+        },
     ]
 }

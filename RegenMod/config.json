@@ -1,0 +1,13 @@
+{
+  "RegenStaminaConstant": true,
+  "RegenStaminaConstantAmountPerSecond": 0.1,
+  "RegenStaminaStill": true,
+  "RegenStaminaStillAmountPerSecond": 0.5,
+  "RegenStaminaStillTimeRequiredMS": 1000,
+  "RegenHealthConstant": true,
+  "RegenHealthConstantAmountPerSecond": 0.2,
+  "RegenHealthStill": true,
+  "RegenHealthStillAmountPerSecond": 0.1,
+  "RegenHealthStillTimeRequiredMS": 1000,
+  "ReloadKey": "F5"
+}

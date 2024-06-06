@@ -51,6 +51,7 @@
   "48.": "GrampletonFieldsW",
   "49.": "IslandFarm",
   "50.": "SVEAurora",
+  "51.": "Clairabelle",
   "EnableBus": "true",
   "EnableCommunityCenter": "true",
   "EnableDesert": "true",
@@ -99,6 +100,7 @@
   "EnableModestFarmCave": "true",
   "EnableGrampletonFields": "true",
   "EnableSVEAurora": "true",
+  "EnableClairabelle": "true",
   "EnableIntegratedFarm": "true",
   "UseCustomFarmMap": "true",
   "CustomFarmMap": "",
@@ -175,5 +177,8 @@
   "LNHNewFarmY": "15",
   "MarineFarmCartStyle": "Cart",
   "MarineFarmX": "61",
-  "MarineFarmY": "20"
+  "MarineFarmY": "20",
+  "IF2Fix.FarmCartStyle": "Cart",
+  "IF2Fix.FarmX": "69",
+  "IF2Fix.FarmY": "15"
 }

@@ -42,11 +42,11 @@
         "MinimumSpawnsPerDay": 3,
         "MaximumSpawnsPerDay": 5,
         "IncludeTerrainTypes": [
-          "Quarry",
-          "Dirt",
-          "Diggable"
+          "Quarry"
         ],
         "ExcludeTerrainTypes": [
+          "Dirt",
+          "Diggable",
           "Custom",
           "Grass",
           "Stone",
@@ -88,10 +88,10 @@
         "MinimumSpawnsPerDay": 3,
         "MaximumSpawnsPerDay": 5,
         "IncludeTerrainTypes": [
-          "Quarry",
-          "Dirt"
+          "Quarry"
         ],
         "ExcludeTerrainTypes": [
+          "Dirt",
           "Diggable",
           "Custom",
           "Grass",

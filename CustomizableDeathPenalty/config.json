@@ -1,7 +1,7 @@
 {
   "KeepItems": true,
   "KeepMoney": true,
-  "RememberMineLevels": false,
+  "RememberMineLevels": true,
   "RestoreStamina": true,
   "RestoreHealth": true
 }
