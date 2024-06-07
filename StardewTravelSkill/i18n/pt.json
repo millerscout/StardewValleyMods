@@ -1,0 +1,43 @@
+{
+    "travelskill.name": "Viagem",
+    "travelskill.level-up-perk": "+{{bonus}}% Proficiência em Pernas",
+    
+    "movespeed.name": "Corredor Experiente",
+    "movespeed.desc": "Ganhe velocidade adicional de movimento",
+    "restorestamine.name": "Corredor de Maratona",
+    "restorestamina.desc": "Restaura estamina passivamente",
+    "sprint.name": "Corredor Campeão",
+    "sprint.desc": "Andar por um período mais longo faz você correr ainda mais rápido",
+    
+    "cheapwarptotem.name": "Apreciador de Totens de Teleporte",
+    "cheapwarptotem.desc": "Totens de teleporte são mais baratos de criar",
+    "cheapobelisk.name": "Construtor de Obeliscos",
+    "cheapobelisk.desc": "Obeliscos custam 50% menos ouro",
+    "totemreuse.name": "Preservador de Totens",
+    "totemreuse.desc": "Totens de teleporte têm chance de não serem usados",
+    
+    "cmd_setlvl.name": "travelskill_setlevel",
+    "cmd_setlevel.desc": "Define o nível da habilidade de Viagem do jogador.\n\nUso: travelskill_setlevel <nível>\n- nível: nível entre 1 e 10",
+    "cmd_setlevel.errormsg": "'{{input}}' é uma entrada inválida, por favor insira um número entre 1 e 10",
+    
+    "cfg_section.travelskill": "Configurações gerais da habilidade",
+    "cfg_section.professions": "Configurações de Profissão",
+    
+    "cfg_expgain.name": "Número de passos por XP",
+    "cfg_expgain.desc": "Número de passos para caminhar antes de ganhar 1 ponto de XP em Viagem",
+    
+    "cfg_levelmovespeed.name": "% Bônus de velocidade de movimento por nível",
+    "cfg_levelmovespeed.desc": "% Bônus de velocidade de movimento em porcentagem por nível da habilidade de Viagem",
+    
+    "cfg_movespeedbonus.name": "% Bônus de velocidade de movimento da profissão",
+    "cfg_movespeedbonus.desc": "% Bônus de velocidade de movimento obtido da profissão de velocidade de movimento",
+    
+    "cfg_sprintbonus.name": "Bônus de velocidade de corrida",
+    "cfg_sprintbonus.desc": "Define o bônus de velocidade de movimento obtido da profissão de corrida",
+    
+    "cfg_restorestamina.name": "Restauração de estamina",
+    "cfg_restorestamina.desc": "% Total de estamina recuperada a cada 10 minutos de jogo pela profissão",
+    
+    "cfg_totemreuse.name": "Chance de uso de totem",
+    "cfg_totemreuse.desc": "Chance de uso do totem em % para a profissão"    
+}

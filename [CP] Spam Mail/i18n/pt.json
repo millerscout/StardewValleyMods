@@ -1,0 +1,97 @@
+{
+	//regular mail
+	
+	"Spam.CatFacts": "Parabéns, @!^Você foi inscrito no Fato sobre Gatos!^Enviaremos fatos sobre gatos em uma data posterior. Fique atento!^^** Se este e-mail foi recebido por engano, entre em contato com ------ para cancelar a inscrição.^(Convenientemente, as informações de contato do remetente estão muito borradas para serem lidas.)",
+	"Spam.CatFactsSub": "Aviso de Inscrição no Fato sobre Gatos",
+	
+	"Spam.CatFacts1": "Fato sobre Gatos Nº 1!^A maioria dos gatos tem cinco dedos nas patas dianteiras e quatro nas patas traseiras. Alguns gatos podem realmente ter mais dedos! Esses gatos são chamados de 'polidáctilos.' Às vezes, seus dedos extras fazem suas patas parecerem luvas de forno!^Uau!",
+	"Spam.CatFacts1Desc": "Fato sobre Gatos 1",
+	
+	"Spam.CatFacts2": "Fato sobre Gatos Nº 2!^Os gatos na verdade não têm nove vidas! Um estudo científico foi publicado recentemente e descobriu que os gatos podem ter de uma a trinta vidas. Às vezes, há o raro caso que tem até ------ vidas!^Uau!",
+	"Spam.CatFacts2Desc": "Fato sobre Gatos 2",
+
+	"Spam.CatFacts3": "Fato sobre Gatos Nº 3!^Tenha cuidado ao plantar lírios em lugares onde vivem gatos! Os lírios são muito venenosos para os gatos. Vamos manter nossos amigos peludos seguros!",
+	"Spam.CatFacts3Desc": "Fato sobre Gatos 3",
+	
+	"Spam.CatFacts4": "Fato sobre Gatos Nº 4!^Os gatos gostam de peixe. Por favor, dê peixe ao gato? O gato te ama quando recebe peixe.",
+	"Spam.CatFacts4Desc": "Fato sobre Gatos 4?",
+
+	"Spam.CatFacts5": "Fato sobre Gatos Nº 5!^Sabia queppppppppppppppppppppppp000000000000000000000000ooooooooooooooooooooo;",
+	"Spam.CatFacts5Desc": "Fato sobre Gatos 5?",
+
+	"Spam.JunimoMail": "oi oi!^você é amigo dos junimos, certo?^você pode ser um super amigo dos junimos com frutas-estrela deliciosas!^uva passa também!^^tchau tchau!^   - M. Rasmodius, Mago",
+	"Spam.JunimoMailDesc": "Carta do Mago?",
+
+	"Spam.JunimoMailNextDay": "Saudações, fazendeiro.^Peço desculpas se uma carta foi enviada a você ontem da minha torre, foi um erro. Um feitiço de convocação que lancei deu errado, e acredito que o pequeno malandro mexeu nos meus suprimentos de escrita. Você pode ignorá-la se desejar, e por favor aceite este pequeno presente pelo transtorno.^   - M. Rasmodius, Mago^^",
+	"Spam.JunimoMailNextDayDesc": "Carta de Desculpas de Rasmodius",
+	
+	"Spam.PrismaticGag": "Geólogos vão ODIAR você com este simples truque!^^Já ouviu falar de um fragmento prismático? Eles são bastante raros, não é?^E se você pudesse fazer um aparecer do nada? Bem, é muito simples!^Tudo que você precisa fazer é dizer \"[74]\". É isso! É tão fácil assim!^^Experimente hoje mesmo!",
+	"Spam.PrismaticGagDesc": "Fragmentos Prismáticos Gratuitos?",
+
+	"Spam.LawsuitSettle": "Para quem possa interessar:^A ação coletiva foi um sucesso! Aqui está sua parte do acordo.^Nós, da filial de Zuzu da Hawthorne and Associates, estamos muito orgulhosos por termos conseguido representá-lo neste sucesso monumental contra a Corporação Joja em relação ao uso degradante do \"Canto Travesso\" durante a arbitragem dos funcionários.^Quem sabe na próxima vez podemos lidar com os cochos de alimentação na cafeteria!",
+	"Spam.LawsuitSettleDesc": "Ganhos do Acordo",
+
+	"Spam.FreeEnergy": "Já ouviu falar sobre energia gratuita?^Bem, há energia!^E é gratuita!^E está bem aqui!^E você ouviu falar disso agora mesmo!^^Espalhe a palavra!",
+	"Spam.FreeEnergyDesc": "É Energia Gratuita!",
+	
+	"Spam.FreeEnergyAgain": "Após recebermos algumas reclamações de nossa última campanha de Energia Gratuita, estamos aqui para anunciar que esta é a VERDADEIRA energia gratuita!^Está aqui! Novamente! Energia Gratuita!^É sua! Você pode pegar!^É coisa boa! Não aceite imitações!",
+	"Spam.FreeEnergyAgainDesc": "Energia Gratuita, Novamente",
+
+	"Spam.FreeEnergyFinale": "Nós, da Free Energy! Inc., estamos aqui para emitir um pedido de desculpas formal a todos os nossos queridos assinantes.^Fomos enganados sobre o que pensávamos que significava \"energia gratuita\".^Não significa distribuir baterias de graça, e também não significa distribuir energéticos de graça.^\"Energia gratuita\" é na verdade o conceito de gerar eletricidade do nada... E acredite ou não, descobrimos como fazer exatamente isso!^Então é energia gratuita! Do sol! Para sempre! Tudo que você precisa fazer é esperar por ela!^Levou um tempo para descobrirmos como transformar nosso excedente de energéticos em painéis solares, mas nosso erro é seu benefício! Aproveite!",
+	"Spam.FreeEnergyFinaleDesc": "Energia Gratuita, Para Sempre!",
+	
+	"Spam.LetterOfEncouragement": "E aí.^^Você provavelmente não me conhece, para ser honesto. Mas se você está lendo isso, acho que foi destinado... Não sei se você precisa ouvir isso ou não, mas vou dizer de qualquer maneira:^Você está indo muito bem.^As coisas vão se resolver.^Continue seguindo em frente, um passo de cada vez.^E se há um velho amigo em sua vida com quem você não conversa há um tempo, por que não ver como ele está? Você pode se surpreender!^Cuide-se, tudo bem? Você consegue.^^ -um amigo",
+	"Spam.LetterOfEncouragementDesc": "Uma Carta de Incentivo",
+
+	"Spam.StarsAreWatching": "^^^^          As estrelas estão te observando com grande interesse.^^                             Faça-as se orgulharem.",
+	"Spam.StarsAreWatchingDesc": "As Estrelas Estão Observando",
+
+	"Spam.ChainLetter": "Você foi amaldiçoado pelo demônio da corrente de e-mails! Envie este e-mail para 5 de seus amigos ou então seu cereal sempre ficará encharcado!",
+	"Spam.ChainLetterDesc": "Uma Corrente de E-mails",
+
+	"Spam.LuckyNumbers": "Os números da sorte de hoje são:^^23 73 77 41 05 59",
+	"Spam.LuckyNumbersDesc": "Números da Sorte de Hoje",
+	
+	"Spam.GameTheory": "DESCOBERTA INCRÍVEL EM COMO ENTENDEMOS O MUNDO!^^Você já se perguntou por que algumas coisas são como são? Pesquisadores do Instituto Ferngill de Ciência estão sob fogo após publicar a 'Teoria dos Jogos', um artigo que discute a existência de 'smah-pee', 'cordas' e 'sprites'. Continue lendo para descobrir mais e ver se isso afeta você!^^(O restante do artigo foi arrancado.)",
+	"Spam.GameTheoryDesc": "Saiba Mais Sobre a Teoria dos Jogos!",
+
+	"Spam.JojaAd": "APENAS UM DIA! OBTENHA UM BALDE DE ECONOMIA INCRÍVEL!^^Como parte do lançamento do nosso novo Joja Cola(tm) Tamanho MEGA, aproveite ofertas MEGA em todas as lojas por apenas um dia!^Tudo o que você precisa fazer é comprar um balde de Joja Cola Tamanho MEGA. Depois, quando terminar sua bebida refrescante, qualquer coisa que você puder colocar dentro do balde tem 90% de desconto! Isso mesmo, 90%! Corra, esta oferta não vai durar muito!^*DEVE RECORTE O CUPOM PARA ECONOMIZAR. VÁLIDO APENAS POR UM DIA.*^^(O cupom está várias semanas desatualizado...)",
+	"Spam.JojaAdDesc": "Venda de Um Dia na JojaMart!",
+
+	"Spam.RaffleWinner": "Parabéns @! Você ganhou nossa rifa 'Rifa por uma Rifa'!^Encerrado está seu prêmio. Aproveite!",
+	"Spam.RaffleWinnerDesc": "Vencedor da Rifa!",
+
+	"Spam.RiffraffWinner": "Parabéns @! Você ganhou nossa rifa 'Rifa por um Bando de Desordeiros'!^Encerrado está seu prêmio. Aproveite!",
+	"Spam.RiffraffWinnerDesc": "Vencedor dos Desordeiros!",
+	
+	"Spam.LotteryWinner": "A quem possa interessar:^^Temos registro de que você comprou um bilhete de loteria com os números:^23 73 77 41 05 59^Estamos aqui para informar que você ganhou o prêmio acumulado da Loteria Ferngill com esses números! No entanto, devido ao que parece ser um incidente estranho, vários milhares de outras pessoas também ganharam com os mesmos números nesse dia. Como o prêmio precisa ser dividido entre todos os vencedores, os ganhos por pessoa não são grandes o suficiente para exigir retirada em nossos escritórios. Anexamos os ganhos abaixo. Tenha um ótimo dia.^^- A Loteria Ferngill",
+	"Spam.LotteryWinnerDesc": "Ganhador da Loteria!",
+
+	"Spam.HotPeppers": "Conheça pimentas ardentes em sua área local!^^Melões suculentos esperando só por você!^^Somente no Pierre - Não fique quente e perturbado com as ofertas ardentes deste verão!",
+	"Spam.HotPeppersDesc": "Ofertas Ardentes do Pierre!",
+
+	"Spam.DatingWebsite": "Olá, estranho!^^Você está sozinho em uma bela manhã de sexta-feira como esta?^Procurando alguém para preencher esse vazio em seu coração solitário? Confira o Fórum do Fazendeiro Solitário para encontrar amigos e conhecer alguém especial hoje.",
+	"Spam.DatingWebsiteDesc": "Fórum do Fazendeiro Solitário",
+	
+	"Spam.SplashPark": "E aí, Thrivers!^^Este é apenas um aviso para informar que o Parque de Diversões Joja Splashin' em Zuzu City estará temporariamente fechado pelas próximas semanas enquanto investigamos um risco de segurança envolvendo a Zona de Mergulho(tm). Enquanto isso, que tal experimentar o NOVO Joja Silver? Agora com capacidades de desengorduramento 80% melhores! Cada dúzia de caixas compradas lhe renderá um voucher para o parque assim que reabrir!",
+	"Spam.SplashParkDesc": "Aviso de Fechamento do Parque Aquático",
+	
+	//ominous mail
+	
+	"Spam.IsAnyoneHere": "Olá?^^^Tem alguém aí?^^^Olá?",
+	"Spam.IsAnyoneHereDesc": "Olá?",
+
+	"Spam.WeKnow": "Nós sabemos o que você fez, @.^^^Estamos esperando.",
+	"Spam.WeKnowDesc": "Nós Sabemos",
+	
+	"Spam.TrialConcluded": "Sua resposta foi registrada e o teste está concluído agora.^Obrigado pela sua resposta.",
+	"Spam.TrialConcludedDesc": "Teste Concluído",
+
+	"Spam.GoToBed": "Você não deveria estar dormindo ainda?",
+	"Spam.GoToBedDesc": "Por que você está acordado?",
+	
+	//config
+	
+	"config.OminousMail.name": "Permitir correio sombrio",
+	"config.OminousMail.description": "Ativa o correio com tons mais \"sombrios\". Eles não têm nenhum efeito no jogo, são apenas menos bobos e mais assustadores.",
+}
