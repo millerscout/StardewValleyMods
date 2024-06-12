@@ -1,10 +1,10 @@
 {
   "AddExpIncrement": 10,
-  "LevelMovespeedBonus": 0.01,
-  "MovespeedProfessionBonus": 0.05,
-  "RestoreStaminaPercentage": 0.01,
-  "SprintMovespeedBonus": 0.15,
-  "TotemUseChance": 0.5,
-  "StepsPerExp": 20,
+  "LevelMovespeedBonus": 0.013,
+  "MovespeedProfessionBonus": 0.055,
+  "RestoreStaminaPercentage": 0.02,
+  "SprintMovespeedBonus": 0.2,
+  "TotemUseChance": 0.65,
+  "StepsPerExp": 5,
   "SprintSteps": 5
 }

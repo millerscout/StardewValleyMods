@@ -7,7 +7,7 @@
   "ReplaceDefaultFences": "true",
   "ReplaceHardwoodFences": "false",
   "ImmersiveShadows": "true",
-  "MistEffects": "true",
+  "MistEffects": "false",
   "OriginalMinesEntrance": "false",
   "AlternativeCraftables": "false",
   "RemoveObjectsFromGrandpasShed": "false",
