@@ -43,6 +43,6 @@
   "Sta_Hoe": 1.0,
   "Sta_WateringCan": 1.0,
   "Sta_FishingRod": 3.0,
-  "Sta_Scythe": 0.0,
-  "Sta_Weapons": 0.0
+  "Sta_Scythe": 2.0,
+  "Sta_Weapons": 0.5
 }
