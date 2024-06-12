@@ -2641,7 +2641,7 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 "event-75160107.07": "Corine! Obrigado!!!$h",
 "event-75160107.08": "Agora é só esperar pacientemente por Keahi, tudo bem?$h",
 "event-75160107.09": "Oh, olá @! É bom te ver.",
-"event-75160107.10": "Ei @!$h#$b#Você pode me acompanhar enquanto espero por Keahi?",
+"event-75160107.10": "Ei @!$h#$b#Você pode me fazer companhia enquanto espero pela Keahi?",
 "event-75160107.11": "Eba!$h#$b#Tudo bem. Vamos sentar ali!$h",
 "event-75160107.12": "Ah! Refrescante!$h",
 "event-75160107.13": "Trinnie então começou a falar sobre as brincadeiras que eles fizeram com as outras crianças.#Com certeza é divertido ser criança! Como eu sinto falta desses dias.",
@@ -21416,12 +21416,12 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
   "objects.zesty-tuna.name": "Atum Picante",
   "objects.zesty-tuna.description": "Atum defumado com molho cítrico! É uma iguaria local.",
   //Deity rings
-  "objects.the-beautiful-serpents-ring.name": "The Beautiful Serpent's Ring",
-  "objects.the-beautiful-serpents-ring.description": "Summons a soul from the Spirit Realm to your side.",
-  "objects.the-fairy-doe-foxs-ring.name": "The Fairy Doe Fox's Ring",
-  "objects.the-fairy-doe-foxs-ring.description": "Summons a fox spirit to your side.",
-  "objects.the-ring-of-the-ridge-deities.name": "The Ring of the Ridge Deities",
-  "objects.the-ring-of-the-ridge-deities.description": "The mist begins to clear...",
+  "objects.the-beautiful-serpents-ring.name": "O belo anel da serpente",
+  "objects.the-beautiful-serpents-ring.description": "Convoca uma alma do Reino Espiritual para o seu lado.",
+  "objects.the-fairy-doe-foxs-ring.name": "O Anel da Fada Raposa",
+  "objects.the-fairy-doe-foxs-ring.description": "Convoca um espírito de raposa para seu lado.",
+  "objects.the-ring-of-the-ridge-deities.name": "O Anel das Deidades da Cordilheira",
+  "objects.the-ring-of-the-ridge-deities.description": "A névoa começa a se dissipar...",
   
   
   /*Info:
@@ -21686,6 +21686,33 @@ I've put random lines of appreciation to my team everywhere here. If you're a tr
 
   //Powers
   "RSV.RiveraSecret.name": "Segredo da família Rivera",
-  "RSV.RiveraSecret.description": "Duplica o valor de todos os peixes nativos de Ridgeside."
+  "RSV.RiveraSecret.description": "Duplica o valor de todos os peixes nativos de Ridgeside.",
+
+  //CJB Cheats compat
+  "RSV.cjbwarps.village": "Vila Ridgeside",
+  "RSV.cjbwarps.surroundings": "Arredores de Ridgeside",
+  "RSV.cjbwarps.hotel": "Log Cabin Hotel",
+  "RSV.cjbwarps.plaza": "Praça da Vila",
+  "RSV.cjbwarps.jerichouse": "Fazenda Blooming Hills",
+  "RSV.cjbwarps.pikas": "Restaurante do Pika",
+  "RSV.cjbwarps.orchard": "Pomar Nightingale",
+  "RSV.cjbwarps.waterlab": "Laboratório de água",
+  "RSV.cjbwarps.lolashed": "Barracão da Lola",
+  "RSV.cjbwarps.clinic": "Clínica Ridgeside",
+  "RSV.cjbwarps.greenhouse1": "Estufa comunitária",
+  "RSV.cjbwarps.heaps": "Armazém geral de Heaps",
+  "RSV.cjbwarps.oddjobs": "Odd Jobs",
+  "RSV.cjbwarps.mansion": "Mansão Amethyne",
+  "RSV.cjbwarps.cablecar": "Teleférico",
+  "RSV.cjbwarps.cliff": "Penhasco",
+  "RSV.cjbwarps.hike": "Trilha de caminhada",
+  "RSV.cjbwarps.ninja": "Casa Ninja",
+  "RSV.cjbwarps.ridge": "O cume",
+  "RSV.cjbwarps.forest": "Floresta Ridge",
+  "RSV.cjbwarps.falls": "Cataratas de Ridge",
+  "RSV.cjbwarps.spiritrealm": "Reino Espiritual",
+  "RSV.cjbwarps.summitfarm": "Fazendo Summit",
+  
   
   }
+  

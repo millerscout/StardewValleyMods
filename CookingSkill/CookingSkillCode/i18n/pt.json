@@ -1,0 +1,41 @@
+﻿{
+    "skill.name": "Culinária",
+    "skill.perk": "+{{bonus}}% de comestibilidade em alimentos caseiros.",
+    "skill.perk_bonus": "+{{bonus}}% de comestibilidade em alimentos caseiros.",
+
+    "config.AlternativeSkillPageIcon": "Ícone Alternativo da Página de Habilidades",
+    "config.AlternativeSkillPageIcon.tooltip": "Requer reinício, altera o ícone da página de um pincel e uma rocha para uma pá.",
+
+    "config.ExperienceFromCooking": "EXP base de culinária",
+    "config.ExperienceFromCooking.tooltip": "A quantidade base de experiência que você receberá ao cozinhar um item (defina um valor baixo para incentivar o cozimento de diferentes itens).",
+
+    "config.ExperienceFromEdibility": "Bônus de comestibilidade",
+    "config.ExperienceFromEdibility.tooltip": "A experiência bônus obtida com base na comestibilidade do item.",
+
+    "config.BonusExpLimit": "Limite de bônus de EXP",
+    "config.BonusExpLimit.tooltip": "Quantas vezes você pode cozinhar um item para obter a experiência bônus antes que os retornos decrescentes entrem em ação.",
+
+    "moonslime.Cooking.no_more_bonus_exp": "Você dominou o preparo deste prato e não obterá mais tanto conhecimento com ele.",
+
+    "cooking5a.name": "Cozinhar",
+    "cooking5a.desc": "As refeições cozidas têm sua qualidade aumentada.",
+    "cooking5b.name": "Glutão",
+    "cooking5b.desc": "Duração extra dos benefícios dos alimentos com base no nível.",
+    "cooking10a1.name": "Culinário",
+    "cooking10a1.desc": "Ao cozinhar, tem chance de dobrar a quantidade de produção da receita\ncom base no nível de culinária.",
+    "cooking10a2.name": "Chef",
+    "cooking10a2.desc": "Alimentos cozidos vendem por mais com base no nível de culinária.",
+    "cooking10b1.name": "Gourmet",
+    "cooking10b1.desc": "Os benefícios dos alimentos são uma categoria mais forte quando consumidos\n(+16 para energia ou magnetismo).",
+    "cooking10b2.name": "Gastrônomo",
+    "cooking10b2.desc": "Comer ou beber dá um benefício aleatório adicional.",
+
+    "moonslime.Cooking.Profession10b2.buff": "Gosto Refinado",
+
+    "moonslime.Cooking.skill_book.levelup": "Você adquiriu um pouco de conhecimento em Culinária!"
+
+
+    "moonslime.Cooking.soda.code_name": "Refrigerante"
+	
+	
+}

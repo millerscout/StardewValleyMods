@@ -36,8 +36,8 @@
     "RSVSouth": "릿지사이드 마을 나이팅게일 과수원",
     "RSVSummitEast": "산마루 숲 정상 농장 동쪽",
     "RSVSummitWest": "산마루 숲 정상 농장 서쪽",
-    "Beach": "해변",
-    "FarmCave": "농장 동굴",
+    "unclearya.beachminecart.Beach": "해변",
+    "unclearya.farmcaveminecart.FarmCave": "농장 동굴",
     "Custom_SecretWoodsExtraArea": "비밀의 숲 광산 수레 정류장",
     "Custom_Dam": "댐",
     "Custom_Dam_Cliff": "댐 정상",
@@ -54,6 +54,10 @@
     //TODO   "IslandFarm": "Island Farm",
     //TODO "SVEAurora": "Aurora Vineyard",
 	//TODO    "Clairabelle": "Clairabelle Lagoon",	
+    //TODO "WTDCave": "Walk to Desert - Cave",
+    //TODO "Fostoria": "Fostoria",
+    //TODO "Stoffton": "Stoffton",
+    "LegacyFarmCave": "농장 동굴",
     //Config Menu translation
     //General
     "config.section.General.name": "일반 설정",
@@ -62,6 +66,8 @@
     "config.PriceToRide.description": "광산 수레 사용시마다 해당 금액이 차감됩니다. 0이나 빈칸으로 설정시 비활성화됩니다.",
     "config.Numbering.name": "목적지 리스트 순서 변경",
     "config.Numbering.description": "광산 수레 메뉴의 목적지 순서를 임의로 변경합니다. 예시: \"1. 농장\" 으로 하면 1번으로 활성화되지만  \"농장\" 으로 하면 비활성화됩니다.",
+    //TODO "config.DestinationsPerPage.name": "Destinations Per Page",
+    //TODO "config.DestinationsPerPage.description": "Controls how many destinations are listed per page of the minecart menu. The menu will not scale to screen size if set to too many destinations, just reduce the number until all destinations are on screen again.",
     //Destination order
     "config.section.DestinationOrder.name": "목록 순서 변경",
     "config.section.DestinationOrder.description": "광산 수레 이동 목록 창에 표기되는 목록들의 순서를 변경합니다. 항목이 겹치지 않게 설정해 주십시오. 만약 겹칠 경우 내부 ID 크기에 따라 순서가 자동 결정되며, 오류가 발생할 수 있습니다.",
@@ -137,10 +143,10 @@
     "config.EnableRSVSummitEast.description": "드디어 여길 개방했다! 근데 사실 서쪽으로만 다니지 여긴...음...(RidgeSide Villige 모드 필요함)",
     "config.EnableRSVSummitWest.name": "산마루 숲 정상 농장 서쪽",
     "config.EnableRSVSummitWest.description": "드디어 여길 개방했다! 업그레이드는 릿지사이드 입구의 심부름 센터에서 숀을 찾아주세요~~(RidgeSide Villige 모드필요함)",
-    "config.EnableBeach.name": "해변",
-    "config.EnableBeach.description": "Unclearya's Beach Minecart 모드가 필요합니다",
-    "config.EnableFarmCave.name": "농장 동굴",
-    "config.EnableFarmCave.description": "Unclearya's Farm Cave Minecart 모드가 필요합니다.",
+    "config.Enableunclearya.beachminecart.Beach.name": "해변",
+    "config.Enableunclearya.beachminecart.Beach.description": "Unclearya's Beach Minecart 모드가 필요합니다",
+    "config.Enableunclearya.farmcaveminecart.FarmCave.name": "농장 동굴",
+    "config.Enableunclearya.farmcaveminecart.FarmCave.description": "Unclearya's Farm Cave Minecart 모드가 필요합니다.",
     "config.EnableCustom_SecretWoodsExtraArea.name": "비밀의 숲 광산 수레 정류장",
     "config.EnableCustom_SecretWoodsExtraArea.description": "Tikamin557's Secret Woods Extra Area 모드가 필요합니다.",
     "config.EnableCustom_Dam.name": "댐",
@@ -171,17 +177,20 @@
 	//TODO    "config.EnableSVEAurora.description": "Stardew Valley Expanded - Aurora Vineyard",
     //TODO 		"config.EnableClairabelle.name": "Clairabelle",
     //TODO 		"config.EnableClairabelle.description": "Nuclear Valley - Clairabelle Lagoon",
+    //TODO "config.EnableFostoria.name": "Fostoria",
+    //TODO "config.EnableFostoria.description": "Fostoria",
+    //TODO "config.EnableStoffton.name": "Stoffton",
+    //TODO "config.EnableStoffton.description": "Stoffton",
+    //TODO "config.EnableLegacyFarmCave.name": "LegacyFarmCave",
+    //TODO "config.EnableLegacyFarmCave.description": "Lunatyx's Legacy Farm Cave 
     //Farm Location
     //TODO    "config.section.FarmLocation.name": "Farm Minecart Settings",
     //TODO    "config.section.FarmLocation.description": "The settings in this section relate to the Farm Minecart. Use the settings relevant to the farm you are playing on below",
 
     //Custom Farm
     //TODO   "config.UseCustomFarmMap.name": "Use Custom Farm Map",
-    //TODO    "config.UseCustomFarmMap.description": "If not playing on any of the farms listed below, and the Farm minecart does not show up, use the options in this section. If the minecart does show up, but the farm is not listed, try Standard.",
-    //TODO   "config.CustomFarmMap.name": "Custom Farm Map",
-    //TODO   "config.CustomFarmMap.description": "Used to specify an unsupported Farm map. If using a CP Farm mod, search the Farm mod's content.json for a line in the format \"MapName\": \"{MapName}\", use {MapName} here. For a CFL Farm mod, use \"CFL\"",
-
-    //TODO   "config.CustomFarmCartStyle.description": "Sets the style of the Farm Minecart. Use Cart for open areas. Use CartEntrance if setting into a wall. Use CartEntranceNarrow if CartEntrance is too wide.",
+    //TODO "config.UseCustomFarmMap.description": "This setting controls if the Custom Farm settings are enabled. If not playing on any of the farms listed below, use the options in this section. This should only need to be disabled if troubleshooting.",
+    //TODO "config.CustomFarmCartStyle.description": "Sets the style of the Farm Minecart. Use Cart for open areas. Use CartEntrance if setting into a wall. Use CartEntranceNarrow if CartEntrance is too wide. There are Desert styles for Desert themed farms",
     //TODO   "config.CustomFarmX.description": "This and the X settings below sets the horizontal coordinate for the Farm minecart. 0 being left edge of map.",
     //TODO   "config.CustomFarmY.description": "This and the X settings below sets the vertical coordinate for the Farm minecart. 0 being top edge of map.",
     //LNH Mini Farm Location

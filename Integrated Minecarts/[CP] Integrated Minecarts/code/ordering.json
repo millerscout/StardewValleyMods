@@ -75,6 +75,10 @@
 						{"ID": "{{49.}}", "ToPosition": "Bottom"},
 						{"ID": "{{50.}}", "ToPosition": "Bottom"},
 						{"ID": "{{51.}}", "ToPosition": "Bottom"},
+						{"ID": "{{52.}}", "ToPosition": "Bottom"},
+						{"ID": "{{53.}}", "ToPosition": "Bottom"},
+						{"ID": "{{54.}}", "ToPosition": "Bottom"},
+						{"ID": "{{55.}}", "ToPosition": "Bottom"},
 						],
 	},
 {
@@ -133,6 +137,10 @@
         "{{49.}}": {"DisplayName": "49. {{i18n: {{49.}}}}",},
         "{{50.}}": {"DisplayName": "50. {{i18n: {{50.}}}}",},
         "{{51.}}": {"DisplayName": "51. {{i18n: {{51.}}}}",},
+        "{{52.}}": {"DisplayName": "52. {{i18n: {{52.}}}}",},
+        "{{53.}}": {"DisplayName": "53. {{i18n: {{53.}}}}",},
+        "{{54.}}": {"DisplayName": "54. {{i18n: {{54.}}}}",},
+        "{{55.}}": {"DisplayName": "55. {{i18n: {{55.}}}}",},
     },
 	"When": {
 		"Numbering": true,

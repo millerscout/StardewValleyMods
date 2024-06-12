@@ -4,7 +4,7 @@
         //Farm Standard Unmodded
         {
             "Action": "EditMap",
-            "Target": "Maps/{{FarmMap}}",
+            "Target": "Maps/{{FarmMapAsset}}",
 			"Priority": "Late",
             "TextOperations": [
 				{
@@ -145,7 +145,8 @@
             ],
             "When": {
                 "EnableForestSE": true,
-                "HasMod |contains=DaisyNiko.SVR3": "false"
+                "HasMod |contains=DaisyNiko.SVR3": "false",
+                "HasMod |contains=SYS.AB": "false"
             },
         },
         //Forest SE SVR3

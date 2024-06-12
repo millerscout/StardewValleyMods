@@ -10,11 +10,11 @@
     "VisitGreenhouse": true
   },
   "JunimoHuts": {
-    "MaxJunimos": 3,
+    "MaxJunimos": 6,
     "MaxRadius": 8,
     "AvailableAfterCommunityCenterComplete": true,
     "AvailableImmediately": false,
-    "ReducedCostToConstruct": true,
+    "ReducedCostToConstruct": false,
     "FreeToConstruct": false
   },
   "JunimoImprovements": {
@@ -31,14 +31,14 @@
     "AvoidPlantingOutOfSeason": true
   },
   "JunimoPayment": {
-    "WorkForWages": false,
+    "WorkForWages": true,
     "DailyWage": {
       "ForagedItems": 1,
-      "Flowers": 0,
-      "Fruit": 0,
-      "Wine": 0
+      "Flowers": 1,
+      "Fruit": 1,
+      "Wine": 1
     },
-    "GiveExperience": false
+    "GiveExperience": true
   },
   "FunChanges": {
     "RainyJunimoSpiritFactor": 0.7,

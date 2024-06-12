@@ -1,7 +1,7 @@
 ﻿{
     "Name": "Integrated Minecarts (CP Component)",
     "Author": "Jibb",
-    "Version": "4.3.5",
+    "Version": "4.4.0",
     "Description": "Content Pack for Content Patcher",
     "UniqueID": "jibb.minecarts",
     "MinimumApiVersion": "3.0.0",
@@ -111,6 +111,18 @@
             "IsRequired": false,
         }, {
             "UniqueID": "ApryllForever.NuclearBombCP",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "Tarniyar.CP.WalkToDesert",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "Polydot.PolyCarts",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "DeLiXx.Desert_Bloom_Farm",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "DeLiXx.Desert_Bloom_Farm_CFL",
             "IsRequired": false,
         }, 
     ]

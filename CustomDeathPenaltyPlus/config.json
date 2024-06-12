@@ -1,15 +1,15 @@
 {
   "DeathPenalty": {
     "RestoreItems": true,
-    "MoneyLossCap": 500,
-    "MoneytoRestorePercentage": 0.95,
-    "EnergytoRestorePercentage": 0.1,
-    "HealthtoRestorePercentage": 0.5
+    "MoneyLossCap": 0,
+    "MoneytoRestorePercentage": 1.0,
+    "EnergytoRestorePercentage": 1.0,
+    "HealthtoRestorePercentage": 1.0
   },
   "PassOutPenalty": {
-    "MoneyLossCap": 500,
-    "MoneytoRestorePercentage": 0.95,
-    "EnergytoRestorePercentage": 0.5
+    "MoneyLossCap": 0,
+    "MoneytoRestorePercentage": 1.0,
+    "EnergytoRestorePercentage": 1.0
   },
   "OtherPenalties": {
     "WakeupNextDayinClinic": false,

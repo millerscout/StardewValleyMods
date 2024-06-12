@@ -253,6 +253,8 @@
 	"SeasonalRSVMap.Description": "Ativar/desativar o mapa mundial RSV sazonal.",
 	"EnableTouristNPCs": "AtivarTuristNPCs",
 	"EnableTouristNPCs.Description": "Habilitar/Desabilitar a decoração de NPCs turísticos no hotel.",
-	
+	"ShowRSVCustomMap": "MostrarRSVCustomMap",
+	"ShowRSVCustomMap.Description": "Ativar/desativar o botão no mapa do mundo para a sobreposição do mapa do mundo RSV personalizado",
+
 	"ErrorMessage": "O Ridgeside Village parece ter sido instalado incorretamente. Verifique o registro para obter mais detalhes."
 }

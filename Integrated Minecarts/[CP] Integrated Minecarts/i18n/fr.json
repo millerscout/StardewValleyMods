@@ -38,8 +38,8 @@
 	"RSVSouth": "Ridgeside - Verger Nightingale",
 	"RSVSummitEast": "Ridgeside - Ferme du Sommet (Est)",
 	"RSVSummitWest": "Ridgeside - Ferme du Sommet (Ouest)",
-	"Beach": "Plage",
-	"FarmCave": "Caverne de la Ferme",
+	"unclearya.beachminecart.Beach": "Plage",
+	"unclearya.farmcaveminecart.FarmCave": "Caverne de la Ferme",
 	"Custom_SecretWoodsExtraArea": "Zone Supplémentaire de la Forêt Secrète",
 	"Custom_Dam": "Barrage",
 	"Custom_Dam_Cliff": "Falaise du Barrage",
@@ -56,6 +56,10 @@
     //TODO   "IslandFarm": "Island Farm",
     //TODO "SVEAurora": "Aurora Vineyard",
 	//TODO    "Clairabelle": "Clairabelle Lagoon",	
+    //TODO "WTDCave": "Walk to Desert - Cave",
+    //TODO "Fostoria": "Fostoria",
+    //TODO "Stoffton": "Stoffton",
+    "LegacyFarmCave": "Caverne de la Ferme",
 	
     //Config Menu translation
     //General
@@ -65,6 +69,8 @@
     "config.PriceToRide.description": "Ceci définit le prix pour voyager en minecart. Laissez vide ou mettez à 0 pour désactiver.",
     "config.Numbering.name": "Liste Numérotée",
     "config.Numbering.description": "Ceci active/désactive la numérotation des destinations dans le menu du minecart, par exemple \"1. Ferme\" lorsqu'activé ou \"Ferme\" lorsqu'il est désactivé.",
+    //TODO "config.DestinationsPerPage.name": "Destinations Per Page",
+    //TODO "config.DestinationsPerPage.description": "Controls how many destinations are listed per page of the minecart menu. The menu will not scale to screen size if set to too many destinations, just reduce the number until all destinations are on screen again.",
     //Destination order
     "config.section.DestinationOrder.name": "Ordre des Destinations",
     "config.section.DestinationOrder.description": "Les options suivantes dans cette section déterminent le positionnement des destinations dans le menu du minecart. La destination sélectionnée sera déplacée à la position correspondante dans la liste. Chaque minecart ne doit être sélectionné qu'une seule fois, sinon l'option numérotée la plus élevée sera utilisée. Les sélections utilisent l'ID du minecart, consultez la section Minecart Enabled pour une liste. Vérifiez les infobulles pour le mod source et l'emplacement du minecart.",
@@ -140,10 +146,10 @@
     "config.EnableRSVSummitEast.description": "Ridgeside Village par Rafseazz - Ferme du Sommet (Est)",
     "config.EnableRSVSummitWest.name": "Ridgeside - Ferme du Sommet (Ouest)",
     "config.EnableRSVSummitWest.description": "Ridgeside Village par Rafseazz - Ferme du Sommet (Ouest)",
-    "config.EnableBeach.name": "Plage",
-    "config.EnableBeach.description": "Minecart de la Plage par Unclearya",
-    "config.EnableFarmCave.name": "Caverne de la Ferme",
-    "config.EnableFarmCave.description": "Minecart de la Caverne de la Ferme par Unclearya",
+    "config.Enableunclearya.beachminecart.Beach.name": "Plage",
+    "config.Enableunclearya.beachminecart.Beach.description": "Minecart de la Plage par Unclearya",
+    "config.Enableunclearya.farmcaveminecart.FarmCave.name": "Caverne de la Ferme",
+    "config.Enableunclearya.farmcaveminecart.FarmCave.description": "Minecart de la Caverne de la Ferme par Unclearya",
     "config.EnableCustom_SecretWoodsExtraArea.name": "Zone Supplémentaire de la Forêt Secrète",
     "config.EnableCustom_SecretWoodsExtraArea.description": "Zone Supplémentaire de la Forêt Secrète par Tikamin557",
     "config.EnableCustom_Dam.name": "Barrage",
@@ -174,16 +180,20 @@
 	//TODO    "config.EnableSVEAurora.description": "Stardew Valley Expanded - Aurora Vineyard",
     //TODO 		"config.EnableClairabelle.name": "Clairabelle",
     //TODO 		"config.EnableClairabelle.description": "Nuclear Valley - Clairabelle Lagoon",
+    //TODO "config.EnableFostoria.name": "Fostoria",
+    //TODO "config.EnableFostoria.description": "Fostoria",
+    //TODO "config.EnableStoffton.name": "Stoffton",
+    //TODO "config.EnableStoffton.description": "Stoffton",
+    //TODO "config.EnableLegacyFarmCave.name": "LegacyFarmCave",
+    //TODO "config.EnableLegacyFarmCave.description": "Lunatyx's Legacy Farm Cave 
     //Farm Location
     //TODO    "config.section.FarmLocation.name": "Farm Minecart Settings",
     //TODO    "config.section.FarmLocation.description": "The settings in this section relate to the Farm Minecart. Use the settings relevant to the farm you are playing on below",
 
     //Custom Farm
     //TODO   "config.UseCustomFarmMap.name": "Use Custom Farm Map",
-    //TODO    "config.UseCustomFarmMap.description": "If not playing on any of the farms listed below, and the Farm minecart does not show up, use the options in this section. If the minecart does show up, but the farm is not listed, try Standard.",
-    //TODO   "config.CustomFarmMap.name": "Custom Farm Map",
-    //TODO   "config.CustomFarmMap.description": "Used to specify an unsupported Farm map. If using a CP Farm mod, search the Farm mod's content.json for a line in the format \"MapName\": \"{MapName}\", use {MapName} here. For a CFL Farm mod, use \"CFL\"",
-    //TODO   "config.CustomFarmCartStyle.description": "Sets the style of the Farm Minecart. Use Cart for open areas. Use CartEntrance if setting into a wall. Use CartEntranceNarrow if CartEntrance is too wide.",
+    //TODO "config.UseCustomFarmMap.description": "This setting controls if the Custom Farm settings are enabled. If not playing on any of the farms listed below, use the options in this section. This should only need to be disabled if troubleshooting.",
+    //TODO "config.CustomFarmCartStyle.description": "Sets the style of the Farm Minecart. Use Cart for open areas. Use CartEntrance if setting into a wall. Use CartEntranceNarrow if CartEntrance is too wide. There are Desert styles for Desert themed farms",
     //TODO   "config.CustomFarmX.description": "This and the X settings below sets the horizontal coordinate for the Farm minecart. 0 being left edge of map.",
     //TODO   "config.CustomFarmY.description": "This and the X settings below sets the vertical coordinate for the Farm minecart. 0 being top edge of map.",
     //LNH Mini Farm Location
