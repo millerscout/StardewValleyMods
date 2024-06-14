@@ -1,0 +1,78 @@
+{
+"Format": "2.0.0",
+"Changes": [
+// Add Kitchen TileData to Community Center Kitchen
+{"Action": "EditMap",
+"Target": "Maps/CommunityCenter_Refurbished, Maps/CommunityCenter_Ruins, Maps/CommunityCenter",
+"FromFile": "assets/Maps/CommunityCenter_Refurbished_Utilities.tmx",
+"FromArea": {"X": 3, "Y": 4, "Width": 5, "Height": 1},
+"ToArea": {"X": 3, "Y": 4, "Width": 5, "Height": 1},
+"PatchMode":"Overlay",
+"When": {
+"HasFlag":"ccPantry",
+}
+},
+// Add Tailoring TileData to Community Center Loom
+{"LogName": "Tailoring Data",
+"Action": "EditMap",
+"Target": "Maps/CommunityCenter_Refurbished, Maps/CommunityCenter_Ruins",
+"FromFile": "assets/Maps/CommunityCenter_Refurbished_Utilities.tmx",
+"FromArea": {"X": 9, "Y": 27, "Width": 2, "Height": 1},
+"ToArea": {"X": 9, "Y": 27, "Width": 2, "Height": 1},
+"PatchMode":"Overlay",
+"When": {
+"HasFlag":"ccCraftsRoom",
+"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+}
+},
+// Add DyePot TileData to Community Center Paints
+{"LogName": "Tailoring Data",
+"Action": "EditMap",
+"Target": "Maps/CommunityCenter_Refurbished, Maps/CommunityCenter_Ruins",
+"FromFile": "assets/Maps/CommunityCenter_Refurbished_Utilities.tmx",
+"FromArea": {"X": 19, "Y": 19, "Width": 1, "Height": 2},
+"ToArea": {"X": 19, "Y": 19, "Width": 1, "Height": 2},
+"PatchMode":"Overlay",
+"When": {
+"HasFlag":"ccCraftsRoom",
+"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+}
+},
+{"LogName": "Tailoring Data for SVE Community Center Loom",
+"Action": "EditMap",
+"Target": "Maps/CommunityCenter_Refurbished, Maps/CommunityCenter_Ruins",
+"FromFile": "assets/Maps/CommunityCenter_Refurbished_Utilities.tmx",
+"FromArea": {"X": 11, "Y": 27, "Width": 2, "Height": 1},
+"ToArea": {"X": 11, "Y": 27, "Width": 2, "Height": 1},
+"PatchMode":"Overlay",
+"When": {
+"HasFlag":"ccCraftsRoom",
+"HasMod |contains=LemurKat.CommunityCenter.CP": false,
+"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true}
+},
+//Add an Anvil for Clint
+{"LogName": "Access Clint shop from CC Boiler Room on Friday",
+"Action": "EditMap",
+"Target": "Maps/CommunityCenter_Refurbished, Maps/CommunityCenter_Ruins, Maps/CommunityCenter",
+"FromFile": "assets/Maps/CommunityCenter_Refurbished_Utilities.tmx",
+"FromArea": {"X": 64, "Y": 13, "Width": 2, "Height": 2},
+"ToArea": {"X": 64, "Y": 13, "Width": 2, "Height": 2},
+"PatchMode":"Overlay",
+"When": {
+"HasFlag":"ccVault",
+}
+},
+//Add FarmerFiles to Filing Cabinet
+{"LogName": "Access Farmer Stats from CC Filing Cabinet",
+"Action": "EditMap",
+"Target": "Maps/CommunityCenter_Refurbished, Maps/CommunityCenter_Ruins, Maps/CommunityCenter",
+"FromFile": "assets/Maps/CommunityCenter_Refurbished_Utilities.tmx",
+"FromArea": {"X": 47, "Y": 4, "Width": 1, "Height": 1},
+"ToArea": {"X": 47, "Y": 4, "Width": 1, "Height": 1},
+"PatchMode":"Overlay",
+"When": {
+"HasFlag":"ccVault",
+}
+},
+]
+}

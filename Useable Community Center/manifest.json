@@ -1,0 +1,16 @@
+{
+   "Name": "[CP] Useable Community Center",
+   "Author": "fireredlily",
+   "Version": "1.1",
+   "Description": "Lets the player use the kitchen or tailoring area in the Community Center once the room is refurbished.",
+   "UniqueID": "Fireredlily.UseableCommunityCenter",
+   "MinimumApiVersion": "2.0",
+   "UpdateKeys": [ "Nexus:25125" ],
+   "Dependencies": [   
+    {   "UniqueID":"FlashShifter.StardewValleyExpandedCP", "IsRequired":false   },
+    {   "UniqueID":"LemurKat.CommunityCenter.CP", "IsRequired":false    }
+        ],
+   "ContentPackFor": {
+    	"UniqueID": "Pathoschild.ContentPatcher",
+	"MinimumVersion": "2.0.0"},
+}

@@ -1,0 +1,8 @@
+{
+  "BagCapacity": 9,
+  "UseBackdrop": true,
+  "AnimationMilliseconds": 150,
+  "LeftStickSelection": false,
+  "HoverSelects": false,
+  "ToggleKey": "LeftAlt"
+}
