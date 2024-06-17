@@ -1,5 +1,5 @@
 {
-  "AddExpIncrement": 10,
+  "ExpGainStepThreshold": 10,
   "LevelMovespeedBonus": 0.013,
   "MovespeedProfessionBonus": 0.055,
   "RestoreStaminaPercentage": 0.02,
