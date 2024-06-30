@@ -289,7 +289,7 @@
                 },
                 "EastScarp.SpecialOrders.AideenFlowers": { //unlock bird of paradise plant
                     "Name": "{{i18n:EastScarp.SpecialOrders.AideenFlowers_Name}}",
-                    "Requester": null,
+                    "Requester": "Aideen",
                     "Duration": "TwoWeeks",
                     "Repeatable": "true",
                     "RequiredTags": "season_spring",
@@ -339,7 +339,7 @@
                 },
                 "EastScarp.SpecialOrders.AideenFlowers2": { //gives the gift of seeds
                     "Name": "{{i18n:EastScarp.SpecialOrders.AideenFlowers2_Name}}",
-                    "Requester": null,
+                    "Requester": "Aideen",
                     "Duration": "TwoWeeks",
                     "Repeatable": "true",
                     "RequiredTags": "season_summer",
@@ -427,7 +427,7 @@
                 },
                 "EastScarp.SpecialOrders.AideenFlowers3": { //gives the fit of seeds
                     "Name": "{{i18n:EastScarp.SpecialOrders.AideenFlowers3_Name}}",
-                    "Requester": null,
+                    "Requester": "Aideen",
                     "Duration": "TwoWeeks",
                     "Repeatable": "true",
                     "RequiredTags": "season_winter",
@@ -481,7 +481,7 @@
                     "Requester": null,
                     "Duration": "TwoWeeks",
                     "Repeatable": "true",
-                    "RequiredTags": "season_fall, season_summer",
+                    "RequiredTags": "!season_spring, !season_winter",
                     "OrderType": "",
                     "SpecialRule": "",
                     "Text": "{{i18n:EastScarp.SpecialOrders.JacobCorn_Text}}",
@@ -522,7 +522,7 @@
                     "Requester": null,
                     "Duration": "TwoWeeks",
                     "Repeatable": "true",
-                    "RequiredTags": "season_fall, !JacobDonationBin",
+                    "RequiredTags": "season_fall, !dropbox_JacobDonationBin",
                     "OrderType": "",
                     "SpecialRule": "",
                     "Text": "{{i18n:EastScarp.SpecialOrders.JacobHay_Text}}",
@@ -676,7 +676,7 @@
                     "Requester": null,
                     "Duration": "TwoWeeks",
                     "Repeatable": "true",
-                    "RequiredTags": "event_50706112, season_fall, season_summer",
+                    "RequiredTags": "event_50706112, !season_spring, !season_winterr",
                     "OrderType": "",
                     "SpecialRule": "",
                     "Text": "{{i18n:EastScarp.SpecialOrders.EloiseJasJay_Text}}",
@@ -810,9 +810,6 @@
         { // Unlock Lantern Room (if Attonbomb permits it)
             "Action": "EditData",
             "Target": "Data/SpecialOrders",
-            "When": {
-                "HasMod": "attonbomb.Beatrice"
-            },
             "Entries": {
                 "EastScarp.SpecialOrders.BeatriceQuartz": {
                     "Name": "{{i18n:EastScarp.SpecialOrders.BeatriceQuartz_Name}}",
@@ -939,9 +936,9 @@
         {
             "Action": "EditData",
             "Target": "Data/SpecialOrders",
-            "When": {
+           /* "When": {
                 "HasMod": "atravita.SpecialOrdersExtended"
-            },
+            },*/
             "Fields": {
                 "EastScarp.SpecialOrders.JosephineJelly": {
                     "Requester": "Josephine"
@@ -987,10 +984,6 @@
         { // Unlock Lantern Room (if Attonbomb permits it)
             "Action": "EditData",
             "Target": "Data/SpecialOrders",
-            "When": {
-                "HasMod": "atravita.SpecialOrdersExtended",
-                "HasMod |contains=attonbomb.Beatrice": true
-            },
             "Fields": {
                 "EastScarp.SpecialOrders.BeatriceQuartz": {
                     "Requester": "Beatrice"
@@ -1114,7 +1107,7 @@
                 "EastScarp.SpecialOrders.AideenFlowersMail.invite": "{{i18n:EastScarp.SpecialOrders.AideenFlowersMail.invite.text}}[#]{{i18n:EastScarp.SpecialOrders.AideenFlowersMail.invite.title}}"
             }
         },
-        /* {
+        /* { //no need to translate this isn't used
             "Action": "EditData",
             "Target": "Data/Mail",
             "Entries": {

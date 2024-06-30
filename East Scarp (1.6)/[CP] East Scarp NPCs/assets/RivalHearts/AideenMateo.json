@@ -18,7 +18,7 @@
                 "57871053_AideenRomance": "pause 500/speak Aideen \"{{i18n:57871053.57871053_AideenRomance.01}}\"/advancedMove Aideen false 0 -2 2 1000/pause 500/faceDirection farmer 0/speak Aideen \"{{i18n:57871053.57871053_AideenRomance.02}}\"/pause 1000/emote farmer 32/pause 500/emote Aideen 20/pause 1000/end",
                 "57871053_AMRH": "pause 500/speak Aideen \"{{i18n:57871053.57871053_AMRH.01}}\"/pause 500/emote farmer 8/pause 500/faceDirection Aideen 2/emote Aideen 28/pause 500/faceDirection Aideen 3/pause 500/speak Aideen \"{{i18n:57871053.57871053_AMRH.02}}\"/quickQuestion #{{i18n:57871053.57871053_AMRH.03}}#{{i18n:57871053.57871053_AMRH.04}}#{{i18n:57871053.57871053_AMRH.05}}#{{i18n:57871053.57871053_AMRH.06}}(break)emote Aideen 20\\friendship Aideen 50\\speak Aideen \"{{i18n:57871053.57871053_AMRH.07}}\"\\switchEvent 57871053_AMRH2(break)emote Aideen 20\\friendship Aideen 50\\speak Aideen \"{{i18n:57871053.57871053_AMRH.08}}\"\\switchEvent 57871053_AMRH2(break)emote Aideen 12\\friendship Aideen -50\\speak Aideen \"{{i18n:57871053.57871053_AMRH.09}}\"(break)emote Aideen 12\\friendship Aideen -25\\speak Aideen \"{{i18n:57871053.57871053_AMRH.10}}\"/pause 1000/speak Aideen \"{{i18n:57871053.57871053_AMRH.11}}\"/advancedMove Aideen false 0 -20/pause 500/faceDirection farmer 0/emote farmer 28/pause 1000/end",
                 "57871053_AMRH2": "pause 500/addMailReceived RivalHearts_AideenMateo/addConversationTopic Mateo_No10HeartToday 0/speak Aideen \"{{i18n:57871053.57871053_AMRH2.01}}\"/advancedMove Aideen false 0 -2 2 1000/pause 500/faceDirection farmer 0/speak Aideen \"{{i18n:57871053.57871053_AMRH2.02}}\"/pause 1000/emote farmer 32/pause 1000/end",
-                "57871055/n RivalHearts_AideenMateo/e 12369009/k 12369012/A MateoPain/o Aideen/o Mateo": "none/-100 -100/Aideen 28 15 1 Mateo 16 15 0 farmer -1000 -1000 2/addTemporaryActor Munchboi 32 32 29 15 3 false/skippable/changeToTemporaryMap ESSplitScreen_AideenMateo/viewport 23 15/pause 1000/speak Aideen \"{{i18n:57871055.01}}\"/playSound cat/pause 500/faceDirection Aideen 2/emote Aideen 28/speak Aideen \"{{i18n:57871055.02}}\"/faceDirection Aideen 1/pause 500/playSound cat/animate Munchboi false false 240 16 17 18 19 19 19 19 19/pause 900/stopAnimation Munchboi 18/pause 500/speak Aideen \"{{i18n:57871055.03}}\"/animate Munchboi false true 240 20 21 22 23 20 19 18 18 18 18 18 18 18 18 18/pause 1000/move Mateo 0 1 1/move Mateo 3 0 2/move Mateo 0 1 2/pause 500/speak Mateo \"{{i18n:57871055.04}}\"/move Mateo -2 0 1/shake Mateo 500 true/emote Mateo 12 true/pause 250/speak Mateo \"{{i18n:57871055.05}}\"/move Mateo 1 0 3/shake Mateo 500 true/emote Mateo 12 true/pause 250/speak Mateo \"{{i18n:57871055.06}}\"/move Mateo 1 0 3/faceDirection Mateo 2/shake Mateo 500 true/emote Mateo 28 true/pause 250/speak Mateo \"{{i18n:57871055.07}}\"/faceDirection Mateo 0/emote Mateo 40/pause 1000/facedirection Aideen 2 true/faceDirection Mateo 2 true/pause 1000/emote Aideen 28 true/emote Mateo 28 true/advancedMove Mateo false -2 0 0 2 1 1000/advancedMove Aideen false 0 1 2 0 0 4 3 1000/pause 1000/fade/viewport -100 -100/stopAdvancedMoves/changeLocation EastScarp_Village/viewport -100 -100/playMusic starshoot/warp Aideen 20 115/warp Mateo 13 115/faceDirection Aideen 3/faceDirection Mateo 1/viewport 17 115/pause 1000/textAboveHead Aideen \"{{i18n:57871055.08}}\"/speed Aideen 5/advancedMove Aideen false -3 0 3 1000/advancedMove Mateo false 3 0 1 1000/emote Mateo 60/speak Aideen \"{{i18n:57871055.09}}\"/shake Mateo 240/speak Mateo \"{{i18n:57871055.10}}\"/pause 500/textAboveHead Aideen \"{{i18n:57871055.11}}\"/pause 500/speak Aideen \"{{i18n:57871055.12}}\"/pause 500/emote Mateo 60/speak Mateo \"{{i18n:57871055.13}}\"/faceDirection Mateo 0/emote Mateo 40/pause 250/faceDirection Mateo 3/speak Aideen \"{{i18n:57871055.14}}\"/faceDirection Mateo 1/pause 250/speak Mateo \"{{i18n:57871055.15}}\"/pause 500/emote Aideen 20/positionOffset Aideen -2 0/pause 50/positionOffset Aideen -2 0/pause 50/positionOffset Aideen -2 0/pause 50/positionOffset Aideen -2 0/pause 50/showFrame Aideen 30/pause 250/showFrame Mateo 28/showFrame Aideen 31/positionOffset Mateo 2 0/pause 100/specificTemporarySprite heart 45 26/positionOffset Mateo 2 0/positionOffset farmer -2 0/pause 100/positionOffset Mateo 2 0/positionOffset Aideen -2 0/pause 5000/faceDirection Mateo 1/showFrame Aideen 30/textAboveHead Mateo \"{{i18n:57871055.16}}\"/pause 250/speak Aideen \"{{i18n:57871055.17}}\"/speak Mateo \"{{i18n:57871055.18}}\"/emote Aideen 20/pause 2000/end"
+                "57871055/n RivalHearts_AideenMateo/e SnS.Ch1.Mateo.9/k SnS.Ch1.Mateo.12/A MateoPain/o Aideen/o Mateo": "none/-100 -100/Aideen 28 15 1 Mateo 16 15 0 farmer -1000 -1000 2/addTemporaryActor Munchboi 32 32 29 15 3 false/skippable/changeToTemporaryMap ESSplitScreen_AideenMateo/viewport 23 15/pause 1000/speak Aideen \"{{i18n:57871055.01}}\"/playSound cat/pause 500/faceDirection Aideen 2/emote Aideen 28/speak Aideen \"{{i18n:57871055.02}}\"/faceDirection Aideen 1/pause 500/playSound cat/animate Munchboi false false 240 16 17 18 19 19 19 19 19/pause 900/stopAnimation Munchboi 18/pause 500/speak Aideen \"{{i18n:57871055.03}}\"/animate Munchboi false true 240 20 21 22 23 20 19 18 18 18 18 18 18 18 18 18/pause 1000/move Mateo 0 1 1/move Mateo 3 0 2/move Mateo 0 1 2/pause 500/speak Mateo \"{{i18n:57871055.04}}\"/move Mateo -2 0 1/shake Mateo 500 true/emote Mateo 12 true/pause 250/speak Mateo \"{{i18n:57871055.05}}\"/move Mateo 1 0 3/shake Mateo 500 true/emote Mateo 12 true/pause 250/speak Mateo \"{{i18n:57871055.06}}\"/move Mateo 1 0 3/faceDirection Mateo 2/shake Mateo 500 true/emote Mateo 28 true/pause 250/speak Mateo \"{{i18n:57871055.07}}\"/faceDirection Mateo 0/emote Mateo 40/pause 1000/facedirection Aideen 2 true/faceDirection Mateo 2 true/pause 1000/emote Aideen 28 true/emote Mateo 28 true/advancedMove Mateo false -2 0 0 2 1 1000/advancedMove Aideen false 0 1 2 0 0 4 3 1000/pause 1000/fade/viewport -100 -100/stopAdvancedMoves/changeLocation EastScarp_Village/viewport -100 -100/playMusic starshoot/warp Aideen 20 115/warp Mateo 13 115/faceDirection Aideen 3/faceDirection Mateo 1/viewport 17 115/pause 1000/textAboveHead Aideen \"{{i18n:57871055.08}}\"/speed Aideen 5/advancedMove Aideen false -3 0 3 1000/advancedMove Mateo false 3 0 1 1000/emote Mateo 60/speak Aideen \"{{i18n:57871055.09}}\"/shake Mateo 240/speak Mateo \"{{i18n:57871055.10}}\"/pause 500/textAboveHead Aideen \"{{i18n:57871055.11}}\"/pause 500/speak Aideen \"{{i18n:57871055.12}}\"/pause 500/emote Mateo 60/speak Mateo \"{{i18n:57871055.13}}\"/faceDirection Mateo 0/emote Mateo 40/pause 250/faceDirection Mateo 3/speak Aideen \"{{i18n:57871055.14}}\"/faceDirection Mateo 1/pause 250/speak Mateo \"{{i18n:57871055.15}}\"/pause 500/emote Aideen 20/positionOffset Aideen -2 0/pause 50/positionOffset Aideen -2 0/pause 50/positionOffset Aideen -2 0/pause 50/positionOffset Aideen -2 0/pause 50/showFrame Aideen 30/pause 250/showFrame Mateo 28/showFrame Aideen 31/positionOffset Mateo 2 0/pause 100/specificTemporarySprite heart 45 26/positionOffset Mateo 2 0/positionOffset farmer -2 0/pause 100/positionOffset Mateo 2 0/positionOffset Aideen -2 0/pause 5000/faceDirection Mateo 1/showFrame Aideen 30/textAboveHead Mateo \"{{i18n:57871055.16}}\"/pause 250/speak Aideen \"{{i18n:57871055.17}}\"/speak Mateo \"{{i18n:57871055.18}}\"/emote Aideen 20/pause 2000/end"
             }
         }, //
         {
@@ -43,30 +43,20 @@
             }
         },
         {
-            "LogName": "NPC Manifestation - Sets Mateo as Aideen's 'love interest'",
+            "LogName": "Aideen becomes non-datable",
             "Action": "EditData",
-            "Target": "Data/NPCDispositions",
-            "Fields": {
-                "Aideen": {
-                    "6": "Mateo"
-                }
-            },
-            "When": {
-                "HasSeenEvent |contains=57871054": true
-            }
-        },
-        {
-            "LogName": "NPC Manifestation - Sets Aideen as Mateo's 'love interest'",
-            "Action": "EditData",
-            "Target": "Data/NPCDispositions",
-            "Fields": {
-                "Mateo": {
-                    "6": "Aideen"
-                }
+            "Target": "Data/Characters",
+            "TargetField": [
+                "Aideen"
+            ],
+            "Entries": {
+                "CanBeRomanced": false,
+                "LoveInterest": "Mateo"
             },
             "When": {
                 "HasSeenEvent |contains=57871054": true
             }
         }
+        
     ]
 }

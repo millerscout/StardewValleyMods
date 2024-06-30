@@ -2789,22 +2789,69 @@
                 "HasMod": "Bagi.Nora.CP"
             }
         },
-        /* {
-            "LogName": "Adds music",
+        {
+            "LogName": "Adds More New Summer Fish",
             "Action": "EditData",
             "Target": "Data/Locations",
+            "When": {
+                "HasMod": "MoreFish"
+            },
             "TargetField": [
-                "EastScarp_Village"
+                "EastScarp_Village",
+                "Fish",
             ],
             "Entries": {
-                "Music": [
-                    {
-                        "Id": "Daytime",
-                        "Track": "{{ScarpMusic}}",
-                        "Condition": "TIME 900 1700"
-                    }
-                ],
+                "MNF.MoreNewFish_ornate_angelfish": {
+                    "Id": "MNF.MoreNewFish_ornate_angelfish",
+                    "ItemId": "(O)MNF.MoreNewFish_ornate_angelfish",
+                    "FishAreaId": "ESBay",
+                    "Season": "Summer",
+                    "Condition": "DAY_OF_MONTH 12 13 14",
+                },
+                "MNF.MoreNewFish_blue_tang": {
+                    "Id": "MNF.MoreNewFish_blue_tang",
+                    "ItemId": "(O)MNF.MoreNewFish_blue_tang",
+                    "FishAreaId": "ESBay",
+                    "Season": "Summer",
+                    "Condition": "DAY_OF_MONTH 12 13 14",
+                },
+                "MNF.MoreNewFish_dwarf_stingray": {
+                    "Id": "MNF.MoreNewFish_dwarf_stingray",
+                    "ItemId": "(O)MNF.MoreNewFish_dwarf_stingray",
+                    "FishAreaId": "ESBay",
+                    "Season": "Summer",
+                    "Condition": "DAY_OF_MONTH 12 13 14",
+                },
+         
+                "MNF.MoreNewFish_threespot_angelfish": {
+                    "Id": "MNF.MoreNewFish_threespot_angelfish",
+                    "ItemId": "(O)MNF.MoreNewFish_threespot_angelfish",
+                    "FishAreaId": "ESBay",
+                    "Season": "Summer",
+                    "Condition": "DAY_OF_MONTH 12 13 14",
+                },
+                "MNF.MoreNewFish_orange_clownfish": {
+                    "Id": "MNF.MoreNewFish_orange_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_orange_clownfish",
+                    "FishAreaId": "ESBay",
+                    "Season": "Summer",
+                    "Condition": "DAY_OF_MONTH 12 13 14",
+                },
+                "MNF.MoreNewFish_yellowtail_clownfish": {
+                    "Id": "MNF.MoreNewFish_yellowtail_clownfish",
+                    "ItemId": "(O)MNF.MoreNewFish_yellowtail_clownfish",
+                    "FishAreaId": "ESBay",
+                    "Season": "Summer",
+                    "Condition": "DAY_OF_MONTH 12 13 14",
+                },
+                "MNF.MoreNewFish_squirrelfish": {
+                    "Id": "MNF.MoreNewFish_squirrelfish",
+                    "ItemId": "(O)MNF.MoreNewFish_squirrelfish",
+                    "FishAreaId": "ESBay",
+                    "Season": "Summer",
+                    "Condition": "DAY_OF_MONTH 12 13 14",
+                },
             },
-        }*/
+        },
     ]
 }

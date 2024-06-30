@@ -1,4 +1,5 @@
 {
+    "$schema": "https://smapi.io/schemas/content-patcher.json",
     "Changes": [
         //Map Properties
         //Farm Standard Unmodded
@@ -27,13 +28,13 @@
                 },
             ],
             "When": {
-                "EnableIntegratedFarm": true,
+                "Enablejibb.minecarts.Farm": true,
                 "FarmCartStyle": "CartEntrance",
 
             },
         },
 
-        //CommunityCenter
+        //Community Center
         {
             "Action": "EditMap",
             "Target": "Maps/Town",
@@ -58,7 +59,7 @@
                 },
             ],
             "When": {
-                "EnableCommunityCenter": true,
+                "Enablejibb.minecarts.CommunityCenter": true,
             },
         },
         //Forest NW
@@ -86,7 +87,7 @@
                 },
             ],
             "When": {
-                "EnableForestNW": true,
+                "Enablejibb.minecarts.ForestNW": true,
                 "HasMod |contains=DaisyNiko.SVR3": "false"
             },
         },
@@ -115,8 +116,22 @@
                 },
             ],
             "When": {
-                "EnableForestNW": true,
+                "Enablejibb.minecarts.ForestNW": true,
                 "HasMod |contains=DaisyNiko.SVR3": "true"
+            },
+        },
+        //Fix for Shortcuts
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "AddWarps": [
+                "120 34 Beach 0 6",
+                "120 35 Beach 0 6",
+                "120 36 Beach 0 6"
+            ],
+            "When": {
+                "Enablejibb.minecarts.ForestNW": true,
+                "HasFlag: anyPlayer": "communityUpgradeShortcuts",
             },
         },
         //Forest SE
@@ -144,7 +159,7 @@
                 },
             ],
             "When": {
-                "EnableForestSE": true,
+                "Enablejibb.minecarts.ForestSE": true,
                 "HasMod |contains=DaisyNiko.SVR3": "false",
                 "HasMod |contains=SYS.AB": "false"
             },
@@ -174,7 +189,7 @@
                 },
             ],
             "When": {
-                "EnableForestSE": true,
+                "Enablejibb.minecarts.ForestSE": true,
                 "HasMod |contains=DaisyNiko.SVR3": "true"
             },
         },
@@ -203,7 +218,7 @@
                 },
             ],
             "When": {
-                "EnableMountain": true,
+                "Enablejibb.minecarts.Mountain": true,
                 "MoveMountainToAdventurersGuild": false,
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
                 "HasMod |contains=Himetarts.ARV.CP": "false",
@@ -234,7 +249,7 @@
                 },
             ],
             "When": {
-                "EnableMountain": true,
+                "Enablejibb.minecarts.Mountain": true,
                 "MoveMountainToAdventurersGuild": false,
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
                 "HasMod |contains=Himetarts.ARV.CP": "true",
@@ -265,7 +280,7 @@
                 },
             ],
             "When": {
-                "EnableMountain": true,
+                "Enablejibb.minecarts.Mountain": true,
                 "MoveMountainToAdventurersGuild": true,
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
             },
@@ -295,7 +310,7 @@
                 },
             ],
             "When": {
-                "EnableSVEAurora": true,
+                "Enablejibb.minecarts.SVEAurora": true,
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
             },
         },
@@ -349,7 +364,7 @@
                 },
             ],
             "When": {
-                "EnableRailroad": true,
+                "Enablejibb.minecarts.Railroad": true,
                 "HasMod |contains=Lumisteria.MtVapius": "false"
             },
         },
@@ -378,7 +393,6 @@
                 },
             ],
             "When": {
-                "EnableRailroad": true,
                 "HasMod |contains=Lumisteria.MtVapius": "true",
             },
         },

@@ -41,6 +41,7 @@
                 },
                 "EastScarp_Bird_Of_Paradise_Seed": { //seeds
                     "Seasons": [
+                        "Spring",
                         "Summer",
                     ],
                     "DaysInPhase": [
@@ -184,7 +185,7 @@
                             "ScaledMaxStackWhenShaving": 2,
                             "Condition": null,
                             "Id": "(O)EastScarp_Serruria",
-                            "ItemId": "(O)7EastScarp_Serruria",
+                            "ItemId": "(O)EastScarp_Serruria",
                             "RandomItemId": null,
                             "MinStack": 15,
                             "MaxStack": 21,

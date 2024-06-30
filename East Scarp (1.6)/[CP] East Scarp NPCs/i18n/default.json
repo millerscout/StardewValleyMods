@@ -387,6 +387,7 @@
     // luau
     //*************
     "festivals.beatrice.summer11": "Mmm, this roast smells délicieuse!",
+    "festivals.beatrice.summer11.2": "Willy has such tales of the sea.$1",
     "festivals.eloise.summer11": "Dancing's so silly! I hope we haven't scared all the birds away.",
     "festivals.eloise.summer11.2": "Have you tried this miniature food? They're all bite-sized so you can eat everything!$1",
     "festivals.jacob.summer11": "Hello @. Just grabbing a little space to myself.",
@@ -426,6 +427,7 @@
     "festivals.rosa.summer28.false": "Howdy @, these little jellies are pretty amazing... If they have no brains, how do they remember the route?",
     "festivals.rosa.summer28.juliet": "Sometimes I feel like my sole purpose is to stop Juliet diving into the water...$2#$b#I guess someone's got to be the responsible grown up, right?$1",
     "festivals.tori.summer28": "These little guys are almost as adorable as slimes. I wonder if they're related.",
+    "festivals.linus.summer28.2": "I thought no one was using this dock, until this ship sailed in.#$e#I hope no one minds... I like watching the jellies, too.",
     // fair
     //*************
     "festivals.aideen.fall16.single": "Are you intending to get your fortune told, @?#$b#Oh! I've already had mine! Apparently my quest for a suitor shall be fulfilled before the year reaches its end!$4",
@@ -4203,7 +4205,7 @@
     "Aideen_refusal_knownA": "I'm afeared you are not what I seek in a suitor, @. I am truly sorry.$6",
     "Aideen_refusal_knownB": "Please, let us not rush things. We must prove well suited before I can commit.$6",
     //question responses
-    "Aideen_102": "Next door? Oh, surely not Sterling, he may exude a certain boyish charm, but no, he is barely civilized!$3#$b#Or do you mean Dr Jacob? Hmm... well, he is certainly kind and we have, on occasion, engaged in a rousing discussions of literature and the arts.$1#$b#Also, Baron Munchington is certainly fond of him. But I fear he would regard me as a mere shadow of his wife.$2",
+    "Aideen_102": "Next door? Dr Jacob? Hmm... well, he is certainly kind and we have, on occasion, engaged in a rousing discussions of literature and the arts.$1#$b#Also, Baron Munchington is certainly fond of him. But I fear he would regard me as a mere shadow of his wife... and Eloise is sweet, but perhaps a little TOO much.$2",
     "Aideen_103": "Why, Mr @!$4^Why Ms @!$4#$b#Are you wishing to court me?$7#$b#Well, you do exude a quaint rural charm.$1^I have never been courted by a lady before! This is most illuminating.$1#$b#And I have certainly grown fond of you. But love? Well, perhaps our tale is a slow burn, rather than a quick spark, yes?$7",
     "Aideen_104": "Baron Munchington is certainly fine company, although he is not noted for his conversation.#$b#And I guess that I hoped I one day might have both.",
     "Aideen_105": "Such a nihilistic perspective, @. I am not sure I appreciate your cynicism. Please, take it elsewhere.",
@@ -5044,7 +5046,7 @@
     "Oliver_Wed8": "Mom hardly left my side when I was ill. I don't think she knows what to do with herself anymore.$4",
     "Oliver_fall_Sat10": "Hey @. Mom wants me to go onto Uni after I'm done with school.$2#$b#$b#And that's cool and I; but I reckon I want to do a gap year first... See a bit of the world and all, y'know?",
     "Oliver_summer_Sat8": "Hey, do you think Rosa likes me?$4#$b#What? No, I don't have a crush on her! She's just pretty cool, is all.$a",
-    "Oliver_summer_Sat10": "Oh, hi @. Hey, I'm catching up with the guys tonight online, we've got a ton of raids planned on ",
+    "Oliver_summer_Sat10": "Oh, hi @. Hey, I'm catching up with the guys tonight online, we've got a ton of raids planned.",
     "Oliver_winter_Mon8": "Are you any good at calculus, @? It's such a waste of time.$a#$b#I mean, statistics I get, and even algebra, but when am I ever going to need differentiation?$2",
     "Oliver_winter_Fri8": "Hey @. Today's biology class was pretty cool. Got to digitally dissect a frog. Neat, eh?$4#$b#And the best thing? Nothing dies, and you don't have to clean up all the blood and guts afterwards.$1",
     "Oliver_summer_Tue8": "Mom caught me doing a chemistry experiment in the kitchen. Yoba, was she pissed!$2#$b#It sucks; where else am I supposed to do labwork around here?$a",
@@ -5249,8 +5251,8 @@
     "Tori_summer_Tue4": "When I was a kid, I collected insect skins, crab shells and animal bones.#$b#Mom said that wasn't very lady-like, so I switched to pressed flowers instead.",
     "Tori_summer_Sat6": "Oh, hello @. When I call my mother tonight, would you mind terribly if we talked about you?#$b#Oh, in a favorable way, of course! It'll help her to know that I have a friend.$1",
     "Tori_summer_Mon8": "I feel at peace around you, @. Thank you for being my friend.$4",
-    //"Tori_summer_Thu10": "",
-    //"Tori_summer_Fri10": "",
+    "Tori_summer_Thu10": "",
+    "Tori_summer_Fri10": "",
     "Tori_fall_1": "Do you love fall, @? I do. It's such a pretty season.$1",
     "Tori_fall_Mon": "My brother and I would collect hazelnuts in fall. It was fun toasting them over the fire, drizzled with a little maple syrup.#$b#It's funny how a season can evoke such memories, isn't it?$1",
     "Tori_fall_Tue": "Hmm, I really should pick up some more antibiotic cream. Oh, for the slime burns.#$b#My babies love me, but they can be a little overly enthusiastic.",
