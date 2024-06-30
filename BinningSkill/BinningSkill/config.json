@@ -1,8 +1,8 @@
 {
-  "ExperienceFromCheckingTrash": 5,
-  "ExperienceFromCheckingRecycling": 7,
-  "ExperienceFromComposting": 7,
-  "ExperienceFromRecycling": 5,
+  "ExperienceFromCheckingTrash": 24,
+  "ExperienceFromCheckingRecycling": 24,
+  "ExperienceFromComposting": 24,
+  "ExperienceFromRecycling": 24,
   "PerLevelBaseDropChanceBonus": 0.03,
   "PerLevelRareDropChanceBonus": 0.001,
   "MegaMinLevel": 4,
