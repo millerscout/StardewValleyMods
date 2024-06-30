@@ -272,7 +272,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters_y2"
                     ],
-                    "Value": "Aideen 18 4 2/Beatrice 49 18 2/Eloise 19 10 3/Jacob 16 11 1/JosephineK 26 4 2/OliverK 44 45 2/Rosa 25 18 1/ToriLK 31 34 1",
+                    "Value": "Aideen 18 4 2/Beatrice 24 31 3/Eloise 19 10 3/Jacob 16 11 1/JosephineK 26 4 2/OliverK 44 45 2/Rosa 25 18 1/ToriLK 31 34 1",
                     "Delimiter": "/"
                 },
                 {
@@ -281,7 +281,7 @@
                         "Entries",
                         "MainEvent_additionalCharacters_y2"
                     ],
-                    "Value": "Aideen 18 4 2/Beatrice 49 18 2/Eloise 18 8 1/Jacob 17 8 1/JosephineK 23 9 2/OliverK 22 9 2/Rosa 24 20 0",
+                    "Value": "Aideen 18 4 2/Beatrice 48 18 2/Eloise 18 8 1/Jacob 17 8 1/JosephineK 23 9 2/OliverK 22 9 2/Rosa 24 20 0",
                     "Delimiter": "/"
                 }
             ]
@@ -299,7 +299,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters_y2"
                     ],
-                    "Value": "VivienneLK 13 11 3",
+                    "Value": "VivienneLK 12 10 2",
                     "Delimiter": "/"
                 },
                 {
@@ -441,7 +441,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters_y2"
                     ],
-                    "Value": "Beatrice 27 61 1/Eloise 19 35 1/Jacob 27 33 3/KatarynaLK 39 78 3/Rosa 28 97 3/ToriLK 44 90 2",
+                    "Value": "Beatrice 27 61 1/Eloise 19 35 1/Jacob 27 34 3/KatarynaLK 39 78 3/Rosa 28 97 3/ToriLK 43 94 2",
                     "Delimiter": "/"
                 }
             ]
@@ -552,7 +552,7 @@
                         "Entries",
                         "Set-Up_additionalCharacters_y2"
                     ],
-                    "Value": "Eloise 27 51 3/Jacob 26 51 1/Rosa 27 23 2",
+                    "Value": "Eloise 27 51 3/Jacob 26 51 1/Rosa 27 23 2/ToriLK 14 63 1",
                     "Delimiter": "/"
                 }
             ]
@@ -635,9 +635,6 @@
         {
             "Action": "EditData",
             "Target": "Data/Festivals/winter8",
-            "When": {
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
-            },
             "TextOperations": [
                 {
                     "Operation": "Append",
@@ -645,16 +642,16 @@
                         "Entries",
                         "Set-Up_additionalCharacters_y2"
                     ],
-                    "Value": "Beatrice 63 31 1/Eloise 65 44 2/Jacob 66 45 3/Rosa 51 54 1",
+                    "Value": "Beatrice 63 31 1/Eloise 65 44 2/Jacob 66 45 3/Rosa 51 54 1/ToriLK 64 30 2",
                     "Delimiter": "/"
                 },
                 {
                     "Operation": "Append",
                     "Target": [
                         "Entries",
-                        "Maine-Event_additionalCharacters"
+                        "Main-Event_additionalCharacters_y2"
                     ],
-                    "Value": "Beatrice 59 33 1/Eloise 65 44 0/Jacob 66 44 0",
+                    "Value": "Beatrice 59 33 1/Eloise 65 44 0/Jacob 66 44 0/ToriLK 64 31 1",
                     "Delimiter": "/"
                 }
             ]
@@ -674,8 +671,7 @@
                 }
             ],
             "When": {
-                "HasSeenEvent |contains=57875000": true,
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+                "HasSeenEvent |contains=57875000": true
             }
         },
         {
@@ -712,7 +708,6 @@
                 }
             ],
             "When": {
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
                 "Spouse |contains=Aideen": false,
                 "HasFlag |contains=RivalHearts_AideenMateo": false
             }
@@ -732,7 +727,6 @@
                 }
             ],
             "When": {
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
                 "Spouse |contains=Aideen": false,
                 "HasFlag |contains=RivalHearts_AideenMateo": false
             }

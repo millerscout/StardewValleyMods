@@ -30,7 +30,7 @@
             // "Description": "{{i18n:config.Tidepools}}"
         },
         "ObeliskOptions": {
-            "AllowValues": "vanilla, glass, garden, Yri",
+            "AllowValues": "vanilla, glass, garden, Yri, Juffuffles",
             "Default": "vanilla",
             //"Description": "{{i18n:config.ObeliskOpt}}"
         },
@@ -2070,7 +2070,7 @@
             "Action": "Include",
             "FromFile": "assets/Data/ShortCutWarps.json",
             "When": {
-                "HasSeenEvent": "57874010"
+                "HasSeenEvent": "57874012"
             }
         },
         //Map etc changes caused by Lavril
@@ -2160,6 +2160,25 @@
                     "Remove": true
                 }
             ]
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_Village",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 14,
+                        "Y": 23
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Warp 12 26 EastScarp_VetHouse"
+                    }
+                }
+            ],
+            "When": {
+                "HasWalletItem |contains=KeyToTheTown": true
+            }
         },
         /* {
             "Action": "EditMap",

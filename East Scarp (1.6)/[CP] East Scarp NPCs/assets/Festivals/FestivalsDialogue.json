@@ -76,6 +76,7 @@
                 "Aideen": "{{i18n:festivals.aideen.summer11}}",
                 //"Aideen_y2": "{{i18n:festivals.aideen.summer11.2}}",
                 "Beatrice": "{{i18n:festivals.beatrice.summer11}}",
+                "Beatrice_y2": "{{i18n:festivals.beatrice.summer11.2}}",
                 "Eloise": "{{i18n:festivals.eloise.summer11}}",
                 "Eloise_y2": "{{i18n:festivals.eloise.summer11.2}}",
                 "Jacob": "{{i18n:festivals.jacob.summer11}}",
@@ -83,6 +84,7 @@
                 "Rosa": "{{i18n:festivals.rosa.summer11.{{JulietRef}} }}",
                 "Rosa_y2": "{{i18n:festivals.rosa.summer11.2.{{JulietRef}} }}",
                 "VivienneLK": "{{i18n:festivals.vivienne.summer11}}",
+                "VivienneLK_y2": "{{i18n:festivals.vivienne.summer11.2}}",
                 "KatarynaLK": "{{i18n:festivals.kataryna.summer11}}",
                 "OliverK": "$1 Oliver_Meet#{{i18n:festivals.oliver.summer11.1}}#$e#{{i18n:festivals.oliver.summer11.2}}",
                 "JosephineK": "$1 Josephine_Meet#{{i18n:festivals.josephine.summer11.1}}#$e#{{i18n:festivals.josephine.summer11.2}}",
@@ -141,6 +143,7 @@
                 "Leximonster": "{{i18n:festivals.lexi.summer28}}",
                 "ToriLK": "{{i18n:festivals.tori.summer28}}",
                 "Rosa": "{{i18n:festivals.rosa.summer28.{{JulietRef}} }}",
+                "Linus_y2":"{{i18n:festivals.linus.summer28.2}}",
             }
         },
         {

@@ -258,6 +258,7 @@
                     "CanSocialize": "PLAYER_HAS_MAIL Any KatarynaBecomesSocial",
                     "ItemDeliveryQuests": "PLAYER_HAS_SEEN_EVENT Host 57876001, !PLAYER_HAS_SEEN_EVENT Host 57876012",
                     "IntroductionsQuest": false,
+		    "PerfectionScore": false,
                     "SpouseRoom": {
                         "MapAsset": "Lemurkat_EastScarp_SpouseRoom",
                         "MapSourceRect": {
@@ -421,8 +422,7 @@
                     "Calendar": "HiddenUntilMet", //delete when released
                     "SocialTab": "HiddenUntilMet", //delete when released
                     "CanVisitIsland": "true",
-                    "IntroductionsQuest": true, //delete when released
-                    "PerfectionScore": true, //delete when released
+                   
                     "Home": [
                         {
                             "Id": "Default",

@@ -646,7 +646,17 @@
             "Target": "Data/Furniture",
             "Entries": {
                 "EastScarp_StoneGoat": "Stone Goat/decor/1 1/1 1/1/500/-1/{{i18n:object.furniture.stonegoat}}/0/Mods\\Lemurkat.EastScarp\\esfurniture",
-                // "EastScarp_LemurPainting": "Lemur Painting/painting/2 2/2 2/1/500/-1/{{i18n:object.furniture.lemurpainting}}/1/Mods\\Lemurkat.EastScarp\\esfurniture",//silly joke but was basically rubbish
+                "EastScarp_JasperPortrait": "Jasper Portrait/painting/2 2/2 2/1/500/-1/{{i18n:object.furniture.jasperportrait}}/1/Mods\\Lemurkat.EastScarp\\esfurniture",
+                "EastScarp_JacobPortrait": "Jacob Portrait/painting/2 2/2 2/1/500/-1/{{i18n:object.furniture.jacobportrait}}/3/Mods\\Lemurkat.EastScarp\\esfurniture",
+                "EastScarp_LemurPainting": "Lemur Painting/painting/2 2/2 2/1/500/-1/{{i18n:object.furniture.lemurpainting}}/5/Mods\\Lemurkat.EastScarp\\esfurniture",
+                "EastScarp_AideenPortrait": "AideenPortrait/painting/2 2/2 2/1/500/-1/{{i18n:object.furniture.aideenportrait}}/20/Mods\\Lemurkat.EastScarp\\esfurniture",
+                "EastScarp_JulietPortrait": "JulietPortrait/painting/2 2/2 2/1/500/-1/{{i18n:object.furniture.julietportrait}}/22/Mods\\Lemurkat.EastScarp\\esfurniture",
+                "EastScarp_MrGingerPortrait": "MrGingerPortrait/painting/2 2/2 2/1/500/-1/{{i18n:object.furniture.mrgingerportrait}}/24/Mods\\Lemurkat.EastScarp\\esfurniture",
+                "EastScarp_KatarynaPortrait": "KatarynaPortrait/painting/2 2/2 2/1/500/-1/{{i18n:object.furniture.katarynaportrait}}/26/Mods\\Lemurkat.EastScarp\\esfurniture",
+                "EastScarp_DuckLovePortrait": "DuckLovePortrait/painting/2 2/2 2/1/500/-1/{{i18n:object.furniture.duckloveportrait}}/28/Mods\\Lemurkat.EastScarp\\esfurniture",
+
+              
+                
             }
         }
     ]

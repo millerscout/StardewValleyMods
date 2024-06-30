@@ -708,7 +708,7 @@
                 "HasConversationTopic": "PepperPupHome"
             },
             "Entries": {
-                "{{season}}_{{day}}": "0 EastScarp_VetHouse 31 22/700 EastScarp_VetHouse 23 14 square 5_2/800 EastScarp_Village 20 31 square_5_5/1200 EastScarp_Village 20 31 pepper_nap/1300 EastScarp_Village 20 31 square_5_5/1700 EastScarp_VetHouse 23 14 square 5_2/1900 EastScarp_VetHouse 31 24 pepper_sleep"
+                "{{season}}_{{day}}": "0 EastScarp_VetHouse 31 22/700 EastScarp_VetHouse 23 14 square 5_2/800 EastScarp_Village 20 31 square_5_5/1200 EastScarp_Village 20 31 pepper_nap/1300 EastScarp_Village 20 31 square_5_5/1700 EastScarp_VetHouse 23 14 square 5_2/1900 EastScarp_VetHouse 24 13 pepper_sleep"
             }
         },
         {
@@ -719,8 +719,8 @@
             },
             "Entries": {
                 "rain": "700 EastScarp_VetHouse 23 14 square 5_2/1100 EastScarp_VetHouse 21 13 3/1300 EastScarp_BirdHide 5 4 pepper_nap/1800 EastScarp_VetHouse 23 14 square 5_2/2100 EastScarp_VetHouse 31 24 pepper_sleep",
-                "Sat": "700 EastScarp_VetHouse 23 14 square 5_2/800 EastScarp_Village 20 31 square_5_5/1100 EastScarp_Village 34 98 2/1350 Town 54 73 3/1740 EastScarp_VetHouse 23 14 square 5_2/2100 EastScarp_VetHouse 31 24 pepper_sleep",
-                "Sun": "700 EastScarp_VetHouse 23 14 square 5_2/1030 EastScarp_BirdHide 5 4 pepper_nap/1200 EastScarp_Village 25 36 1/1300 EastScarp_Village 54 87 square_7_1/1800 EastScarp_VetHouse 31 24 pepper_sleep",
+                "Sat": "700 EastScarp_VetHouse 23 14 square 5_2/800 EastScarp_Village 20 31 square_5_5/1100 EastScarp_Village 34 98 2/1350 Town 54 73 3/1740 EastScarp_VetHouse 23 14 square 5_2/2100 EastScarp_VetHouse 24 6 pepper_sleep",
+                "Sun": "700 EastScarp_VetHouse 23 14 square 5_2/1030 EastScarp_BirdHide 5 4 pepper_nap/1200 EastScarp_Village 25 36 1/1300 EastScarp_Village 54 87 square_7_1/1800 EastScarp_VetHouse 24 6 pepper_sleep",
                 "Tue": "650 EastScarp_VetHouse 29 14 1/700 Town 99 95 1/930 EastScarp_Village 34 32 3/1140 EastScarp_VetAwayWarpRoom 5 7 0/1810 EastScarp_VetHouse 23 14 square 5_2/2200 EastScarp_VetHouse 24 6 pepper_sleep",
                 "Wed": "650 EastScarp_VetHouse 29 14 1/700 Town 99 95 1/1000 EastScarp_Village 20 31 square_5_5/1800 EastScarp_VetHouse 23 14 square 5_2/2100 EastScarp_VetHouse 31 24 pepper_sleep",
                 "Fri": "650 EastScarp_VetHouse 29 14 1/700 Town 99 95 1/1000 Forest 27 13 3/1300 Forest 88 17 2 pepperpup_nap/1500 Town 101 97/1620 EastScarp_Village 20 31 square_5_5/2100 EastScarp_VetHouse 31 24 pepper_sleep",

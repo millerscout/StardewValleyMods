@@ -14,6 +14,7 @@
 			"Target": "Portraits/Leximonster",
 			"FromFile": "assets/Portraits/Lexi/Lexi_portrait.png"
 		},
+
 		{
 			"LogName": "Lexi Sprites",
 			"Action": "Load",
@@ -180,6 +181,16 @@
 				}
 			]
 		},
+		{
+            "LogName": "Lexi Fashion Show Portraits",
+            "Action": "Load",
+            "Priority": "Medium",
+            "Target": "Portraits/Lexi_FashionShow",
+            "FromFile": "assets/Portraits/Lexi/Lexi_FashionShow.png",
+            "When": {
+                "HasMod": "Poltergeister.SeasonalCuteSpritesES"
+            }
+        },
 		{
 			"LogName": "Fashion Show",
 			"Action": "EditImage",

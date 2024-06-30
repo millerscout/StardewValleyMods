@@ -97,6 +97,41 @@
 			}
 		},
 		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Shane",
+						1
+					],
+					"Value": "6480.blueegg_BlueEgg",
+					"Delimiter": " "
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"When": {
+				"Blue Mayo": true
+			},
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"Shane",
+						1
+					],
+					"Value": "6480.blueegg_BlueMayo",
+					"Delimiter": " "
+				}
+			]
+		},
+		{
 			"LogName": "Add new items",
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -248,7 +283,7 @@
 						{
 							"Id": "(O)6480.blueegg_OstrichMayo",
 							"ItemId": "(O)6480.blueegg_OstrichMayo",
-							"CopyQuality": true,
+							"CopyQuality": true
 						}
 					],
 					"MinutesUntilReady": 180

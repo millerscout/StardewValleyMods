@@ -577,7 +577,7 @@
 		{
 			"LogName": "Loads Blank Dialogues",
 			"Action": "Load",
-			"Target": "Characters/Dialogue/Aideen, Characters/Dialogue/MarriageDialogueAideen, Characters/Dialogue/Eloise, Strings/schedules/Eloise, Characters/Dialogue/Jacob, Strings/schedules/Jacob, Characters/Dialogue/Eyvinder, Characters/Dialogue/LittleGruff, Characters/Dialogue/JosephineK, Characters/Dialogue/KatarynaLK, Characters/Dialogue/MarriageDialogueKatarynaLK, Strings/schedules/KatarynaLK, Characters/Dialogue/Leximonster, Characters/Dialogue/LumaJunimo, Characters/Dialogue/OliverK, Strings/schedules/OliverK, Characters/Dialogue/Rosa, Characters/Dialogue/ToriLK, Characters/Dialogue/VivienneLK, Characters/Dialogue/Beatrice, Strings/schedules/Beatrice",
+			"Target": "Characters/Dialogue/Aideen, Characters/Dialogue/MarriageDialogueAideen, Characters/Dialogue/Eloise, Strings/schedules/Eloise, Characters/Dialogue/Jacob, Strings/schedules/Jacob, Characters/Dialogue/Eyvinder, Characters/Dialogue/LittleGruff, Characters/Dialogue/JosephineK, Characters/Dialogue/KatarynaLK, Characters/Dialogue/MarriageDialogueKatarynaLK, Strings/schedules/KatarynaLK, Characters/Dialogue/Leximonster, Characters/Dialogue/LumaJunimo, Characters/Dialogue/OliverK, Strings/schedules/OliverK, Characters/Dialogue/Rosa, Characters/Dialogue/ToriLK, Characters/Dialogue/VivienneLK, Characters/Dialogue/Beatrice, Strings/schedules/Beatrice, Data/Events/EastScarp_VillageInn_SpiritEve",
 			"FromFile": "assets/blank.json"
 		},
 		{
@@ -1155,6 +1155,25 @@
 		},
 		//Removes Events Seen/Mail Flags if you regret Aideen and Mateo dating. Use sparingly, as may cause distress to NPCs.
 		{
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+			"When": {
+				"RivalHearts |contains=AideenMateo": false
+			},
+            "Entries": {
+                "Lemurkat.EastScarp_RemoveAideenMateoDating": {
+                    "ID": "mail.Lemurkat.EastScarp_RemoveAideenMateoDating",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current RivalHearts_AideenMateo Received",
+                    "Actions": [
+                        "RemoveMail Current RivalHearts_AideenMateo Received",
+                        "MarkEventSeen Current 57871054 false"
+                    ]
+                },
+            }
+        },
+
+		/*{
 			"LogName": "Seasonal events",
 			"Action": "EditData",
 			"Target": "Mods/EventRepeater/EventstoRepeat",
@@ -1174,7 +1193,7 @@
 			"When": {
 				"RivalHearts |contains=AideenMateo": false
 			}
-		},
+		},*/
 		{
 			"Action": "Include",
 			"FromFile": "assets/GenderNeutralDialogue.json",
